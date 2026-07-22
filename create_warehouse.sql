@@ -7,7 +7,7 @@ CREATE TABLE Date_Dim (
     Date_Key            NUMBER NOT NULL,
     Cal_Date            DATE NOT NULL,
     Day_Week            VARCHAR2(20),
-    Day_Num_Month       NUMBER(2),
+    Day_Num_Month       NUMBER(2),,
     Day_Num_Year        NUMBER(3),
     Cal_Week_End_Date   DATE,
     Cal_Week_Year       VARCHAR2(10),
@@ -133,25 +133,29 @@ CREATE TABLE Purchases_Fact (
 
 -- 10. Sales Fact
 CREATE TABLE Sales_Fact (
-    Sale_ID             NUMBER NOT NULL,
-    Date_Key            NUMBER NOT NULL,
-    Branch_Key          NUMBER NOT NULL,
-    Product_Key         NUMBER NOT NULL,
-    Customer_Key        NUMBER NOT NULL,
-    Voucher_Key         NUMBER, -- Nullable as not all sales use vouchers
-    Staff_Key           NUMBER NOT NULL,
-    Quantity            NUMBER(10) NOT NULL,
-    Unit_Price          NUMBER(10,2) NOT NULL,
-    Line_Total          NUMBER(15,2) NOT NULL,
-    Delivery_Fee        NUMBER(10,2) NOT NULL,
-    Item_Discount       NUMBER(10,2) NOT NULL,
-    MyKasih_Subsidy     NUMBER(10,2) NOT NULL,
+    Sale_ID          	   	NUMBER NOT NULL,
+    Date_Key            	NUMBER NOT NULL,
+    Branch_Key          	NUMBER NOT NULL,
+    Product_Key         	NUMBER NOT NULL,
+    Customer_Key        	NUMBER NOT NULL,
+    Voucher_Key         	NUMBER, -- Nullable as not all sales use vouchers
+    Delivery_Company_Key	NUMBER, -- Nullable as not every single sales require delivery
+    Delivery_Date_Key		NUMBER,
+    Staff_Key           	NUMBER NOT NULL,
+    Quantity            	NUMBER(10) NOT NULL,
+    Unit_Price          	NUMBER(10,2) NOT NULL,
+    Line_Total         		NUMBER(15,2) NOT NULL,
+    Delivery_Fee        	NUMBER(10,2) NOT NULL,
+    Item_Discount       	NUMBER(10,2) NOT NULL,
+    MyKasih_Subsidy     	NUMBER(10,2) NOT NULL,
     CONSTRAINT PK_Sales_Fact PRIMARY KEY (Sale_ID),
     CONSTRAINT FK_Sales_Date FOREIGN KEY (Date_Key) REFERENCES Date_Dim(Date_Key),
     CONSTRAINT FK_Sales_Branch FOREIGN KEY (Branch_Key) REFERENCES Branch_Dim(Branch_Key),
     CONSTRAINT FK_Sales_Product FOREIGN KEY (Product_Key) REFERENCES Product_Dim(Product_Key),
     CONSTRAINT FK_Sales_Customer FOREIGN KEY (Customer_Key) REFERENCES Customer_Dim(Customer_Key),
     CONSTRAINT FK_Sales_Voucher FOREIGN KEY (Voucher_Key) REFERENCES Voucher_Dim(Voucher_Key),
+    CONSTRAINT FK_Delivery_Cmompany FOREIGN KEY (Delivery_Company_Key) REFERENCES Delivery_Company_Dim(Delivery_Company_Key),
+    CONSTRAINT FK_Delivery_Date FOREIGN KEY (Delivery_Date_Key) REFERENCES Date_Dim(Date_Key),
     CONSTRAINT FK_Sales_Staff FOREIGN KEY (Staff_Key) REFERENCES Staff_Dim(Staff_Key)
 );
 
