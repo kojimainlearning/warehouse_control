@@ -110,6 +110,7 @@ CREATE TABLE Purchases_Fact (
     Quantity_Received   NUMBER(12) DEFAULT 0 NOT NULL,
     Unit_Cost           NUMBER(12,2) NOT NULL,
     Line_Total          NUMBER(14,2) NOT NULL,
+    PO_Status		VARCHAR2(20),
     CONSTRAINT PK_Purchases_Fact PRIMARY KEY (Supplier_Key, PO_Date_Key, Branch_Key, Product_Key, Staff_Key, Purchase_Order_ID),
     CONSTRAINT FK_Purch_Supplier FOREIGN KEY (Supplier_Key) REFERENCES Supplier_Dim(Supplier_Key),
     CONSTRAINT FK_Purch_PO_Date FOREIGN KEY (PO_Date_Key) REFERENCES Date_Dim(Date_Key),
@@ -124,6 +125,10 @@ CREATE TABLE Purchases_Fact (
             Quantity_Received >= 0
             AND Quantity_Received <= Quantity_Ordered
         ),
+    CONSTRAINT CK_Purchase_Order_Status CHECK (
+    	Status IS NULL
+    	OR Status IN ('PENDING', 'APPROVED', 'RECEIVED', 'CANCELLED')
+    )
     CONSTRAINT CK_Purch_Unit_Cost CHECK (Unit_Cost >= 0),
     CONSTRAINT CK_Purch_Line_Total CHECK (Line_Total = Quantity_Ordered * Unit_Cost)
 );
@@ -148,7 +153,7 @@ CREATE TABLE Sales_Fact (
     City 			VARCHAR2(80),
     State			VARCHAR2(80),
     PostCode			NUMBER(5),
-    Order_Status		VARCHAR2(20),
+    SO_Status		VARCHAR2(20),
     CONSTRAINT PK_Sales_Fact PRIMARY KEY (SO_Date_Key, Branch_Key, Product_Key, Customer_Key, Staff_Key, Order_ID),
     CONSTRAINT FK_Sales_SO_Date FOREIGN KEY (SO_Date_Key) REFERENCES Date_Dim(Date_Key),
     CONSTRAINT FK_Sales_Branch FOREIGN KEY (Branch_Key) REFERENCES Branch_Dim(Branch_Key),
@@ -232,11 +237,12 @@ CREATE TABLE Stock_Movement_Fact (
     Quantity_On_Hand    NUMBER(12) NOT NULL,
     Quantity_In         NUMBER(12) NOT NULL,
     Quantity_Out        NUMBER(12) NOT NULL,
-    CONSTRAINT PK_Stock_Fact PRIMARY KEY (Movement_Date_Key, Product_Key, Branch_Key, Staff_Key),
+    CONSTRAINT PK_Stock_Fact PRIMARY KEY (Movement_Date_Key, Product_Key, Branch_Key, Staff_Key, Reference_ID),
     CONSTRAINT FK_Stock_Date FOREIGN KEY (Movement_Date_Key) REFERENCES Date_Dim(Date_Key),
     CONSTRAINT FK_Stock_Product FOREIGN KEY (Product_Key) REFERENCES Product_Dim(Product_Key),
     CONSTRAINT FK_Stock_Branch FOREIGN KEY (Branch_Key) REFERENCES Branch_Dim(Branch_Key),
     CONSTRAINT FK_Stock_Staff FOREIGN KEY (Staff_Key) REFERENCES Staff_Dim(Staff_Key),
+    CONSTRAINT CK_SMF_Movement_TypeCHECK (Movement_Type IN ('SALE','PURCHASE','RETURN')),    
     CONSTRAINT CK_Stock_Quantity_On_Hand CHECK (Quantity_On_Hand >= 0),
     CONSTRAINT CK_Stock_Quantity_In CHECK (Quantity_In >= 0),
     CONSTRAINT CK_Stock_Quantity_Out CHECK (Quantity_Out >= 0)
