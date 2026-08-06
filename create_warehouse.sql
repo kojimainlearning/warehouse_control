@@ -67,17 +67,22 @@ CREATE TABLE Customer_Dim (
 
 -- 5. Product Dimension
 CREATE TABLE Product_Dim (
-    Product_Key         NUMBER NOT NULL,
-    Item_ID             VARCHAR2(50) NOT NULL,
-    Item_Name           VARCHAR2(100) NOT NULL,
-    Unit_Measure        VARCHAR2(20) NOT NULL,
-    Unit_Price          NUMBER(10,2) NOT NULL,
-    Is_Halal            VARCHAR2(1) DEFAULT 'N' NOT NULL,
-    Category_Name       VARCHAR2(100) NOT NULL,
+    Product_Key             NUMBER          NOT NULL,
+    Item_ID                 VARCHAR2(10)    NOT NULL,
+    Item_Name               VARCHAR2(100)   NOT NULL,
+    Unit_Measure            VARCHAR2(20)    NOT NULL,
+    Unit_Price              NUMBER(10,2)    NOT NULL,
+    Is_Halal                CHAR(1)         DEFAULT 'N' NOT NULL,
+    Category_Name           VARCHAR2(100)   NOT NULL,
+    Effective_Start_Date    DATE            DEFAULT SYSDATE NOT NULL,
+    Effective_End_Date      DATE            DEFAULT TO_DATE('31-DEC-9999','DD-MON-YYYY') NOT NULL,
+    Current_Flag            CHAR(1)         DEFAULT 'Y' NOT NULL,
     CONSTRAINT PK_Product_Dim PRIMARY KEY (Product_Key),
-    CONSTRAINT FK_Product_Dim_Item_ID FOREIGN KEY (Item_ID) REFERENCES Items(ItemID),
-    CONSTRAINT CK_Product_Dim_Unit_Measure CHECK (UnitMeasure IN ('BAG', 'BOTTLE', 'BOX', 'CAN', 'TIN', 'PACK', 'PCS')),
-    CONSTRAINT CK_Product_Dim_Is_Halal CHECK (Is_Halal IN ('Y', 'N'))
+    CONSTRAINT FK_Product_Dim_Item FOREIGN KEY (Item_ID) REFERENCES Items (ItemID),
+    CONSTRAINT CK_Product_Dim_Unit_Measure CHECK (Unit_Measure IN ('BAG', 'BOTTLE', 'BOX', 'CAN', 'TIN', 'PACK', 'PCS')),
+    CONSTRAINT CK_Product_Dim_Is_Halal CHECK (Is_Halal IN ('Y', 'N')),
+    CONSTRAINT CK_Product_Dim_Current_Flag CHECK (Current_Flag IN ('Y', 'N')),
+    CONSTRAINT CK_Product_Dim_Date CHECK (Effective_Start_Date <= Effective_End_Date)
 );
 
 -- 6. Staff Dimension
