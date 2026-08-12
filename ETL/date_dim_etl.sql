@@ -17,6 +17,7 @@ CREATE SEQUENCE Date_Dim_Seq
   CACHE 20
   NOCYCLE;
   
+-- For Initial Loading
 -- Define Malaysia Holidays from 2020 to 2026
 CREATE OR REPLACE VIEW Date_Dim_Stg_V AS
 WITH calendar_dates AS (
@@ -343,13 +344,162 @@ EXCEPTION
 END;
 /
 
+  
+-- For Subsequent Loading
+-- Create sequence starting after the current maximum Date_Key if it does not exist
+SET SERVEROUTPUT ON;
+
+DECLARE
+  v_seq_exists NUMBER;
+  v_max_key    NUMBER;
+BEGIN
+  SELECT COUNT(*)
+  INTO v_seq_exists
+  FROM user_sequences
+  WHERE sequence_name = 'DATE_DIM_SEQ';
+
+  IF v_seq_exists = 0 THEN
+    SELECT NVL(MAX(Date_Key), 0) + 1
+    INTO v_max_key
+    FROM Date_Dim;
+
+    EXECUTE IMMEDIATE
+      'CREATE SEQUENCE Date_Dim_SEQ
+         START WITH ' || v_max_key || '
+         INCREMENT BY 1
+         CACHE 20
+         NOCYCLE';
+
+    DBMS_OUTPUT.PUT_LINE('Created Date_Dim_SEQ starting at ' || v_max_key);
+  ELSE
+    DBMS_OUTPUT.PUT_LINE('Date_Dim_SEQ already exists.');
+  END IF;
+END;
+/
+
+-- Create subsequent staging view for Date_Dim
+CREATE OR REPLACE VIEW Date_Dim_Subsequent_Stg_V AS
+WITH calendar_dates AS (
+  SELECT DATE'2026-07-01' + LEVEL - 1 AS cal_date
+  FROM dual
+  CONNECT BY LEVEL <= (DATE'2026-12-31' - DATE'2026-07-01') + 1
+  -- Change this part to extend to longer period 
+),
+holiday_source AS (
+  SELECT DATE'2026-08-25' AS holiday_date, 'The Prophet Muhammad''s Birthday' AS event_name FROM dual UNION ALL
+  SELECT DATE'2026-08-31', 'Malaysia''s National Day' FROM dual UNION ALL
+  SELECT DATE'2026-09-16', 'Malaysia Day' FROM dual UNION ALL
+  SELECT DATE'2026-11-08', 'Diwali' FROM dual UNION ALL
+  SELECT DATE'2026-12-24', 'Christmas Eve' FROM dual UNION ALL
+  SELECT DATE'2026-12-25', 'Christmas Day' FROM dual UNION ALL
+  SELECT DATE'2026-12-31', 'New Year''s Eve' FROM dual
+),
+holiday_agg AS (
+  SELECT holiday_date,
+         CASE
+           WHEN LENGTH(full_event) <= 50 THEN full_event
+           ELSE SUBSTR(full_event, 1, 47) || '...'
+         END AS festive_event
+  FROM (
+    SELECT holiday_date,
+           LISTAGG(event_name, '; ') WITHIN GROUP (ORDER BY event_name) AS full_event
+    FROM (
+      SELECT DISTINCT holiday_date, event_name
+      FROM holiday_source
+    )
+    GROUP BY holiday_date
+  )
+)
+SELECT
+  c.cal_date,
+  INITCAP(TO_CHAR(c.cal_date, 'fmDay', 'NLS_DATE_LANGUAGE=ENGLISH')) AS day_week,
+  TO_NUMBER(TO_CHAR(c.cal_date, 'DD')) AS day_num_month,
+  TO_NUMBER(TO_CHAR(c.cal_date, 'DDD')) AS day_num_year,
+  TRUNC(c.cal_date, 'IW') + 6 AS cal_week_end_date,
+  TO_CHAR(c.cal_date, 'IYYY') || '-W' || TO_CHAR(c.cal_date, 'IW') AS cal_week_year,
+  INITCAP(TO_CHAR(c.cal_date, 'fmMonth', 'NLS_DATE_LANGUAGE=ENGLISH')) AS cal_month_name,
+  INITCAP(TO_CHAR(c.cal_date, 'Mon-YYYY', 'NLS_DATE_LANGUAGE=ENGLISH')) AS cal_month_year,
+  'Q' || TO_CHAR(c.cal_date, 'Q') AS cal_quarter,
+  TO_CHAR(c.cal_date, 'YYYY') || '-Q' || TO_CHAR(c.cal_date, 'Q') AS cal_year_quarter,
+  TO_CHAR(c.cal_date, 'YYYY-MM') AS cal_year_month,
+  CASE WHEN h.festive_event IS NOT NULL THEN 'Y' ELSE 'N' END AS holiday_ind,
+  CASE
+    WHEN INITCAP(TO_CHAR(c.cal_date, 'fmDay', 'NLS_DATE_LANGUAGE=ENGLISH')) IN ('Saturday', 'Sunday')
+      THEN 'N'
+    ELSE 'Y'
+  END AS weekday_ind,
+  h.festive_event,
+  CASE WHEN c.cal_date = LAST_DAY(c.cal_date) THEN 'Y' ELSE 'N' END AS last_day_ind
+FROM calendar_dates c
+LEFT JOIN holiday_agg h
+  ON h.holiday_date = c.cal_date;
+  
+-- Subsequent loading for Date_Dim
+DECLARE
+  v_rows_loaded NUMBER := 0;
+BEGIN
+  MERGE INTO Date_Dim d
+  USING Date_Dim_Subsequent_Stg_V s
+  ON (d.Cal_Date = s.cal_date)
+
+  WHEN NOT MATCHED THEN
+    INSERT (
+      Date_Key,
+      Cal_Date,
+      Day_Week,
+      Day_Num_Month,
+      Day_Num_Year,
+      Cal_Week_End_Date,
+      Cal_Week_Year,
+      Cal_Month_Name,
+      Cal_Month_Year,
+      Cal_Quarter,
+      Cal_Year_Quarter,
+      Cal_Year_Month,
+      Holiday_Ind,
+      Weekday_Ind,
+      Festive_Event,
+      Last_Day_Ind
+    )
+    VALUES (
+      Date_Dim_SEQ.NEXTVAL,
+      s.cal_date,
+      s.day_week,
+      s.day_num_month,
+      s.day_num_year,
+      s.cal_week_end_date,
+      s.cal_week_year,
+      s.cal_month_name,
+      s.cal_month_year,
+      s.cal_quarter,
+      s.cal_year_quarter,
+      s.cal_year_month,
+      s.holiday_ind,
+      s.weekday_ind,
+      s.festive_event,
+      s.last_day_ind
+    );
+
+  v_rows_loaded := SQL%ROWCOUNT;
+
+  COMMIT;
+
+  DBMS_OUTPUT.PUT_LINE('Inserted ' || v_rows_loaded || ' rows into Date_Dim.');
+
+EXCEPTION
+  WHEN OTHERS THEN
+    ROLLBACK;
+    DBMS_OUTPUT.PUT_LINE('Date_Dim subsequent load failed: ' || SQLERRM);
+    RAISE;
+END;
+/
+
+
 -- Validate Insert Amount
 -- Expected: 2373 rows from 1 Jan 2020 to 30 Jun 2026 inclusive
-SELECT COUNT(*) AS total_rows
-FROM Date_Dim;
-
 SELECT MIN(Cal_Date) AS min_date,
        MAX(Cal_Date) AS max_date
+       COUNT(*)      AS total_rows
 FROM Date_Dim;
 
 -- Check flagged holiday/special days
@@ -366,3 +516,22 @@ SELECT COUNT(*) AS missing_event_count
 FROM Date_Dim
 WHERE Holiday_Ind = 'Y'
   AND Festive_Event IS NULL;
+
+-- Check newly loaded Date_Dim records
+SELECT Cal_Date,
+       Day_Week,
+       Holiday_Ind,
+       Festive_Event
+FROM Date_Dim
+WHERE Cal_Date >= DATE'2026-07-01'
+ORDER BY Cal_Date;
+
+-- Check newly loaded holidays after June 2026
+SELECT Cal_Date,
+       Festive_Event
+FROM Date_Dim
+WHERE Cal_Date >= DATE'2026-07-01'
+  AND Holiday_Ind = 'Y'
+ORDER BY Cal_Date;
+
+

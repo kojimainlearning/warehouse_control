@@ -105,6 +105,78 @@ EXCEPTION
 END;
 /
 
+
+-- For Subsequent Loading
+-- Creates sequence starting after the current maximum Customer_Key if it does not exist
+DECLARE
+  v_seq_exists NUMBER;
+  v_max_key    NUMBER;
+BEGIN
+  SELECT COUNT(*)
+  INTO v_seq_exists
+  FROM user_sequences
+  WHERE sequence_name = 'CUSTOMER_DIM_SEQ';
+
+  IF v_seq_exists = 0 THEN
+    SELECT NVL(MAX(Customer_Key), 0) + 1
+    INTO v_max_key
+    FROM Customer_Dim;
+
+    EXECUTE IMMEDIATE
+      'CREATE SEQUENCE Customer_Dim_SEQ
+         START WITH ' || v_max_key || '
+         INCREMENT BY 1
+         CACHE 20
+         NOCYCLE';
+
+    DBMS_OUTPUT.PUT_LINE('Created Customer_Dim_SEQ starting at ' || v_max_key);
+  ELSE
+    DBMS_OUTPUT.PUT_LINE('Customer_Dim_SEQ already exists.');
+  END IF;
+END;
+/
+
+-- Merge load into Customer_Dim
+DECLARE
+  v_rows_loaded NUMBER := 0;
+BEGIN
+  MERGE INTO Customer_Dim d
+  USING Customer_Dim_Stg_V s
+  ON (d.Customer_ID = s.Customer_ID)
+
+  WHEN NOT MATCHED THEN
+    INSERT (
+      Customer_Key,
+      Customer_ID,
+      Customer_Name,
+      Is_Beneficiary,
+      Tier_Name,
+      Join_Date
+    )
+    VALUES (
+      Customer_Dim_SEQ.NEXTVAL,
+      s.Customer_ID,
+      s.Customer_Name,
+      s.Is_Beneficiary,
+      s.Tier_Name,
+      s.Join_Date
+    );
+
+  v_rows_loaded := SQL%ROWCOUNT;
+
+  COMMIT;
+
+  DBMS_OUTPUT.PUT_LINE('Customer_Dim subsequent load rows inserted: ' || v_rows_loaded);
+
+EXCEPTION
+  WHEN OTHERS THEN
+    ROLLBACK;
+    DBMS_OUTPUT.PUT_LINE('Customer_Dim subsequent load failed: ' || SQLERRM);
+    RAISE;
+END;
+/
+
+
 -- Validation Queries
 -- Check total loaded customers
 SELECT COUNT(*) AS customer_dim_count
