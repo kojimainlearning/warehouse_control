@@ -1,13 +1,10 @@
--- ==========================================
 -- DIMENSION TABLES
--- ==========================================
-
--- 1. Date Dimension
+-- Date Dimension
 CREATE TABLE Date_Dim (
     Date_Key            NUMBER NOT NULL,
     Cal_Date            DATE NOT NULL,
     Day_Week            VARCHAR2(20),
-    Day_Num_Month       NUMBER(2),,
+    Day_Num_Month       NUMBER(2),
     Day_Num_Year        NUMBER(3),
     Cal_Week_End_Date   DATE,
     Cal_Week_Year       VARCHAR2(10),
@@ -23,7 +20,7 @@ CREATE TABLE Date_Dim (
     CONSTRAINT PK_Date_Dim PRIMARY KEY (Date_Key)
 );
 
--- 2. Branch Dimension
+-- Branch Dimension
 CREATE TABLE Branch_Dim (
     Branch_Key      NUMBER NOT NULL,
     Branch_ID       VARCHAR2(50) NOT NULL,
@@ -37,7 +34,7 @@ CREATE TABLE Branch_Dim (
     CONSTRAINT FK_Branch_Dim_Branch_ID FOREIGN KEY (Branch_ID) REFERENCES Branches(BranchID)
 );
 
--- 3. Supplier Dimension
+-- Supplier Dimension
 CREATE TABLE Supplier_Dim (
     Supplier_Key    NUMBER NOT NULL,
     Supplier_ID     VARCHAR2(50) NOT NULL,
@@ -47,12 +44,12 @@ CREATE TABLE Supplier_Dim (
     State           VARCHAR2(80),
     PostCode        VARCHAR2(5),
     CONSTRAINT PK_Supplier_Dim PRIMARY KEY (Supplier_Key),
-    CONSTRAINT FK_Supplier_Dim_Supplier_ID (Supplier_ID) REFERENCES Suppliers(SupplierID),
-    CONSTRAINT CK_Supplier_Dim_Status CHECK (Status IN ('ACTIVE', 'INACTIVE')),
+    CONSTRAINT FK_Supplier_Dim_Supplier_ID FOREIGN KEY (Supplier_ID) REFERENCES Suppliers(SupplierID),
+    CONSTRAINT CK_Supplier_Dim_Status CHECK (Supplier_Status IN ('ACTIVE', 'INACTIVE')),
     CONSTRAINT CK_Supplier_Dim_PostCode CHECK (REGEXP_LIKE(PostCode, '^[0-9]{5}$'))
 );
 
--- 4. Customer Dimension
+-- Customer Dimension
 CREATE TABLE Customer_Dim (
     Customer_Key        NUMBER NOT NULL,
     Customer_ID         VARCHAR2(50) NOT NULL,
@@ -65,7 +62,7 @@ CREATE TABLE Customer_Dim (
     CONSTRAINT CK_Customer_Dim_MyKasih_Beneficiary CHECK (Is_Beneficiary in ('Y', 'N'))
 );
 
--- 5. Product Dimension
+-- Product Dimension
 CREATE TABLE Product_Dim (
     Product_Key             NUMBER          NOT NULL,
     Item_ID                 VARCHAR2(10)    NOT NULL,
@@ -85,7 +82,7 @@ CREATE TABLE Product_Dim (
     CONSTRAINT CK_Product_Dim_Date CHECK (Effective_Start_Date <= Effective_End_Date)
 );
 
--- 6. Staff Dimension
+-- Staff Dimension
 CREATE TABLE Staff_Dim (
     Staff_Key       NUMBER NOT NULL,
     Staff_ID        VARCHAR2(50) NOT NULL,
@@ -95,13 +92,10 @@ CREATE TABLE Staff_Dim (
     Resigned_Date   DATE,
     CONSTRAINT PK_Staff_Dim PRIMARY KEY (Staff_Key),
     CONSTRAINT FK_Staff_Dim_Staff_ID FOREIGN KEY (Staff_ID) REFERENCES Staffs(StaffID),
-    CONSTRAINT CK_Staff_Dim_Role CHECK (Role IN ('MANAGER', 'CASHIER', 'STOCK_STAFF', 'ADMIN')),
+    CONSTRAINT CK_Staff_Dim_Role CHECK (Role IN ('MANAGER', 'CASHIER', 'STOCK_STAFF', 'ADMIN'))
 );
 
--- ==========================================
 -- FACT TABLES
--- ==========================================
-
 -- Purchases Fact
 CREATE TABLE Purchases_Fact (
     Supplier_Key        NUMBER NOT NULL,
@@ -121,8 +115,8 @@ CREATE TABLE Purchases_Fact (
     CONSTRAINT FK_Purch_PO_Date FOREIGN KEY (PO_Date_Key) REFERENCES Date_Dim(Date_Key),
     CONSTRAINT FK_Purch_Branch FOREIGN KEY (Branch_Key) REFERENCES Branch_Dim(Branch_Key),
     CONSTRAINT FK_Purch_Product FOREIGN KEY (Product_Key) REFERENCES Product_Dim(Product_Key),
-    CONSTRAINT FK_Purch_Staff FOREIGN KEY (Staff_Key) REFERENCES Staff_Dim(Staff_Key)
-    CONSTRAINT FK_Purchases_Fact_Purchase_ID FOREIGN KEY (Purchase_ID) REFERENCES Purchase_Orders(PurchaseOrderID),
+    CONSTRAINT FK_Purch_Staff FOREIGN KEY (Staff_Key) REFERENCES Staff_Dim(Staff_Key),
+    CONSTRAINT FK_Purch_PO_ID FOREIGN KEY (Purchase_Order_ID) REFERENCES Purchase_Orders(PurchaseOrderID),
     CONSTRAINT FK_Purch_Received_Date FOREIGN KEY (Received_Date_Key) REFERENCES Date_Dim(Date_Key),
     CONSTRAINT CK_Purch_Qty_Ordered CHECK (Quantity_Ordered > 0),
     CONSTRAINT CK_Purch_Qty_Received
@@ -130,10 +124,10 @@ CREATE TABLE Purchases_Fact (
             Quantity_Received >= 0
             AND Quantity_Received <= Quantity_Ordered
         ),
-    CONSTRAINT CK_Purchase_Order_Status CHECK (
-    	Status IS NULL
-    	OR Status IN ('PENDING', 'APPROVED', 'RECEIVED', 'CANCELLED')
-    )
+    CONSTRAINT CK_Purch_Order_Status CHECK (
+    	PO_Status IS NULL
+    	OR PO_Status IN ('PENDING', 'APPROVED', 'RECEIVED', 'CANCELLED')
+    ),
     CONSTRAINT CK_Purch_Unit_Cost CHECK (Unit_Cost >= 0),
     CONSTRAINT CK_Purch_Line_Total CHECK (Line_Total = Quantity_Ordered * Unit_Cost)
 );
@@ -145,19 +139,19 @@ CREATE TABLE Sales_Fact (
     Product_Key         	        NUMBER NOT NULL,
     Customer_Key        	        NUMBER NOT NULL,
     Staff_Key           	        NUMBER NOT NULL,
-    Order_ID          	   	        NUMBER NOT NULL,
+    Order_ID          	   	        VARCHAR2(10) NOT NULL,
     Delivery_Company_Name	        VARCHAR2(10),
-    Scheduled_Delivery_Date_Key	    NUMBER,
+    Scheduled_Delivery_Date_Key	    	NUMBER,
     Delivered_Date_Key		        NUMBER,
     Quantity            	        NUMBER(12) NOT NULL,
     Unit_Price          	        NUMBER(12,2) NOT NULL,
     MyKasih_Subsidy_Amount	        NUMBER(14,2) DEFAULT 0 NOT NULL,
-    Voucher_Discount_Amount 	    NUMBER(14,2) DEFAULT 0 NOT NULL, -- Split the amount from Order level to Order Items level, use SUM() to compute full amount
+    Voucher_Discount_Amount 	    	NUMBER(14,2) DEFAULT 0 NOT NULL, -- Split the amount from Order level to Order Items level, use SUM() to compute full amount
     Line_Total         		        NUMBER(14,2) NOT NULL,
     Delivery_Fee        	        NUMBER(12,2) DEFAULT 0 NOT NULL, -- Record the Order level amount, use MAX() to get the value instead of SUM()
-    City 			                VARCHAR2(80),
-    State			                VARCHAR2(80),
-    PostCode			            NUMBER(5),
+    City 			        VARCHAR2(80),
+    State			        VARCHAR2(80),
+    PostCode			        NUMBER(5),
     SO_Status		                VARCHAR2(20),
     CONSTRAINT PK_Sales_Fact PRIMARY KEY (SO_Date_Key, Branch_Key, Product_Key, Customer_Key, Staff_Key, Order_ID),
     CONSTRAINT FK_Sales_SO_Date FOREIGN KEY (SO_Date_Key) REFERENCES Date_Dim(Date_Key),
@@ -165,7 +159,7 @@ CREATE TABLE Sales_Fact (
     CONSTRAINT FK_Sales_Product FOREIGN KEY (Product_Key) REFERENCES Product_Dim(Product_Key),
     CONSTRAINT FK_Sales_Customer FOREIGN KEY (Customer_Key) REFERENCES Customer_Dim(Customer_Key),
     CONSTRAINT FK_Sales_Staff FOREIGN KEY (Staff_Key) REFERENCES Staff_Dim(Staff_Key),
-    CONSTRAINT FK_Sales_Fact_Order_ID FOREIGN KEY (Order_ID) REFERENCES Orders(OrderID),
+    CONSTRAINT FK_Sales_Order_ID FOREIGN KEY (Order_ID) REFERENCES Orders(OrderID),
     CONSTRAINT FK_Scheduled_Delivery_Date FOREIGN KEY (Scheduled_Delivery_Date_Key) REFERENCES Date_Dim(Date_Key),
     CONSTRAINT FK_Delivered_Date FOREIGN KEY (Delivered_Date_Key) REFERENCES Date_Dim(Date_Key),
     CONSTRAINT CK_Sales_Qty CHECK (Quantity > 0),
@@ -188,8 +182,8 @@ CREATE TABLE Sales_Fact (
     CONSTRAINT CK_Sales_Delivery_Fee CHECK (Delivery_Fee >= 0),
     CONSTRAINT CK_Sales_PostCode CHECK (REGEXP_LIKE(PostCode, '^[0-9]{5}$')),
     CONSTRAINT CK_Sales_Order_Status CHECK (
-    	Order_Status IS NULL
-    	OR Order_Status IN ('PENDING', 'PICKED_UP', 'DELIVERED', 'FAILED')
+    	SO_Status IS NULL
+    	OR SO_Status IN ('PENDING', 'PICKED_UP', 'DELIVERED', 'FAILED')
     )
 );
 
@@ -200,7 +194,7 @@ CREATE TABLE Returns_Fact (
     Product_Key         NUMBER NOT NULL,
     Customer_Key        NUMBER NOT NULL,
     Staff_Key           NUMBER NOT NULL,
-    Return_ID           NUMBER NOT NULL,
+    Return_ID           VARCHAR2(10) NOT NULL,
     Processed_Date_Key  NUMBER,
     Quantity_Returned   NUMBER(10) NOT NULL,
     Resolution_Type 	VARCHAR2(15),
@@ -208,27 +202,27 @@ CREATE TABLE Returns_Fact (
     Return_Reason       VARCHAR2(20) NOT NULL,
     Return_Status	VARCHAR2(15) DEFAULT 'PENDING' NOT NULL,
     CONSTRAINT PK_Returns_Fact PRIMARY KEY (Request_Date_Key, Branch_Key, Customer_Key, Staff_Key, Product_Key, Return_ID),
-    CONSTRAINT FK_Return_Date FOREIGN KEY (Request_Date_Key) REFERENCES Date_Dim(Date_Key),
-    CONSTRAINT FK_Return_Branch FOREIGN KEY (Branch_Key) REFERENCES Branch_Dim(Branch_Key),
-    CONSTRAINT FK_Return_Product FOREIGN KEY (Product_Key) REFERENCES Product_Dim(Product_Key),
-    CONSTRAINT FK_Return_Customer FOREIGN KEY (Customer_Key) REFERENCES Customer_Dim(Customer_Key),
-    CONSTRAINT FK_Return_Staff FOREIGN KEY (Staff_Key) REFERENCES Staff_Dim(Staff_Key),
-    CONSTRAINT FK_Returns_Fact_Return_ID FOREIGN KEY (Return_ID) REFERENCES Return_Requests(ReturnID),
-    CONSTRAINT FK_Return_Processed_Date FOREIGN KEY (Processed_Date_Key) REFERENCES Date_Dim(Date_Key),
-    CONSTRAINT CK_Return_Quantity_Returned CHECK (Quantity_Returned >= 0),
-    CONSTRAINT CK_Return_Resolution_Type CHECK (
-            ResolutionType IS NULL
-            OR ResolutionType IN ('REFUND', 'REPLACE', 'REJECT')
+    CONSTRAINT FK_Returns_Date FOREIGN KEY (Request_Date_Key) REFERENCES Date_Dim(Date_Key),
+    CONSTRAINT FK_Returns_Branch FOREIGN KEY (Branch_Key) REFERENCES Branch_Dim(Branch_Key),
+    CONSTRAINT FK_Returns_Product FOREIGN KEY (Product_Key) REFERENCES Product_Dim(Product_Key),
+    CONSTRAINT FK_Returns_Customer FOREIGN KEY (Customer_Key) REFERENCES Customer_Dim(Customer_Key),
+    CONSTRAINT FK_Returns_Staff FOREIGN KEY (Staff_Key) REFERENCES Staff_Dim(Staff_Key),
+    CONSTRAINT FK_Returns_Return_ID FOREIGN KEY (Return_ID) REFERENCES Return_Requests(ReturnID),
+    CONSTRAINT FK_Returns_Processed_Date FOREIGN KEY (Processed_Date_Key) REFERENCES Date_Dim(Date_Key),
+    CONSTRAINT CK_Returns_Quantity_Returned CHECK (Quantity_Returned >= 0),
+    CONSTRAINT CK_Returns_Resolution_Type CHECK (
+            Resolution_Type IS NULL
+            OR Resolution_Type IN ('REFUND', 'REPLACE', 'REJECT')
         ),
-    CONSTRAINT CK_Return_Refund_Amount
+    CONSTRAINT CK_Returns_Refund_Amount
         CHECK (
             Refund_Amount IS NULL
             OR Refund_Amount >= 0
         ),
-    CONSTRAINT CK_Return_Reason 
+    CONSTRAINT CK_Returns_Return_Reason 
         CHECK (Return_Reason IN ('MISSING', 'BROKEN', 'EXPIRED', 'WRONG_ITEM', 'OTHER')),
-    CONSTRAINT CK_Return_Status
-        CHECK (Status IN ('PENDING', 'APPROVED', 'REJECTED', 'COMPLETED', 'CANCELLED'))
+    CONSTRAINT CK_Returns_Return_Status
+        CHECK (Return_Status IN ('PENDING', 'APPROVED', 'REJECTED', 'COMPLETED', 'CANCELLED'))
 );
 
 -- Stock Movement Fact
@@ -247,7 +241,7 @@ CREATE TABLE Stock_Movement_Fact (
     CONSTRAINT FK_Stock_Product FOREIGN KEY (Product_Key) REFERENCES Product_Dim(Product_Key),
     CONSTRAINT FK_Stock_Branch FOREIGN KEY (Branch_Key) REFERENCES Branch_Dim(Branch_Key),
     CONSTRAINT FK_Stock_Staff FOREIGN KEY (Staff_Key) REFERENCES Staff_Dim(Staff_Key),
-    CONSTRAINT CK_SMF_Movement_TypeCHECK (Movement_Type IN ('SALE','PURCHASE','RETURN')),    
+    CONSTRAINT CK_SMF_Movement_Type CHECK (Movement_Type IN ('SALE','PURCHASE','RETURN')),    
     CONSTRAINT CK_Stock_Quantity_On_Hand CHECK (Quantity_On_Hand >= 0),
     CONSTRAINT CK_Stock_Quantity_In CHECK (Quantity_In >= 0),
     CONSTRAINT CK_Stock_Quantity_Out CHECK (Quantity_Out >= 0)
