@@ -230,20 +230,29 @@ CREATE TABLE Stock_Movement_Fact (
     Movement_Date_Key   NUMBER NOT NULL,
     Product_Key         NUMBER NOT NULL,
     Branch_Key          NUMBER NOT NULL,
-    Staff_Key 		NUMBER NOT NULL,
-    Movement_Type	VARCHAR2(15) NOT NULL,
-    Reference_ID	VARCHAR2(10) NOT NULL,
-    Quantity_On_Hand    NUMBER(12) NOT NULL,
-    Quantity_In         NUMBER(12) NOT NULL,
-    Quantity_Out        NUMBER(12) NOT NULL,
-    CONSTRAINT PK_Stock_Fact PRIMARY KEY (Movement_Date_Key, Product_Key, Branch_Key, Staff_Key, Reference_ID),
-    CONSTRAINT FK_Stock_Date FOREIGN KEY (Movement_Date_Key) REFERENCES Date_Dim(Date_Key),
-    CONSTRAINT FK_Stock_Product FOREIGN KEY (Product_Key) REFERENCES Product_Dim(Product_Key),
-    CONSTRAINT FK_Stock_Branch FOREIGN KEY (Branch_Key) REFERENCES Branch_Dim(Branch_Key),
-    CONSTRAINT FK_Stock_Staff FOREIGN KEY (Staff_Key) REFERENCES Staff_Dim(Staff_Key),
-    CONSTRAINT CK_SMF_Movement_Type CHECK (Movement_Type IN ('SALE','PURCHASE','RETURN')),    
-    CONSTRAINT CK_Stock_Quantity_On_Hand CHECK (Quantity_On_Hand >= 0),
-    CONSTRAINT CK_Stock_Quantity_In CHECK (Quantity_In >= 0),
-    CONSTRAINT CK_Stock_Quantity_Out CHECK (Quantity_Out >= 0)
-    -- Update constraints for Movement_Type and link foreign key for Reference_ID
+    Staff_Key           NUMBER NOT NULL,
+    Reference_ID        VARCHAR2(10) NOT NULL,
+    Movement_Type       VARCHAR2(15) NOT NULL,
+    Quantity_In         NUMBER(12) DEFAULT 0 NOT NULL,
+    Quantity_Out        NUMBER(12) DEFAULT 0 NOT NULL,
+    CONSTRAINT PK_Stock_Movement_Fact
+        PRIMARY KEY (
+            Movement_Date_Key,
+            Product_Key,
+            Branch_Key,
+            Staff_Key,
+            Reference_ID
+        ),
+    CONSTRAINT FK_SMF_Date FOREIGN KEY (Movement_Date_Key) REFERENCES Date_Dim(Date_Key),
+    CONSTRAINT FK_SMF_Product FOREIGN KEY (Product_Key) REFERENCES Product_Dim(Product_Key),
+    CONSTRAINT FK_SMF_Branch FOREIGN KEY (Branch_Key) REFERENCES Branch_Dim(Branch_Key),
+    CONSTRAINT FK_SMF_Staff FOREIGN KEY (Staff_Key) REFERENCES Staff_Dim(Staff_Key),
+    CONSTRAINT CK_SMF_Movement_Type CHECK (Movement_Type IN('SALE', 'PURCHASE', 'RETURN')),
+    CONSTRAINT CK_SMF_Quantity_In CHECK (Quantity_In >= 0),
+    CONSTRAINT CK_SMF_Quantity_Out CHECK (Quantity_Out >= 0),
+    CONSTRAINT CK_SMF_In_Out 
+            CHECK ((Movement_Type = 'SALE' AND Quantity_In = 0 AND Quantity_Out > 0)
+            OR (Movement_Type = 'PURCHASE' AND Quantity_In > 0 AND Quantity_Out = 0)
+            OR (Movement_Type = 'RETURN' AND Quantity_In > 0 AND Quantity_Out = 0)
+        )
 );
