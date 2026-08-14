@@ -1,5 +1,6 @@
 --DROP TABLES
 -- Drop tables (reverse order of creation)
+DROP TABLE Month_End_Stock_Fact CASCADE CONSTRAINTS;
 DROP TABLE Stock_Movement_Fact CASCADE CONSTRAINTS;
 DROP TABLE Returns_Fact CASCADE CONSTRAINTS;
 DROP TABLE Sales_Fact CASCADE CONSTRAINTS;
@@ -271,4 +272,15 @@ CREATE TABLE Stock_Movement_Fact (
             OR (Movement_Type = 'PURCHASE' AND Quantity_In > 0 AND Quantity_Out = 0)
             OR (Movement_Type = 'RETURN' AND Quantity_In > 0 AND Quantity_Out = 0)
         )
+);
+
+--Month End Stock Fact
+CREATE TABLE Month_End_Stock_Fact (
+    Snapshot_Date       DATE NOT NULL,      
+    Branch_Key          NUMBER NOT NULL,
+    Product_Key         NUMBER NOT NULL,
+    Quantity_On_Hand    NUMBER(12) NOT NULL,
+    CONSTRAINT PK_Month_End_Stock PRIMARY KEY (Snapshot_Date, Branch_Key, Product_Key),
+    CONSTRAINT FK_MES_Branch FOREIGN KEY (Branch_Key) REFERENCES Branch_Dim(Branch_Key),
+    CONSTRAINT FK_MES_Product FOREIGN KEY (Product_Key) REFERENCES Product_Dim(Product_Key)
 );
