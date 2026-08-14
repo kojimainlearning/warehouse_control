@@ -1,3 +1,5 @@
+DROP SEQUENCE Supplier_Dim_Seq;
+
 CREATE SEQUENCE Supplier_Dim_Seq
 START WITH 1
 INCREMENT BY 1;
