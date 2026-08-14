@@ -59,7 +59,7 @@ CREATE TABLE Customer_Dim (
     Join_Date           DATE,
     CONSTRAINT PK_Customer_Dim PRIMARY KEY (Customer_Key),
     CONSTRAINT FK_Customer_Dim_Customer_ID FOREIGN KEY (Customer_ID) REFERENCES Customers(CustomerID),
-    CONSTRAINT CK_Customer_Dim_MyKasih_Beneficiary CHECK (Is_Beneficiary in ('Y', 'N'))
+    CONSTRAINT MyKasih_Beneficiary CHECK (Is_Beneficiary in ('Y', 'N'))
 );
 
 -- Product Dimension
@@ -164,12 +164,12 @@ CREATE TABLE Sales_Fact (
     CONSTRAINT FK_Delivered_Date FOREIGN KEY (Delivered_Date_Key) REFERENCES Date_Dim(Date_Key),
     CONSTRAINT CK_Sales_Qty CHECK (Quantity > 0),
     CONSTRAINT CK_Sales_Unit_Price CHECK (Unit_Price >= 0),
-    CONSTRAINT CK_Sales_MyKasih_Subsidy_Amount
+    CONSTRAINT MyKasih_Subsidy_Amount
         CHECK (
             MyKasih_Subsidy_Amount >= 0
             AND MyKasih_Subsidy_Amount <= (Quantity * Unit_Price) - Voucher_Discount_Amount
         ),
-    CONSTRAINT CK_Sales_Voucher_Discount_Amount
+    CONSTRAINT Voucher_Discount_Amount
         CHECK (
             Voucher_Discount_Amount >= 0
             AND Voucher_Discount_Amount <= Quantity * Unit_Price
