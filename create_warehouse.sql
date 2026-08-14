@@ -1,3 +1,20 @@
+--DROP TABLES
+-- Drop tables (reverse order of creation)
+DROP TABLE Stock_Movement_Fact CASCADE CONSTRAINTS;
+DROP TABLE Returns_Fact CASCADE CONSTRAINTS;
+DROP TABLE Sales_Fact CASCADE CONSTRAINTS;
+DROP TABLE Purchases_Fact CASCADE CONSTRAINTS;
+DROP TABLE Product_Dim CASCADE CONSTRAINTS;
+DROP TABLE Supplier_Dim CASCADE CONSTRAINTS;
+DROP TABLE Branch_Dim CASCADE CONSTRAINTS;
+DROP TABLE Customer_Dim CASCADE CONSTRAINTS;
+DROP TABLE Staff_Dim CASCADE CONSTRAINTS;
+DROP TABLE Date_Dim CASCADE CONSTRAINTS;
+
+-- Drop sequences
+DROP SEQUENCE SEQ_SUPPLIER_DIM;
+
+-- Then CREATE TABLE statements...
 -- DIMENSION TABLES
 -- Date Dimension
 CREATE TABLE Date_Dim (
@@ -68,7 +85,8 @@ CREATE TABLE Product_Dim (
     Item_ID                 VARCHAR2(10)    NOT NULL,
     Item_Name               VARCHAR2(100)   NOT NULL,
     Unit_Measure            VARCHAR2(20)    NOT NULL,
-    Unit_Price              NUMBER(10,2)    NOT NULL,
+    Selling_Unit_Price      NUMBER(10,2)    NOT NULL,
+    Purchase_Unit_Price     NUMBER(10,2)    NOT NULL,
     Is_Halal                CHAR(1)         DEFAULT 'N' NOT NULL,
     Category_Name           VARCHAR2(100)   NOT NULL,
     Effective_Start_Date    DATE            DEFAULT SYSDATE NOT NULL,
