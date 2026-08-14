@@ -1,4 +1,4 @@
-CREATE SEQUENCE SEQ_SUPPLIER_DIM
+CREATE SEQUENCE Supplier_Dim_Seq
 START WITH 1
 INCREMENT BY 1;
 
@@ -34,7 +34,7 @@ WHEN NOT MATCHED THEN
         PostCode
     )
     VALUES (
-        SEQ_SUPPLIER_DIM.NEXTVAL,
+        Supplier_Dim_Seq.NEXTVAL,
         S.SupplierID,
         S.SupplierName,
         S.Status,
