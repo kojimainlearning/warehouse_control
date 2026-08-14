@@ -93,7 +93,9 @@ CREATE TABLE Product_Dim (
     CONSTRAINT CK_Product_Dim_Unit_Measure CHECK (Unit_Measure IN ('BAG', 'BOTTLE', 'BOX', 'CAN', 'TIN', 'PACK', 'PCS')),
     CONSTRAINT CK_Product_Dim_Is_Halal CHECK (Is_Halal IN ('Y', 'N')),
     CONSTRAINT CK_Product_Dim_Current_Flag CHECK (Current_Flag IN ('Y', 'N')),
-    CONSTRAINT CK_Product_Dim_Date CHECK (Effective_Start_Date <= Effective_End_Date)
+    CONSTRAINT CK_Product_Dim_Date CHECK (Effective_Start_Date <= Effective_End_Date),
+    CONSTRAINT CK_Product_Dim_Selling_Price CHECK (Selling_Unit_Price >= 0),
+    CONSTRAINT CK_Product_Dim_Purchase_Price CHECK (Purchase_Unit_Price >= 0)
 );
 
 -- Staff Dimension
