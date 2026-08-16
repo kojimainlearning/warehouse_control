@@ -498,7 +498,7 @@ END;
 -- Validate Insert Amount
 -- Expected: 2373 rows from 1 Jan 2020 to 30 Jun 2026 inclusive
 SELECT MIN(Cal_Date) AS min_date,
-       MAX(Cal_Date) AS max_date
+       MAX(Cal_Date) AS max_date,
        COUNT(*)      AS total_rows
 FROM Date_Dim;
 

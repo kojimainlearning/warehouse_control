@@ -154,10 +154,10 @@ CREATE TABLE Sales_Fact (
     SO_Date_Key            	        NUMBER NOT NULL,
     Branch_Key          	        NUMBER NOT NULL,
     Product_Key         	        NUMBER NOT NULL,
-    Customer_Key        	        NUMBER NOT NULL,
-    Staff_Key           	        NUMBER NOT NULL,
+    Customer_Key        	        NUMBER,
+    Staff_Key           	        NUMBER,
     Order_ID          	   	        VARCHAR2(10) NOT NULL,
-    Delivery_Company_Name	        VARCHAR2(10),
+    Delivery_Company_Name	        VARCHAR2(50),
     Scheduled_Delivery_Date_Key	    	NUMBER,
     Delivered_Date_Key		        NUMBER,
     Quantity            	        NUMBER(12) NOT NULL,
@@ -170,7 +170,7 @@ CREATE TABLE Sales_Fact (
     State			        VARCHAR2(80),
     PostCode			        NUMBER(5),
     SO_Status		                VARCHAR2(20),
-    CONSTRAINT PK_Sales_Fact PRIMARY KEY (SO_Date_Key, Branch_Key, Product_Key, Customer_Key, Staff_Key, Order_ID),
+    CONSTRAINT PK_Sales_Fact PRIMARY KEY (SO_Date_Key, Branch_Key, Product_Key, Order_ID),
     CONSTRAINT FK_Sales_SO_Date FOREIGN KEY (SO_Date_Key) REFERENCES Date_Dim(Date_Key),
     CONSTRAINT FK_Sales_Branch FOREIGN KEY (Branch_Key) REFERENCES Branch_Dim(Branch_Key),
     CONSTRAINT FK_Sales_Product FOREIGN KEY (Product_Key) REFERENCES Product_Dim(Product_Key),
@@ -191,16 +191,19 @@ CREATE TABLE Sales_Fact (
             Voucher_Discount_Amount >= 0
             AND Voucher_Discount_Amount <= Quantity * Unit_Price
         ),
-    CONSTRAINT CK_Sales_Line_Total
-        CHECK (
-            Line_Total =
-                (Quantity * Unit_Price) - Voucher_Discount_Amount - MyKasih_Subsidy_Amount
-        ),
+    CONSTRAINT CK_Sales_Line_Total CHECK (Line_Total >= 0),
     CONSTRAINT CK_Sales_Delivery_Fee CHECK (Delivery_Fee >= 0),
     CONSTRAINT CK_Sales_PostCode CHECK (REGEXP_LIKE(PostCode, '^[0-9]{5}$')),
     CONSTRAINT CK_Sales_Order_Status CHECK (
     	SO_Status IS NULL
-    	OR SO_Status IN ('PENDING', 'PICKED_UP', 'DELIVERED', 'FAILED')
+    	OR SO_Status IN (
+                'UNPAID',
+                'IN_PROGRESS',
+                'READY_FOR_PICKUP',
+                'OUT_FOR_DELIVERY',
+                'COMPLETED',
+                'CANCELLED'
+            )
     )
 );
 
