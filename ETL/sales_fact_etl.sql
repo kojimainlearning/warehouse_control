@@ -405,28 +405,6 @@ BEGIN
     )
   )
 
-  WHEN MATCHED THEN
-    UPDATE SET
-      T.Customer_Key                = S.Customer_Key,
-      T.Staff_Key                   = S.Staff_Key,
-      T.Delivery_Company_Name       = S.Delivery_Company_Name,
-      T.Scheduled_Delivery_Date_Key = S.Scheduled_Delivery_Date_Key,
-      T.Delivered_Date_Key          = S.Delivered_Date_Key,
-      T.Delivery_Fee                = S.Delivery_Fee,
-      T.City                        = S.City,
-      T.State                       = S.State,
-      T.PostCode                    = S.PostCode,
-      T.SO_Status                   = S.SO_Status
-
-      ------------------------------------------------------------------
-      -- Optional: uncomment only if you intentionally want to restate
-      -- existing historical sales fact rows using latest selling price.
-      ------------------------------------------------------------------
-      -- , T.Unit_Price               = S.latest_unit_price
-      -- , T.MyKasih_Subsidy_Amount   = S.latest_mykasih_subsidy_amount
-      -- , T.Voucher_Discount_Amount  = S.latest_voucher_discount_amount
-      -- , T.Line_Total               = S.latest_line_total
-
   WHEN NOT MATCHED THEN
     INSERT (
       SO_Date_Key,
