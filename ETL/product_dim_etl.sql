@@ -5,7 +5,8 @@ CREATE SEQUENCE Product_Dim_Seq
 START WITH 1
 INCREMENT BY 1;
 ----------------------------------
---   STEP 1 — Historical Backfill
+--   STEP 1 (Initial Loading)
+-- Historical Backfill 
 ----------------------------------
 INSERT INTO Product_Dim
 (
@@ -172,7 +173,7 @@ JOIN Product_Categories PC
     ON I.CategoryID = PC.CategoryID;
 
 ----------------------------------
---Step 2
+--Step 2 (Incremental Loading)
 --TRUNC(SYSDATE) - (1 / 86400) means 23:59:59 yesterday, which is safer when Effective_Start_Date includes a time component.
 --If current Items table Unit Price has changed, Modify the Flag -> N in Product_Dim
 ----------------------------------
@@ -201,7 +202,8 @@ WHERE T.Current_Flag = 'Y'
   );
   
 ----------------------------------
---Step 3 Insert the Latest Version Unit Price from Items and Product Categories with current flag Y
+--Step 3 (Incremental Loading)
+--Insert the Latest Version Unit Price from Items and Product Categories with current flag Y
 ----------------------------------
 INSERT INTO Product_Dim
 (
