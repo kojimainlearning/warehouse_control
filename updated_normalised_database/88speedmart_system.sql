@@ -152,7 +152,7 @@ BEGIN
 END;
 /
 
-@@ZhenHao/order_inserts.sql
+@@ZhenHao/orders_insert_statements.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -161,7 +161,7 @@ BEGIN
 END;
 /
 
-@@ZhenHao/order_item_inserts.sql
+@@ZhenHao/order_item_insert_statements.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
