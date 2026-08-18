@@ -46,6 +46,7 @@ Purchase_History AS
     JOIN Purchase_Order_Items POI
         ON PO.PurchaseOrderID = POI.PurchaseOrderID
     WHERE POI.UnitCost IS NOT NULL
+      AND PO.Status = 'RECEIVED' 
 ),
 All_Price_Events AS
 (
@@ -88,6 +89,27 @@ Price_Timeline AS
         ) AS Purchase_Price
     FROM All_Price_Events E
 ),
+Price_Timeline_Filled AS
+(
+    SELECT
+        ItemID,
+        Price_DateTime,
+        Reference_ID,
+        Event_Type,
+        NVL(Selling_Price,
+            FIRST_VALUE(Selling_Price IGNORE NULLS) OVER (
+                PARTITION BY ItemID ORDER BY Price_DateTime, Event_Type, Reference_ID
+                ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING
+            )
+        ) AS Selling_Price,
+        NVL(Purchase_Price,
+            FIRST_VALUE(Purchase_Price IGNORE NULLS) OVER (
+                PARTITION BY ItemID ORDER BY Price_DateTime, Event_Type, Reference_ID
+                ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING
+            )
+        ) AS Purchase_Price
+    FROM Price_Timeline
+),
 Latest_Event_Per_Date AS
 (
     SELECT
@@ -102,7 +124,7 @@ Latest_Event_Per_Date AS
             PARTITION BY ItemID, Price_DateTime
             ORDER BY Event_Type DESC, Reference_ID DESC
         ) AS Row_Num
-    FROM Price_Timeline
+    FROM Price_Timeline_Filled
 ),
 Ordered_Timeline AS
 (
@@ -111,6 +133,11 @@ Ordered_Timeline AS
         Price_DateTime,
         Selling_Price,
         Purchase_Price,
+        ROW_NUMBER() OVER
+        (
+            PARTITION BY ItemID
+            ORDER BY Price_DateTime
+        ) AS Version_Row_Num,
         LAG(Selling_Price) OVER
         (
             PARTITION BY ItemID
@@ -132,8 +159,7 @@ Changed_Versions AS
         Selling_Price,
         Purchase_Price
     FROM Ordered_Timeline
-    WHERE Previous_Selling_Price IS NULL
-       OR Previous_Purchase_Price IS NULL
+    WHERE Version_Row_Num = 1
        OR NVL(Selling_Price, -1) <> NVL(Previous_Selling_Price, -1)
        OR NVL(Purchase_Price, -1) <> NVL(Previous_Purchase_Price, -1)
 ),
