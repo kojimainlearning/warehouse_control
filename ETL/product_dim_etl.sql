@@ -17,6 +17,7 @@ INSERT INTO Product_Dim
     Selling_Unit_Price,
     Purchase_Unit_Price,
     Is_Halal,
+    Is_MyKasih_Eligible,
     Category_Name,
     Effective_Start_Date,
     Effective_End_Date,
@@ -153,6 +154,16 @@ Ordered_Timeline AS
 ),
 Changed_Versions AS
 (
+    -- A row is a genuine new SCD2 version only if it is the very first
+    -- row for the item (Version_Row_Num = 1), or if the selling price
+    -- or purchase price actually differs from the prior version.
+    -- NOTE: we deliberately do NOT treat "Previous_Selling_Price IS NULL"
+    -- (or Purchase) as a change trigger on its own, because that column
+    -- can legitimately still be NULL on a non-first row simply because
+    -- that price type hasn't occurred yet for the item (e.g. several
+    -- purchase events before the item's first ever sale). Using it as an
+    -- OR condition was causing every such row to be kept as a "change"
+    -- even when nothing had actually changed.
     SELECT
         ItemID,
         Price_DateTime,
@@ -185,6 +196,7 @@ SELECT
     T.Selling_Price,
     T.Purchase_Price,
     I.IsHalal,
+    I.IsMyKasihEligible,
     PC.CategoryName,
     T.Price_DateTime,
     NVL(T.Next_Price_DateTime, TO_DATE('9999-12-31', 'YYYY-MM-DD')),
@@ -223,6 +235,7 @@ WHERE T.Current_Flag = 'Y'
             OR NVL(I.SellingUnitPrice, -1) <> NVL(T.Selling_Unit_Price, -1)
             OR NVL(I.PurchaseUnitPrice, -1) <> NVL(T.Purchase_Unit_Price, -1)
             OR NVL(I.IsHalal, ' ') <> NVL(T.Is_Halal, ' ')
+            OR NVL(I.IsMyKasihEligible, ' ') <> NVL(T.Is_MyKasih_Eligible, ' ')
             OR NVL(PC.CategoryName, ' ') <> NVL(T.Category_Name, ' ')
         )
   );
@@ -240,6 +253,7 @@ INSERT INTO Product_Dim
     Selling_Unit_Price,
     Purchase_Unit_Price,
     Is_Halal,
+    Is_MyKasih_Eligible,
     Category_Name,
     Effective_Start_Date,
     Effective_End_Date,
@@ -253,6 +267,7 @@ SELECT
     I.SellingUnitPrice,
     I.PurchaseUnitPrice,
     I.IsHalal,
+    I.IsMyKasihEligible,
     PC.CategoryName,
     TRUNC(SYSDATE),
     DATE '9999-12-31',
