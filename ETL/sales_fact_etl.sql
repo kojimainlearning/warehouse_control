@@ -23,7 +23,7 @@ SET SQLBLANKLINES ON;
 -- ALTER TABLE Sales_Fact ADD CONSTRAINT CK_Line_Total CHECK (Line_Total >= 0);
 
 -- Change Delivery_Company_Name limitation
--- ALTER TABLE Sales_Fact MODIFY Delivery_Company_Name VARCHAR2(50) NULL;
+-- ALTER TABLE Sales_Fact MODIFY Delivery_Company_Name VARCHAR2(50);
 -- ALTER TABLE Sales_Fact MODIFY Customer_Key NUMBER NULL;
 -- ALTER TABLE Sales_Fact MODIFY Staff_Key NUMBER NULL;
 
