@@ -165,6 +165,7 @@ DECLARE
   v_missing_product_key        NUMBER;
 
   v_line_total_mismatch        NUMBER;
+  v_cost_mismatch              NUMBER;
 
   v_inserted                   NUMBER := 0;
 BEGIN
@@ -213,7 +214,8 @@ BEGIN
     v_missing_po_date_key,
     v_missing_received_date_key,
     v_missing_product_key,
-    v_line_total_mismatch
+    v_line_total_mismatch,
+    v_cost_mismatch
   FROM Purchases_Fact_Stg_V;
 
   DBMS_OUTPUT.PUT_LINE('==================================================');
@@ -228,6 +230,7 @@ BEGIN
   DBMS_OUTPUT.PUT_LINE('Missing Received_Date_Key        : ' || v_missing_received_date_key);
   DBMS_OUTPUT.PUT_LINE('Missing Product_Key              : ' || v_missing_product_key);
   DBMS_OUTPUT.PUT_LINE('Line_Total mismatches            : ' || v_line_total_mismatch);
+  DBMS_OUTPUT.PUT_LINE('UnitCost latest-price mismatches : ' || v_cost_mismatch);
   DBMS_OUTPUT.PUT_LINE('==================================================');
 
   ------------------------------------------------------------------------
@@ -295,6 +298,13 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE(
       'Warning: ' || v_line_total_mismatch ||
       ' purchase order item lines have LineTotal different from QuantityOrdered * UnitCost.'
+    );
+  END IF;
+
+  IF v_cost_mismatch > 0 THEN
+    DBMS_OUTPUT.PUT_LINE(
+      'Warning: ' || v_cost_mismatch ||
+      ' purchase order item lines have UnitCost different from latest Items.PurchaseUnitPrice.'
     );
   END IF;
 
