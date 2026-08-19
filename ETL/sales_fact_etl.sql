@@ -24,9 +24,11 @@ SET SQLBLANKLINES ON;
 
 -- Change Delivery_Company_Name limitation
 -- ALTER TABLE Sales_Fact MODIFY Delivery_Company_Name VARCHAR2(50) NULL;
+-- ALTER TABLE Sales_Fact MODIFY Customer_Key NUMBER NULL;
+-- ALTER TABLE Sales_Fact MODIFY Staff_Key NUMBER NULL;
 
 -- Change SO_Status to the correct constraints
--- ALTER TABLE Sales_Fact DROP CONSRTAINT CK_Sales_Order_Status;
+-- ALTER TABLE Sales_Fact DROP CONSTRAINT CK_Sales_Order_Status;
 -- ALTER TABLE Sales_Fact ADD CONSTRAINT CK_Sales_Order_Status CHECK (
 --    	SO_Status IS NULL
 --    	OR SO_Status IN (
