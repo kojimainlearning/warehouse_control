@@ -37,7 +37,7 @@ SET PAGESIZE 100
 SET NEWPAGE 0
 SET TRIMSPOOL ON
 SET DEFINE OFF
-
+SET SQLBLANKLINES ON
 
 --------------------------------------------------------------------------------
 -- REPORT PARAMETERS
@@ -58,10 +58,10 @@ VARIABLE b_end_year NUMBER
 VARIABLE b_end_month NUMBER
 
 BEGIN
-    :b_start_year  := NULL;
-    :b_start_month := NULL;
-    :b_end_year    := NULL;
-    :b_end_month   := NULL;
+    :b_start_year  := 2020;
+    :b_start_month := 1;
+    :b_end_year    := 2025;
+    :b_end_month   := 12;
 END;
 /
 
