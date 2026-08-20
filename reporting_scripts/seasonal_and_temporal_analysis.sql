@@ -697,7 +697,7 @@ BEGIN
         FROM daily
         GROUP BY Day_Week
         ORDER BY
-            SUM(net_amount) DESC,
+            net_amount DESC,
             Day_Week ASC
     ) LOOP
         v_peak_day_label := r_peak_day.Day_Week;
@@ -768,7 +768,7 @@ BEGIN
         FROM daily
         GROUP BY Cal_Month_Name
         ORDER BY
-            SUM(net_amount) DESC,
+            net_amount DESC,
             Cal_Month_Name ASC
     ) LOOP
         v_peak_month_label := r_peak_month.Cal_Month_Name;
@@ -1706,7 +1706,7 @@ selected_dates AS (
                 'Public Holiday'
             ELSE
                 'Normal Period'
-        END AS season_name,
+            END AS season_name,
         CASE
             WHEN UPPER(TRIM(d.Holiday_Ind)) = 'Y' THEN 'Holiday'
             ELSE 'Non-Holiday'
