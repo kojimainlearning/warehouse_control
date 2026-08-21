@@ -53,7 +53,7 @@ VARIABLE b_period_type VARCHAR2(10)
 BEGIN
     :b_start_year  := 2020;
     :b_end_year    := 2025;
-    :b_period_type := 'YEAR';
+    :b_period_type := 'QUARTER';
 END;
 /
 
