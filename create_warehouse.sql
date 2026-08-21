@@ -281,11 +281,12 @@ CREATE TABLE Stock_Movement_Fact (
 
 --Month End Stock Fact
 CREATE TABLE Month_End_Stock_Fact (
-    Snapshot_Date       DATE NOT NULL,      
+    Snapshot_Date_Key   NUMBER NOT NULL,      
     Branch_Key          NUMBER NOT NULL,
     Product_Key         NUMBER NOT NULL,
     Quantity_On_Hand    NUMBER(12) NOT NULL,
-    CONSTRAINT PK_Month_End_Stock PRIMARY KEY (Snapshot_Date, Branch_Key, Product_Key),
+    CONSTRAINT PK_Month_End_Stock PRIMARY KEY (Snapshot_Date_Key, Branch_Key, Product_Key),
+    CONSTRAINT FK_MES_Date FOREIGN KEY (Snapshot_Date_Key) REFERENCES Date_Dim(Date_Key),
     CONSTRAINT FK_MES_Branch FOREIGN KEY (Branch_Key) REFERENCES Branch_Dim(Branch_Key),
     CONSTRAINT FK_MES_Product FOREIGN KEY (Product_Key) REFERENCES Product_Dim(Product_Key)
 );
