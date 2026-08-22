@@ -223,7 +223,7 @@ CREATE TABLE Returns_Fact (
     Refund_Amount       NUMBER(15,2) NOT NULL,
     Return_Reason       VARCHAR2(20) NOT NULL,
     Return_Status	VARCHAR2(15) DEFAULT 'PENDING' NOT NULL,
-    CONSTRAINT PK_Returns_Fact PRIMARY KEY (Request_Date_Key, Branch_Key, Customer_Key, Staff_Key, Product_Key, Return_ID),
+    CONSTRAINT PK_Returns_Fact PRIMARY KEY (Request_Date_Key, Branch_Key, Product_Key, Return_ID),
     CONSTRAINT FK_Returns_Date FOREIGN KEY (Request_Date_Key) REFERENCES Date_Dim(Date_Key),
     CONSTRAINT FK_Returns_Branch FOREIGN KEY (Branch_Key) REFERENCES Branch_Dim(Branch_Key),
     CONSTRAINT FK_Returns_Product FOREIGN KEY (Product_Key) REFERENCES Product_Dim(Product_Key),
