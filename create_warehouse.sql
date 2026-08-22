@@ -5,6 +5,7 @@ DROP TABLE Stock_Movement_Fact CASCADE CONSTRAINTS;
 DROP TABLE Returns_Fact CASCADE CONSTRAINTS;
 DROP TABLE Sales_Fact CASCADE CONSTRAINTS;
 DROP TABLE Purchases_Fact CASCADE CONSTRAINTS;
+DROP TABLE Delivery_Company_Dim CASCADE CONSTRAINTS;
 DROP TABLE Product_Dim CASCADE CONSTRAINTS;
 DROP TABLE Supplier_Dim CASCADE CONSTRAINTS;
 DROP TABLE Branch_Dim CASCADE CONSTRAINTS;
@@ -112,6 +113,16 @@ CREATE TABLE Staff_Dim (
     CONSTRAINT PK_Staff_Dim PRIMARY KEY (Staff_Key),
     CONSTRAINT FK_Staff_Dim_Staff_ID FOREIGN KEY (Staff_ID) REFERENCES Staffs(StaffID),
     CONSTRAINT CK_Staff_Dim_Role CHECK (Role IN ('MANAGER', 'CASHIER', 'STOCK_STAFF', 'ADMIN'))
+);
+
+-- Delivery Company Dim
+CREATE TABLE Delivery_Company_Dim (
+    Delivery_Company_Key   NUMBER NOT NULL,
+    Company_ID             VARCHAR2(10) NOT NULL,
+    Company_Name           VARCHAR2(120) NOT NULL,
+    Status                 VARCHAR2(15) DEFAULT 'ACTIVE' NOT NULL,
+    CONSTRAINT PK_Delivery_Company_Dim PRIMARY KEY (Delivery_Company_Key),
+    CONSTRAINT FK_DC_Dim_Company_ID FOREIGN KEY (Company_ID) REFERENCES Delivery_Companies(DeliveryCompanyID)
 );
 
 -- FACT TABLES
