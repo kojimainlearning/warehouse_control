@@ -1,17 +1,8 @@
--- Run this once against the shared schema before running the ETL below.
--- CREATE TABLE Delivery_Company_Dim (
---     Delivery_Company_Key   NUMBER NOT NULL,
---     Company_ID             VARCHAR2(10) NOT NULL,
---     Company_Name           VARCHAR2(120) NOT NULL,
---     Status                 VARCHAR2(15) DEFAULT 'ACTIVE' NOT NULL,
---     CONSTRAINT PK_Delivery_Company_Dim PRIMARY KEY (Delivery_Company_Key),
---     CONSTRAINT FK_DC_Dim_Company_ID FOREIGN KEY (Company_ID) REFERENCES Delivery_Companies(DeliveryCompanyID)
--- );
-
 SET SERVEROUTPUT ON;
 SET SQLBLANKLINES ON;
 SET DEFINE OFF;
 
+-- Create sequence
 DECLARE
   v_seq_exists NUMBER;
   v_max_key    NUMBER;
@@ -38,6 +29,7 @@ BEGIN
 END;
 /
 
+-- Initial load
 DECLARE
   v_rows_loaded NUMBER := 0;
 BEGIN
@@ -86,19 +78,97 @@ END;
 
 
 -- Validation queries
+-- Check total number of delivery companies loaded.
 SELECT COUNT(*) AS delivery_company_dim_count
 FROM Delivery_Company_Dim;
 
-SELECT Status, COUNT(*) AS company_count
+-- Check delivery companies by status.
+SELECT
+    Status,
+    COUNT(*) AS company_count
 FROM Delivery_Company_Dim
 GROUP BY Status
 ORDER BY Status;
 
-SELECT DISTINCT sf.Delivery_Company_Name
-FROM Sales_Fact sf
-WHERE sf.Delivery_Company_Name IS NOT NULL
+-- Check that every source delivery company exists in the dimension.
+-- Expected result: NO ROWS.
+SELECT
+    dc.DeliveryCompanyID,
+    dc.CompanyName
+FROM Delivery_Companies dc
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM Delivery_Company_Dim dcd
+    WHERE dcd.Company_ID = dc.DeliveryCompanyID
+);
+
+-- Check that every delivery company used by Deliveries
+-- can be resolved to Delivery_Company_Dim.
+-- Expected result: NO ROWS.
+SELECT DISTINCT
+    del.DeliveryCompanyID
+FROM Deliveries del
+WHERE del.DeliveryCompanyID IS NOT NULL
   AND NOT EXISTS (
       SELECT 1
       FROM Delivery_Company_Dim dcd
-      WHERE dcd.Company_Name = sf.Delivery_Company_Name
+      WHERE dcd.Company_ID = del.DeliveryCompanyID
   );
+  
+-- Check for duplicate Company_ID values in the dimension.
+-- Expected result: NO ROWS.
+SELECT
+    Company_ID,
+    COUNT(*) AS duplicate_count
+FROM Delivery_Company_Dim
+GROUP BY Company_ID
+HAVING COUNT(*) > 1;
+
+
+-- Subsequent load
+DECLARE
+    v_rows_loaded NUMBER := 0;
+BEGIN
+    MERGE INTO Delivery_Company_Dim T
+	
+    USING (
+        SELECT
+            DeliveryCompanyID,
+            CompanyName,
+            Status
+        FROM Delivery_Companies
+    ) S
+    ON (T.Company_ID = S.DeliveryCompanyID)
+	
+    WHEN MATCHED THEN
+        UPDATE SET
+            T.Company_Name = S.CompanyName,
+            T.Status       = S.Status
+			
+    WHEN NOT MATCHED THEN
+        INSERT (
+            Delivery_Company_Key,
+            Company_ID,
+            Company_Name,
+            Status
+        )
+        VALUES (
+            Delivery_Company_Dim_Seq.NEXTVAL,
+            S.DeliveryCompanyID,
+            S.CompanyName,
+            S.Status
+        );
+		
+    v_rows_loaded := SQL%ROWCOUNT;
+	
+    COMMIT;
+
+    DBMS_OUTPUT.PUT_LINE('Delivery_Company_Dim subsequent load rows affected: ' || v_rows_loaded);
+
+EXCEPTION
+    WHEN OTHERS THEN
+        ROLLBACK;
+        DBMS_OUTPUT.PUT_LINE('Delivery_Company_Dim subsequent load failed: ' || SQLERRM);
+        RAISE;
+END;
+/
