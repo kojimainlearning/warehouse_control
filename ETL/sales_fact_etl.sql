@@ -105,6 +105,16 @@ WHERE NOT EXISTS (
   WHERE p.Item_ID = oi.ItemID
 );
 
+-- Check delivery companies missing from Delivery_Company_Dim
+-- Expected result: no rows
+SELECT DISTINCT del.DeliveryCompanyID
+FROM Deliveries del
+WHERE del.DeliveryCompanyID IS NOT NULL AND NOT EXISTS (
+	SELECT 1 
+	FROM Delivery_Company_Dim dcd 
+	WHERE dcd.Company_ID = del.DeliveryCompanyID
+);
+
 -- Indexes to improve performance
 CREATE INDEX IDX_Date_Dim_Cal_Date
   ON Date_Dim (Cal_Date);
@@ -123,6 +133,9 @@ CREATE INDEX IDX_Product_Dim_Sales_Lookup
 
 CREATE INDEX IDX_Product_Dim_Current
   ON Product_Dim (Item_ID, Current_Flag, Product_Key);
+  
+CREATE INDEX IDX_Delivery_Company_Dim_ID 
+  ON Delivery_Company_Dim (Company_ID);
 
 CREATE INDEX IDX_Sales_Fact_Order_ID
   ON Sales_Fact (Order_ID);
@@ -134,6 +147,7 @@ BEGIN
   DBMS_STATS.GATHER_TABLE_STATS(USER, 'PRODUCT_DIM');
   DBMS_STATS.GATHER_TABLE_STATS(USER, 'CUSTOMER_DIM');
   DBMS_STATS.GATHER_TABLE_STATS(USER, 'STAFF_DIM');
+  DBMS_STATS.GATHER_TABLE_STATS(USER, 'DELIVERY_COMPANY_DIM');
   DBMS_STATS.GATHER_TABLE_STATS(USER, 'SALES_FACT');
   DBMS_STATS.GATHER_TABLE_STATS(USER, 'ORDERS');
   DBMS_STATS.GATHER_TABLE_STATS(USER, 'ORDERED_ITEMS');
@@ -169,7 +183,9 @@ WITH order_lines AS (
     del.PostCode                                AS PostCode,
     TRUNC(del.ScheduledDeliveryDate)            AS Scheduled_Delivery_Date,
     TRUNC(del.DeliveredDateTime)                AS Delivered_Date,
-    SUBSTR(dc.CompanyName, 1, 50)               AS Delivery_Company_Name,
+    
+	-- Delivery Company Dimension lookup
+	dcd.Delivery_Company_Key 					AS Delivery_Company_Key,
 
     -- Historical gross amount per line and per order
     (oi.Quantity * oi.UnitPrice)                AS hist_line_gross,
@@ -204,8 +220,8 @@ WITH order_lines AS (
     ON i.ItemID = oi.ItemID
   LEFT JOIN Deliveries del
     ON del.OrderID = o.OrderID
-  LEFT JOIN Delivery_Companies dc
-    ON dc.DeliveryCompanyID = del.DeliveryCompanyID
+  LEFT JOIN Delivery_Company_Dim dcd 
+    ON dcd.Company_ID = del.DeliveryCompanyID
 ),
 allocations AS (
   SELECT
@@ -291,7 +307,7 @@ SELECT
   cd.Customer_Key                               AS Customer_Key,
   sd.Staff_Key                                  AS Staff_Key,
 
-  a.Delivery_Company_Name                       AS Delivery_Company_Name,
+  a.Delivery_Company_Key 						AS Delivery_Company_Key,
 
   sdd.Date_Key                                  AS Scheduled_Delivery_Date_Key,
   ddd.Date_Key                                  AS Delivered_Date_Key,
@@ -325,7 +341,7 @@ SELECT
   a.City                                        AS City,
   a.State                                       AS State,
   a.PostCode                                    AS PostCode,
-  a.Order_Status				AS SO_Status
+  a.Order_Status								AS SO_Status
 
 FROM allocations a
 JOIN Date_Dim od
@@ -352,6 +368,7 @@ DECLARE
   v_missing_branch   NUMBER;
   v_missing_customer NUMBER;
   v_missing_staff    NUMBER;
+  v_missing_delivery NUMBER;
   v_inserted         NUMBER := 0;
 BEGIN
 
@@ -412,7 +429,18 @@ BEGIN
       FROM Staff_Dim s
       WHERE s.Staff_ID = o.StaffID
     );
-
+	
+  SELECT COUNT(DISTINCT del.DeliveryCompanyID)
+  INTO v_missing_delivery
+  FROM Deliveries del
+  WHERE del.DeliveryCompanyID IS NOT NULL 
+    AND NOT EXISTS (
+	  SELECT 1 
+	  FROM Delivery_Company_Dim dcd 
+	  WHERE dcd.Company_ID = del.DeliveryCompanyID
+	);
+  
+  
   DBMS_OUTPUT.PUT_LINE('==================================================');
   DBMS_OUTPUT.PUT_LINE('Sales_Fact Initial Load Pre-check');
   DBMS_OUTPUT.PUT_LINE('==================================================');
@@ -424,6 +452,7 @@ BEGIN
   DBMS_OUTPUT.PUT_LINE('Missing branches              : ' || v_missing_branch);
   DBMS_OUTPUT.PUT_LINE('Missing customers             : ' || v_missing_customer);
   DBMS_OUTPUT.PUT_LINE('Missing staff                 : ' || v_missing_staff);
+  DBMS_OUTPUT.PUT_LINE('Missing delivery companies    : ' || v_missing_delivery);
   DBMS_OUTPUT.PUT_LINE('==================================================');
 
   ------------------------------------------------------------------------
@@ -458,6 +487,14 @@ BEGIN
       'Some branches are missing from Branch_Dim.'
     );
   END IF;
+  
+  IF v_missing_delivery > 0 THEN 
+    raise_application_error( 
+	  -20005, 
+	  'Some delivery companies cannot resolve Delivery_Company_Key. ' || 
+	  'Load or fix Delivery_Company_Dim before loading Sales_Fact.' 
+	); 
+  END IF;
 
   IF v_missing_customer > 0 THEN
     DBMS_OUTPUT.PUT_LINE(
@@ -487,7 +524,7 @@ BEGIN
       Customer_Key,
       Staff_Key,
       Order_ID,
-      Delivery_Company_Name,
+      Delivery_Company_Key,
       Scheduled_Delivery_Date_Key,
       Delivered_Date_Key,
       Quantity,
@@ -508,7 +545,7 @@ BEGIN
       s.Customer_Key,
       s.Staff_Key,
       s.Order_ID,
-      s.Delivery_Company_Name,
+      s.Delivery_Company_Key,
       s.Scheduled_Delivery_Date_Key,
       s.Delivered_Date_Key,
       s.Quantity,
@@ -533,7 +570,7 @@ BEGIN
       Customer_Key,
       Staff_Key,
       Order_ID,
-      Delivery_Company_Name,
+      Delivery_Company_Key,
       Scheduled_Delivery_Date_Key,
       Delivered_Date_Key,
       Quantity,
@@ -554,7 +591,7 @@ BEGIN
       s.Customer_Key,
       s.Staff_Key,
       s.Order_ID,
-      s.Delivery_Company_Name,
+      s.Delivery_Company_Key,
       s.Scheduled_Delivery_Date_Key,
       s.Delivered_Date_Key,
       s.Quantity,
@@ -626,7 +663,7 @@ BEGIN
     UPDATE SET
       T.Customer_Key                = S.Customer_Key,
       T.Staff_Key                   = S.Staff_Key,
-      T.Delivery_Company_Name       = S.Delivery_Company_Name,
+      T.Delivery_Company_Key        = S.Delivery_Company_Key,
       T.Scheduled_Delivery_Date_Key = S.Scheduled_Delivery_Date_Key,
       T.Delivered_Date_Key          = S.Delivered_Date_Key,
       T.Delivery_Fee                = S.Delivery_Fee,
@@ -643,7 +680,7 @@ BEGIN
       Customer_Key,
       Staff_Key,
       Order_ID,
-      Delivery_Company_Name,
+      Delivery_Company_Key,
       Scheduled_Delivery_Date_Key,
       Delivered_Date_Key,
       Quantity,
@@ -664,7 +701,7 @@ BEGIN
       S.Customer_Key,
       S.Staff_Key,
       S.Order_ID,
-      S.Delivery_Company_Name,
+      S.Delivery_Company_Key,
       S.Scheduled_Delivery_Date_Key,
       S.Delivered_Date_Key,
       S.Quantity,
@@ -705,6 +742,18 @@ SELECT SO_Status,
 FROM Sales_Fact
 GROUP BY SO_Status
 ORDER BY SO_Status;
+
+-- Check delivery company keys are valid 
+-- Expected result: no rows
+SELECT 
+  f.Delivery_Company_Key
+FROM Sales_Fact f 
+WHERE f.Delivery_Company_Key IS NOT NULL 
+  AND NOT EXISTS ( 
+    SELECT 1 
+	FROM Delivery_Company_Dim dcd 
+	WHERE dcd.Delivery_Company_Key = f.Delivery_Company_Key 
+  );
 
 -- Check voucher discount split matches order-level voucher discount
 -- Expected result: no rows
@@ -756,5 +805,3 @@ FROM Sales_Fact f
 JOIN Orders o
   ON o.OrderID = f.Order_ID
 WHERE o.CustomerID IS NULL;
-
-
