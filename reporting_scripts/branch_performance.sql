@@ -1,9 +1,9 @@
 SET SERVEROUTPUT ON SIZE UNLIMITED;
 SET FEEDBACK OFF;
-SET LINESIZE 220;
+SET LINESIZE 200;
 SET PAGESIZE 100;
 
-CREATE OR REPLACE PROCEDURE branch_perf_rpt (
+CREATE OR REPLACE PROCEDURE branch_perf_sum (
     p_year IN NUMBER DEFAULT NULL
 ) AS
 
@@ -21,13 +21,11 @@ CREATE OR REPLACE PROCEDURE branch_perf_rpt (
     v_row_count         NUMBER := 0;
 
     CURSOR c_report IS
-        WITH Monthly_Sales AS (
+        WITH Yearly_Sales AS (
             SELECT
                 bd.Branch_Key,
                 bd.Branch_Name,
                 bd.City,
-                dd.Cal_Year_Month,
-                dd.Cal_Month_Name,
                 EXTRACT(YEAR FROM dd.Cal_Date) AS Cal_Year,
                 COUNT(DISTINCT sf.Order_ID) AS Total_Orders,
                 SUM(sf.Line_Total) AS Total_Revenue,
@@ -37,50 +35,48 @@ CREATE OR REPLACE PROCEDURE branch_perf_rpt (
             JOIN Date_Dim dd    ON dd.Date_Key    = sf.SO_Date_Key
             JOIN Product_Dim pd ON pd.Product_Key = sf.Product_Key
             WHERE p_year IS NULL OR EXTRACT(YEAR FROM dd.Cal_Date) = p_year
-            GROUP BY bd.Branch_Key, bd.Branch_Name, bd.City, dd.Cal_Year_Month, dd.Cal_Month_Name, EXTRACT(YEAR FROM dd.Cal_Date)
+            GROUP BY bd.Branch_Key, bd.Branch_Name, bd.City, EXTRACT(YEAR FROM dd.Cal_Date)
         ),
-        Monthly_Returns AS (
+        Yearly_Returns AS (
             SELECT
                 rf.Branch_Key,
-                dd.Cal_Year_Month,
+                EXTRACT(YEAR FROM dd.Cal_Date) AS Cal_Year,
                 COUNT(rf.Return_ID) AS Total_Returns
             FROM Returns_Fact rf
             JOIN Date_Dim dd ON dd.Date_Key = rf.Request_Date_Key
-            GROUP BY rf.Branch_Key, dd.Cal_Year_Month
+            GROUP BY rf.Branch_Key, EXTRACT(YEAR FROM dd.Cal_Date)
         )
         SELECT
-            ms.Branch_Name,
-            ms.City,
-            ms.Cal_Year_Month,
-            ms.Cal_Month_Name,
-            ms.Cal_Year,
-            ms.Total_Orders,
-            ms.Total_Revenue,
-            ROUND(ms.Total_Revenue / NULLIF(ms.Total_Orders, 0), 2) AS Avg_Order_Value,
-            ms.Gross_Margin,
-            ROUND(100 * ms.Gross_Margin / NULLIF(ms.Total_Revenue, 0), 1) AS Gross_Margin_Pct,
-            NVL(mr.Total_Returns, 0) AS Total_Returns,
-            ROUND(100 * NVL(mr.Total_Returns, 0) / NULLIF(ms.Total_Orders, 0), 2) AS Return_Rate_Pct
-        FROM Monthly_Sales ms
-        LEFT JOIN Monthly_Returns mr
-            ON mr.Branch_Key = ms.Branch_Key AND mr.Cal_Year_Month = ms.Cal_Year_Month
-        ORDER BY ms.Branch_Name, ms.Cal_Year_Month;
+            ys.Branch_Name,
+            ys.City,
+            ys.Cal_Year,
+            ys.Total_Orders,
+            ys.Total_Revenue,
+            ROUND(ys.Total_Revenue / NULLIF(ys.Total_Orders, 0), 2) AS Avg_Order_Value,
+            ys.Gross_Margin,
+            ROUND(100 * ys.Gross_Margin / NULLIF(ys.Total_Revenue, 0), 1) AS Gross_Margin_Pct,
+            NVL(yr.Total_Returns, 0) AS Total_Returns,
+            ROUND(100 * NVL(yr.Total_Returns, 0) / NULLIF(ys.Total_Orders, 0), 2) AS Return_Rate_Pct
+        FROM Yearly_Sales ys
+        LEFT JOIN Yearly_Returns yr
+            ON yr.Branch_Key = ys.Branch_Key AND yr.Cal_Year = ys.Cal_Year
+        ORDER BY ys.Branch_Name, ys.Cal_Year;
 
-	CURSOR c_top_branch IS
-		SELECT Branch_Name, Rev
-		FROM (
-			SELECT
-				bd.Branch_Name,
-				SUM(sf.Line_Total) AS Rev
-			FROM Sales_Fact sf
-			JOIN Branch_Dim bd ON bd.Branch_Key = sf.Branch_Key
-			JOIN Date_Dim dd   ON dd.Date_Key = sf.SO_Date_Key
-			WHERE p_year IS NULL
-			   OR EXTRACT(YEAR FROM dd.Cal_Date) = p_year
-			GROUP BY bd.Branch_Name
-			ORDER BY SUM(sf.Line_Total) DESC
-		)
-		WHERE ROWNUM = 1;
+    CURSOR c_top_branch IS
+        SELECT Branch_Name, Rev
+        FROM (
+            SELECT
+                bd.Branch_Name,
+                SUM(sf.Line_Total) AS Rev
+            FROM Sales_Fact sf
+            JOIN Branch_Dim bd ON bd.Branch_Key = sf.Branch_Key
+            JOIN Date_Dim dd   ON dd.Date_Key = sf.SO_Date_Key
+            WHERE p_year IS NULL
+               OR EXTRACT(YEAR FROM dd.Cal_Date) = p_year
+            GROUP BY bd.Branch_Name
+            ORDER BY SUM(sf.Line_Total) DESC
+        )
+        WHERE ROWNUM = 1;
 
 BEGIN
 
@@ -103,7 +99,7 @@ BEGIN
     END LOOP;
 
     DBMS_OUTPUT.PUT_LINE(c_line_double);
-    DBMS_OUTPUT.PUT_LINE('BRANCH PERFORMANCE COMPARISON');
+    DBMS_OUTPUT.PUT_LINE('BRANCH PERFORMANCE SUMMARY (BY YEAR)');
     DBMS_OUTPUT.PUT_LINE(c_line_double);
     DBMS_OUTPUT.PUT_LINE('Report Generated On : ' || TO_CHAR(SYSDATE, 'DD-MON-YYYY HH24:MI:SS'));
     DBMS_OUTPUT.PUT_LINE('Reporting Period     : ' || NVL(TO_CHAR(p_year), 'All Available History'));
@@ -116,9 +112,9 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Top Performing Branch    : ' || v_top_branch || ' (RM ' || TO_CHAR(v_top_branch_rev, 'FM999,999,990.00') || ')');
     DBMS_OUTPUT.PUT_LINE(c_line_single);
 
-    -- Detail table
+    -- Detail table (Branch x Year grain)
     DBMS_OUTPUT.PUT_LINE(
-        RPAD('BRANCH', 30) || RPAD('CITY', 20) || RPAD('YR-MTH', 10) ||
+        RPAD('BRANCH', 30) || RPAD('CITY', 20) || LPAD('YEAR', 6) ||
         LPAD('ORDERS', 9) || LPAD('REVENUE (RM)', 16) || LPAD('AOV (RM)', 12) ||
         LPAD('MARGIN %', 10) || LPAD('RETURNS', 10) || LPAD('RETURN %', 10)
     );
@@ -134,7 +130,7 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE(
             RPAD(SUBSTR(r.Branch_Name, 1, 29), 30) ||
             RPAD(SUBSTR(r.City, 1, 19), 20) ||
-            RPAD(r.Cal_Year_Month, 10) ||
+            LPAD(r.Cal_Year, 6) ||
             LPAD(r.Total_Orders, 9) ||
             LPAD(TO_CHAR(r.Total_Revenue, 'FM999,990.00'), 16) ||
             LPAD(TO_CHAR(r.Avg_Order_Value, 'FM990.00'), 12) ||
@@ -146,7 +142,7 @@ BEGIN
 
     DBMS_OUTPUT.PUT_LINE(c_line_single);
     DBMS_OUTPUT.PUT_LINE(
-        RPAD('GRAND TOTAL', 60) ||
+        RPAD('GRAND TOTAL', 56) ||
         LPAD(v_total_orders, 9) ||
         LPAD(TO_CHAR(v_total_revenue, 'FM999,999,990.00'), 16) ||
         LPAD('-', 12) ||
@@ -162,14 +158,13 @@ EXCEPTION
     WHEN OTHERS THEN
         DBMS_OUTPUT.PUT_LINE('ERROR: ' || SQLERRM);
         RAISE;
-END branch_perf_rpt;
-/
+END branch_perf_sum;
 /
 
-SHOW ERRORS PROCEDURE branch_perf_rpt
+SHOW ERRORS PROCEDURE branch_perf_sum
 
 -- Run for all years:
-EXEC branch_perf_rpt(NULL);
+EXEC branch_perf_sum(NULL);
 
 -- Or run for a specific year, e.g.:
--- EXEC branch_perf_rpt(2025);
+-- EXEC branch_perf_sum(2025);

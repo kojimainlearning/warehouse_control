@@ -3,7 +3,7 @@ SET FEEDBACK OFF;
 SET LINESIZE 200;
 SET PAGESIZE 100;
 
-CREATE OR REPLACE PROCEDURE staff_perf_rpt (
+CREATE OR REPLACE PROCEDURE staff_perf_sum (
     p_year IN NUMBER DEFAULT NULL
 ) AS
 
@@ -24,7 +24,6 @@ CREATE OR REPLACE PROCEDURE staff_perf_rpt (
         SELECT
             std.Staff_Name,
             std.Role,
-            bd.Branch_Name,
             EXTRACT(YEAR FROM dd.Cal_Date) AS Cal_Year,
             COUNT(DISTINCT sf.Order_ID) AS Orders_Processed,
             SUM(sf.Line_Total) AS Revenue_Handled,
@@ -32,28 +31,27 @@ CREATE OR REPLACE PROCEDURE staff_perf_rpt (
             CASE WHEN std.Resigned_Date IS NULL THEN 'ACTIVE' ELSE 'RESIGNED' END AS Employment_Status
         FROM Sales_Fact sf
         JOIN Staff_Dim std ON std.Staff_Key = sf.Staff_Key
-        JOIN Branch_Dim bd ON bd.Branch_Key = sf.Branch_Key
         JOIN Date_Dim dd   ON dd.Date_Key   = sf.SO_Date_Key
         WHERE p_year IS NULL OR EXTRACT(YEAR FROM dd.Cal_Date) = p_year
-        GROUP BY std.Staff_Name, std.Role, bd.Branch_Name, EXTRACT(YEAR FROM dd.Cal_Date),
+        GROUP BY std.Staff_Name, std.Role, EXTRACT(YEAR FROM dd.Cal_Date),
                  CASE WHEN std.Resigned_Date IS NULL THEN 'ACTIVE' ELSE 'RESIGNED' END
         ORDER BY std.Staff_Name, Cal_Year;
 
-	CURSOR c_top_staff IS
-		SELECT Staff_Name, Rev
-		FROM (
-			SELECT
-				std.Staff_Name,
-				SUM(sf.Line_Total) AS Rev
-			FROM Sales_Fact sf
-			JOIN Staff_Dim std ON std.Staff_Key = sf.Staff_Key
-			JOIN Date_Dim dd   ON dd.Date_Key = sf.SO_Date_Key
-			WHERE p_year IS NULL
-			   OR EXTRACT(YEAR FROM dd.Cal_Date) = p_year
-			GROUP BY std.Staff_Name
-			ORDER BY SUM(sf.Line_Total) DESC
-		)
-		WHERE ROWNUM = 1;
+    CURSOR c_top_staff IS
+        SELECT Staff_Name, Rev
+        FROM (
+            SELECT
+                std.Staff_Name,
+                SUM(sf.Line_Total) AS Rev
+            FROM Sales_Fact sf
+            JOIN Staff_Dim std ON std.Staff_Key = sf.Staff_Key
+            JOIN Date_Dim dd   ON dd.Date_Key = sf.SO_Date_Key
+            WHERE p_year IS NULL
+               OR EXTRACT(YEAR FROM dd.Cal_Date) = p_year
+            GROUP BY std.Staff_Name
+            ORDER BY SUM(sf.Line_Total) DESC
+        )
+        WHERE ROWNUM = 1;
 
 BEGIN
 
@@ -73,7 +71,7 @@ BEGIN
     END LOOP;
 
     DBMS_OUTPUT.PUT_LINE(c_line_double);
-    DBMS_OUTPUT.PUT_LINE('STAFF PERFORMANCE AND PRODUCTIVITY ANALYSIS');
+    DBMS_OUTPUT.PUT_LINE('STAFF PERFORMANCE SUMMARY (BY YEAR)');
     DBMS_OUTPUT.PUT_LINE(c_line_double);
     DBMS_OUTPUT.PUT_LINE('Report Generated On : ' || TO_CHAR(SYSDATE, 'DD-MON-YYYY HH24:MI:SS'));
     DBMS_OUTPUT.PUT_LINE('Reporting Period     : ' || NVL(TO_CHAR(p_year), 'All Available History'));
@@ -88,7 +86,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE(c_line_single);
 
     DBMS_OUTPUT.PUT_LINE(
-        RPAD('STAFF NAME', 20) || RPAD('ROLE', 14) || RPAD('BRANCH', 30) ||
+        RPAD('STAFF NAME', 20) || RPAD('ROLE', 14) ||
         LPAD('YEAR', 6) || LPAD('ORDERS', 9) || LPAD('REVENUE (RM)', 15) ||
         LPAD('AVG/ORDER', 12) || '  ' || RPAD('STATUS', 10)
     );
@@ -102,19 +100,18 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE(
             RPAD(SUBSTR(r.Staff_Name, 1, 19), 20) ||
             RPAD(SUBSTR(r.Role, 1, 13), 14) ||
-            RPAD(SUBSTR(r.Branch_Name, 1, 29), 30) ||
             LPAD(r.Cal_Year, 6) ||
             LPAD(r.Orders_Processed, 9) ||
             LPAD(TO_CHAR(r.Revenue_Handled, 'FM999,990.00'), 15) ||
             LPAD(TO_CHAR(r.Avg_Revenue_Per_Order, 'FM990.00'), 12) ||
-			'  ' ||
+            '  ' ||
             RPAD(r.Employment_Status, 10)
         );
     END LOOP;
 
     DBMS_OUTPUT.PUT_LINE(c_line_single);
     DBMS_OUTPUT.PUT_LINE(
-        RPAD('GRAND TOTAL', 70) ||
+        RPAD('GRAND TOTAL', 40) ||
         LPAD(v_total_orders, 9) ||
         LPAD(TO_CHAR(v_total_revenue, 'FM999,999,990.00'), 15)
     );
@@ -127,13 +124,13 @@ EXCEPTION
     WHEN OTHERS THEN
         DBMS_OUTPUT.PUT_LINE('ERROR: ' || SQLERRM);
         RAISE;
-END staff_perf_rpt;
+END staff_perf_sum;
 /
 
-SHOW ERRORS PROCEDURE staff_perf_rpt
+SHOW ERRORS PROCEDURE staff_perf_sum
 
 -- Run for all years:
-EXEC staff_perf_rpt(NULL);
+EXEC staff_perf_sum(NULL);
 
 -- Or run for a specific year, e.g.:
--- EXEC staff_perf_rpt(2025);
+-- EXEC staff_perf_sum(2025);
