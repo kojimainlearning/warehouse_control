@@ -1,0 +1,85 @@
+==================================================================================================================================
+DELIVERY PERFORMANCE SUMMARY (BY COMPANY / YEAR)
+==================================================================================================================================
+Report Generated On : 29-AUG-2026 02:58:43
+Reporting Period    : All Available History
+----------------------------------------------------------------------------------------------------------------------------------
+EXECUTIVE SUMMARY
+Delivery Companies Evaluated : 10
+Best On-Time Performer       : MegaCourier (70.0%)
+----------------------------------------------------------------------------------------------------------------------------------
+COMPANY                     YEAR    ORDERS       FEE (RM)   DELIVERED   ON-TIME   ON-TIME%
+----------------------------------------------------------------------------------------------------------------------------------
+BudgetFreight               2020       122         629.80         122        63       51.6
+BudgetFreight               2021       134         698.60         134       107       79.9
+BudgetFreight               2022       142         749.80         142       101       71.1
+BudgetFreight               2023       174         924.60         174       114       65.5
+BudgetFreight               2024       177         943.30         177       133       75.1
+BudgetFreight               2025       213       1,111.70         213       142       66.7
+BudgetFreight               2026        94         488.60          94        65       69.1
+EcoShip Sdn Bhd             2020       139         703.10         139        72       51.8
+EcoShip Sdn Bhd             2021       161         846.90         161       118       73.3
+EcoShip Sdn Bhd             2022       127         660.30         127        87       68.5
+EcoShip Sdn Bhd             2023       161         852.90         161       112       69.6
+EcoShip Sdn Bhd             2024       198       1,070.20         198       138       69.7
+EcoShip Sdn Bhd             2025       203       1,086.70         203       149       73.4
+EcoShip Sdn Bhd             2026       111         583.90         111        82       73.9
+FastTrack Delivery          2020        71         373.90          71        17       23.9
+FastTrack Delivery          2021        82         429.80          82        33       40.2
+FastTrack Delivery          2022       102         535.80         102        42       41.2
+FastTrack Delivery          2023        98         508.20          98        25       25.5
+FastTrack Delivery          2024       124         651.60         124        51       41.1
+FastTrack Delivery          2025       119         643.10         119        46       38.7
+FastTrack Delivery          2026        69         378.10          69        44       63.8
+Heritage Transport          2020        80         424.00          80        14       17.5
+Heritage Transport          2021        93         479.70          93        19       20.4
+Heritage Transport          2022        76         394.40          76        35       46.1
+Heritage Transport          2023       106         567.40         106        31       29.2
+Heritage Transport          2024        71         371.90          71        30       42.3
+Heritage Transport          2025         3          14.70           3         1       33.3
+MegaCourier                 2020       141         732.90         141        76       53.9
+MegaCourier                 2021       132         676.80         132        93       70.5
+MegaCourier                 2022       155         807.50         155       116       74.8
+MegaCourier                 2023       168         881.20         168       117       69.6
+MegaCourier                 2024       181         958.90         181       140       77.3
+MegaCourier                 2025       191       1,017.90         191       141       73.8
+MegaCourier                 2026        95         501.50          95        61       64.2
+NusaExpress                 2020        75         399.50          75        23       30.7
+NusaExpress                 2021        91         483.90          91        27       29.7
+NusaExpress                 2022        90         495.00          90        30       33.3
+NusaExpress                 2023        95         493.50          95        31       32.6
+NusaExpress                 2024       122         637.80         122        55       45.1
+NusaExpress                 2025       111         577.90         111        42       37.8
+NusaExpress                 2026        70         367.00          70        36       51.4
+RiskyRoutes Delivery        2020        65         348.50          65        17       26.2
+RiskyRoutes Delivery        2021        79         407.10          79        22       27.8
+RiskyRoutes Delivery        2022        79         413.10          79        28       35.4
+RiskyRoutes Delivery        2023        48         247.20          48        15       31.3
+RiskyRoutes Delivery        2024         3          14.70           3         2       66.7
+SlowButSure Logistics       2020       134         704.60         134        71       53.0
+SlowButSure Logistics       2021       134         704.60         134        91       67.9
+SlowButSure Logistics       2022       153         817.70         153        99       64.7
+SlowButSure Logistics       2023       173         933.70         173       122       70.5
+SlowButSure Logistics       2024       193       1,025.70         193       131       67.9
+SlowButSure Logistics       2025       184         979.60         184       137       74.5
+SlowButSure Logistics       2026       102         549.80         102        73       71.6
+SwiftSend Logistics         2020        65         358.50          65        18       27.7
+SwiftSend Logistics         2021        76         394.40          76        22       28.9
+SwiftSend Logistics         2022        75         401.50          75        22       29.3
+SwiftSend Logistics         2023        85         456.50          85        24       28.2
+SwiftSend Logistics         2024        92         486.80          92        38       41.3
+SwiftSend Logistics         2025       128         671.20         128        66       51.6
+SwiftSend Logistics         2026        57         315.30          57        30       52.6
+UrbanParcel                 2020        65         342.50          65        17       26.2
+UrbanParcel                 2021        65         328.50          65        17       26.2
+UrbanParcel                 2022        87         464.30          87        24       27.6
+UrbanParcel                 2023        91         479.90          91        29       31.9
+UrbanParcel                 2024       114         602.60         114        49       43.0
+UrbanParcel                 2025       122         635.80         122        53       43.4
+UrbanParcel                 2026        61         326.90          61        35       57.4
+----------------------------------------------------------------------------------------------------------------------------------
+GRAND TOTAL                           7497      39,565.30        7497      4111       54.8
+==================================================================================================================================
+Rows Returned: 67
+END OF REPORT
+==================================================================================================================================

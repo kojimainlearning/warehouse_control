@@ -1,0 +1,713 @@
+Branch_Name,City,Cal_Year_Month,Cal_Month_Name,Cal_Year,Total_Orders,Total_Revenue,Avg_Order_Value,Gross_Margin,Gross_Margin_Pct,Total_Returns,Return_Rate_Pct
+"Ampang 88 Speedmart","Ampang",2020-01,"January",2020,599,22302.22,37.23,7925.89,35.5,27,4.51
+"Ampang 88 Speedmart","Ampang",2020-02,"February",2020,433,16680.44,38.52,6076.94,36.4,29,6.7
+"Ampang 88 Speedmart","Ampang",2020-03,"March",2020,370,13431,36.3,5003.7,37.3,16,4.32
+"Ampang 88 Speedmart","Ampang",2020-04,"April",2020,179,6282.92,35.1,2346.39,37.3,20,11.17
+"Ampang 88 Speedmart","Ampang",2020-05,"May",2020,268,10355.88,38.64,3876.35,37.4,18,6.72
+"Ampang 88 Speedmart","Ampang",2020-06,"June",2020,335,12127.35,36.2,4462.58,36.8,17,5.07
+"Ampang 88 Speedmart","Ampang",2020-07,"July",2020,172,5638.88,32.78,2126.27,37.7,13,7.56
+"Ampang 88 Speedmart","Ampang",2020-08,"August",2020,154,5870.77,38.12,2073.42,35.3,10,6.49
+"Ampang 88 Speedmart","Ampang",2020-09,"September",2020,117,3649.63,31.19,1293.61,35.4,12,10.26
+"Ampang 88 Speedmart","Ampang",2020-10,"October",2020,124,4759.68,38.38,1703.01,35.8,5,4.03
+"Ampang 88 Speedmart","Ampang",2020-11,"November",2020,175,5792.25,33.1,2086.53,36,12,6.86
+"Ampang 88 Speedmart","Ampang",2020-12,"December",2020,249,8646.1,34.72,3124.97,36.1,10,4.02
+"Ampang 88 Speedmart","Ampang",2021-01,"January",2021,109,4561.7,41.85,1560.09,34.2,13,11.93
+"Ampang 88 Speedmart","Ampang",2021-02,"February",2021,104,4351.94,41.85,1550.77,35.6,6,5.77
+"Ampang 88 Speedmart","Ampang",2021-03,"March",2021,98,3230.3,32.96,1131.82,35,4,4.08
+"Ampang 88 Speedmart","Ampang",2021-04,"April",2021,75,2440.39,32.54,831.38,34.1,10,13.33
+"Ampang 88 Speedmart","Ampang",2021-05,"May",2021,114,4639.76,40.7,1699.09,36.6,12,10.53
+"Ampang 88 Speedmart","Ampang",2021-06,"June",2021,103,3531.96,34.29,1208.85,34.2,6,5.83
+"Ampang 88 Speedmart","Ampang",2021-07,"July",2021,71,2492.82,35.11,868.62,34.8,13,18.31
+"Ampang 88 Speedmart","Ampang",2021-08,"August",2021,72,3354.81,46.59,1078.14,32.1,7,9.72
+"Ampang 88 Speedmart","Ampang",2021-09,"September",2021,61,2879.87,47.21,965.26,33.5,5,8.2
+"Ampang 88 Speedmart","Ampang",2021-10,"October",2021,57,1660.14,29.13,558.56,33.6,3,5.26
+"Ampang 88 Speedmart","Ampang",2021-11,"November",2021,93,3901.54,41.95,1311.78,33.6,4,4.3
+"Ampang 88 Speedmart","Ampang",2021-12,"December",2021,141,5183.14,36.76,1843.1,35.6,13,9.22
+"Ampang 88 Speedmart","Ampang",2022-01,"January",2022,64,2403.02,37.55,737.32,30.7,10,15.63
+"Ampang 88 Speedmart","Ampang",2022-02,"February",2022,57,2528.16,44.35,800.87,31.7,8,14.04
+"Ampang 88 Speedmart","Ampang",2022-03,"March",2022,60,2192.23,36.54,705.39,32.2,4,6.67
+"Ampang 88 Speedmart","Ampang",2022-04,"April",2022,67,2950.62,44.04,962.52,32.6,3,4.48
+"Ampang 88 Speedmart","Ampang",2022-05,"May",2022,49,1825.48,37.25,609.85,33.4,10,20.41
+"Ampang 88 Speedmart","Ampang",2022-06,"June",2022,61,2029.26,33.27,665.4,32.8,4,6.56
+"Ampang 88 Speedmart","Ampang",2022-07,"July",2022,53,2137.38,40.33,714.72,33.4,5,9.43
+"Ampang 88 Speedmart","Ampang",2022-08,"August",2022,60,2365.49,39.42,748.13,31.6,5,8.33
+"Ampang 88 Speedmart","Ampang",2022-09,"September",2022,48,1570.7,32.72,530.54,33.8,9,18.75
+"Ampang 88 Speedmart","Ampang",2022-10,"October",2022,64,2375.08,37.11,756.71,31.9,3,4.69
+"Ampang 88 Speedmart","Ampang",2022-11,"November",2022,78,3124.47,40.06,1018.58,32.6,10,12.82
+"Ampang 88 Speedmart","Ampang",2022-12,"December",2022,115,3712.4,32.28,1184.12,31.9,13,11.3
+"Ampang 88 Speedmart","Ampang",2023-01,"January",2023,77,3521.46,45.73,1035.52,29.4,9,11.69
+"Ampang 88 Speedmart","Ampang",2023-02,"February",2023,53,2220.31,41.89,659.21,29.7,2,3.77
+"Ampang 88 Speedmart","Ampang",2023-03,"March",2023,40,1605.43,40.14,505.5,31.5,6,15
+"Ampang 88 Speedmart","Ampang",2023-04,"April",2023,53,2078.93,39.23,630.91,30.3,6,11.32
+"Ampang 88 Speedmart","Ampang",2023-05,"May",2023,48,2133.46,44.45,637.33,29.9,3,6.25
+"Ampang 88 Speedmart","Ampang",2023-06,"June",2023,78,2828.36,36.26,871.08,30.8,9,11.54
+"Ampang 88 Speedmart","Ampang",2023-07,"July",2023,50,2199.84,44,660.78,30,4,8
+"Ampang 88 Speedmart","Ampang",2023-08,"August",2023,35,1502.06,42.92,461.39,30.7,2,5.71
+"Ampang 88 Speedmart","Ampang",2023-09,"September",2023,47,1873.56,39.86,556.28,29.7,6,12.77
+"Ampang 88 Speedmart","Ampang",2023-10,"October",2023,43,2131.44,49.57,653.77,30.7,7,16.28
+"Ampang 88 Speedmart","Ampang",2023-11,"November",2023,70,2787.94,39.83,878.21,31.5,11,15.71
+"Ampang 88 Speedmart","Ampang",2023-12,"December",2023,101,3763.13,37.26,1148.08,30.5,13,12.87
+"Ampang 88 Speedmart","Ampang",2024-01,"January",2024,57,2436.45,42.74,732.24,30.1,7,12.28
+"Ampang 88 Speedmart","Ampang",2024-02,"February",2024,53,1889.21,35.65,600.92,31.8,1,1.89
+"Ampang 88 Speedmart","Ampang",2024-03,"March",2024,38,2064.06,54.32,553.07,26.8,6,15.79
+"Ampang 88 Speedmart","Ampang",2024-04,"April",2024,52,1949.55,37.49,566.16,29,8,15.38
+"Ampang 88 Speedmart","Ampang",2024-05,"May",2024,38,1431.04,37.66,408.75,28.6,2,5.26
+"Ampang 88 Speedmart","Ampang",2024-06,"June",2024,58,2388.19,41.18,694.48,29.1,7,12.07
+"Ampang 88 Speedmart","Ampang",2024-07,"July",2024,55,1578.9,28.71,449.62,28.5,3,5.45
+"Ampang 88 Speedmart","Ampang",2024-08,"August",2024,53,2491.9,47.02,657.25,26.4,7,13.21
+"Ampang 88 Speedmart","Ampang",2024-09,"September",2024,42,1779.81,42.38,502.38,28.2,3,7.14
+"Ampang 88 Speedmart","Ampang",2024-10,"October",2024,58,2359.61,40.68,641.43,27.2,7,12.07
+"Ampang 88 Speedmart","Ampang",2024-11,"November",2024,73,2613.41,35.8,739.68,28.3,11,15.07
+"Ampang 88 Speedmart","Ampang",2024-12,"December",2024,111,3835.75,34.56,1055.52,27.5,10,9.01
+"Ampang 88 Speedmart","Ampang",2025-01,"January",2025,66,3122.39,47.31,838.11,26.8,10,15.15
+"Ampang 88 Speedmart","Ampang",2025-02,"February",2025,41,1666.98,40.66,437.65,26.3,4,9.76
+"Ampang 88 Speedmart","Ampang",2025-03,"March",2025,62,2435.69,39.29,700.5,28.8,5,8.06
+"Ampang 88 Speedmart","Ampang",2025-04,"April",2025,40,1915.25,47.88,557.16,29.1,8,20
+"Ampang 88 Speedmart","Ampang",2025-05,"May",2025,52,2094.09,40.27,585.17,27.9,6,11.54
+"Ampang 88 Speedmart","Ampang",2025-06,"June",2025,79,2823.63,35.74,828.49,29.3,14,17.72
+"Ampang 88 Speedmart","Ampang",2025-07,"July",2025,46,1421.73,30.91,376.45,26.5,6,13.04
+"Ampang 88 Speedmart","Ampang",2025-08,"August",2025,42,1169.74,27.85,329.35,28.2,5,11.9
+"Ampang 88 Speedmart","Ampang",2025-09,"September",2025,57,2639.16,46.3,733.44,27.8,8,14.04
+"Ampang 88 Speedmart","Ampang",2025-10,"October",2025,61,2288.16,37.51,638.49,27.9,6,9.84
+"Ampang 88 Speedmart","Ampang",2025-11,"November",2025,84,3153.02,37.54,823.23,26.1,7,8.33
+"Ampang 88 Speedmart","Ampang",2025-12,"December",2025,115,4067.12,35.37,1125.02,27.7,12,10.43
+"Ampang 88 Speedmart","Ampang",2026-01,"January",2026,58,1992.81,34.36,517.4,26,12,20.69
+"Ampang 88 Speedmart","Ampang",2026-02,"February",2026,60,2449.49,40.82,637.35,26,7,11.67
+"Ampang 88 Speedmart","Ampang",2026-03,"March",2026,66,3749.77,56.81,920.06,24.5,14,21.21
+"Ampang 88 Speedmart","Ampang",2026-04,"April",2026,42,1950.84,46.45,472.71,24.2,8,19.05
+"Ampang 88 Speedmart","Ampang",2026-05,"May",2026,51,2083.77,40.86,538.4,25.8,6,11.76
+"Ampang 88 Speedmart","Ampang",2026-06,"June",2026,82,3613.41,44.07,899.82,24.9,12,14.63
+"Cheras 88 Speedmart","Cheras",2020-04,"April",2020,173,6312.16,36.49,2260.8,35.8,3,1.73
+"Cheras 88 Speedmart","Cheras",2020-05,"May",2020,308,10010.84,32.5,3748.99,37.4,15,4.87
+"Cheras 88 Speedmart","Cheras",2020-06,"June",2020,296,10300.31,34.8,3886.38,37.7,23,7.77
+"Cheras 88 Speedmart","Cheras",2020-07,"July",2020,173,6141.79,35.5,2191.08,35.7,10,5.78
+"Cheras 88 Speedmart","Cheras",2020-08,"August",2020,161,6547.12,40.67,2298.8,35.1,11,6.83
+"Cheras 88 Speedmart","Cheras",2020-09,"September",2020,117,4328.13,36.99,1546.63,35.7,5,4.27
+"Cheras 88 Speedmart","Cheras",2020-10,"October",2020,100,4145.89,41.46,1440.25,34.7,5,5
+"Cheras 88 Speedmart","Cheras",2020-11,"November",2020,180,6756.5,37.54,2464.67,36.5,10,5.56
+"Cheras 88 Speedmart","Cheras",2020-12,"December",2020,229,8472,37,3095.9,36.5,19,8.3
+"Cheras 88 Speedmart","Cheras",2021-01,"January",2021,106,3684.19,34.76,1339.41,36.4,6,5.66
+"Cheras 88 Speedmart","Cheras",2021-02,"February",2021,102,3483.32,34.15,1203.36,34.5,4,3.92
+"Cheras 88 Speedmart","Cheras",2021-03,"March",2021,101,4032.09,39.92,1388.19,34.4,4,3.96
+"Cheras 88 Speedmart","Cheras",2021-04,"April",2021,71,2722.7,38.35,940,34.5,8,11.27
+"Cheras 88 Speedmart","Cheras",2021-05,"May",2021,86,3266.9,37.99,1151.27,35.2,5,5.81
+"Cheras 88 Speedmart","Cheras",2021-06,"June",2021,126,4719.8,37.46,1663.15,35.2,5,3.97
+"Cheras 88 Speedmart","Cheras",2021-07,"July",2021,63,1527.92,24.25,570.35,37.3,6,9.52
+"Cheras 88 Speedmart","Cheras",2021-08,"August",2021,67,2279.7,34.03,773.39,33.9,2,2.99
+"Cheras 88 Speedmart","Cheras",2021-09,"September",2021,62,2325.18,37.5,783.59,33.7,7,11.29
+"Cheras 88 Speedmart","Cheras",2021-10,"October",2021,80,2760.34,34.5,935.21,33.9,4,5
+"Cheras 88 Speedmart","Cheras",2021-11,"November",2021,91,3138.56,34.49,1034.55,33,5,5.49
+"Cheras 88 Speedmart","Cheras",2021-12,"December",2021,133,4752.95,35.74,1637.37,34.4,13,9.77
+"Cheras 88 Speedmart","Cheras",2022-01,"January",2022,79,2577.88,32.63,849.21,32.9,8,10.13
+"Cheras 88 Speedmart","Cheras",2022-02,"February",2022,58,2525.36,43.54,810.1,32.1,11,18.97
+"Cheras 88 Speedmart","Cheras",2022-03,"March",2022,48,1790.86,37.31,588.08,32.8,6,12.5
+"Cheras 88 Speedmart","Cheras",2022-04,"April",2022,55,1726.94,31.4,580.91,33.6,4,7.27
+"Cheras 88 Speedmart","Cheras",2022-05,"May",2022,62,2244.02,36.19,733.26,32.7,4,6.45
+"Cheras 88 Speedmart","Cheras",2022-06,"June",2022,60,2385.87,39.76,775.54,32.5,14,23.33
+"Cheras 88 Speedmart","Cheras",2022-07,"July",2022,53,2032.07,38.34,633.51,31.2,4,7.55
+"Cheras 88 Speedmart","Cheras",2022-08,"August",2022,54,1823.07,33.76,581.72,31.9,10,18.52
+"Cheras 88 Speedmart","Cheras",2022-09,"September",2022,46,1672.92,36.37,526.52,31.5,4,8.7
+"Cheras 88 Speedmart","Cheras",2022-10,"October",2022,43,1556.24,36.19,512.76,32.9,2,4.65
+"Cheras 88 Speedmart","Cheras",2022-11,"November",2022,65,2082.82,32.04,670.45,32.2,1,1.54
+"Cheras 88 Speedmart","Cheras",2022-12,"December",2022,115,4567.24,39.72,1402.98,30.7,10,8.7
+"Cheras 88 Speedmart","Cheras",2023-01,"January",2023,76,2687.2,35.36,832.65,31,7,9.21
+"Cheras 88 Speedmart","Cheras",2023-02,"February",2023,52,1941.68,37.34,587.88,30.3,4,7.69
+"Cheras 88 Speedmart","Cheras",2023-03,"March",2023,47,1576.59,33.54,500.08,31.7,7,14.89
+"Cheras 88 Speedmart","Cheras",2023-04,"April",2023,45,1708.56,37.97,508.99,29.8,3,6.67
+"Cheras 88 Speedmart","Cheras",2023-05,"May",2023,52,2090.19,40.2,653.81,31.3,8,15.38
+"Cheras 88 Speedmart","Cheras",2023-06,"June",2023,80,2895.38,36.19,919.71,31.8,7,8.75
+"Cheras 88 Speedmart","Cheras",2023-07,"July",2023,50,1889.69,37.79,566.43,30,8,16
+"Cheras 88 Speedmart","Cheras",2023-08,"August",2023,53,1849.63,34.9,565.4,30.6,10,18.87
+"Cheras 88 Speedmart","Cheras",2023-09,"September",2023,41,1285.95,31.36,393.77,30.6,5,12.2
+"Cheras 88 Speedmart","Cheras",2023-10,"October",2023,55,2715.15,49.37,774.21,28.5,5,9.09
+"Cheras 88 Speedmart","Cheras",2023-11,"November",2023,75,3718.35,49.58,1049.42,28.2,3,4
+"Cheras 88 Speedmart","Cheras",2023-12,"December",2023,102,4066.1,39.86,1204.78,29.6,7,6.86
+"Cheras 88 Speedmart","Cheras",2024-01,"January",2024,49,2155.58,43.99,639.12,29.6,5,10.2
+"Cheras 88 Speedmart","Cheras",2024-02,"February",2024,69,2243.34,32.51,667.65,29.8,12,17.39
+"Cheras 88 Speedmart","Cheras",2024-03,"March",2024,52,1631.78,31.38,490.64,30.1,4,7.69
+"Cheras 88 Speedmart","Cheras",2024-04,"April",2024,56,2384.79,42.59,695,29.1,8,14.29
+"Cheras 88 Speedmart","Cheras",2024-05,"May",2024,53,1882.77,35.52,529.78,28.1,6,11.32
+"Cheras 88 Speedmart","Cheras",2024-06,"June",2024,65,2373.65,36.52,728.05,30.7,7,10.77
+"Cheras 88 Speedmart","Cheras",2024-07,"July",2024,55,1839.42,33.44,527.34,28.7,7,12.73
+"Cheras 88 Speedmart","Cheras",2024-08,"August",2024,52,2073.34,39.87,546.79,26.4,7,13.46
+"Cheras 88 Speedmart","Cheras",2024-09,"September",2024,49,1547.8,31.59,456.2,29.5,7,14.29
+"Cheras 88 Speedmart","Cheras",2024-10,"October",2024,49,2174.64,44.38,592.05,27.2,4,8.16
+"Cheras 88 Speedmart","Cheras",2024-11,"November",2024,70,2520.3,36,721.45,28.6,11,15.71
+"Cheras 88 Speedmart","Cheras",2024-12,"December",2024,118,3819.39,32.37,1152.06,30.2,12,10.17
+"Cheras 88 Speedmart","Cheras",2025-01,"January",2025,71,2619.39,36.89,767.13,29.3,9,12.68
+"Cheras 88 Speedmart","Cheras",2025-02,"February",2025,38,1350.09,35.53,361.28,26.8,7,18.42
+"Cheras 88 Speedmart","Cheras",2025-03,"March",2025,65,2782.46,42.81,753.22,27.1,7,10.77
+"Cheras 88 Speedmart","Cheras",2025-04,"April",2025,43,1945.7,45.25,512.96,26.4,6,13.95
+"Cheras 88 Speedmart","Cheras",2025-05,"May",2025,56,2512.57,44.87,677.23,27,11,19.64
+"Cheras 88 Speedmart","Cheras",2025-06,"June",2025,84,3274.54,38.98,877.12,26.8,16,19.05
+"Cheras 88 Speedmart","Cheras",2025-07,"July",2025,57,2085.33,36.58,574.28,27.5,9,15.79
+"Cheras 88 Speedmart","Cheras",2025-08,"August",2025,43,1683.16,39.14,455.04,27,4,9.3
+"Cheras 88 Speedmart","Cheras",2025-09,"September",2025,44,2026.73,46.06,507.91,25.1,8,18.18
+"Cheras 88 Speedmart","Cheras",2025-10,"October",2025,67,2251.32,33.6,591.58,26.3,4,5.97
+"Cheras 88 Speedmart","Cheras",2025-11,"November",2025,73,3400.99,46.59,844.15,24.8,8,10.96
+"Cheras 88 Speedmart","Cheras",2025-12,"December",2025,120,4573.4,38.11,1233.78,27,11,9.17
+"Cheras 88 Speedmart","Cheras",2026-01,"January",2026,74,2914.52,39.39,792.3,27.2,9,12.16
+"Cheras 88 Speedmart","Cheras",2026-02,"February",2026,66,2748.24,41.64,792.47,28.8,18,27.27
+"Cheras 88 Speedmart","Cheras",2026-03,"March",2026,79,3052.3,38.64,805.04,26.4,14,17.72
+"Cheras 88 Speedmart","Cheras",2026-04,"April",2026,63,2757.6,43.77,696.94,25.3,9,14.29
+"Cheras 88 Speedmart","Cheras",2026-05,"May",2026,49,2100.54,42.87,510.3,24.3,9,18.37
+"Cheras 88 Speedmart","Cheras",2026-06,"June",2026,87,3635.15,41.78,912.42,25.1,18,20.69
+"George Town 88 Speedmart","George Town",2021-10,"October",2021,63,2839.67,45.07,929.88,32.7,0,0
+"George Town 88 Speedmart","George Town",2021-11,"November",2021,80,3192.39,39.9,1036.77,32.5,6,7.5
+"George Town 88 Speedmart","George Town",2021-12,"December",2021,128,4589,35.85,1573.61,34.3,6,4.69
+"George Town 88 Speedmart","George Town",2022-01,"January",2022,80,2616.56,32.71,917.05,35,5,6.25
+"George Town 88 Speedmart","George Town",2022-02,"February",2022,47,1613.27,34.32,572.36,35.5,3,6.38
+"George Town 88 Speedmart","George Town",2022-03,"March",2022,62,2414.79,38.95,781.79,32.4,2,3.23
+"George Town 88 Speedmart","George Town",2022-04,"April",2022,54,1791.18,33.17,576.07,32.2,5,9.26
+"George Town 88 Speedmart","George Town",2022-05,"May",2022,78,2349.14,30.12,748.57,31.9,9,11.54
+"George Town 88 Speedmart","George Town",2022-06,"June",2022,56,1965.26,35.09,641.27,32.6,2,3.57
+"George Town 88 Speedmart","George Town",2022-07,"July",2022,54,1882.18,34.86,614.39,32.6,11,20.37
+"George Town 88 Speedmart","George Town",2022-08,"August",2022,57,2505.59,43.96,803.18,32.1,4,7.02
+"George Town 88 Speedmart","George Town",2022-09,"September",2022,60,2397.27,39.95,754.13,31.5,3,5
+"George Town 88 Speedmart","George Town",2022-10,"October",2022,51,2023.39,39.67,648.6,32.1,8,15.69
+"George Town 88 Speedmart","George Town",2022-11,"November",2022,75,2866.75,38.22,918.47,32,3,4
+"George Town 88 Speedmart","George Town",2022-12,"December",2022,133,5616.47,42.23,1806.44,32.2,9,6.77
+"George Town 88 Speedmart","George Town",2023-01,"January",2023,85,3363.81,39.57,1048.61,31.2,11,12.94
+"George Town 88 Speedmart","George Town",2023-02,"February",2023,30,1251.22,41.71,369.87,29.6,3,10
+"George Town 88 Speedmart","George Town",2023-03,"March",2023,46,1867.38,40.6,581.79,31.2,2,4.35
+"George Town 88 Speedmart","George Town",2023-04,"April",2023,35,1512.66,43.22,435.61,28.8,2,5.71
+"George Town 88 Speedmart","George Town",2023-05,"May",2023,36,1172.21,32.56,368.67,31.5,4,11.11
+"George Town 88 Speedmart","George Town",2023-06,"June",2023,53,2020.25,38.12,674.02,33.4,5,9.43
+"George Town 88 Speedmart","George Town",2023-07,"July",2023,46,1562.54,33.97,452.14,28.9,3,6.52
+"George Town 88 Speedmart","George Town",2023-08,"August",2023,37,1645.58,44.48,470.74,28.6,3,8.11
+"George Town 88 Speedmart","George Town",2023-09,"September",2023,40,1213.98,30.35,359.7,29.6,4,10
+"George Town 88 Speedmart","George Town",2023-10,"October",2023,50,2568.08,51.36,722.87,28.1,3,6
+"George Town 88 Speedmart","George Town",2023-11,"November",2023,69,2791.63,40.46,868.17,31.1,9,13.04
+"George Town 88 Speedmart","George Town",2023-12,"December",2023,117,4930.07,42.14,1439.87,29.2,13,11.11
+"George Town 88 Speedmart","George Town",2024-01,"January",2024,61,2133.83,34.98,629.08,29.5,12,19.67
+"George Town 88 Speedmart","George Town",2024-02,"February",2024,53,2468.37,46.57,719.8,29.2,8,15.09
+"George Town 88 Speedmart","George Town",2024-03,"March",2024,53,2000.44,37.74,577.87,28.9,8,15.09
+"George Town 88 Speedmart","George Town",2024-04,"April",2024,49,1945.86,39.71,558.6,28.7,10,20.41
+"George Town 88 Speedmart","George Town",2024-05,"May",2024,40,1885.32,47.13,520.64,27.6,4,10
+"George Town 88 Speedmart","George Town",2024-06,"June",2024,71,2832.95,39.9,799.42,28.2,8,11.27
+"George Town 88 Speedmart","George Town",2024-07,"July",2024,58,2477.84,42.72,694.35,28,6,10.34
+"George Town 88 Speedmart","George Town",2024-08,"August",2024,40,1449.38,36.23,398.06,27.5,6,15
+"George Town 88 Speedmart","George Town",2024-09,"September",2024,46,1748.63,38.01,500.42,28.6,4,8.7
+"George Town 88 Speedmart","George Town",2024-10,"October",2024,51,2474.58,48.52,656.64,26.5,6,11.76
+"George Town 88 Speedmart","George Town",2024-11,"November",2024,68,2418.4,35.56,672.76,27.8,5,7.35
+"George Town 88 Speedmart","George Town",2024-12,"December",2024,130,4448.04,34.22,1277.75,28.7,9,6.92
+"George Town 88 Speedmart","George Town",2025-01,"January",2025,73,2652.25,36.33,720.37,27.2,4,5.48
+"George Town 88 Speedmart","George Town",2025-02,"February",2025,40,1730.33,43.26,466.26,26.9,6,15
+"George Town 88 Speedmart","George Town",2025-03,"March",2025,57,2315.06,40.62,647.66,28,5,8.77
+"George Town 88 Speedmart","George Town",2025-04,"April",2025,38,1735.24,45.66,483.86,27.9,5,13.16
+"George Town 88 Speedmart","George Town",2025-05,"May",2025,41,1448.68,35.33,380.3,26.3,8,19.51
+"George Town 88 Speedmart","George Town",2025-06,"June",2025,68,2647.43,38.93,771.11,29.1,5,7.35
+"George Town 88 Speedmart","George Town",2025-07,"July",2025,60,2301.91,38.37,632.38,27.5,12,20
+"George Town 88 Speedmart","George Town",2025-08,"August",2025,68,2446.89,35.98,639.05,26.1,5,7.35
+"George Town 88 Speedmart","George Town",2025-09,"September",2025,51,1983.86,38.9,503.81,25.4,15,29.41
+"George Town 88 Speedmart","George Town",2025-10,"October",2025,54,2159.31,39.99,573.27,26.5,6,11.11
+"George Town 88 Speedmart","George Town",2025-11,"November",2025,94,3301.37,35.12,862.42,26.1,16,17.02
+"George Town 88 Speedmart","George Town",2025-12,"December",2025,129,5588.85,43.32,1440.04,25.8,14,10.85
+"George Town 88 Speedmart","George Town",2026-01,"January",2026,56,2297.37,41.02,617.72,26.9,17,30.36
+"George Town 88 Speedmart","George Town",2026-02,"February",2026,91,3894.98,42.8,988.14,25.4,17,18.68
+"George Town 88 Speedmart","George Town",2026-03,"March",2026,61,2253.57,36.94,619.52,27.5,7,11.48
+"George Town 88 Speedmart","George Town",2026-04,"April",2026,53,1883.98,35.55,485.24,25.8,8,15.09
+"George Town 88 Speedmart","George Town",2026-05,"May",2026,51,1901.49,37.28,488.17,25.7,16,31.37
+"George Town 88 Speedmart","George Town",2026-06,"June",2026,83,3055.51,36.81,806.9,26.4,18,21.69
+"Ipoh 88 Speedmart","Ipoh",2021-07,"July",2021,64,2339.74,36.56,818.4,35,5,7.81
+"Ipoh 88 Speedmart","Ipoh",2021-08,"August",2021,78,2889.33,37.04,956.4,33.1,4,5.13
+"Ipoh 88 Speedmart","Ipoh",2021-09,"September",2021,77,2537.33,32.95,878.83,34.6,10,12.99
+"Ipoh 88 Speedmart","Ipoh",2021-10,"October",2021,56,1860.21,33.22,624.25,33.6,4,7.14
+"Ipoh 88 Speedmart","Ipoh",2021-11,"November",2021,95,3733.67,39.3,1297.6,34.8,2,2.11
+"Ipoh 88 Speedmart","Ipoh",2021-12,"December",2021,118,3550.73,30.09,1229.85,34.6,14,11.86
+"Ipoh 88 Speedmart","Ipoh",2022-01,"January",2022,73,3139.4,43.01,1010.8,32.2,3,4.11
+"Ipoh 88 Speedmart","Ipoh",2022-02,"February",2022,43,1779.14,41.38,565.93,31.8,7,16.28
+"Ipoh 88 Speedmart","Ipoh",2022-03,"March",2022,42,1388,33.05,452.74,32.6,1,2.38
+"Ipoh 88 Speedmart","Ipoh",2022-04,"April",2022,51,1744,34.2,561.36,32.2,4,7.84
+"Ipoh 88 Speedmart","Ipoh",2022-05,"May",2022,52,1844.09,35.46,575.26,31.2,7,13.46
+"Ipoh 88 Speedmart","Ipoh",2022-06,"June",2022,66,2928.24,44.37,955.86,32.6,2,3.03
+"Ipoh 88 Speedmart","Ipoh",2022-07,"July",2022,49,1241.22,25.33,431.92,34.8,7,14.29
+"Ipoh 88 Speedmart","Ipoh",2022-08,"August",2022,67,2508.46,37.44,780.56,31.1,9,13.43
+"Ipoh 88 Speedmart","Ipoh",2022-09,"September",2022,43,1447.35,33.66,492.4,34,5,11.63
+"Ipoh 88 Speedmart","Ipoh",2022-10,"October",2022,59,2323.16,39.38,757.7,32.6,5,8.47
+"Ipoh 88 Speedmart","Ipoh",2022-11,"November",2022,69,2391.11,34.65,794.99,33.2,3,4.35
+"Ipoh 88 Speedmart","Ipoh",2022-12,"December",2022,117,4341.82,37.11,1370.98,31.6,6,5.13
+"Ipoh 88 Speedmart","Ipoh",2023-01,"January",2023,66,2699.54,40.9,782.73,29,12,18.18
+"Ipoh 88 Speedmart","Ipoh",2023-02,"February",2023,42,1591.37,37.89,492.94,31,4,9.52
+"Ipoh 88 Speedmart","Ipoh",2023-03,"March",2023,55,2225.35,40.46,665.87,29.9,5,9.09
+"Ipoh 88 Speedmart","Ipoh",2023-04,"April",2023,59,2134.89,36.18,656.5,30.8,6,10.17
+"Ipoh 88 Speedmart","Ipoh",2023-05,"May",2023,56,2332.33,41.65,698.2,29.9,2,3.57
+"Ipoh 88 Speedmart","Ipoh",2023-06,"June",2023,78,2992.1,38.36,890.07,29.7,7,8.97
+"Ipoh 88 Speedmart","Ipoh",2023-07,"July",2023,50,2185.98,43.72,666.56,30.5,9,18
+"Ipoh 88 Speedmart","Ipoh",2023-08,"August",2023,41,1475.58,35.99,451.1,30.6,5,12.2
+"Ipoh 88 Speedmart","Ipoh",2023-09,"September",2023,45,1909.11,42.42,558.71,29.3,3,6.67
+"Ipoh 88 Speedmart","Ipoh",2023-10,"October",2023,45,1956.73,43.48,570.02,29.1,1,2.22
+"Ipoh 88 Speedmart","Ipoh",2023-11,"November",2023,69,2488.94,36.07,782.08,31.4,12,17.39
+"Ipoh 88 Speedmart","Ipoh",2023-12,"December",2023,101,4115.97,40.75,1208.65,29.4,9,8.91
+"Ipoh 88 Speedmart","Ipoh",2024-01,"January",2024,50,1768.96,35.38,531.35,30,11,22
+"Ipoh 88 Speedmart","Ipoh",2024-02,"February",2024,51,1516.78,29.74,438.55,28.9,8,15.69
+"Ipoh 88 Speedmart","Ipoh",2024-03,"March",2024,60,2554.63,42.58,730.86,28.6,4,6.67
+"Ipoh 88 Speedmart","Ipoh",2024-04,"April",2024,69,2537.27,36.77,754.49,29.7,3,4.35
+"Ipoh 88 Speedmart","Ipoh",2024-05,"May",2024,40,1901.09,47.53,533.03,28,5,12.5
+"Ipoh 88 Speedmart","Ipoh",2024-06,"June",2024,63,2633.45,41.8,743.41,28.2,8,12.7
+"Ipoh 88 Speedmart","Ipoh",2024-07,"July",2024,53,1957.42,36.93,531.39,27.1,8,15.09
+"Ipoh 88 Speedmart","Ipoh",2024-08,"August",2024,35,1569.28,44.84,462.98,29.5,5,14.29
+"Ipoh 88 Speedmart","Ipoh",2024-09,"September",2024,55,2729.19,49.62,707.44,25.9,9,16.36
+"Ipoh 88 Speedmart","Ipoh",2024-10,"October",2024,55,2956.01,53.75,801.07,27.1,4,7.27
+"Ipoh 88 Speedmart","Ipoh",2024-11,"November",2024,75,3247.59,43.3,884.49,27.2,8,10.67
+"Ipoh 88 Speedmart","Ipoh",2024-12,"December",2024,98,4676.5,47.72,1281.94,27.4,13,13.27
+"Ipoh 88 Speedmart","Ipoh",2025-01,"January",2025,59,2279.7,38.64,640.82,28.1,10,16.95
+"Ipoh 88 Speedmart","Ipoh",2025-02,"February",2025,40,2228,55.7,589.05,26.4,6,15
+"Ipoh 88 Speedmart","Ipoh",2025-03,"March",2025,58,2066.82,35.63,562.77,27.2,8,13.79
+"Ipoh 88 Speedmart","Ipoh",2025-04,"April",2025,49,1686.96,34.43,483.32,28.7,4,8.16
+"Ipoh 88 Speedmart","Ipoh",2025-05,"May",2025,49,1426.48,29.11,412.06,28.9,4,8.16
+"Ipoh 88 Speedmart","Ipoh",2025-06,"June",2025,70,2831.96,40.46,759.86,26.8,8,11.43
+"Ipoh 88 Speedmart","Ipoh",2025-07,"July",2025,55,2188.83,39.8,575.88,26.3,6,10.91
+"Ipoh 88 Speedmart","Ipoh",2025-08,"August",2025,57,2451.97,43.02,621.04,25.3,8,14.04
+"Ipoh 88 Speedmart","Ipoh",2025-09,"September",2025,47,1813.05,38.58,478.06,26.4,10,21.28
+"Ipoh 88 Speedmart","Ipoh",2025-10,"October",2025,52,2490.07,47.89,636.81,25.6,4,7.69
+"Ipoh 88 Speedmart","Ipoh",2025-11,"November",2025,71,2774.05,39.07,769.66,27.7,7,9.86
+"Ipoh 88 Speedmart","Ipoh",2025-12,"December",2025,113,4234.72,37.48,1135.85,26.8,23,20.35
+"Ipoh 88 Speedmart","Ipoh",2026-01,"January",2026,69,2888.4,41.86,809.45,28,9,13.04
+"Ipoh 88 Speedmart","Ipoh",2026-02,"February",2026,64,2845.56,44.46,731.03,25.7,10,15.63
+"Ipoh 88 Speedmart","Ipoh",2026-03,"March",2026,64,2246.87,35.11,602.42,26.8,13,20.31
+"Ipoh 88 Speedmart","Ipoh",2026-04,"April",2026,58,2115.35,36.47,579.78,27.4,10,17.24
+"Ipoh 88 Speedmart","Ipoh",2026-05,"May",2026,60,2920.15,48.67,725.03,24.8,7,11.67
+"Ipoh 88 Speedmart","Ipoh",2026-06,"June",2026,95,3699.14,38.94,926.4,25,10,10.53
+"Johor Bahru 88 Speedmart","Johor Bahru",2021-04,"April",2021,71,2950.96,41.56,1017.42,34.5,4,5.63
+"Johor Bahru 88 Speedmart","Johor Bahru",2021-05,"May",2021,100,3273.92,32.74,1167.05,35.6,4,4
+"Johor Bahru 88 Speedmart","Johor Bahru",2021-06,"June",2021,106,4199.3,39.62,1483.83,35.3,7,6.6
+"Johor Bahru 88 Speedmart","Johor Bahru",2021-07,"July",2021,65,2440.64,37.55,825.33,33.8,8,12.31
+"Johor Bahru 88 Speedmart","Johor Bahru",2021-08,"August",2021,79,2671.26,33.81,895.91,33.5,5,6.33
+"Johor Bahru 88 Speedmart","Johor Bahru",2021-09,"September",2021,65,2257.09,34.72,754.76,33.4,6,9.23
+"Johor Bahru 88 Speedmart","Johor Bahru",2021-10,"October",2021,62,2410.49,38.88,810.49,33.6,4,6.45
+"Johor Bahru 88 Speedmart","Johor Bahru",2021-11,"November",2021,70,2504.84,35.78,836.1,33.4,7,10
+"Johor Bahru 88 Speedmart","Johor Bahru",2021-12,"December",2021,114,4054.84,35.57,1383.34,34.1,6,5.26
+"Johor Bahru 88 Speedmart","Johor Bahru",2022-01,"January",2022,73,2159.95,29.59,702.4,32.5,5,6.85
+"Johor Bahru 88 Speedmart","Johor Bahru",2022-02,"February",2022,47,1602.67,34.1,551.8,34.4,3,6.38
+"Johor Bahru 88 Speedmart","Johor Bahru",2022-03,"March",2022,59,2371.54,40.2,772.46,32.6,1,1.69
+"Johor Bahru 88 Speedmart","Johor Bahru",2022-04,"April",2022,41,1367.8,33.36,442.61,32.4,4,9.76
+"Johor Bahru 88 Speedmart","Johor Bahru",2022-05,"May",2022,53,1847.49,34.86,600.57,32.5,7,13.21
+"Johor Bahru 88 Speedmart","Johor Bahru",2022-06,"June",2022,70,2228.12,31.83,766.14,34.4,10,14.29
+"Johor Bahru 88 Speedmart","Johor Bahru",2022-07,"July",2022,56,1942.15,34.68,637.97,32.8,5,8.93
+"Johor Bahru 88 Speedmart","Johor Bahru",2022-08,"August",2022,42,2330.43,55.49,714.98,30.7,4,9.52
+"Johor Bahru 88 Speedmart","Johor Bahru",2022-09,"September",2022,46,1598.83,34.76,514.81,32.2,4,8.7
+"Johor Bahru 88 Speedmart","Johor Bahru",2022-10,"October",2022,63,2887.08,45.83,885.12,30.7,2,3.17
+"Johor Bahru 88 Speedmart","Johor Bahru",2022-11,"November",2022,62,2182.48,35.2,725.54,33.2,8,12.9
+"Johor Bahru 88 Speedmart","Johor Bahru",2022-12,"December",2022,116,4511.27,38.89,1401.41,31.1,11,9.48
+"Johor Bahru 88 Speedmart","Johor Bahru",2023-01,"January",2023,71,3281.8,46.22,978.74,29.8,5,7.04
+"Johor Bahru 88 Speedmart","Johor Bahru",2023-02,"February",2023,24,595.3,24.8,187.9,31.6,3,12.5
+"Johor Bahru 88 Speedmart","Johor Bahru",2023-03,"March",2023,50,2037.39,40.75,630.28,30.9,4,8
+"Johor Bahru 88 Speedmart","Johor Bahru",2023-04,"April",2023,70,2391.82,34.17,764.32,32,10,14.29
+"Johor Bahru 88 Speedmart","Johor Bahru",2023-05,"May",2023,47,1851.95,39.4,565.44,30.5,6,12.77
+"Johor Bahru 88 Speedmart","Johor Bahru",2023-06,"June",2023,58,2435.17,41.99,716.85,29.4,5,8.62
+"Johor Bahru 88 Speedmart","Johor Bahru",2023-07,"July",2023,51,1671.88,32.78,516.23,30.9,7,13.73
+"Johor Bahru 88 Speedmart","Johor Bahru",2023-08,"August",2023,49,1706.66,34.83,514.3,30.1,5,10.2
+"Johor Bahru 88 Speedmart","Johor Bahru",2023-09,"September",2023,50,1811.92,36.24,526.31,29,4,8
+"Johor Bahru 88 Speedmart","Johor Bahru",2023-10,"October",2023,49,1461.45,29.83,439.96,30.1,5,10.2
+"Johor Bahru 88 Speedmart","Johor Bahru",2023-11,"November",2023,70,3250.62,46.44,965.4,29.7,9,12.86
+"Johor Bahru 88 Speedmart","Johor Bahru",2023-12,"December",2023,108,4039.26,37.4,1228.58,30.4,9,8.33
+"Johor Bahru 88 Speedmart","Johor Bahru",2024-01,"January",2024,51,1741.96,34.16,490.65,28.2,5,9.8
+"Johor Bahru 88 Speedmart","Johor Bahru",2024-02,"February",2024,46,1470.46,31.97,434.49,29.5,5,10.87
+"Johor Bahru 88 Speedmart","Johor Bahru",2024-03,"March",2024,39,1453.29,37.26,429.8,29.6,6,15.38
+"Johor Bahru 88 Speedmart","Johor Bahru",2024-04,"April",2024,49,1695.43,34.6,487.93,28.8,5,10.2
+"Johor Bahru 88 Speedmart","Johor Bahru",2024-05,"May",2024,46,2140.86,46.54,609.23,28.5,5,10.87
+"Johor Bahru 88 Speedmart","Johor Bahru",2024-06,"June",2024,62,2378.51,38.36,658.92,27.7,7,11.29
+"Johor Bahru 88 Speedmart","Johor Bahru",2024-07,"July",2024,61,2702.4,44.3,731.84,27.1,4,6.56
+"Johor Bahru 88 Speedmart","Johor Bahru",2024-08,"August",2024,44,1671.52,37.99,477.35,28.6,6,13.64
+"Johor Bahru 88 Speedmart","Johor Bahru",2024-09,"September",2024,54,2291.67,42.44,639.7,27.9,8,14.81
+"Johor Bahru 88 Speedmart","Johor Bahru",2024-10,"October",2024,49,2082.38,42.5,592.12,28.4,5,10.2
+"Johor Bahru 88 Speedmart","Johor Bahru",2024-11,"November",2024,71,3218,45.32,902.94,28.1,5,7.04
+"Johor Bahru 88 Speedmart","Johor Bahru",2024-12,"December",2024,123,4858.46,39.5,1346.27,27.7,16,13.01
+"Johor Bahru 88 Speedmart","Johor Bahru",2025-01,"January",2025,71,2448.19,34.48,679.83,27.8,12,16.9
+"Johor Bahru 88 Speedmart","Johor Bahru",2025-02,"February",2025,58,1827.53,31.51,510.5,27.9,11,18.97
+"Johor Bahru 88 Speedmart","Johor Bahru",2025-03,"March",2025,53,2590.47,48.88,708.94,27.4,9,16.98
+"Johor Bahru 88 Speedmart","Johor Bahru",2025-04,"April",2025,48,1738.37,36.22,498.32,28.7,10,20.83
+"Johor Bahru 88 Speedmart","Johor Bahru",2025-05,"May",2025,51,2114.91,41.47,565.09,26.7,5,9.8
+"Johor Bahru 88 Speedmart","Johor Bahru",2025-06,"June",2025,66,2919.58,44.24,801.03,27.4,14,21.21
+"Johor Bahru 88 Speedmart","Johor Bahru",2025-07,"July",2025,50,1330.45,26.61,379.9,28.6,5,10
+"Johor Bahru 88 Speedmart","Johor Bahru",2025-08,"August",2025,49,1729.7,35.3,466.27,27,6,12.24
+"Johor Bahru 88 Speedmart","Johor Bahru",2025-09,"September",2025,58,2292.99,39.53,615.36,26.8,6,10.34
+"Johor Bahru 88 Speedmart","Johor Bahru",2025-10,"October",2025,61,2529.21,41.46,676.49,26.7,11,18.03
+"Johor Bahru 88 Speedmart","Johor Bahru",2025-11,"November",2025,90,2968.21,32.98,830.44,28,10,11.11
+"Johor Bahru 88 Speedmart","Johor Bahru",2025-12,"December",2025,140,5652.56,40.38,1512.2,26.8,15,10.71
+"Johor Bahru 88 Speedmart","Johor Bahru",2026-01,"January",2026,52,1947.73,37.46,499.95,25.7,12,23.08
+"Johor Bahru 88 Speedmart","Johor Bahru",2026-02,"February",2026,70,2951.86,42.17,762.82,25.8,9,12.86
+"Johor Bahru 88 Speedmart","Johor Bahru",2026-03,"March",2026,74,2403.93,32.49,681.74,28.4,9,12.16
+"Johor Bahru 88 Speedmart","Johor Bahru",2026-04,"April",2026,51,1792.99,35.16,495.04,27.6,6,11.76
+"Johor Bahru 88 Speedmart","Johor Bahru",2026-05,"May",2026,48,1990.06,41.46,530.11,26.6,9,18.75
+"Johor Bahru 88 Speedmart","Johor Bahru",2026-06,"June",2026,69,2446.03,35.45,658.07,26.9,18,26.09
+"Klang 88 Speedmart","Klang",2021-01,"January",2021,103,3512.94,34.11,1248.88,35.6,4,3.88
+"Klang 88 Speedmart","Klang",2021-02,"February",2021,106,3525.02,33.25,1236.77,35.1,8,7.55
+"Klang 88 Speedmart","Klang",2021-03,"March",2021,82,3034.51,37.01,1055.21,34.8,7,8.54
+"Klang 88 Speedmart","Klang",2021-04,"April",2021,69,2824.14,40.93,961.08,34,4,5.8
+"Klang 88 Speedmart","Klang",2021-05,"May",2021,99,3726.3,37.64,1262.59,33.9,2,2.02
+"Klang 88 Speedmart","Klang",2021-06,"June",2021,98,4161.77,42.47,1422.03,34.2,8,8.16
+"Klang 88 Speedmart","Klang",2021-07,"July",2021,75,2763.42,36.85,911.46,33,8,10.67
+"Klang 88 Speedmart","Klang",2021-08,"August",2021,59,2096.99,35.54,751.93,35.9,5,8.47
+"Klang 88 Speedmart","Klang",2021-09,"September",2021,69,2741.85,39.74,917.82,33.5,6,8.7
+"Klang 88 Speedmart","Klang",2021-10,"October",2021,54,1876.96,34.76,632.81,33.7,6,11.11
+"Klang 88 Speedmart","Klang",2021-11,"November",2021,90,3579.78,39.78,1220.19,34.1,5,5.56
+"Klang 88 Speedmart","Klang",2021-12,"December",2021,147,5139.78,34.96,1731.03,33.7,7,4.76
+"Klang 88 Speedmart","Klang",2022-01,"January",2022,77,3051.7,39.63,1008.13,33,10,12.99
+"Klang 88 Speedmart","Klang",2022-02,"February",2022,49,1368.49,27.93,518.78,37.9,5,10.2
+"Klang 88 Speedmart","Klang",2022-03,"March",2022,43,1858.61,43.22,583.82,31.4,1,2.33
+"Klang 88 Speedmart","Klang",2022-04,"April",2022,44,1471.31,33.44,492.36,33.5,3,6.82
+"Klang 88 Speedmart","Klang",2022-05,"May",2022,55,1957.93,35.6,676.24,34.5,4,7.27
+"Klang 88 Speedmart","Klang",2022-06,"June",2022,63,3168.98,50.3,1005.09,31.7,11,17.46
+"Klang 88 Speedmart","Klang",2022-07,"July",2022,56,1849.39,33.02,611.02,33,2,3.57
+"Klang 88 Speedmart","Klang",2022-08,"August",2022,48,1766.08,36.79,570.22,32.3,5,10.42
+"Klang 88 Speedmart","Klang",2022-09,"September",2022,50,2664.39,53.29,824.97,31,5,10
+"Klang 88 Speedmart","Klang",2022-10,"October",2022,61,3081.38,50.51,919.1,29.8,4,6.56
+"Klang 88 Speedmart","Klang",2022-11,"November",2022,69,3085.22,44.71,998.24,32.4,3,4.35
+"Klang 88 Speedmart","Klang",2022-12,"December",2022,99,3714.67,37.52,1146.33,30.9,4,4.04
+"Klang 88 Speedmart","Klang",2023-01,"January",2023,66,2057.1,31.17,622.06,30.2,15,22.73
+"Klang 88 Speedmart","Klang",2023-02,"February",2023,53,1992.64,37.6,602.66,30.2,7,13.21
+"Klang 88 Speedmart","Klang",2023-03,"March",2023,59,2091.76,35.45,658.61,31.5,5,8.47
+"Klang 88 Speedmart","Klang",2023-04,"April",2023,51,2190.7,42.95,690.18,31.5,9,17.65
+"Klang 88 Speedmart","Klang",2023-05,"May",2023,55,1711.37,31.12,537,31.4,2,3.64
+"Klang 88 Speedmart","Klang",2023-06,"June",2023,60,2543.93,42.4,766.27,30.1,7,11.67
+"Klang 88 Speedmart","Klang",2023-07,"July",2023,49,2016.51,41.15,646.09,32,6,12.24
+"Klang 88 Speedmart","Klang",2023-08,"August",2023,49,2175,44.39,660.68,30.4,10,20.41
+"Klang 88 Speedmart","Klang",2023-09,"September",2023,39,1835.32,47.06,585.19,31.9,4,10.26
+"Klang 88 Speedmart","Klang",2023-10,"October",2023,33,1562.52,47.35,447.57,28.6,6,18.18
+"Klang 88 Speedmart","Klang",2023-11,"November",2023,76,2845.9,37.45,855.53,30.1,14,18.42
+"Klang 88 Speedmart","Klang",2023-12,"December",2023,86,2573.72,29.93,797.69,31,3,3.49
+"Klang 88 Speedmart","Klang",2024-01,"January",2024,61,2325.09,38.12,693.92,29.8,9,14.75
+"Klang 88 Speedmart","Klang",2024-02,"February",2024,51,2156.99,42.29,606.71,28.1,9,17.65
+"Klang 88 Speedmart","Klang",2024-03,"March",2024,49,2097.02,42.8,593.63,28.3,4,8.16
+"Klang 88 Speedmart","Klang",2024-04,"April",2024,55,2403.05,43.69,701.24,29.2,5,9.09
+"Klang 88 Speedmart","Klang",2024-05,"May",2024,51,2185.16,42.85,637.23,29.2,5,9.8
+"Klang 88 Speedmart","Klang",2024-06,"June",2024,62,2329.23,37.57,665.16,28.6,14,22.58
+"Klang 88 Speedmart","Klang",2024-07,"July",2024,58,1956.94,33.74,557.5,28.5,8,13.79
+"Klang 88 Speedmart","Klang",2024-08,"August",2024,51,1893.69,37.13,508.94,26.9,4,7.84
+"Klang 88 Speedmart","Klang",2024-09,"September",2024,47,1877.42,39.95,524.34,27.9,6,12.77
+"Klang 88 Speedmart","Klang",2024-10,"October",2024,47,2277.66,48.46,609.32,26.8,4,8.51
+"Klang 88 Speedmart","Klang",2024-11,"November",2024,76,2811.99,37,813.01,28.9,14,18.42
+"Klang 88 Speedmart","Klang",2024-12,"December",2024,115,4342.77,37.76,1211.46,27.9,11,9.57
+"Klang 88 Speedmart","Klang",2025-01,"January",2025,57,1837.33,32.23,496.29,27,2,3.51
+"Klang 88 Speedmart","Klang",2025-02,"February",2025,52,1998.23,38.43,590.92,29.6,5,9.62
+"Klang 88 Speedmart","Klang",2025-03,"March",2025,47,1863.97,39.66,493.3,26.5,3,6.38
+"Klang 88 Speedmart","Klang",2025-04,"April",2025,38,2074.42,54.59,560.73,27,3,7.89
+"Klang 88 Speedmart","Klang",2025-05,"May",2025,44,2067.43,46.99,574.91,27.8,7,15.91
+"Klang 88 Speedmart","Klang",2025-06,"June",2025,76,3212.34,42.27,851.27,26.5,12,15.79
+"Klang 88 Speedmart","Klang",2025-07,"July",2025,54,2264.34,41.93,622.7,27.5,13,24.07
+"Klang 88 Speedmart","Klang",2025-08,"August",2025,57,2291.77,40.21,584.8,25.5,11,19.3
+"Klang 88 Speedmart","Klang",2025-09,"September",2025,45,1746.39,38.81,457.92,26.2,10,22.22
+"Klang 88 Speedmart","Klang",2025-10,"October",2025,53,2320.15,43.78,620.97,26.8,7,13.21
+"Klang 88 Speedmart","Klang",2025-11,"November",2025,81,2762.84,34.11,740.84,26.8,9,11.11
+"Klang 88 Speedmart","Klang",2025-12,"December",2025,127,4560.37,35.91,1237.62,27.1,30,23.62
+"Klang 88 Speedmart","Klang",2026-01,"January",2026,64,2590.34,40.47,658.98,25.4,12,18.75
+"Klang 88 Speedmart","Klang",2026-02,"February",2026,72,3258.7,45.26,831.28,25.5,12,16.67
+"Klang 88 Speedmart","Klang",2026-03,"March",2026,92,4808.35,52.26,1221.99,25.4,19,20.65
+"Klang 88 Speedmart","Klang",2026-04,"April",2026,58,2106.13,36.31,536.92,25.5,11,18.97
+"Klang 88 Speedmart","Klang",2026-05,"May",2026,71,3309.13,46.61,861.27,26,11,15.49
+"Klang 88 Speedmart","Klang",2026-06,"June",2026,105,4149.15,39.52,1087.51,26.2,14,13.33
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-01,"January",2023,70,3075.54,43.94,954,31,7,10
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-02,"February",2023,40,1271.44,31.79,409.25,32.2,2,5
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-03,"March",2023,46,1906.05,41.44,579.83,30.4,5,10.87
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-04,"April",2023,61,2707.03,44.38,823.24,30.4,6,9.84
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-05,"May",2023,51,2223.06,43.59,696.92,31.3,5,9.8
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-06,"June",2023,69,2318.89,33.61,758.25,32.7,6,8.7
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-07,"July",2023,54,1842.74,34.12,562.24,30.5,2,3.7
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-08,"August",2023,40,1480.63,37.02,445.19,30.1,3,7.5
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-09,"September",2023,46,1861.77,40.47,554.65,29.8,5,10.87
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-10,"October",2023,52,2491.59,47.92,729.95,29.3,7,13.46
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-11,"November",2023,67,1982.1,29.58,599.18,30.2,5,7.46
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-12,"December",2023,100,3944.61,39.45,1191.56,30.2,7,7
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2024-01,"January",2024,56,1601.13,28.59,469.87,29.3,14,25
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2024-02,"February",2024,60,2472.78,41.21,704.39,28.5,8,13.33
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2024-03,"March",2024,43,1328.98,30.91,386.34,29.1,2,4.65
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2024-04,"April",2024,63,2573.32,40.85,742.25,28.8,5,7.94
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2024-05,"May",2024,38,900.73,23.7,266.96,29.6,6,15.79
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2024-06,"June",2024,60,2122.77,35.38,606.98,28.6,5,8.33
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2024-07,"July",2024,49,2231.36,45.54,607.23,27.2,5,10.2
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2024-08,"August",2024,39,1876.39,48.11,492.38,26.2,3,7.69
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2024-09,"September",2024,48,2178.56,45.39,599.09,27.5,8,16.67
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2024-10,"October",2024,51,1792.21,35.14,504.02,28.1,7,13.73
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2024-11,"November",2024,69,2403.28,34.83,709.6,29.5,11,15.94
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2024-12,"December",2024,121,5147.25,42.54,1364.79,26.5,9,7.44
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2025-01,"January",2025,69,2715.11,39.35,726.02,26.7,6,8.7
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2025-02,"February",2025,36,1202.98,33.42,330.03,27.4,10,27.78
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2025-03,"March",2025,43,1513.32,35.19,436.61,28.9,4,9.3
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2025-04,"April",2025,45,1646,36.58,462.31,28.1,11,24.44
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2025-05,"May",2025,49,1713.59,34.97,510.35,29.8,10,20.41
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2025-06,"June",2025,69,2825.62,40.95,724.27,25.6,9,13.04
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2025-07,"July",2025,49,2093.26,42.72,552.8,26.4,5,10.2
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2025-08,"August",2025,59,2658.89,45.07,671.6,25.3,9,15.25
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2025-09,"September",2025,57,2569,45.07,662.5,25.8,4,7.02
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2025-10,"October",2025,60,2092.88,34.88,551.86,26.4,6,10
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2025-11,"November",2025,91,4121.98,45.3,1044.94,25.4,12,13.19
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2025-12,"December",2025,136,5512.23,40.53,1448.23,26.3,7,5.15
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2026-01,"January",2026,50,1873.49,37.47,487.98,26,6,12
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2026-02,"February",2026,85,3262.16,38.38,853.75,26.2,6,7.06
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2026-03,"March",2026,62,2728.24,44,716.22,26.3,8,12.9
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2026-04,"April",2026,49,1698.77,34.67,451.78,26.6,5,10.2
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2026-05,"May",2026,59,2807.13,47.58,700.9,25,7,11.86
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2026-06,"June",2026,76,2941.31,38.7,750.46,25.5,7,9.21
+"Kuching 88 Speedmart","Kuching",2023-06,"June",2023,2,108.9,54.45,29.89,27.4,0,0
+"Kuching 88 Speedmart","Kuching",2023-07,"July",2023,54,2502.91,46.35,736.59,29.4,7,12.96
+"Kuching 88 Speedmart","Kuching",2023-08,"August",2023,40,1707.77,42.69,530.4,31.1,4,10
+"Kuching 88 Speedmart","Kuching",2023-09,"September",2023,41,1533.15,37.39,456.5,29.8,9,21.95
+"Kuching 88 Speedmart","Kuching",2023-10,"October",2023,56,1862.98,33.27,595.85,32,7,12.5
+"Kuching 88 Speedmart","Kuching",2023-11,"November",2023,77,3492.76,45.36,1068.96,30.6,9,11.69
+"Kuching 88 Speedmart","Kuching",2023-12,"December",2023,116,5147.27,44.37,1536.82,29.9,7,6.03
+"Kuching 88 Speedmart","Kuching",2024-01,"January",2024,68,2366.09,34.8,695.58,29.4,6,8.82
+"Kuching 88 Speedmart","Kuching",2024-02,"February",2024,62,2203.18,35.54,641.9,29.1,7,11.29
+"Kuching 88 Speedmart","Kuching",2024-03,"March",2024,44,1496.21,34,440.97,29.5,10,22.73
+"Kuching 88 Speedmart","Kuching",2024-04,"April",2024,34,1443.38,42.45,426.38,29.5,5,14.71
+"Kuching 88 Speedmart","Kuching",2024-05,"May",2024,52,2155.76,41.46,616.65,28.6,7,13.46
+"Kuching 88 Speedmart","Kuching",2024-06,"June",2024,59,1885.92,31.96,542.28,28.8,9,15.25
+"Kuching 88 Speedmart","Kuching",2024-07,"July",2024,49,2627.11,53.61,730,27.8,4,8.16
+"Kuching 88 Speedmart","Kuching",2024-08,"August",2024,46,1883.5,40.95,557.63,29.6,7,15.22
+"Kuching 88 Speedmart","Kuching",2024-09,"September",2024,43,1441.07,33.51,406.23,28.2,3,6.98
+"Kuching 88 Speedmart","Kuching",2024-10,"October",2024,52,2251.91,43.31,633.11,28.1,4,7.69
+"Kuching 88 Speedmart","Kuching",2024-11,"November",2024,84,3359.76,40,918.38,27.3,7,8.33
+"Kuching 88 Speedmart","Kuching",2024-12,"December",2024,111,4346.14,39.15,1226.23,28.2,13,11.71
+"Kuching 88 Speedmart","Kuching",2025-01,"January",2025,74,2558.84,34.58,712.65,27.9,14,18.92
+"Kuching 88 Speedmart","Kuching",2025-02,"February",2025,40,2168.4,54.21,544.43,25.1,12,30
+"Kuching 88 Speedmart","Kuching",2025-03,"March",2025,61,2453.72,40.22,663.8,27.1,10,16.39
+"Kuching 88 Speedmart","Kuching",2025-04,"April",2025,59,1855.31,31.45,533.61,28.8,11,18.64
+"Kuching 88 Speedmart","Kuching",2025-05,"May",2025,65,2372.07,36.49,673.97,28.4,11,16.92
+"Kuching 88 Speedmart","Kuching",2025-06,"June",2025,78,3268.06,41.9,851.02,26,10,12.82
+"Kuching 88 Speedmart","Kuching",2025-07,"July",2025,55,2338.03,42.51,620.29,26.5,6,10.91
+"Kuching 88 Speedmart","Kuching",2025-08,"August",2025,48,1713.36,35.7,444.14,25.9,8,16.67
+"Melaka 88 Speedmart","Melaka",2022-06,"June",2022,62,2223.11,35.86,724.8,32.6,4,6.45
+"Melaka 88 Speedmart","Melaka",2022-07,"July",2022,58,1775.79,30.62,586.81,33,5,8.62
+"Melaka 88 Speedmart","Melaka",2022-08,"August",2022,34,1743.66,51.28,536.31,30.8,3,8.82
+"Melaka 88 Speedmart","Melaka",2022-09,"September",2022,44,2171.78,49.36,682.9,31.4,4,9.09
+"Melaka 88 Speedmart","Melaka",2022-10,"October",2022,58,2349.21,40.5,708.42,30.2,4,6.9
+"Melaka 88 Speedmart","Melaka",2022-11,"November",2022,58,1947.79,33.58,608.74,31.3,3,5.17
+"Melaka 88 Speedmart","Melaka",2022-12,"December",2022,85,3341.64,39.31,1070.05,32,9,10.59
+"Melaka 88 Speedmart","Melaka",2023-01,"January",2023,68,3103.04,45.63,952.86,30.7,7,10.29
+"Melaka 88 Speedmart","Melaka",2023-02,"February",2023,47,1333.05,28.36,400.62,30.1,4,8.51
+"Melaka 88 Speedmart","Melaka",2023-03,"March",2023,45,1821.41,40.48,559.6,30.7,6,13.33
+"Melaka 88 Speedmart","Melaka",2023-04,"April",2023,55,1532.09,27.86,504.61,32.9,3,5.45
+"Melaka 88 Speedmart","Melaka",2023-05,"May",2023,55,1993.62,36.25,637.6,32,3,5.45
+"Melaka 88 Speedmart","Melaka",2023-06,"June",2023,82,2581.44,31.48,810.62,31.4,5,6.1
+"Melaka 88 Speedmart","Melaka",2023-07,"July",2023,52,1937.97,37.27,612.52,31.6,6,11.54
+"Melaka 88 Speedmart","Melaka",2023-08,"August",2023,55,2111.47,38.39,640.47,30.3,7,12.73
+"Melaka 88 Speedmart","Melaka",2023-09,"September",2023,37,1373.57,37.12,396.37,28.9,3,8.11
+"Melaka 88 Speedmart","Melaka",2023-10,"October",2023,43,1867.38,43.43,534.62,28.6,7,16.28
+"Melaka 88 Speedmart","Melaka",2023-11,"November",2023,64,2548.37,39.82,766.87,30.1,1,1.56
+"Melaka 88 Speedmart","Melaka",2023-12,"December",2023,94,4316.29,45.92,1255.37,29.1,6,6.38
+"Melaka 88 Speedmart","Melaka",2024-01,"January",2024,48,1860.72,38.77,529.22,28.4,5,10.42
+"Melaka 88 Speedmart","Melaka",2024-02,"February",2024,61,2229.63,36.55,628,28.2,6,9.84
+"Melaka 88 Speedmart","Melaka",2024-03,"March",2024,47,1624.37,34.56,462.12,28.4,4,8.51
+"Melaka 88 Speedmart","Melaka",2024-04,"April",2024,53,3101.64,58.52,847.96,27.3,8,15.09
+"Melaka 88 Speedmart","Melaka",2024-05,"May",2024,36,1546.34,42.95,453.42,29.3,5,13.89
+"Melaka 88 Speedmart","Melaka",2024-06,"June",2024,63,2243.22,35.61,672.31,30,8,12.7
+"Melaka 88 Speedmart","Melaka",2024-07,"July",2024,67,2930.78,43.74,788.46,26.9,12,17.91
+"Melaka 88 Speedmart","Melaka",2024-08,"August",2024,39,1303.55,33.42,382.26,29.3,8,20.51
+"Melaka 88 Speedmart","Melaka",2024-09,"September",2024,39,1383.45,35.47,439.02,31.7,3,7.69
+"Melaka 88 Speedmart","Melaka",2024-10,"October",2024,53,2210.52,41.71,612.11,27.7,7,13.21
+"Melaka 88 Speedmart","Melaka",2024-11,"November",2024,74,2943.1,39.77,828.94,28.2,6,8.11
+"Melaka 88 Speedmart","Melaka",2024-12,"December",2024,105,4039.31,38.47,1131.15,28,9,8.57
+"Melaka 88 Speedmart","Melaka",2025-01,"January",2025,75,2876.82,38.36,790.6,27.5,8,10.67
+"Melaka 88 Speedmart","Melaka",2025-02,"February",2025,68,2181.35,32.08,602.54,27.6,8,11.76
+"Melaka 88 Speedmart","Melaka",2025-03,"March",2025,42,1647.57,39.23,456.63,27.7,6,14.29
+"Melaka 88 Speedmart","Melaka",2025-04,"April",2025,50,1681.89,33.64,502.89,29.9,1,2
+"Melaka 88 Speedmart","Melaka",2025-05,"May",2025,50,2371.84,47.44,652.7,27.5,7,14
+"Melaka 88 Speedmart","Melaka",2025-06,"June",2025,77,3076.94,39.96,838.95,27.3,16,20.78
+"Melaka 88 Speedmart","Melaka",2025-07,"July",2025,39,1341.15,34.39,364.27,27.2,8,20.51
+"Melaka 88 Speedmart","Melaka",2025-08,"August",2025,65,2233.3,34.36,586.22,26.2,6,9.23
+"Melaka 88 Speedmart","Melaka",2025-09,"September",2025,59,2016.58,34.18,545.3,27,5,8.47
+"Melaka 88 Speedmart","Melaka",2025-10,"October",2025,51,1940.5,38.05,539.18,27.8,3,5.88
+"Melaka 88 Speedmart","Melaka",2025-11,"November",2025,91,3191.74,35.07,864.34,27.1,10,10.99
+"Melaka 88 Speedmart","Melaka",2025-12,"December",2025,118,5896.15,49.97,1505.43,25.5,14,11.86
+"Melaka 88 Speedmart","Melaka",2026-01,"January",2026,49,1744.05,35.59,474.67,27.2,9,18.37
+"Melaka 88 Speedmart","Melaka",2026-02,"February",2026,81,3209.51,39.62,819.16,25.5,8,9.88
+"Melaka 88 Speedmart","Melaka",2026-03,"March",2026,54,1962.35,36.34,580.76,29.6,10,18.52
+"Melaka 88 Speedmart","Melaka",2026-04,"April",2026,44,2104.4,47.83,490.47,23.3,10,22.73
+"Melaka 88 Speedmart","Melaka",2026-05,"May",2026,50,1838.66,36.77,478.39,26,5,10
+"Melaka 88 Speedmart","Melaka",2026-06,"June",2026,74,3061.29,41.37,798.79,26.1,11,14.86
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2020-07,"July",2020,184,6874.03,37.36,2455.73,35.7,6,3.26
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2020-08,"August",2020,148,4866.97,32.88,1794.47,36.9,8,5.41
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2020-09,"September",2020,147,5163.86,35.13,1869.52,36.2,10,6.8
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2020-10,"October",2020,112,4137.42,36.94,1473.09,35.6,10,8.93
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2020-11,"November",2020,180,5489.39,30.5,1971.3,35.9,9,5
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2020-12,"December",2020,253,9520.03,37.63,3518.32,37,10,3.95
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2021-01,"January",2021,83,2550.54,30.73,889.53,34.9,5,6.02
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2021-02,"February",2021,86,3423.79,39.81,1200.97,35.1,10,11.63
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2021-03,"March",2021,96,3564.9,37.13,1243.17,34.9,9,9.38
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2021-04,"April",2021,81,2862.07,35.33,994.93,34.8,5,6.17
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2021-05,"May",2021,86,3589.67,41.74,1241.8,34.6,8,9.3
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2021-06,"June",2021,109,3705.6,34,1301.99,35.1,11,10.09
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2021-07,"July",2021,83,3137.88,37.81,1049.21,33.4,6,7.23
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2021-08,"August",2021,81,3128.97,38.63,1043.42,33.3,2,2.47
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2021-09,"September",2021,79,3061.49,38.75,1033.7,33.8,3,3.8
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2021-10,"October",2021,69,2767.38,40.11,921.11,33.3,5,7.25
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2021-11,"November",2021,93,3642.16,39.16,1283.71,35.2,9,9.68
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2021-12,"December",2021,125,4667.94,37.34,1605.6,34.4,7,5.6
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2022-01,"January",2022,62,2473.02,39.89,833.42,33.7,6,9.68
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2022-02,"February",2022,54,2365.02,43.8,782.76,33.1,6,11.11
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2022-03,"March",2022,56,1936.36,34.58,624.98,32.3,3,5.36
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2022-04,"April",2022,57,2271.77,39.86,735.87,32.4,6,10.53
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2022-05,"May",2022,63,2352.54,37.34,785.9,33.4,6,9.52
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2022-06,"June",2022,62,2361.34,38.09,790.67,33.5,7,11.29
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2022-07,"July",2022,46,1553.26,33.77,504.99,32.5,3,6.52
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2022-08,"August",2022,52,1813.43,34.87,565.75,31.2,3,5.77
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2022-09,"September",2022,47,1875.74,39.91,581.12,31,1,2.13
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2022-10,"October",2022,52,1948.9,37.48,616.12,31.6,4,7.69
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2022-11,"November",2022,73,2825.08,38.7,881.52,31.2,1,1.37
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2022-12,"December",2022,101,4326.72,42.84,1355.7,31.3,6,5.94
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2023-01,"January",2023,55,2264.35,41.17,668.24,29.5,3,5.45
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2023-02,"February",2023,42,1705.41,40.61,532.97,31.3,5,11.9
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2023-03,"March",2023,44,1392.63,31.65,431.35,31,3,6.82
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2023-04,"April",2023,44,1395.81,31.72,463.05,33.2,6,13.64
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2023-05,"May",2023,46,2433.42,52.9,743.23,30.5,8,17.39
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2023-06,"June",2023,67,2732.91,40.79,848.23,31,5,7.46
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2023-07,"July",2023,49,1883.54,38.44,582.12,30.9,8,16.33
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2023-08,"August",2023,41,1986.29,48.45,587.56,29.6,2,4.88
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2023-09,"September",2023,45,1591.32,35.36,477.73,30,7,15.56
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2023-10,"October",2023,37,1300.01,35.14,380.99,29.3,3,8.11
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2023-11,"November",2023,72,3155.94,43.83,931.37,29.5,8,11.11
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2023-12,"December",2023,108,4178.05,38.69,1320.15,31.6,13,12.04
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2024-01,"January",2024,45,1951.41,43.36,591.58,30.3,10,22.22
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2024-02,"February",2024,45,1627.52,36.17,519.67,31.9,7,15.56
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2024-03,"March",2024,59,2142.61,36.32,609.49,28.4,5,8.47
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2024-04,"April",2024,42,1245.51,29.66,402.78,32.3,5,11.9
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2024-05,"May",2024,38,1769.25,46.56,503.53,28.5,8,21.05
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2024-06,"June",2024,67,2556.72,38.16,716.85,28,9,13.43
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2024-07,"July",2024,57,2276.63,39.94,647.71,28.5,5,8.77
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2024-08,"August",2024,45,1676.66,37.26,492.2,29.4,5,11.11
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2024-09,"September",2024,55,3010.69,54.74,836.78,27.8,6,10.91
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2024-10,"October",2024,39,1174.49,30.12,329.96,28.1,8,20.51
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2024-11,"November",2024,59,1822.59,30.89,522.02,28.6,10,16.95
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2024-12,"December",2024,102,3838.02,37.63,1062.9,27.7,6,5.88
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2025-01,"January",2025,78,2780.35,35.65,755.32,27.2,12,15.38
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2025-02,"February",2025,49,2122.72,43.32,561.36,26.4,10,20.41
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2025-03,"March",2025,63,2092.34,33.21,606.32,29,7,11.11
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2025-04,"April",2025,60,2812.51,46.88,771.22,27.4,12,20
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2025-05,"May",2025,62,2689.83,43.38,781.38,29,9,14.52
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2025-06,"June",2025,76,3463.77,45.58,886.78,25.6,7,9.21
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2025-07,"July",2025,48,1765.36,36.78,497.85,28.2,5,10.42
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2025-08,"August",2025,64,2485.59,38.84,645.2,26,4,6.25
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2025-09,"September",2025,52,2176.74,41.86,565.89,26,7,13.46
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2025-10,"October",2025,54,1653.43,30.62,483.51,29.2,10,18.52
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2025-11,"November",2025,73,3428.91,46.97,857.42,25,7,9.59
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2025-12,"December",2025,112,4083.15,36.46,1125.8,27.6,11,9.82
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2026-01,"January",2026,65,2949.64,45.38,716.67,24.3,15,23.08
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2026-02,"February",2026,83,3581.41,43.15,934.19,26.1,17,20.48
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2026-03,"March",2026,67,2704.57,40.37,703.1,26,5,7.46
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2026-04,"April",2026,48,2476.7,51.6,613.57,24.8,11,22.92
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2026-05,"May",2026,72,3027.69,42.05,812.71,26.8,7,9.72
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2026-06,"June",2026,78,2584.74,33.14,698.07,27,13,16.67
+"Seremban 88 Speedmart","Seremban",2022-01,"January",2022,76,2414.01,31.76,836.38,34.6,7,9.21
+"Seremban 88 Speedmart","Seremban",2022-02,"February",2022,59,1855.64,31.45,612.05,33,2,3.39
+"Seremban 88 Speedmart","Seremban",2022-03,"March",2022,56,2251.75,40.21,751.26,33.4,2,3.57
+"Seremban 88 Speedmart","Seremban",2022-04,"April",2022,61,2031.36,33.3,664.86,32.7,7,11.48
+"Seremban 88 Speedmart","Seremban",2022-05,"May",2022,62,2743.06,44.24,895.89,32.7,6,9.68
+"Seremban 88 Speedmart","Seremban",2022-06,"June",2022,69,2437.97,35.33,772.59,31.7,7,10.14
+"Seremban 88 Speedmart","Seremban",2022-07,"July",2022,42,2286.31,54.44,705.87,30.9,5,11.9
+"Seremban 88 Speedmart","Seremban",2022-08,"August",2022,59,2851.04,48.32,899.37,31.5,4,6.78
+"Seremban 88 Speedmart","Seremban",2022-09,"September",2022,62,2645.39,42.67,829.91,31.4,4,6.45
+"Seremban 88 Speedmart","Seremban",2022-10,"October",2022,46,2032.71,44.19,647.55,31.9,5,10.87
+"Seremban 88 Speedmart","Seremban",2022-11,"November",2022,91,3977.4,43.71,1232.74,31,10,10.99
+"Seremban 88 Speedmart","Seremban",2022-12,"December",2022,108,3687.13,34.14,1218.71,33.1,10,9.26
+"Seremban 88 Speedmart","Seremban",2023-01,"January",2023,82,3044.83,37.13,937.17,30.8,12,14.63
+"Seremban 88 Speedmart","Seremban",2023-02,"February",2023,46,1586.72,34.49,475.46,30,2,4.35
+"Seremban 88 Speedmart","Seremban",2023-03,"March",2023,59,3297.59,55.89,1011.87,30.7,10,16.95
+"Seremban 88 Speedmart","Seremban",2023-04,"April",2023,57,2262.02,39.68,673.73,29.8,6,10.53
+"Seremban 88 Speedmart","Seremban",2023-05,"May",2023,48,1650.42,34.38,525.01,31.8,2,4.17
+"Seremban 88 Speedmart","Seremban",2023-06,"June",2023,63,2184.81,34.68,705.03,32.3,6,9.52
+"Seremban 88 Speedmart","Seremban",2023-07,"July",2023,46,1435.02,31.2,439.51,30.6,3,6.52
+"Seremban 88 Speedmart","Seremban",2023-08,"August",2023,39,1300.42,33.34,390.76,30,5,12.82
+"Seremban 88 Speedmart","Seremban",2023-09,"September",2023,28,1110.16,39.65,353.91,31.9,0,0
+"Seremban 88 Speedmart","Seremban",2023-10,"October",2023,42,1572.73,37.45,456.82,29,3,7.14
+"Seremban 88 Speedmart","Seremban",2023-11,"November",2023,79,3426.99,43.38,1031.7,30.1,9,11.39
+"Seremban 88 Speedmart","Seremban",2023-12,"December",2023,97,3608.7,37.2,1096.73,30.4,5,5.15
+"Seremban 88 Speedmart","Seremban",2024-01,"January",2024,45,2156.88,47.93,602.28,27.9,5,11.11
+"Seremban 88 Speedmart","Seremban",2024-02,"February",2024,52,2503.06,48.14,688.98,27.5,8,15.38
+"Seremban 88 Speedmart","Seremban",2024-03,"March",2024,44,1877.27,42.67,526.2,28,6,13.64
+"Seremban 88 Speedmart","Seremban",2024-04,"April",2024,43,1735.59,40.36,504.24,29.1,7,16.28
+"Seremban 88 Speedmart","Seremban",2024-05,"May",2024,60,2232.95,37.22,658.45,29.5,8,13.33
+"Seremban 88 Speedmart","Seremban",2024-06,"June",2024,79,2873.11,36.37,797.19,27.7,9,11.39
+"Seremban 88 Speedmart","Seremban",2024-07,"July",2024,49,2067.49,42.19,589.8,28.5,4,8.16
+"Seremban 88 Speedmart","Seremban",2024-08,"August",2024,50,2431.69,48.63,654.64,26.9,3,6
+"Seremban 88 Speedmart","Seremban",2024-09,"September",2024,46,1871.61,40.69,519.45,27.8,6,13.04
+"Seremban 88 Speedmart","Seremban",2024-10,"October",2024,49,1884.39,38.46,520.74,27.6,3,6.12
+"Seremban 88 Speedmart","Seremban",2024-11,"November",2024,62,2394.73,38.62,692.87,28.9,6,9.68
+"Seremban 88 Speedmart","Seremban",2024-12,"December",2024,103,3585.33,34.81,1007.51,28.1,11,10.68
+"Seremban 88 Speedmart","Seremban",2025-01,"January",2025,78,3040.83,38.99,846.25,27.8,13,16.67
+"Seremban 88 Speedmart","Seremban",2025-02,"February",2025,61,2453.04,40.21,665.47,27.1,13,21.31
+"Seremban 88 Speedmart","Seremban",2025-03,"March",2025,57,2319.75,40.7,635.24,27.4,9,15.79
+"Seremban 88 Speedmart","Seremban",2025-04,"April",2025,51,1907.33,37.4,566.17,29.7,5,9.8
+"Seremban 88 Speedmart","Seremban",2025-05,"May",2025,47,1383.94,29.45,390.88,28.2,9,19.15
+"Seremban 88 Speedmart","Seremban",2025-06,"June",2025,71,3009.32,42.38,783.27,26,8,11.27
+"Seremban 88 Speedmart","Seremban",2025-07,"July",2025,51,2199.56,43.13,574.12,26.1,12,23.53
+"Seremban 88 Speedmart","Seremban",2025-08,"August",2025,45,1886.01,41.91,498.78,26.4,7,15.56
+"Seremban 88 Speedmart","Seremban",2025-09,"September",2025,52,2111.71,40.61,566.94,26.8,6,11.54
+"Seremban 88 Speedmart","Seremban",2025-10,"October",2025,59,2489.25,42.19,662.76,26.6,10,16.95
+"Seremban 88 Speedmart","Seremban",2025-11,"November",2025,76,3061.62,40.28,794.13,25.9,11,14.47
+"Seremban 88 Speedmart","Seremban",2025-12,"December",2025,111,4428.74,39.9,1229.21,27.8,22,19.82
+"Seremban 88 Speedmart","Seremban",2026-01,"January",2026,62,2012.51,32.46,517.98,25.7,13,20.97
+"Seremban 88 Speedmart","Seremban",2026-02,"February",2026,80,3162.61,39.53,858.43,27.1,10,12.5
+"Seremban 88 Speedmart","Seremban",2026-03,"March",2026,70,3250.07,46.43,808.32,24.9,15,21.43
+"Seremban 88 Speedmart","Seremban",2026-04,"April",2026,57,2291.37,40.2,578.66,25.3,7,12.28
+"Seremban 88 Speedmart","Seremban",2026-05,"May",2026,51,1743.74,34.19,449.86,25.8,10,19.61
+"Seremban 88 Speedmart","Seremban",2026-06,"June",2026,63,2741.67,43.52,715.86,26.1,11,17.46
+"Shah Alam 88 Speedmart","Shah Alam",2020-10,"October",2020,123,4918.26,39.99,1769.28,36,6,4.88
+"Shah Alam 88 Speedmart","Shah Alam",2020-11,"November",2020,181,6219.72,34.36,2275.53,36.6,11,6.08
+"Shah Alam 88 Speedmart","Shah Alam",2020-12,"December",2020,229,8340.79,36.42,3044.38,36.5,7,3.06
+"Shah Alam 88 Speedmart","Shah Alam",2021-01,"January",2021,112,3875.04,34.6,1350.1,34.8,12,10.71
+"Shah Alam 88 Speedmart","Shah Alam",2021-02,"February",2021,106,4077.98,38.47,1378.04,33.8,10,9.43
+"Shah Alam 88 Speedmart","Shah Alam",2021-03,"March",2021,97,3312.48,34.15,1102.7,33.3,5,5.15
+"Shah Alam 88 Speedmart","Shah Alam",2021-04,"April",2021,66,2120.5,32.13,803.14,37.9,1,1.52
+"Shah Alam 88 Speedmart","Shah Alam",2021-05,"May",2021,98,3664.85,37.4,1306.32,35.6,8,8.16
+"Shah Alam 88 Speedmart","Shah Alam",2021-06,"June",2021,101,3001.68,29.72,1089.85,36.3,6,5.94
+"Shah Alam 88 Speedmart","Shah Alam",2021-07,"July",2021,68,2711.81,39.88,908.44,33.5,5,7.35
+"Shah Alam 88 Speedmart","Shah Alam",2021-08,"August",2021,65,2120.78,32.63,788.69,37.2,6,9.23
+"Shah Alam 88 Speedmart","Shah Alam",2021-09,"September",2021,60,2494.5,41.58,837.36,33.6,2,3.33
+"Shah Alam 88 Speedmart","Shah Alam",2021-10,"October",2021,61,2209.85,36.23,760.1,34.4,1,1.64
+"Shah Alam 88 Speedmart","Shah Alam",2021-11,"November",2021,80,3528.11,44.1,1163.07,33,4,5
+"Shah Alam 88 Speedmart","Shah Alam",2021-12,"December",2021,142,4930.46,34.72,1664.65,33.8,12,8.45
+"Shah Alam 88 Speedmart","Shah Alam",2022-01,"January",2022,69,2234.9,32.39,709.33,31.7,6,8.7
+"Shah Alam 88 Speedmart","Shah Alam",2022-02,"February",2022,50,1794.08,35.88,633.72,35.3,5,10
+"Shah Alam 88 Speedmart","Shah Alam",2022-03,"March",2022,44,1441.45,32.76,482.2,33.5,5,11.36
+"Shah Alam 88 Speedmart","Shah Alam",2022-04,"April",2022,61,2199.6,36.06,712.34,32.4,5,8.2
+"Shah Alam 88 Speedmart","Shah Alam",2022-05,"May",2022,75,3407.93,45.44,1078.04,31.6,7,9.33
+"Shah Alam 88 Speedmart","Shah Alam",2022-06,"June",2022,77,3053.8,39.66,973.58,31.9,8,10.39
+"Shah Alam 88 Speedmart","Shah Alam",2022-07,"July",2022,65,2331.13,35.86,763.74,32.8,4,6.15
+"Shah Alam 88 Speedmart","Shah Alam",2022-08,"August",2022,51,1899.21,37.24,628.5,33.1,5,9.8
+"Shah Alam 88 Speedmart","Shah Alam",2022-09,"September",2022,39,1358.14,34.82,436.23,32.1,3,7.69
+"Shah Alam 88 Speedmart","Shah Alam",2022-10,"October",2022,57,2882.06,50.56,889.53,30.9,7,12.28
+"Shah Alam 88 Speedmart","Shah Alam",2022-11,"November",2022,72,2643.26,36.71,893.03,33.8,5,6.94
+"Shah Alam 88 Speedmart","Shah Alam",2022-12,"December",2022,120,4574.68,38.12,1555.98,34,7,5.83
+"Shah Alam 88 Speedmart","Shah Alam",2023-01,"January",2023,65,2196.71,33.8,648.03,29.5,4,6.15
+"Shah Alam 88 Speedmart","Shah Alam",2023-02,"February",2023,35,1098.01,31.37,333.41,30.4,2,5.71
+"Shah Alam 88 Speedmart","Shah Alam",2023-03,"March",2023,49,1888.04,38.53,587.04,31.1,4,8.16
+"Shah Alam 88 Speedmart","Shah Alam",2023-04,"April",2023,55,2511.02,45.65,769.11,30.6,10,18.18
+"Shah Alam 88 Speedmart","Shah Alam",2023-05,"May",2023,46,1514.29,32.92,484.67,32,5,10.87
+"Shah Alam 88 Speedmart","Shah Alam",2023-06,"June",2023,68,3067.3,45.11,901.12,29.4,7,10.29
+"Shah Alam 88 Speedmart","Shah Alam",2023-07,"July",2023,43,1766.49,41.08,541.25,30.6,3,6.98
+"Shah Alam 88 Speedmart","Shah Alam",2023-08,"August",2023,50,2021.49,40.43,622.45,30.8,7,14
+"Shah Alam 88 Speedmart","Shah Alam",2023-09,"September",2023,36,953.93,26.5,289.06,30.3,5,13.89
+"Shah Alam 88 Speedmart","Shah Alam",2023-10,"October",2023,30,1347.24,44.91,402.52,29.9,2,6.67
+"Shah Alam 88 Speedmart","Shah Alam",2023-11,"November",2023,54,1659.33,30.73,517.84,31.2,7,12.96
+"Shah Alam 88 Speedmart","Shah Alam",2023-12,"December",2023,99,4064.27,41.05,1210.39,29.8,8,8.08
+"Shah Alam 88 Speedmart","Shah Alam",2024-01,"January",2024,47,1719.17,36.58,536.11,31.2,2,4.26
+"Shah Alam 88 Speedmart","Shah Alam",2024-02,"February",2024,50,2180.74,43.61,612.93,28.1,5,10
+"Shah Alam 88 Speedmart","Shah Alam",2024-03,"March",2024,49,2125.73,43.38,611.76,28.8,5,10.2
+"Shah Alam 88 Speedmart","Shah Alam",2024-04,"April",2024,51,2045.43,40.11,564.25,27.6,5,9.8
+"Shah Alam 88 Speedmart","Shah Alam",2024-05,"May",2024,41,1577.52,38.48,446.18,28.3,7,17.07
+"Shah Alam 88 Speedmart","Shah Alam",2024-06,"June",2024,64,2690.93,42.05,791.92,29.4,9,14.06
+"Shah Alam 88 Speedmart","Shah Alam",2024-07,"July",2024,71,2636.51,37.13,774.08,29.4,8,11.27
+"Shah Alam 88 Speedmart","Shah Alam",2024-08,"August",2024,45,2151.67,47.81,569.18,26.5,10,22.22
+"Shah Alam 88 Speedmart","Shah Alam",2024-09,"September",2024,33,1047.25,31.73,306.25,29.2,8,24.24
+"Shah Alam 88 Speedmart","Shah Alam",2024-10,"October",2024,59,3111.6,52.74,880.65,28.3,4,6.78
+"Shah Alam 88 Speedmart","Shah Alam",2024-11,"November",2024,66,2184.3,33.1,640.02,29.3,11,16.67
+"Shah Alam 88 Speedmart","Shah Alam",2024-12,"December",2024,125,5084.23,40.67,1474.73,29,13,10.4
+"Shah Alam 88 Speedmart","Shah Alam",2025-01,"January",2025,64,3160.4,49.38,834.35,26.4,9,14.06
+"Shah Alam 88 Speedmart","Shah Alam",2025-02,"February",2025,46,1496.78,32.54,420.08,28.1,9,19.57
+"Shah Alam 88 Speedmart","Shah Alam",2025-03,"March",2025,39,1580.35,40.52,439.49,27.8,5,12.82
+"Shah Alam 88 Speedmart","Shah Alam",2025-04,"April",2025,55,1902.9,34.6,544.36,28.6,12,21.82
+"Shah Alam 88 Speedmart","Shah Alam",2025-05,"May",2025,65,2408.2,37.05,675.9,28.1,7,10.77
+"Shah Alam 88 Speedmart","Shah Alam",2025-06,"June",2025,78,3177.82,40.74,869.62,27.4,10,12.82
+"Shah Alam 88 Speedmart","Shah Alam",2025-07,"July",2025,46,1807.55,39.29,492.76,27.3,6,13.04
+"Shah Alam 88 Speedmart","Shah Alam",2025-08,"August",2025,62,2385.03,38.47,622.72,26.1,14,22.58
+"Shah Alam 88 Speedmart","Shah Alam",2025-09,"September",2025,49,1909.99,38.98,488.85,25.6,10,20.41
+"Shah Alam 88 Speedmart","Shah Alam",2025-10,"October",2025,52,2412.36,46.39,648.99,26.9,9,17.31
+"Shah Alam 88 Speedmart","Shah Alam",2025-11,"November",2025,86,3792.77,44.1,967.69,25.5,10,11.63
+"Shah Alam 88 Speedmart","Shah Alam",2025-12,"December",2025,117,5060.04,43.25,1279.67,25.3,13,11.11
+"Shah Alam 88 Speedmart","Shah Alam",2026-01,"January",2026,71,3069.75,43.24,788.47,25.7,16,22.54
+"Shah Alam 88 Speedmart","Shah Alam",2026-02,"February",2026,60,2442.25,40.7,623.62,25.5,8,13.33
+"Shah Alam 88 Speedmart","Shah Alam",2026-03,"March",2026,70,3293.95,47.06,851.15,25.8,13,18.57
+"Shah Alam 88 Speedmart","Shah Alam",2026-04,"April",2026,53,2179.32,41.12,571.08,26.2,17,32.08
+"Shah Alam 88 Speedmart","Shah Alam",2026-05,"May",2026,64,3480.94,54.39,858.58,24.7,7,10.94
+"Shah Alam 88 Speedmart","Shah Alam",2026-06,"June",2026,89,3251.33,36.53,829.66,25.5,16,17.98
