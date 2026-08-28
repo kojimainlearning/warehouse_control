@@ -1,7 +1,7 @@
 ========================================================================================================================
 CUSTOMER SEGMENTATION AND RFM ANALYSIS
 ========================================================================================================================
-Report Generated On : 19-AUG-2026 17:10:29
+Report Generated On : 28-AUG-2026 16:49:41
 Analysis As Of Date : 30-JUN-2026
 Sales Statuses      : COMPLETED, OUT_FOR_DELIVERY, READY_FOR_PICKUP
 Customer Scope      : Registered customers only, excluding guest sales
@@ -12,24 +12,24 @@ Total Customers                   : 4,000
 Purchasing Customers              : 3,573
 Prospects                         : 427
 Total Customer Sales Amount       : RM 1,280,051.24
-Total Refund Amount               : RM 0.00
-Total Net Customer Spending / CLV : RM 1,280,051.24
+Total Refund Amount               : RM 4,613.35
+Total Net Customer Spending / CLV : RM 1,275,437.89
 Average Days Since Last Purchase  : 253.36
 Average Purchases Per Customer    : 9.48
-Average Net Spending Per Customer : RM 358.26
+Average Net Spending Per Customer : RM 356.97
 ------------------------------------------------------------------------------------------------------------------------
 RFM SEGMENT SUMMARY
 ------------------------------------------------------------------------------------------------------------------------
 SEGMENT                CUSTOMERS         %    AVG RECENCY    AVG PURCHASES          AVG SPENDING          TOTAL SPENDING
 ------------------------------------------------------------------------------------------------------------------------
-Champions                    281     7.03%          25.63            17.65             RM 691.57           RM 194,329.91
-Loyal Customers              158     3.95%          56.25            14.96             RM 520.50            RM 82,238.76
-Potential Loyal              277     6.93%          25.92             5.72             RM 230.80            RM 63,931.93
-New Customers                198     4.95%          25.91             1.85              RM 58.94            RM 11,669.46
-At Risk                    1,537    38.43%         335.48            13.88             RM 521.95           RM 802,235.81
-Need Attention               149     3.73%          76.18             4.00             RM 161.23            RM 24,023.12
-Hibernating                  877    21.93%         351.26             2.58              RM 85.50            RM 74,985.34
-Lost                          96     2.40%         435.41             4.17             RM 277.47            RM 26,636.91
+Champions                    281     7.03%          25.77            17.67             RM 689.21           RM 193,667.52
+Loyal Customers              160     4.00%          56.05            14.88             RM 514.84            RM 82,374.70
+Potential Loyal              275     6.88%          25.91             5.72             RM 230.51            RM 63,390.62
+New Customers                199     4.98%          25.79             1.85              RM 58.87            RM 11,714.93
+At Risk                    1,537    38.43%         335.46            13.88             RM 520.16           RM 799,493.30
+Need Attention               148     3.70%          76.26             3.95             RM 160.14            RM 23,701.18
+Hibernating                  880    22.00%         351.13             2.58              RM 85.47            RM 75,213.17
+Lost                          93     2.33%         439.73             4.14             RM 278.31            RM 25,882.47
 Prospect                     427    10.68%            N/A             0.00               RM 0.00                 RM 0.00
 ------------------------------------------------------------------------------------------------------------------------
 ========================================================================================================================

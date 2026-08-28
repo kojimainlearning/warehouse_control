@@ -161,6 +161,7 @@ CREATE OR REPLACE PROCEDURE generate_customer_rfm_report (
         CROSS JOIN params p
         WHERE UPPER(TRIM(rf.Return_Status)) = 'COMPLETED'
           AND UPPER(TRIM(rf.Resolution_Type)) = 'REFUND'
+          AND rf.Customer_Key IS NOT NULL
           AND TRUNC(pd.Cal_Date) <= p.as_of_date
         GROUP BY rf.Customer_Key
     ),
@@ -702,7 +703,6 @@ BEGIN
        AND (
             rf.Processed_Date_Key IS NULL
          OR rf.Refund_Amount IS NULL
-         OR rf.Customer_Key IS NULL
            );
 
     IF v_count > 0 THEN
@@ -746,6 +746,7 @@ BEGIN
       FROM Returns_Fact rf
      WHERE UPPER(TRIM(rf.Return_Status)) = 'COMPLETED'
        AND UPPER(TRIM(rf.Resolution_Type)) = 'REFUND'
+       AND rf.Customer_Key IS NOT NULL
        AND NOT EXISTS (
             SELECT 1
               FROM Customer_Dim c
@@ -1061,6 +1062,7 @@ refunds AS (
     CROSS JOIN params p
     WHERE UPPER(TRIM(rf.Return_Status)) = 'COMPLETED'
       AND UPPER(TRIM(rf.Resolution_Type)) = 'REFUND'
+      AND rf.Customer_Key IS NOT NULL
       AND TRUNC(pd.Cal_Date) <= p.as_of_date
     GROUP BY rf.Customer_Key
 ),
@@ -1375,6 +1377,7 @@ refunds AS (
     CROSS JOIN params p
     WHERE UPPER(TRIM(rf.Return_Status)) = 'COMPLETED'
       AND UPPER(TRIM(rf.Resolution_Type)) = 'REFUND'
+      AND rf.Customer_Key IS NOT NULL
       AND TRUNC(pd.Cal_Date) <= p.as_of_date
     GROUP BY rf.Customer_Key
 ),

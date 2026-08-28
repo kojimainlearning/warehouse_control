@@ -24,7 +24,7 @@ BEGIN
 END;
 /
 
-@@"ZcePing/customer_inserts.sql"
+@@customer_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -33,7 +33,7 @@ BEGIN
 END;
 /
 
-@@ZcePing/member_tier_inserts.sql
+@@member_tier_inserts.sql
 
 
 BEGIN
@@ -43,7 +43,7 @@ BEGIN
 END;
 /
 
-@@WanJin/branch_inserts.sql
+@@branch_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -52,7 +52,7 @@ BEGIN
 END;
 /
 
-@@WanJin/product_category_inserts.sql
+@@product_category_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -61,7 +61,7 @@ BEGIN
 END;
 /
 
-@@ShengJie/suppliers_inserts.sql
+@@suppliers_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -70,7 +70,7 @@ BEGIN
 END;
 /
 
-@@ZhenHao/voucher_inserts.sql
+@@voucher_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -79,7 +79,7 @@ BEGIN
 END;
 /
 
-@@ShengJie/delivery_companies_inserts.sql
+@@delivery_companies_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -88,7 +88,7 @@ BEGIN
 END;
 /
 
-@@ZcePing/member_profile_inserts.sql
+@@member_profile_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -97,7 +97,7 @@ BEGIN
 END;
 /
 
-@@ZcePing/mykasih_beneficiaries_inserts.sql
+@@mykasih_beneficiaries_inserts.sql
 
 
 BEGIN
@@ -107,7 +107,7 @@ BEGIN
 END;
 /
 
-@@WanJin/staff_inserts.sql
+@@staff_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -116,7 +116,7 @@ BEGIN
 END;
 /
 
-@@WanJin/item_inserts.sql
+@@item_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -125,7 +125,7 @@ BEGIN
 END;
 /
 
-@@WanJin/stock_inserts.sql
+@@stock_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -134,7 +134,7 @@ BEGIN
 END;
 /
 
-@@ShengJie/purchase_orders_inserts.sql
+@@purchase_orders_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -143,7 +143,7 @@ BEGIN
 END;
 /
 
-@@ShengJie/purchase_order_items_inserts.sql
+@@purchase_order_items_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -152,7 +152,8 @@ BEGIN
 END;
 /
 
-@@ZhenHao/orders_insert_statements.sql
+@@orders_insert_statements_part_1.sql
+@@orders_insert_statements_part_2.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -161,7 +162,8 @@ BEGIN
 END;
 /
 
-@@ZhenHao/order_item_insert_statements.sql
+@@order_item_insert_statements_part_1.sql
+@@order_item_insert_statements_part_2.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -170,7 +172,7 @@ BEGIN
 END;
 /
 
-@@ZhenHao/return_request_inserts.sql
+@@return_requests_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -179,7 +181,7 @@ BEGIN
 END;
 /
 
-@@ZhenHao/feedback_inserts.sql
+@@feedback_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -188,7 +190,7 @@ BEGIN
 END;
 /
 
-@@ZcePing/point_transaction_inserts.sql
+@@point_transaction_inserts.sql
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE('==========================================');
@@ -197,7 +199,7 @@ BEGIN
 END;
 /
 
-@@ShengJie/deliveries_inserts.sql
+@@deliveries_inserts.sql
 
 COMMIT;
 

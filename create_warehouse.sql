@@ -1,17 +1,51 @@
---DROP TABLES
+SET DEFINE OFF
+SET SQLBLANKLINES ON
+SET ECHO OFF
+SET SERVEROUTPUT ON
+WHENEVER SQLERROR CONTINUE NONE
+WHENEVER OSERROR CONTINUE NONE
+
+-- DROP TABLES
 -- Drop tables (reverse order of creation)
-DROP TABLE Month_End_Stock_Fact CASCADE CONSTRAINTS;
-DROP TABLE Stock_Movement_Fact CASCADE CONSTRAINTS;
-DROP TABLE Returns_Fact CASCADE CONSTRAINTS;
-DROP TABLE Sales_Fact CASCADE CONSTRAINTS;
-DROP TABLE Purchases_Fact CASCADE CONSTRAINTS;
-DROP TABLE Delivery_Company_Dim CASCADE CONSTRAINTS;
-DROP TABLE Product_Dim CASCADE CONSTRAINTS;
-DROP TABLE Supplier_Dim CASCADE CONSTRAINTS;
-DROP TABLE Branch_Dim CASCADE CONSTRAINTS;
-DROP TABLE Customer_Dim CASCADE CONSTRAINTS;
-DROP TABLE Staff_Dim CASCADE CONSTRAINTS;
-DROP TABLE Date_Dim CASCADE CONSTRAINTS;
+DECLARE
+    TYPE t_table_list IS TABLE OF VARCHAR2(30);
+    v_tables t_table_list := t_table_list(
+        'Month_End_Stock_Fact',
+        'Stock_Movement_Fact',
+        'Returns_Fact',
+        'Sales_Fact',
+        'Purchases_Fact',
+        'Delivery_Company_Dim',
+        'Product_Dim',
+        'Supplier_Dim',
+        'Branch_Dim',
+        'Customer_Dim',
+        'Staff_Dim',
+        'Date_Dim'
+    );
+    v_dropped NUMBER := 0;
+BEGIN
+    FOR i IN 1 .. v_tables.COUNT LOOP
+        BEGIN
+            EXECUTE IMMEDIATE
+                'DROP TABLE ' || v_tables(i) || ' CASCADE CONSTRAINTS PURGE';
+            v_dropped := v_dropped + 1;
+        EXCEPTION
+            WHEN OTHERS THEN
+                IF SQLCODE != -942 THEN
+                    DBMS_OUTPUT.PUT_LINE(
+                        'Warning: unable to drop ' || v_tables(i) ||
+                        ' - ' || SQLERRM
+                    );
+                END IF;
+        END;
+    END LOOP;
+
+    DBMS_OUTPUT.PUT_LINE('Previous warehouses dropped: ' || v_dropped);
+    DBMS_OUTPUT.PUT_LINE('Creating fresh warehouses ...');
+    DBMS_OUTPUT.PUT_LINE('');
+END;
+/
 
 -- DIMENSION TABLES
 -- Date Dimension

@@ -1,7 +1,7 @@
 ========================================================================================================================
 SEASONAL AND TEMPORAL SALES PATTERNS
 ========================================================================================================================
-Report Generated On : 20-AUG-2026 04:00:02
+Report Generated On : 28-AUG-2026 17:04:13
 Reporting Period    : 01-JAN-2020 To 31-DEC-2025
 Analysis Level      : Company-Wide Only
 Sales Statuses      : COMPLETED, OUT_FOR_DELIVERY, READY_FOR_PICKUP
@@ -12,101 +12,101 @@ EXECUTIVE SUMMARY
 ------------------------------------------------------------------------------------------------------------------------
 Total Calendar Days              : 2,192
 Total Sales Before Refunds       : RM 1,751,229.47
-Total Completed Refunds          : RM 0.00
-Total Net Sales                  : RM 1,751,229.47
+Total Completed Refunds          : RM 5,568.85
+Total Net Sales                  : RM 1,745,660.62
 Total Orders                     : 45,656
 Total Quantity Sold              : 283,387
-Average Daily Net Sales          : RM 798.92
-Peak Day Of Week                 : Saturday (278,663.90)
-Peak Month                       : December (268,667.76)
-Weekend Sales Contribution       : 31.65%
-Holiday Sales Lift               : 8.46%
-Top Festive Period Lift          : New Year's Eve (101.54%)
+Average Daily Net Sales          : RM 796.38
+Peak Day Of Week                 : Saturday (277,908.36)
+Peak Month                       : December (267,887.42)
+Weekend Sales Contribution       : 31.66%
+Holiday Sales Lift               : 8.43%
+Top Festive Period Lift          : New Year's Eve (100.45%)
 ------------------------------------------------------------------------------------------------------------------------
 DAY OF WEEK PATTERN
 ------------------------------------------------------------------------------------------------------------------------
 DAY                DAYS               NET SALES               AVG DAILY     % TOTAL     INDEX
 ------------------------------------------------------------------------------------------------------------------------
-Monday              313           RM 241,895.47               RM 772.83      13.81%      0.97
-Tuesday             313           RM 233,997.50               RM 747.60      13.36%      0.94
-Wednesday           314           RM 248,431.92               RM 791.18      14.19%      0.99
-Thursday            313           RM 231,595.10               RM 739.92      13.22%      0.93
-Friday              313           RM 241,039.09               RM 770.09      13.76%      0.96
-Saturday            313           RM 278,663.90               RM 890.30      15.91%      1.11
-Sunday              313           RM 275,606.49               RM 880.53      15.74%      1.10
+Monday              313           RM 241,160.31               RM 770.48      13.81%      0.97
+Tuesday             313           RM 233,163.05               RM 744.93      13.36%      0.94
+Wednesday           314           RM 247,759.32               RM 789.04      14.19%      0.99
+Thursday            313           RM 230,862.02               RM 737.58      13.22%      0.93
+Friday              313           RM 239,993.19               RM 766.75      13.75%      0.96
+Saturday            313           RM 277,908.36               RM 887.89      15.92%      1.11
+Sunday              313           RM 274,814.37               RM 878.00      15.74%      1.10
 ------------------------------------------------------------------------------------------------------------------------
 WEEKEND / WEEKDAY PATTERN
 ------------------------------------------------------------------------------------------------------------------------
 DAY TYPE           DAYS               NET SALES               AVG DAILY     % TOTAL     INDEX
 ------------------------------------------------------------------------------------------------------------------------
-Weekday           1,566         RM 1,196,959.08               RM 764.34      68.35%      0.96
-Weekend             626           RM 554,270.39               RM 885.42      31.65%      1.11
+Weekday           1,566         RM 1,192,937.89               RM 761.77      68.34%      0.96
+Weekend             626           RM 552,722.73               RM 882.94      31.66%      1.11
 ------------------------------------------------------------------------------------------------------------------------
 MONTHLY SEASONAL PATTERN
 ------------------------------------------------------------------------------------------------------------------------
 MONTH              DAYS               NET SALES               AVG DAILY     % TOTAL  SEASONAL INDEX
 ------------------------------------------------------------------------------------------------------------------------
-January             186           RM 151,161.32               RM 812.70       8.63%            1.02
-February            170           RM 116,949.96               RM 687.94       6.68%            0.86
-March               186           RM 118,018.40               RM 634.51       6.74%            0.79
-April               180           RM 116,458.65               RM 646.99       6.65%            0.81
-May                 186           RM 130,418.54               RM 701.17       7.45%            0.88
-June                180           RM 165,078.82               RM 917.10       9.43%            1.15
-July                186           RM 128,415.22               RM 690.40       7.33%            0.86
-August              186           RM 126,003.72               RM 677.44       7.20%            0.85
-September           180           RM 115,388.53               RM 641.05       6.59%            0.80
-October             186           RM 134,019.44               RM 720.53       7.65%            0.90
-November            180           RM 180,649.11             RM 1,003.61      10.32%            1.26
-December            186           RM 268,667.76             RM 1,444.45      15.34%            1.81
+January             186           RM 150,671.59               RM 810.06       8.63%            1.02
+February            170           RM 116,554.78               RM 685.62       6.68%            0.86
+March               186           RM 117,563.67               RM 632.06       6.73%            0.79
+April               180           RM 116,165.94               RM 645.37       6.65%            0.81
+May                 186           RM 129,868.05               RM 698.22       7.44%            0.88
+June                180           RM 164,689.01               RM 914.94       9.43%            1.15
+July                186           RM 128,045.45               RM 688.42       7.34%            0.86
+August              186           RM 125,453.83               RM 674.48       7.19%            0.85
+September           180           RM 115,045.80               RM 639.14       6.59%            0.80
+October             186           RM 133,374.94               RM 717.07       7.64%            0.90
+November            180           RM 180,340.14             RM 1,001.89      10.33%            1.26
+December            186           RM 267,887.42             RM 1,440.25      15.35%            1.81
 ------------------------------------------------------------------------------------------------------------------------
 FESTIVE / HOLIDAY SEASON PATTERN
 ------------------------------------------------------------------------------------------------------------------------
 SEASON                                 DAYS               NET SALES               AVG DAILY    LIFT VS NORMAL
 ------------------------------------------------------------------------------------------------------------------------
-New Year's Eve                            6             RM 9,592.55             RM 1,598.76           101.54%
-Christmas Eve                             6             RM 9,472.14             RM 1,578.69            99.01%
-Christmas Day                             6             RM 7,957.51             RM 1,326.25            67.18%
-Diwali                                    6             RM 6,661.32             RM 1,110.22            39.95%
-Hari Raya Puasa                           7             RM 6,561.76               RM 937.39            18.17%
-Chinese New Year's Day                    6             RM 6,320.47             RM 1,053.41            32.79%
-The Yang di-Pertuan Agong's Birthda       6             RM 6,200.33             RM 1,033.39            30.27%
-Second Day of Chinese New Year            6             RM 6,185.92             RM 1,030.99            29.96%
-Hari Raya Puasa Holiday Day 2             6             RM 5,849.55               RM 974.93            22.90%
-Hari Raya Haji                            6             RM 5,090.90               RM 848.48             6.96%
-Isra and Mi'raj                           6             RM 5,079.62               RM 846.60             6.72%
-Harvest Festival                          6             RM 5,021.63               RM 836.94             5.50%
-Hari Raya Haji Day 2                      6             RM 5,008.17               RM 834.70             5.22%
-Second Day of Harvest Festival            6             RM 4,842.19               RM 807.03             1.73%
-Malaysia's National Day                   6             RM 4,773.14               RM 795.52             0.28%
-First Day of Ramadan                      6             RM 4,404.95               RM 734.16            -7.45%
-Easter Sunday                             6             RM 4,303.81               RM 717.30            -9.58%
-Wesak Day                                 6             RM 4,252.24               RM 708.71           -10.66%
-New Year's Day                            6             RM 4,227.50               RM 704.58           -11.18%
-Muharram                                  5             RM 4,088.23               RM 817.65             3.07%
-Valentine's Day                           6             RM 3,847.09               RM 641.18           -19.17%
-Federal Territory Day                     5             RM 3,705.06               RM 741.01            -6.59%
-Malaysia Day                              6             RM 3,459.52               RM 576.59           -27.32%
-Labour Day                                6             RM 3,371.57               RM 561.93           -29.16%
-Thaipusam                                 6             RM 3,291.48               RM 548.58           -30.85%
-Nuzul Al-Quran                            6             RM 3,147.25               RM 524.54           -33.88%
-Day of Arafat                             3             RM 3,056.34             RM 1,018.78            28.43%
-Good Friday                               6             RM 2,829.85               RM 471.64           -40.55%
-The Prophet Muhammad's Birthday           5             RM 2,785.54               RM 557.11           -29.77%
-Chinese New Year Holiday                  2             RM 1,632.35               RM 816.18             2.89%
-Muharram Holiday                          1             RM 1,253.78             RM 1,253.78            58.05%
-Second Harvest observed                   1             RM 1,162.06             RM 1,162.06            46.49%
-New Year's Day observed                   1             RM 1,075.92             RM 1,075.92            35.63%
-General Elections                         1             RM 1,023.68             RM 1,023.68            29.04%
-Election Eve day off                      1             RM 1,011.05             RM 1,011.05            27.45%
-Labour Day observed                       1               RM 886.01               RM 886.01            11.69%
-Christmas Day observed                    1               RM 829.89               RM 829.89             4.61%
-Hari Raya Haji holiday                    1               RM 779.68               RM 779.68            -1.72%
-Hari Raya Puasa Holiday                   1               RM 766.15               RM 766.15            -3.42%
-Election Eve Holiday                      1               RM 737.55               RM 737.55            -7.03%
-Prophet Muhammad Birthday Holiday         1               RM 736.91               RM 736.91            -7.11%
-Malaysia Day Holiday                      1               RM 519.59               RM 519.59           -34.50%
-Elections Victory Public Holiday          1               RM 509.17               RM 509.17           -35.82%
-Normal Period                         2,008         RM 1,592,918.05               RM 793.29               N/A
+New Year's Eve                            6             RM 9,510.83             RM 1,585.14           100.45%
+Christmas Eve                             6             RM 9,445.61             RM 1,574.27            99.08%
+Christmas Day                             6             RM 7,906.15             RM 1,317.69            66.63%
+Diwali                                    6             RM 6,626.74             RM 1,104.46            39.67%
+Hari Raya Puasa                           7             RM 6,555.54               RM 936.51            18.43%
+Chinese New Year's Day                    6             RM 6,311.24             RM 1,051.87            33.02%
+The Yang di-Pertuan Agong's Birthda       6             RM 6,182.31             RM 1,030.39            30.30%
+Second Day of Chinese New Year            6             RM 6,177.18             RM 1,029.53            30.19%
+Hari Raya Puasa Holiday Day 2             6             RM 5,833.35               RM 972.23            22.94%
+Isra and Mi'raj                           6             RM 5,079.62               RM 846.60             7.06%
+Hari Raya Haji                            6             RM 5,070.59               RM 845.10             6.87%
+Harvest Festival                          6             RM 5,012.68               RM 835.45             5.65%
+Hari Raya Haji Day 2                      6             RM 4,994.60               RM 832.43             5.27%
+Second Day of Harvest Festival            6             RM 4,835.89               RM 805.98             1.92%
+Malaysia's National Day                   6             RM 4,771.13               RM 795.19             0.56%
+First Day of Ramadan                      6             RM 4,401.43               RM 733.57            -7.23%
+Easter Sunday                             6             RM 4,296.59               RM 716.10            -9.44%
+Wesak Day                                 6             RM 4,250.56               RM 708.43           -10.41%
+New Year's Day                            6             RM 4,203.82               RM 700.64           -11.40%
+Muharram                                  5             RM 4,086.92               RM 817.38             3.36%
+Valentine's Day                           6             RM 3,754.52               RM 625.75           -20.87%
+Federal Territory Day                     5             RM 3,699.92               RM 739.98            -6.42%
+Malaysia Day                              6             RM 3,458.40               RM 576.40           -27.11%
+Labour Day                                6             RM 3,359.60               RM 559.93           -29.19%
+Thaipusam                                 6             RM 3,277.71               RM 546.29           -30.92%
+Nuzul Al-Quran                            6             RM 3,124.15               RM 520.69           -34.16%
+Day of Arafat                             3             RM 3,044.10             RM 1,014.70            28.32%
+Good Friday                               6             RM 2,829.85               RM 471.64           -40.36%
+The Prophet Muhammad's Birthday           5             RM 2,785.54               RM 557.11           -29.55%
+Chinese New Year Holiday                  2             RM 1,630.60               RM 815.30             3.10%
+Muharram Holiday                          1             RM 1,253.78             RM 1,253.78            58.55%
+Second Harvest observed                   1             RM 1,162.06             RM 1,162.06            46.95%
+New Year's Day observed                   1             RM 1,060.98             RM 1,060.98            34.17%
+Election Eve day off                      1             RM 1,011.05             RM 1,011.05            27.85%
+General Elections                         1             RM 1,010.99             RM 1,010.99            27.85%
+Labour Day observed                       1               RM 884.19               RM 884.19            11.81%
+Christmas Day observed                    1               RM 816.02               RM 816.02             3.19%
+Hari Raya Haji holiday                    1               RM 779.68               RM 779.68            -1.40%
+Hari Raya Puasa Holiday                   1               RM 766.15               RM 766.15            -3.12%
+Election Eve Holiday                      1               RM 737.55               RM 737.55            -6.73%
+Prophet Muhammad Birthday Holiday         1               RM 736.91               RM 736.91            -6.81%
+Malaysia Day Holiday                      1               RM 519.59               RM 519.59           -34.29%
+Elections Victory Public Holiday          1               RM 509.17               RM 509.17           -35.61%
+Normal Period                         2,008         RM 1,587,895.33               RM 790.78               N/A
 ------------------------------------------------------------------------------------------------------------------------
 ========================================================================================================================
 END OF REPORT

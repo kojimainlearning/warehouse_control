@@ -1,0 +1,2113 @@
+PERIOD_CODE,SUPPLIER_NAME,BRANCH_ID,BRANCH_NAME,TOTAL_ORDERS,COMPLETED_ORDERS,ONTIME_ORDERS,ON_TIME_DELIVERY_RATE,TOTAL_PURCHASE_VALUE,AVG_LEAD_TIME_DAYS,PERFORMANCE_RATING
+2020-01,"Arctic Chill Logistics","B001","Ampang 88 Speedmart",1,1,1,100,8078.43,0,Excellent
+2020-01,"Clean & Clear Resources","B001","Ampang 88 Speedmart",2,2,2,100,8909.97,1.1,Excellent
+2020-01,"Dairy Fresh Sdn Bhd","B001","Ampang 88 Speedmart",3,3,3,100,8523.64,.2,Excellent
+2020-01,"Dry Goods Trading Co","B001","Ampang 88 Speedmart",2,2,2,100,3191.06,5.3,Excellent
+2020-01,"Farm to Table Sdn Bhd","B001","Ampang 88 Speedmart",1,1,1,100,2124.17,0,Excellent
+2020-01,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",2,2,2,100,4601.71,.6,Excellent
+2020-01,"Global Grocery Supply","B001","Ampang 88 Speedmart",1,1,1,100,11093.99,0,Excellent
+2020-01,"Green Harvest Trading","B001","Ampang 88 Speedmart",5,5,5,100,20399.85,.7,Excellent
+2020-01,"Home Essentials Enterprise","B001","Ampang 88 Speedmart",2,2,2,100,7450.7,0,Excellent
+2020-01,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",4,4,4,100,9060.82,1.2,Excellent
+2020-01,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",4,4,4,100,7984.89,.4,Excellent
+2020-02,"Arctic Chill Logistics","B001","Ampang 88 Speedmart",1,1,1,100,1585.94,14,Excellent
+2020-02,"Dry Goods Trading Co","B001","Ampang 88 Speedmart",1,1,1,100,568.8,13,Excellent
+2020-02,"Farm to Table Sdn Bhd","B001","Ampang 88 Speedmart",1,1,1,100,622.6,14,Excellent
+2020-02,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,1242.44,2,Excellent
+2020-02,"Home Essentials Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,1400.26,11,Excellent
+2020-02,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",2,2,2,100,2195.75,4.6,Excellent
+2020-02,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",2,2,2,100,522.27,3.3,Excellent
+2020-03,"Arctic Chill Logistics","B001","Ampang 88 Speedmart",1,1,1,100,3298.77,9,Excellent
+2020-03,"Dairy Fresh Sdn Bhd","B001","Ampang 88 Speedmart",1,1,1,100,420.02,2,Excellent
+2020-03,"Dry Goods Trading Co","B001","Ampang 88 Speedmart",2,2,2,100,1005.93,13.5,Excellent
+2020-03,"Global Grocery Supply","B001","Ampang 88 Speedmart",1,1,1,100,732.2,6,Excellent
+2020-03,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,979.19,3,Excellent
+2020-03,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,540.47,3,Excellent
+2020-04,"Arctic Chill Logistics","B002","Cheras 88 Speedmart",1,1,1,100,2287.09,0,Excellent
+2020-04,"Clean & Clear Resources","B002","Cheras 88 Speedmart",1,1,1,100,5814.68,0,Excellent
+2020-04,"Dairy Fresh Sdn Bhd","B002","Cheras 88 Speedmart",2,2,2,100,6540.46,0,Excellent
+2020-04,"Dry Goods Trading Co","B002","Cheras 88 Speedmart",1,1,1,100,1663.42,0,Excellent
+2020-04,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,1898.35,0,Excellent
+2020-04,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",2,2,2,100,1856.11,5.7,Excellent
+2020-04,"Frozen Foods Malaysia","B002","Cheras 88 Speedmart",1,1,1,100,3534.55,0,Excellent
+2020-04,"Global Grocery Supply","B002","Cheras 88 Speedmart",2,2,2,100,6275.91,0,Excellent
+2020-04,"Green Harvest Trading","B002","Cheras 88 Speedmart",2,2,2,100,21404.99,.1,Excellent
+2020-04,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",2,2,2,100,14882.91,0,Excellent
+2020-04,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",2,2,2,100,5864.57,.4,Excellent
+2020-04,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,154.57,2,Excellent
+2020-04,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",3,3,3,100,5761.59,.1,Excellent
+2020-05,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",2,2,2,100,592.56,12.4,Excellent
+2020-05,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,4647.8,5,Excellent
+2020-05,"Global Grocery Supply","B001","Ampang 88 Speedmart",1,1,1,100,584.19,8,Excellent
+2020-05,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,150.49,5,Excellent
+2020-05,"Green Harvest Trading","B001","Ampang 88 Speedmart",2,2,2,100,4328.53,1.6,Excellent
+2020-05,"Home Essentials Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,549.1,11,Excellent
+2020-05,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,1189.94,4,Excellent
+2020-05,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,2544.58,5,Excellent
+2020-05,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,823.61,4,Excellent
+2020-05,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,191.78,3,Excellent
+2020-06,"Arctic Chill Logistics","B002","Cheras 88 Speedmart",1,1,1,100,1093.69,12,Excellent
+2020-06,"Dairy Fresh Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,112.33,3,Excellent
+2020-06,"Dry Goods Trading Co","B002","Cheras 88 Speedmart",2,2,2,100,736.43,12.8,Excellent
+2020-06,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",2,2,2,100,584.58,12.2,Excellent
+2020-06,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,673.94,8,Excellent
+2020-06,"Frozen Foods Malaysia","B002","Cheras 88 Speedmart",1,1,1,100,249.53,4,Excellent
+2020-06,"Global Grocery Supply","B001","Ampang 88 Speedmart",1,1,1,100,2787.62,7,Excellent
+2020-06,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,992.64,4,Excellent
+2020-06,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,2204.17,3,Excellent
+2020-06,"Home Essentials Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,1101.01,14,Excellent
+2020-06,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",2,2,2,100,2139.41,3,Excellent
+2020-07,"Arctic Chill Logistics","B002","Cheras 88 Speedmart",1,1,1,100,1723.09,9,Excellent
+2020-07,"Arctic Chill Logistics","B003","Petaling Jaya 88 Speedmart",1,1,1,100,3346.99,0,Excellent
+2020-07,"Clean & Clear Resources","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1897.8,0,Excellent
+2020-07,"Dairy Fresh Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,11515.08,0,Excellent
+2020-07,"Dry Goods Trading Co","B003","Petaling Jaya 88 Speedmart",1,1,1,100,2657.46,0,Excellent
+2020-07,"Farm to Table Sdn Bhd","B003","Petaling Jaya 88 Speedmart",2,2,2,100,3426.83,1.7,Excellent
+2020-07,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,2027.27,5,Excellent
+2020-07,"Frozen Foods Malaysia","B003","Petaling Jaya 88 Speedmart",1,1,1,100,3218.12,0,Excellent
+2020-07,"Global Grocery Supply","B001","Ampang 88 Speedmart",1,1,1,100,825.68,4,Excellent
+2020-07,"Global Grocery Supply","B002","Cheras 88 Speedmart",2,2,2,100,2444.88,8,Excellent
+2020-07,"Global Grocery Supply","B003","Petaling Jaya 88 Speedmart",1,1,1,100,2979.89,0,Excellent
+2020-07,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,528.38,4,Excellent
+2020-07,"Green Harvest Trading","B003","Petaling Jaya 88 Speedmart",2,2,2,100,24595.75,.4,Excellent
+2020-07,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,1467.78,14,Excellent
+2020-07,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,11230.75,0,Excellent
+2020-07,"Nusa Kitchen Supplies","B003","Petaling Jaya 88 Speedmart",1,1,1,100,19552.36,0,Excellent
+2020-07,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",2,2,2,100,1767.5,2,Excellent
+2020-07,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",2,2,2,100,9474.82,0,Excellent
+2020-08,"Dairy Fresh Sdn Bhd","B001","Ampang 88 Speedmart",1,1,1,100,60.84,1,Excellent
+2020-08,"Dairy Fresh Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,105.85,1,Excellent
+2020-08,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,1110.05,10,Excellent
+2020-08,"Farm to Table Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,333.69,10,Excellent
+2020-08,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,398.06,4,Excellent
+2020-08,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,1269.63,2,Excellent
+2020-08,"Green Harvest Trading","B003","Petaling Jaya 88 Speedmart",1,1,1,100,654.51,2,Excellent
+2020-08,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",2,2,2,100,367.9,2.5,Excellent
+2020-09,"Arctic Chill Logistics","B001","Ampang 88 Speedmart",1,1,1,100,2820.91,12,Excellent
+2020-09,"Farm to Table Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,225.16,13,Excellent
+2020-09,"Frozen Foods Malaysia","B003","Petaling Jaya 88 Speedmart",2,2,2,100,333.39,8,Excellent
+2020-09,"Global Grocery Supply","B002","Cheras 88 Speedmart",2,2,2,100,726.21,6.4,Excellent
+2020-09,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,6481.09,3,Excellent
+2020-09,"Home Essentials Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,951.69,10,Excellent
+2020-09,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,300.07,2,Excellent
+2020-10,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",2,2,2,100,600.65,4.7,Excellent
+2020-10,"Clean & Clear Resources","B004","Shah Alam 88 Speedmart",1,1,1,100,1429.34,0,Excellent
+2020-10,"Dairy Fresh Sdn Bhd","B004","Shah Alam 88 Speedmart",2,2,2,100,1986.19,.1,Excellent
+2020-10,"Dry Goods Trading Co","B004","Shah Alam 88 Speedmart",1,1,1,100,1413.1,0,Excellent
+2020-10,"Farm to Table Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,162.56,9,Excellent
+2020-10,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,4423.12,0,Excellent
+2020-10,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,5665.09,0,Excellent
+2020-10,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",3,3,3,100,3162.76,.6,Excellent
+2020-10,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",2,2,2,100,14088.51,0,Excellent
+2020-10,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,1371.34,11,Excellent
+2020-10,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,435.84,9,Excellent
+2020-10,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,1680.44,0,Excellent
+2020-10,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,188.32,8,Excellent
+2020-10,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",2,2,2,100,5023.54,0,Excellent
+2020-10,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",3,3,3,100,3281.01,.1,Excellent
+2020-11,"Arctic Chill Logistics","B001","Ampang 88 Speedmart",1,1,1,100,943.79,9,Excellent
+2020-11,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,149.34,11,Excellent
+2020-11,"Clean & Clear Resources","B003","Petaling Jaya 88 Speedmart",1,1,1,100,89.25,5,Excellent
+2020-11,"Dry Goods Trading Co","B002","Cheras 88 Speedmart",1,1,1,100,259.77,9,Excellent
+2020-11,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,2347.27,13,Excellent
+2020-11,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,1264.85,7,Excellent
+2020-11,"Frozen Foods Malaysia","B003","Petaling Jaya 88 Speedmart",1,1,1,100,3272.32,4,Excellent
+2020-11,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,400.45,7,Excellent
+2020-11,"Global Grocery Supply","B001","Ampang 88 Speedmart",1,1,1,100,7730.04,5,Excellent
+2020-11,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,370.31,5,Excellent
+2020-11,"Global Grocery Supply","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1654.65,8,Excellent
+2020-11,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,993.96,3,Excellent
+2020-11,"Home Essentials Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,1856.5,9,Excellent
+2020-11,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",2,2,2,100,779.11,11.6,Excellent
+2020-11,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,399.87,6,Excellent
+2020-11,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",2,2,2,100,209.57,6,Excellent
+2020-11,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,25.16,3,Excellent
+2020-11,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,136.5,3,Excellent
+2020-12,"Arctic Chill Logistics","B002","Cheras 88 Speedmart",2,2,2,100,5650.67,10,Excellent
+2020-12,"Clean & Clear Resources","B001","Ampang 88 Speedmart",1,1,1,100,1072.09,5,Excellent
+2020-12,"Dairy Fresh Sdn Bhd","B001","Ampang 88 Speedmart",1,1,1,100,745.06,2,Excellent
+2020-12,"Dry Goods Trading Co","B003","Petaling Jaya 88 Speedmart",1,1,1,100,395.27,12,Excellent
+2020-12,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",2,2,2,100,3192.29,10.9,Excellent
+2020-12,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,918.53,12,Excellent
+2020-12,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,495.34,6,Excellent
+2020-12,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,1287.81,4,Excellent
+2020-12,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",2,2,2,100,1788.27,1.8,Excellent
+2020-12,"Home Essentials Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,909.53,12,Excellent
+2020-12,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,1867.08,13,Excellent
+2020-12,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",2,2,2,100,846.24,12.2,Excellent
+2020-12,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,394.88,4,Excellent
+2020-12,"Nusa Kitchen Supplies","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1322.44,7,Excellent
+2020-12,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,469.81,6,Excellent
+2020-12,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,687.5,2,Excellent
+2020-12,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1075.58,2,Excellent
+2020-12,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",3,3,3,100,688.85,2.3,Excellent
+2021-01,"Arctic Chill Logistics","B005","Klang 88 Speedmart",3,3,3,100,2267.18,2,Excellent
+2021-01,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,357.19,14,Excellent
+2021-01,"Clean & Clear Resources","B005","Klang 88 Speedmart",2,2,2,100,1824.25,1.4,Excellent
+2021-01,"Dairy Fresh Sdn Bhd","B001","Ampang 88 Speedmart",1,1,1,100,275.04,3,Excellent
+2021-01,"Dairy Fresh Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,3035.32,0,Excellent
+2021-01,"Dairy Fresh Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,271.04,1,Excellent
+2021-01,"Dairy Fresh Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,55.86,4,Excellent
+2021-01,"Dry Goods Trading Co","B005","Klang 88 Speedmart",2,2,2,100,361.38,5.2,Excellent
+2021-01,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",3,3,3,100,3395.96,1,Excellent
+2021-01,"Frozen Foods Malaysia","B002","Cheras 88 Speedmart",1,1,1,100,837.74,8,Excellent
+2021-01,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,3991.82,0,Excellent
+2021-01,"Frozen Foods Malaysia","B003","Petaling Jaya 88 Speedmart",1,1,1,100,189.69,5,Excellent
+2021-01,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,498.44,4,Excellent
+2021-01,"Global Grocery Supply","B005","Klang 88 Speedmart",2,2,2,100,4984.06,0,Excellent
+2021-01,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,689.84,6,Excellent
+2021-01,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,811.35,3,Excellent
+2021-01,"Green Harvest Trading","B005","Klang 88 Speedmart",3,3,3,100,7031.76,.1,Excellent
+2021-01,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,6213.59,0,Excellent
+2021-01,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,337.11,14,Excellent
+2021-01,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,1091.05,4,Excellent
+2021-01,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",2,2,2,100,3802.08,0,Excellent
+2021-01,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,629.12,1,Excellent
+2021-01,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,746.88,4,Excellent
+2021-01,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",2,2,2,100,2630.81,0,Excellent
+2021-01,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,881.26,4,Excellent
+2021-02,"Arctic Chill Logistics","B002","Cheras 88 Speedmart",1,1,1,100,1147.63,12,Excellent
+2021-02,"Dairy Fresh Sdn Bhd","B005","Klang 88 Speedmart",1,0,0,0,45.54,0,Poor
+2021-02,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,1147.74,11,Excellent
+2021-02,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,353.19,12,Excellent
+2021-02,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,535.84,4,Excellent
+2021-02,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,738.24,8,Excellent
+2021-02,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,316.98,6,Excellent
+2021-02,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,574.1,1,Excellent
+2021-02,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,1009.46,4,Excellent
+2021-02,"Green Harvest Trading","B003","Petaling Jaya 88 Speedmart",1,1,1,100,736.47,3,Excellent
+2021-02,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,622.94,4,Excellent
+2021-02,"Home Essentials Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,2002.19,11,Excellent
+2021-02,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,1052.87,7,Excellent
+2021-02,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,462.82,7,Excellent
+2021-02,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,120.99,3,Excellent
+2021-02,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,761.87,4,Excellent
+2021-03,"Arctic Chill Logistics","B005","Klang 88 Speedmart",1,1,1,100,127.43,10,Excellent
+2021-03,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,612.38,14,Excellent
+2021-03,"Clean & Clear Resources","B003","Petaling Jaya 88 Speedmart",1,1,1,100,564.86,6,Excellent
+2021-03,"Dairy Fresh Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,45.54,3,Excellent
+2021-03,"Dry Goods Trading Co","B002","Cheras 88 Speedmart",1,1,1,100,699.56,13,Excellent
+2021-03,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,1339.07,8,Excellent
+2021-03,"Global Grocery Supply","B002","Cheras 88 Speedmart",2,2,2,100,955.18,4,Excellent
+2021-03,"Global Grocery Supply","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1205.89,7,Excellent
+2021-03,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,203.15,6,Excellent
+2021-03,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,36.89,1,Excellent
+2021-03,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,1925.21,4,Excellent
+2021-03,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,186.87,12,Excellent
+2021-03,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,116.71,4,Excellent
+2021-03,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,829.34,4,Excellent
+2021-03,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,834.96,3,Excellent
+2021-03,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,47.83,3,Excellent
+2021-04,"Arctic Chill Logistics","B006","Johor Bahru 88 Speedmart",1,1,1,100,1987.79,0,Excellent
+2021-04,"Arctic Chill Logistics","B005","Klang 88 Speedmart",1,1,1,100,83.7,11,Excellent
+2021-04,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,218.72,10,Excellent
+2021-04,"Clean & Clear Resources","B006","Johor Bahru 88 Speedmart",2,2,2,100,337.37,2,Excellent
+2021-04,"Clean & Clear Resources","B005","Klang 88 Speedmart",1,1,1,100,94.57,5,Excellent
+2021-04,"Dairy Fresh Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,1199.06,0,Excellent
+2021-04,"Dry Goods Trading Co","B006","Johor Bahru 88 Speedmart",1,1,1,100,1449.19,0,Excellent
+2021-04,"Farm to Table Sdn Bhd","B006","Johor Bahru 88 Speedmart",2,2,2,100,3537.5,1,Excellent
+2021-04,"Frozen Foods Malaysia","B006","Johor Bahru 88 Speedmart",1,1,1,100,3807.32,0,Excellent
+2021-04,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,66.86,5,Excellent
+2021-04,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,209.96,8,Excellent
+2021-04,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",1,1,1,100,9570.39,0,Excellent
+2021-04,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,203.92,7,Excellent
+2021-04,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,1036.72,3,Excellent
+2021-04,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",4,4,4,100,14651.81,.2,Excellent
+2021-04,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,394.5,4,Excellent
+2021-04,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",2,2,2,100,2221.6,.8,Excellent
+2021-04,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,358.8,11,Excellent
+2021-04,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",2,2,2,100,3243.07,.4,Excellent
+2021-04,"Nusa Kitchen Supplies","B003","Petaling Jaya 88 Speedmart",1,1,1,100,407.21,7,Excellent
+2021-04,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,209.78,7,Excellent
+2021-04,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",2,2,2,100,3317.2,.4,Excellent
+2021-05,"Arctic Chill Logistics","B005","Klang 88 Speedmart",1,1,1,100,1133.32,11,Excellent
+2021-05,"Arctic Chill Logistics","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1400.01,13,Excellent
+2021-05,"Clean & Clear Resources","B004","Shah Alam 88 Speedmart",1,1,1,100,920.82,7,Excellent
+2021-05,"Dairy Fresh Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1201.9,3,Excellent
+2021-05,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,1,1,100,99.49,11,Excellent
+2021-05,"Farm to Table Sdn Bhd","B001","Ampang 88 Speedmart",1,1,1,100,672.32,12,Excellent
+2021-05,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",1,1,1,100,354.73,8,Excellent
+2021-05,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,174.72,4,Excellent
+2021-05,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,559.61,4,Excellent
+2021-05,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,1355.12,2,Excellent
+2021-05,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,2151.32,3,Excellent
+2021-05,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,337.06,11,Excellent
+2021-05,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,236.4,14,Excellent
+2021-05,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,198.69,9,Excellent
+2021-05,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,916.15,7,Excellent
+2021-05,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,450.41,7,Excellent
+2021-05,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,292.77,4,Excellent
+2021-05,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",3,3,3,100,469.14,4,Excellent
+2021-05,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,0,0,0,114.87,0,Poor
+2021-06,"Dry Goods Trading Co","B001","Ampang 88 Speedmart",1,1,1,100,204.46,11,Excellent
+2021-06,"Dry Goods Trading Co","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1143.82,12,Excellent
+2021-06,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,73.34,8,Excellent
+2021-06,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,40.69,6,Excellent
+2021-06,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",3,3,3,100,400.88,1.5,Excellent
+2021-06,"Green Harvest Trading","B003","Petaling Jaya 88 Speedmart",2,2,2,100,1302.2,4,Excellent
+2021-06,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,1328,3,Excellent
+2021-06,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,2258.93,9,Excellent
+2021-06,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,701.9,10,Excellent
+2021-06,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,379.02,11,Excellent
+2021-06,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,1502.29,5,Excellent
+2021-06,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",2,2,2,100,257.6,5.5,Excellent
+2021-06,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,751.26,5,Excellent
+2021-06,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,284.99,4,Excellent
+2021-06,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,188.5,4,Excellent
+2021-07,"Arctic Chill Logistics","B007","Ipoh 88 Speedmart",1,1,1,100,6637.25,0,Excellent
+2021-07,"Arctic Chill Logistics","B005","Klang 88 Speedmart",1,0,0,0,1303.36,0,Poor
+2021-07,"Clean & Clear Resources","B007","Ipoh 88 Speedmart",2,2,2,100,2241.95,1.3,Excellent
+2021-07,"Dairy Fresh Sdn Bhd","B007","Ipoh 88 Speedmart",1,1,1,100,1846.05,0,Excellent
+2021-07,"Dairy Fresh Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,1984.57,3,Excellent
+2021-07,"Dry Goods Trading Co","B007","Ipoh 88 Speedmart",1,1,1,100,960.98,0,Excellent
+2021-07,"Farm to Table Sdn Bhd","B007","Ipoh 88 Speedmart",2,2,2,100,1636.1,1.4,Excellent
+2021-07,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,310.99,13,Excellent
+2021-07,"Frozen Foods Malaysia","B007","Ipoh 88 Speedmart",2,2,2,100,4895.18,0,Excellent
+2021-07,"Frozen Foods Malaysia","B006","Johor Bahru 88 Speedmart",1,1,1,100,101.28,8,Excellent
+2021-07,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,3889.25,0,Excellent
+2021-07,"Green Harvest Trading","B007","Ipoh 88 Speedmart",3,3,3,100,16553.6,.2,Excellent
+2021-07,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,1371.38,1,Excellent
+2021-07,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",3,3,3,100,3330.31,1.9,Excellent
+2021-07,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,1476.54,11,Excellent
+2021-07,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,119.72,4,Excellent
+2021-07,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",3,3,3,100,7481.57,.5,Excellent
+2021-07,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,201.42,8,Excellent
+2021-07,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",2,1,1,50,828.52,7,Poor
+2021-07,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,529.44,5,Excellent
+2021-07,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",3,3,3,100,3139.27,.2,Excellent
+2021-07,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,471.56,2,Excellent
+2021-07,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,506.76,3,Excellent
+2021-07,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",2,2,2,100,692.05,1.3,Excellent
+2021-08,"Clean & Clear Resources","B005","Klang 88 Speedmart",1,1,1,100,436.59,4,Excellent
+2021-08,"Dairy Fresh Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,87.75,2,Excellent
+2021-08,"Dairy Fresh Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,403.52,4,Excellent
+2021-08,"Dry Goods Trading Co","B007","Ipoh 88 Speedmart",1,1,1,100,22.68,10,Excellent
+2021-08,"Farm to Table Sdn Bhd","B007","Ipoh 88 Speedmart",1,1,1,100,56.2,13,Excellent
+2021-08,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,307.87,12,Excellent
+2021-08,"Frozen Foods Malaysia","B002","Cheras 88 Speedmart",1,1,1,100,2063.65,7,Excellent
+2021-08,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,1137.78,3,Excellent
+2021-08,"Green Harvest Trading","B007","Ipoh 88 Speedmart",2,2,2,100,271.8,2,Excellent
+2021-08,"Green Harvest Trading","B003","Petaling Jaya 88 Speedmart",1,1,1,100,931.04,3,Excellent
+2021-08,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,180.21,11,Excellent
+2021-08,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,120.42,12,Excellent
+2021-08,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",2,2,2,100,1766.73,7.8,Excellent
+2021-08,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,344.32,6,Excellent
+2021-08,"Nusa Kitchen Supplies","B003","Petaling Jaya 88 Speedmart",1,1,1,100,2345.77,5,Excellent
+2021-08,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,920.47,6,Excellent
+2021-08,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,86.68,2,Excellent
+2021-09,"Arctic Chill Logistics","B006","Johor Bahru 88 Speedmart",1,1,1,100,1497.54,14,Excellent
+2021-09,"Arctic Chill Logistics","B005","Klang 88 Speedmart",1,1,1,100,254.24,10,Excellent
+2021-09,"Clean & Clear Resources","B007","Ipoh 88 Speedmart",1,1,1,100,241.26,7,Excellent
+2021-09,"Dry Goods Trading Co","B007","Ipoh 88 Speedmart",1,1,1,100,72.2,14,Excellent
+2021-09,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,1,1,100,391.5,12,Excellent
+2021-09,"Farm to Table Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,47.94,14,Excellent
+2021-09,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,559.4,5,Excellent
+2021-09,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,111.8,7,Excellent
+2021-09,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,248.46,7,Excellent
+2021-09,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,651.61,14,Excellent
+2021-09,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,796.89,9,Excellent
+2021-09,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,0,0,0,1453.97,0,Poor
+2021-09,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,762.06,5,Excellent
+2021-09,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,112.11,1,Excellent
+2021-09,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,200.96,1,Excellent
+2021-09,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,629.03,4,Excellent
+2021-09,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",2,2,2,100,1102.68,3.5,Excellent
+2021-10,"Arctic Chill Logistics","B008","George Town 88 Speedmart",2,2,2,100,1749.49,2,Excellent
+2021-10,"Clean & Clear Resources","B008","George Town 88 Speedmart",1,1,1,100,1672.37,0,Excellent
+2021-10,"Dairy Fresh Sdn Bhd","B008","George Town 88 Speedmart",2,2,2,100,8205.17,0,Excellent
+2021-10,"Dairy Fresh Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,23.52,2,Excellent
+2021-10,"Dry Goods Trading Co","B008","George Town 88 Speedmart",2,2,2,100,1253.82,1.5,Excellent
+2021-10,"Dry Goods Trading Co","B007","Ipoh 88 Speedmart",1,1,1,100,105.6,12,Excellent
+2021-10,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,1,1,100,42.25,9,Excellent
+2021-10,"Farm to Table Sdn Bhd","B001","Ampang 88 Speedmart",1,1,1,100,1493.96,11,Excellent
+2021-10,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,489.98,10,Excellent
+2021-10,"Farm to Table Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,1518.41,0,Excellent
+2021-10,"Farm to Table Sdn Bhd","B007","Ipoh 88 Speedmart",1,1,1,100,139.68,14,Excellent
+2021-10,"Farm to Table Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,2255.77,12,Excellent
+2021-10,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,153.1,6,Excellent
+2021-10,"Frozen Foods Malaysia","B008","George Town 88 Speedmart",1,1,1,100,1265.87,0,Excellent
+2021-10,"Frozen Foods Malaysia","B003","Petaling Jaya 88 Speedmart",1,1,1,100,494.42,5,Excellent
+2021-10,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,38.8,4,Excellent
+2021-10,"Global Grocery Supply","B008","George Town 88 Speedmart",2,2,2,100,6872.47,.5,Excellent
+2021-10,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,223.39,8,Excellent
+2021-10,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,681.96,3,Excellent
+2021-10,"Green Harvest Trading","B008","George Town 88 Speedmart",3,3,3,100,14464.49,.5,Excellent
+2021-10,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,89.09,4,Excellent
+2021-10,"Home Essentials Enterprise","B008","George Town 88 Speedmart",1,1,1,100,5855.74,0,Excellent
+2021-10,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,1103.94,12,Excellent
+2021-10,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,711.89,11,Excellent
+2021-10,"Legacy Foods Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,100.58,0,Excellent
+2021-10,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,1453.97,8,Excellent
+2021-10,"Nusa Kitchen Supplies","B008","George Town 88 Speedmart",2,2,2,100,5927.92,0,Excellent
+2021-10,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,391.37,5,Excellent
+2021-10,"Nusa Kitchen Supplies","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1159.74,5,Excellent
+2021-10,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",3,3,3,100,2746.92,.2,Excellent
+2021-10,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,243.66,1,Excellent
+2021-11,"Arctic Chill Logistics","B007","Ipoh 88 Speedmart",2,2,2,100,1260.01,13,Excellent
+2021-11,"Dry Goods Trading Co","B002","Cheras 88 Speedmart",1,1,1,100,83.81,9,Excellent
+2021-11,"Dry Goods Trading Co","B004","Shah Alam 88 Speedmart",1,1,1,100,227.5,11,Excellent
+2021-11,"Farm to Table Sdn Bhd","B008","George Town 88 Speedmart",2,2,2,100,350.48,10,Excellent
+2021-11,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,1383.14,6,Excellent
+2021-11,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",2,2,2,100,222.41,7.3,Excellent
+2021-11,"Global Grocery Supply","B001","Ampang 88 Speedmart",1,1,1,100,6785.25,7,Excellent
+2021-11,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,323.48,7,Excellent
+2021-11,"Green Harvest Trading","B001","Ampang 88 Speedmart",2,2,2,100,7504.68,3,Excellent
+2021-11,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,0,0,0,558.98,0,Poor
+2021-11,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,1694.3,3,Excellent
+2021-11,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,1049.41,4,Excellent
+2021-11,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,856.02,4,Excellent
+2021-11,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,607.02,11,Excellent
+2021-11,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,632.73,12,Excellent
+2021-11,"Nusa Kitchen Supplies","B008","George Town 88 Speedmart",1,1,1,100,159.88,7,Excellent
+2021-11,"Nusa Kitchen Supplies","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1680.86,6,Excellent
+2021-11,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,369.5,5,Excellent
+2021-11,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,192.05,4,Excellent
+2021-11,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",1,1,1,100,21.78,3,Excellent
+2021-11,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,199.78,4,Excellent
+2021-11,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,289.28,1,Excellent
+2021-11,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,251.51,4,Excellent
+2021-12,"Arctic Chill Logistics","B006","Johor Bahru 88 Speedmart",1,1,1,100,721.94,13,Excellent
+2021-12,"Clean & Clear Resources","B006","Johor Bahru 88 Speedmart",1,1,1,100,438.59,7,Excellent
+2021-12,"Farm to Table Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,493.38,11,Excellent
+2021-12,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",2,2,2,100,297.06,10,Excellent
+2021-12,"Farm to Table Sdn Bhd","B003","Petaling Jaya 88 Speedmart",2,2,2,100,1653.47,11.8,Excellent
+2021-12,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,442.06,6,Excellent
+2021-12,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,339.3,5,Excellent
+2021-12,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,367.68,4,Excellent
+2021-12,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,138.71,6,Excellent
+2021-12,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,1149.97,3,Excellent
+2021-12,"Green Harvest Trading","B007","Ipoh 88 Speedmart",2,2,2,100,362.34,1.8,Excellent
+2021-12,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",2,2,2,100,297.36,12,Excellent
+2021-12,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,4494.6,12,Excellent
+2021-12,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,51.17,9,Excellent
+2021-12,"Nusa Kitchen Supplies","B008","George Town 88 Speedmart",1,1,1,100,407.28,8,Excellent
+2021-12,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,430.59,7,Excellent
+2021-12,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",2,2,2,100,1532.17,7,Excellent
+2021-12,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",2,2,2,100,975.49,5.6,Excellent
+2021-12,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",2,2,2,100,1368.4,2.7,Excellent
+2021-12,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,906.15,3,Excellent
+2021-12,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,272.16,1,Excellent
+2021-12,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,97.02,2,Excellent
+2022-01,"Arctic Chill Logistics","B009","Seremban 88 Speedmart",1,1,1,100,1078.68,0,Excellent
+2022-01,"Clean & Clear Resources","B007","Ipoh 88 Speedmart",1,1,1,100,570.6,5,Excellent
+2022-01,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,873.52,0,Excellent
+2022-01,"Dairy Fresh Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,148.42,2,Excellent
+2022-01,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",2,2,2,100,2544.06,.2,Excellent
+2022-01,"Dry Goods Trading Co","B007","Ipoh 88 Speedmart",1,1,1,100,378.93,11,Excellent
+2022-01,"Dry Goods Trading Co","B009","Seremban 88 Speedmart",1,1,1,100,1125.25,0,Excellent
+2022-01,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,1353.1,10,Excellent
+2022-01,"Farm to Table Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,126.31,13,Excellent
+2022-01,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,2709.7,0,Excellent
+2022-01,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,196.49,11,Excellent
+2022-01,"Frozen Foods Malaysia","B008","George Town 88 Speedmart",1,1,1,100,265.6,7,Excellent
+2022-01,"Frozen Foods Malaysia","B006","Johor Bahru 88 Speedmart",1,1,1,100,163.7,5,Excellent
+2022-01,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",2,2,2,100,769.23,.6,Excellent
+2022-01,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,1337.87,4,Excellent
+2022-01,"Global Grocery Supply","B009","Seremban 88 Speedmart",5,5,5,100,2991.43,1.1,Excellent
+2022-01,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,606.94,3,Excellent
+2022-01,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,723.29,2,Excellent
+2022-01,"Green Harvest Trading","B009","Seremban 88 Speedmart",4,4,4,100,5678.57,.4,Excellent
+2022-01,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,704.6,10,Excellent
+2022-01,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",2,1,1,50,2395.21,0,Poor
+2022-01,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,259,5,Excellent
+2022-01,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,828.67,7,Excellent
+2022-01,"Nusa Kitchen Supplies","B003","Petaling Jaya 88 Speedmart",1,1,1,100,94.12,5,Excellent
+2022-01,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",4,4,4,100,2303.83,1.7,Excellent
+2022-01,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",4,4,4,100,1479.32,.8,Excellent
+2022-02,"Clean & Clear Resources","B004","Shah Alam 88 Speedmart",1,1,1,100,339.48,8,Excellent
+2022-02,"Dairy Fresh Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,165.62,2,Excellent
+2022-02,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,295.21,11,Excellent
+2022-02,"Dry Goods Trading Co","B006","Johor Bahru 88 Speedmart",1,1,1,100,341.73,12,Excellent
+2022-02,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,248.72,6,Excellent
+2022-02,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,125.7,4,Excellent
+2022-02,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",1,1,1,100,26,5,Excellent
+2022-02,"Global Grocery Supply","B009","Seremban 88 Speedmart",2,2,2,100,216.57,5.7,Excellent
+2022-02,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,407.62,4,Excellent
+2022-02,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,633.46,2,Excellent
+2022-02,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",2,2,2,100,210.54,10.8,Excellent
+2022-02,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,615.05,12,Excellent
+2022-02,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,224.71,7,Excellent
+2022-02,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,185.12,8,Excellent
+2022-02,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",1,1,1,100,75.99,4,Excellent
+2022-02,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,1157.46,4,Excellent
+2022-02,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,77.73,1,Excellent
+2022-02,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,729.49,3,Excellent
+2022-03,"Arctic Chill Logistics","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1374.73,9,Excellent
+2022-03,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,53.24,2,Excellent
+2022-03,"Dry Goods Trading Co","B006","Johor Bahru 88 Speedmart",1,1,1,100,920.55,14,Excellent
+2022-03,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,1288.69,6,Excellent
+2022-03,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,50.9,8,Excellent
+2022-03,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,1856.55,5,Excellent
+2022-03,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,1135.81,8,Excellent
+2022-03,"Global Grocery Supply","B003","Petaling Jaya 88 Speedmart",1,1,1,100,742.55,7,Excellent
+2022-03,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,80.85,3,Excellent
+2022-03,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,1044.16,1,Excellent
+2022-03,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,210.15,3,Excellent
+2022-03,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,3375.96,1,Excellent
+2022-03,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,952,13,Excellent
+2022-03,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,242.62,5,Excellent
+2022-03,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,1124.19,8,Excellent
+2022-03,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",2,2,2,100,589.92,1.7,Excellent
+2022-03,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",2,2,2,100,393.63,2.7,Excellent
+2022-03,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,73.02,2,Excellent
+2022-04,"Clean & Clear Resources","B006","Johor Bahru 88 Speedmart",1,1,1,100,845.23,5,Excellent
+2022-04,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,40.1,8,Excellent
+2022-04,"Dry Goods Trading Co","B002","Cheras 88 Speedmart",1,1,1,100,968.78,9,Excellent
+2022-04,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,105.48,13,Excellent
+2022-04,"Dry Goods Trading Co","B007","Ipoh 88 Speedmart",1,1,1,100,1096.72,9,Excellent
+2022-04,"Dry Goods Trading Co","B009","Seremban 88 Speedmart",1,1,1,100,372.43,9,Excellent
+2022-04,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,191.23,13,Excellent
+2022-04,"Frozen Foods Malaysia","B008","George Town 88 Speedmart",1,1,1,100,561.28,6,Excellent
+2022-04,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,19.46,4,Excellent
+2022-04,"Global Grocery Supply","B001","Ampang 88 Speedmart",1,1,1,100,603.34,8,Excellent
+2022-04,"Global Grocery Supply","B007","Ipoh 88 Speedmart",2,2,2,100,594.61,5,Excellent
+2022-04,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,289.54,4,Excellent
+2022-04,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,1210.23,1,Excellent
+2022-04,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,0,0,0,151.92,0,Poor
+2022-04,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,597.65,10,Excellent
+2022-04,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,272.48,14,Excellent
+2022-04,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,2238.1,8,Excellent
+2022-04,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,373.6,6,Excellent
+2022-04,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,281.37,5,Excellent
+2022-04,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,171.85,6,Excellent
+2022-04,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,234.16,4,Excellent
+2022-04,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",2,2,2,100,93.56,1.7,Excellent
+2022-05,"Arctic Chill Logistics","B007","Ipoh 88 Speedmart",1,0,0,0,555.18,0,Poor
+2022-05,"Clean & Clear Resources","B002","Cheras 88 Speedmart",1,1,1,100,958.25,8,Excellent
+2022-05,"Clean & Clear Resources","B007","Ipoh 88 Speedmart",1,1,1,100,353.09,6,Excellent
+2022-05,"Clean & Clear Resources","B006","Johor Bahru 88 Speedmart",1,1,1,100,571.69,6,Excellent
+2022-05,"Clean & Clear Resources","B004","Shah Alam 88 Speedmart",1,1,1,100,152.32,4,Excellent
+2022-05,"Farm to Table Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,691.84,10,Excellent
+2022-05,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,174.24,6,Excellent
+2022-05,"Frozen Foods Malaysia","B007","Ipoh 88 Speedmart",1,1,1,100,656.41,6,Excellent
+2022-05,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,104.3,4,Excellent
+2022-05,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,571.76,4,Excellent
+2022-05,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,817.87,4,Excellent
+2022-05,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,441.74,1,Excellent
+2022-05,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,1208.72,1,Excellent
+2022-05,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,28.2,2,Excellent
+2022-05,"Home Essentials Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,1303.76,13,Excellent
+2022-05,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,300.59,14,Excellent
+2022-05,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,118.63,14,Excellent
+2022-05,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,197.22,8,Excellent
+2022-05,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,101.92,5,Excellent
+2022-05,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,2025.01,7,Excellent
+2022-05,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,54.47,2,Excellent
+2022-05,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,285.74,4,Excellent
+2022-06,"Arctic Chill Logistics","B010","Melaka 88 Speedmart",1,1,1,100,870.34,0,Excellent
+2022-06,"Arctic Chill Logistics","B009","Seremban 88 Speedmart",1,1,1,100,381.01,14,Excellent
+2022-06,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",2,2,2,100,2880.41,10.8,Excellent
+2022-06,"Clean & Clear Resources","B005","Klang 88 Speedmart",1,1,1,100,185.08,7,Excellent
+2022-06,"Clean & Clear Resources","B010","Melaka 88 Speedmart",1,1,1,100,1181.86,0,Excellent
+2022-06,"Clean & Clear Resources","B004","Shah Alam 88 Speedmart",1,1,1,100,39.6,8,Excellent
+2022-06,"Dairy Fresh Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,521.66,4,Excellent
+2022-06,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",3,2,2,66.67,1651,0,Poor
+2022-06,"Dairy Fresh Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,717.2,2,Excellent
+2022-06,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,189.68,4,Excellent
+2022-06,"Dry Goods Trading Co","B002","Cheras 88 Speedmart",1,1,1,100,910.38,13,Excellent
+2022-06,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",3,3,3,100,743.22,2.9,Excellent
+2022-06,"Dry Goods Trading Co","B004","Shah Alam 88 Speedmart",1,1,1,100,257.25,11,Excellent
+2022-06,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,57.1,12,Excellent
+2022-06,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,340.7,13,Excellent
+2022-06,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,1265.74,0,Excellent
+2022-06,"Frozen Foods Malaysia","B010","Melaka 88 Speedmart",2,2,2,100,1159.45,.8,Excellent
+2022-06,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,195.45,4,Excellent
+2022-06,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",1,1,1,100,559.07,4,Excellent
+2022-06,"Global Grocery Supply","B010","Melaka 88 Speedmart",3,3,3,100,6022.72,1.6,Excellent
+2022-06,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,355.87,7,Excellent
+2022-06,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,1229.53,4,Excellent
+2022-06,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,194.14,3,Excellent
+2022-06,"Green Harvest Trading","B007","Ipoh 88 Speedmart",2,2,2,100,693.65,3.3,Excellent
+2022-06,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,2166.94,2,Excellent
+2022-06,"Green Harvest Trading","B010","Melaka 88 Speedmart",4,4,4,100,7556.99,.4,Excellent
+2022-06,"Green Harvest Trading","B003","Petaling Jaya 88 Speedmart",1,1,1,100,4658.86,4,Excellent
+2022-06,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,1072.14,1,Excellent
+2022-06,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",2,2,2,100,1359.7,3.3,Excellent
+2022-06,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,662.24,9,Excellent
+2022-06,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,1105.02,1.3,Excellent
+2022-06,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,445.5,4,Excellent
+2022-06,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,571.82,8,Excellent
+2022-06,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,90.47,6,Excellent
+2022-06,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",3,3,3,100,4461.23,.8,Excellent
+2022-06,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,674.89,6,Excellent
+2022-06,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,173.67,2,Excellent
+2022-06,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",5,5,5,100,1367.38,.5,Excellent
+2022-06,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,293.23,4,Excellent
+2022-06,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,133.32,3,Excellent
+2022-06,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,235.08,1,Excellent
+2022-07,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,1,1,100,325.7,12,Excellent
+2022-07,"Arctic Chill Logistics","B010","Melaka 88 Speedmart",1,1,1,100,50.7,9,Excellent
+2022-07,"Clean & Clear Resources","B007","Ipoh 88 Speedmart",2,2,2,100,490.02,5.5,Excellent
+2022-07,"Clean & Clear Resources","B010","Melaka 88 Speedmart",1,1,1,100,48.3,4,Excellent
+2022-07,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,216.65,6,Excellent
+2022-07,"Dry Goods Trading Co","B007","Ipoh 88 Speedmart",1,1,1,100,264.36,12,Excellent
+2022-07,"Dry Goods Trading Co","B009","Seremban 88 Speedmart",1,1,1,100,250.08,10,Excellent
+2022-07,"Farm to Table Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,551.9,13,Excellent
+2022-07,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,124.19,10,Excellent
+2022-07,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,226.27,8,Excellent
+2022-07,"Frozen Foods Malaysia","B008","George Town 88 Speedmart",1,1,1,100,174.66,7,Excellent
+2022-07,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,120.73,6,Excellent
+2022-07,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,913.17,6,Excellent
+2022-07,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,923.57,4,Excellent
+2022-07,"Green Harvest Trading","B005","Klang 88 Speedmart",2,2,2,100,1398.52,3.3,Excellent
+2022-07,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,228.69,1,Excellent
+2022-07,"Home Essentials Enterprise","B008","George Town 88 Speedmart",1,1,1,100,133.19,11,Excellent
+2022-07,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,342.71,14,Excellent
+2022-07,"Nusa Kitchen Supplies","B008","George Town 88 Speedmart",1,1,1,100,167.49,7,Excellent
+2022-07,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,206.46,7,Excellent
+2022-07,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,2007.29,8,Excellent
+2022-07,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,138.56,5,Excellent
+2022-07,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,152.15,2.7,Excellent
+2022-07,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,153.29,1,Excellent
+2022-08,"Clean & Clear Resources","B007","Ipoh 88 Speedmart",1,1,1,100,29.4,8,Excellent
+2022-08,"Dry Goods Trading Co","B001","Ampang 88 Speedmart",1,1,1,100,373.5,10,Excellent
+2022-08,"Dry Goods Trading Co","B007","Ipoh 88 Speedmart",1,1,1,100,673.65,13,Excellent
+2022-08,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",1,1,1,100,131.63,14,Excellent
+2022-08,"Farm to Table Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,425.98,12,Excellent
+2022-08,"Farm to Table Sdn Bhd","B007","Ipoh 88 Speedmart",1,1,1,100,545.99,13,Excellent
+2022-08,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,1174.47,5,Excellent
+2022-08,"Frozen Foods Malaysia","B007","Ipoh 88 Speedmart",1,1,1,100,321.77,7,Excellent
+2022-08,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,120.74,4,Excellent
+2022-08,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,3251,4,Excellent
+2022-08,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,1139.82,5,Excellent
+2022-08,"Global Grocery Supply","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1666.88,8,Excellent
+2022-08,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,883.13,7,Excellent
+2022-08,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,1051.56,5,Excellent
+2022-08,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,1055.45,1,Excellent
+2022-08,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,1110.5,2,Excellent
+2022-08,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,199.1,4,Excellent
+2022-08,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,3389.12,12,Excellent
+2022-08,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,1660.11,11,Excellent
+2022-08,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,463.02,9,Excellent
+2022-08,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,39.91,7,Excellent
+2022-08,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,202.95,7,Excellent
+2022-08,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,731.67,8,Excellent
+2022-08,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,135.72,2,Excellent
+2022-08,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,58.4,3,Excellent
+2022-08,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,248.8,3,Excellent
+2022-09,"Arctic Chill Logistics","B010","Melaka 88 Speedmart",1,1,1,100,158.17,9,Excellent
+2022-09,"Arctic Chill Logistics","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1515.29,14,Excellent
+2022-09,"Arctic Chill Logistics","B009","Seremban 88 Speedmart",2,2,2,100,709.5,11.3,Excellent
+2022-09,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,95.1,3,Excellent
+2022-09,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,532.19,11,Excellent
+2022-09,"Farm to Table Sdn Bhd","B007","Ipoh 88 Speedmart",1,1,1,100,454.82,9,Excellent
+2022-09,"Frozen Foods Malaysia","B003","Petaling Jaya 88 Speedmart",1,1,1,100,2202.76,8,Excellent
+2022-09,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,836.18,4,Excellent
+2022-09,"Global Grocery Supply","B001","Ampang 88 Speedmart",1,1,1,100,1182.57,5,Excellent
+2022-09,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,171.68,7,Excellent
+2022-09,"Global Grocery Supply","B009","Seremban 88 Speedmart",2,2,2,100,292.51,4.4,Excellent
+2022-09,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,5587.82,4,Excellent
+2022-09,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,356.54,4,Excellent
+2022-09,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,330.03,2,Excellent
+2022-09,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,179.2,4,Excellent
+2022-09,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,607.55,13,Excellent
+2022-09,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,389.37,11,Excellent
+2022-09,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",2,2,2,100,808.01,11.7,Excellent
+2022-09,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,2917,7,Excellent
+2022-09,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,243.76,4,Excellent
+2022-09,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,549.98,4,Excellent
+2022-09,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,279.62,1,Excellent
+2022-09,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,196.83,4,Excellent
+2022-09,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,117.19,2,Excellent
+2022-09,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,100.84,2,Excellent
+2022-10,"Arctic Chill Logistics","B001","Ampang 88 Speedmart",1,1,1,100,1503.43,13,Excellent
+2022-10,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,1,1,100,89.7,9,Excellent
+2022-10,"Arctic Chill Logistics","B005","Klang 88 Speedmart",2,2,2,100,669.17,12.3,Excellent
+2022-10,"Arctic Chill Logistics","B010","Melaka 88 Speedmart",2,2,2,100,647.09,11,Excellent
+2022-10,"Clean & Clear Resources","B010","Melaka 88 Speedmart",1,1,1,100,19.9,8,Excellent
+2022-10,"Clean & Clear Resources","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1109.19,8,Excellent
+2022-10,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,223.37,8,Excellent
+2022-10,"Farm to Table Sdn Bhd","B007","Ipoh 88 Speedmart",1,1,1,100,273.97,10,Excellent
+2022-10,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,237.17,10,Excellent
+2022-10,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,244.46,14,Excellent
+2022-10,"Frozen Foods Malaysia","B006","Johor Bahru 88 Speedmart",1,1,1,100,266.46,7,Excellent
+2022-10,"Frozen Foods Malaysia","B010","Melaka 88 Speedmart",1,1,1,100,97.93,6,Excellent
+2022-10,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,48.9,7,Excellent
+2022-10,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,22.66,5,Excellent
+2022-10,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,1003.4,8,Excellent
+2022-10,"Global Grocery Supply","B010","Melaka 88 Speedmart",2,1,1,50,443.35,7,Poor
+2022-10,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,1583.15,3,Excellent
+2022-10,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,109.33,3,Excellent
+2022-10,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,149.62,14,Excellent
+2022-10,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",2,2,2,100,1940.01,5.8,Excellent
+2022-10,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",2,2,2,100,978.25,7,Excellent
+2022-10,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",2,2,2,100,348.27,4.4,Excellent
+2022-10,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,368.98,5,Excellent
+2022-10,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,61.17,2,Excellent
+2022-10,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,251.88,2,Excellent
+2022-11,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,1,1,100,1723.1,13,Excellent
+2022-11,"Arctic Chill Logistics","B009","Seremban 88 Speedmart",1,1,1,100,218.91,12,Excellent
+2022-11,"Dairy Fresh Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,24.36,4,Excellent
+2022-11,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,484.08,9,Excellent
+2022-11,"Dry Goods Trading Co","B007","Ipoh 88 Speedmart",1,1,1,100,380.6,9,Excellent
+2022-11,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,380.67,9,Excellent
+2022-11,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,653.17,11,Excellent
+2022-11,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,752.91,8,Excellent
+2022-11,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,356.48,7,Excellent
+2022-11,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,313.14,7,Excellent
+2022-11,"Global Grocery Supply","B005","Klang 88 Speedmart",2,2,2,100,456.05,5,Excellent
+2022-11,"Global Grocery Supply","B009","Seremban 88 Speedmart",3,3,3,100,2241.87,6.4,Excellent
+2022-11,"Green Harvest Trading","B007","Ipoh 88 Speedmart",2,2,2,100,3116.99,2,Excellent
+2022-11,"Green Harvest Trading","B003","Petaling Jaya 88 Speedmart",1,1,1,100,2003.52,3,Excellent
+2022-11,"Green Harvest Trading","B009","Seremban 88 Speedmart",2,2,2,100,617.15,1.6,Excellent
+2022-11,"Home Essentials Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,973.36,11,Excellent
+2022-11,"Home Essentials Enterprise","B008","George Town 88 Speedmart",1,1,1,100,246.84,12,Excellent
+2022-11,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,438.1,12,Excellent
+2022-11,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",2,2,2,100,653.05,11.8,Excellent
+2022-11,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,707.33,6,Excellent
+2022-11,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",2,2,2,100,264.6,6,Excellent
+2022-11,"Nusa Kitchen Supplies","B003","Petaling Jaya 88 Speedmart",1,1,1,100,7789.2,5,Excellent
+2022-11,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",2,2,2,100,1249.65,6.5,Excellent
+2022-11,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,162.12,1,Excellent
+2022-11,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,371.92,2.5,Excellent
+2022-11,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,124.66,3,Excellent
+2022-12,"Arctic Chill Logistics","B002","Cheras 88 Speedmart",1,1,1,100,530.7,10,Excellent
+2022-12,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,316.06,12,Excellent
+2022-12,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,28.05,4,Excellent
+2022-12,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,46.9,3,Excellent
+2022-12,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,98.02,1,Excellent
+2022-12,"Dairy Fresh Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,432.78,4,Excellent
+2022-12,"Dry Goods Trading Co","B006","Johor Bahru 88 Speedmart",2,2,2,100,879.48,13,Excellent
+2022-12,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",1,1,1,100,66.32,9,Excellent
+2022-12,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,828.88,5,Excellent
+2022-12,"Frozen Foods Malaysia","B010","Melaka 88 Speedmart",1,1,1,100,94.2,5,Excellent
+2022-12,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,198.48,4,Excellent
+2022-12,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",2,2,2,100,1360.46,5.6,Excellent
+2022-12,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,847.75,7,Excellent
+2022-12,"Global Grocery Supply","B007","Ipoh 88 Speedmart",2,2,2,100,395.24,5.5,Excellent
+2022-12,"Global Grocery Supply","B010","Melaka 88 Speedmart",2,2,2,100,728.28,7,Excellent
+2022-12,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,172.66,4,Excellent
+2022-12,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,3084.37,4,Excellent
+2022-12,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,281.69,3,Excellent
+2022-12,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,178.52,1,Excellent
+2022-12,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,752.3,2,Excellent
+2022-12,"Green Harvest Trading","B003","Petaling Jaya 88 Speedmart",1,1,1,100,2140.88,3,Excellent
+2022-12,"Green Harvest Trading","B009","Seremban 88 Speedmart",2,2,2,100,1029.61,3.3,Excellent
+2022-12,"Home Essentials Enterprise","B008","George Town 88 Speedmart",2,2,2,100,922.33,11.4,Excellent
+2022-12,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",2,2,2,100,1462.24,10.3,Excellent
+2022-12,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,291.33,11,Excellent
+2022-12,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,100.49,12,Excellent
+2022-12,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",2,1,1,50,2293.03,12,Poor
+2022-12,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,232.08,11,Excellent
+2022-12,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,510.33,5,Excellent
+2022-12,"Nusa Kitchen Supplies","B008","George Town 88 Speedmart",1,1,1,100,514.8,5,Excellent
+2022-12,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",2,2,2,100,591.34,4.4,Excellent
+2022-12,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,361.3,4,Excellent
+2022-12,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,325.22,7,Excellent
+2022-12,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,369.72,2,Excellent
+2022-12,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",1,1,1,100,501.51,2,Excellent
+2022-12,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",2,2,2,100,641.11,4,Excellent
+2022-12,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,519.7,1,Excellent
+2022-12,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,515.49,2,Excellent
+2022-12,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,0,0,0,152.34,0,Poor
+2022-12,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,269.34,2,Excellent
+2022-12,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,581.1,2,Excellent
+2023-01,"Arctic Chill Logistics","B001","Ampang 88 Speedmart",1,1,1,100,447.2,10,Excellent
+2023-01,"Arctic Chill Logistics","B011","Kota Kinabalu 88 Speedmart",3,3,3,100,771.59,3.2,Excellent
+2023-01,"Arctic Chill Logistics","B010","Melaka 88 Speedmart",1,1,1,100,1926.51,14,Excellent
+2023-01,"Clean & Clear Resources","B007","Ipoh 88 Speedmart",1,1,1,100,381.25,4,Excellent
+2023-01,"Clean & Clear Resources","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,932.17,1,Excellent
+2023-01,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,811.08,.5,Excellent
+2023-01,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,134.91,4,Excellent
+2023-01,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,286,0,Excellent
+2023-01,"Dry Goods Trading Co","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1084.62,12,Excellent
+2023-01,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,459.65,11,Excellent
+2023-01,"Farm to Table Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,453.14,9,Excellent
+2023-01,"Farm to Table Sdn Bhd","B007","Ipoh 88 Speedmart",1,1,1,100,803.94,12,Excellent
+2023-01,"Farm to Table Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,278.26,14,Excellent
+2023-01,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,1112.92,1.8,Excellent
+2023-01,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,237.63,13,Excellent
+2023-01,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",2,2,2,100,405.66,10.8,Excellent
+2023-01,"Frozen Foods Malaysia","B007","Ipoh 88 Speedmart",1,1,1,100,260.57,8,Excellent
+2023-01,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,1614.04,0,Excellent
+2023-01,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,63.7,6,Excellent
+2023-01,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,337.95,4,Excellent
+2023-01,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,767.74,6,Excellent
+2023-01,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",4,4,4,100,3513.64,.8,Excellent
+2023-01,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,314.08,7,Excellent
+2023-01,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,4376.22,3,Excellent
+2023-01,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,2015.81,4,Excellent
+2023-01,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,1039.95,1,Excellent
+2023-01,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,3989.38,3,Excellent
+2023-01,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,647.56,1,Excellent
+2023-01,"Green Harvest Trading","B005","Klang 88 Speedmart",2,2,2,100,1049.74,2.5,Excellent
+2023-01,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",4,4,4,100,7597.17,.6,Excellent
+2023-01,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,268.98,1,Excellent
+2023-01,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,447.5,2,Excellent
+2023-01,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,524.8,3,Excellent
+2023-01,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,355.4,10,Excellent
+2023-01,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",3,3,3,100,759.01,4.1,Excellent
+2023-01,"Legacy Foods Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,3144.57,0,Excellent
+2023-01,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",4,4,4,100,5311.67,1.2,Excellent
+2023-01,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,179.86,7,Excellent
+2023-01,"Nusa Kitchen Supplies","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1313.47,8,Excellent
+2023-01,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,609.57,6,Excellent
+2023-01,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",2,2,2,100,929.07,4,Excellent
+2023-01,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",2,2,2,100,548.96,3.4,Excellent
+2023-01,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",4,4,4,100,1829.44,.3,Excellent
+2023-01,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,174.34,4,Excellent
+2023-01,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,163.51,3,Excellent
+2023-02,"Arctic Chill Logistics","B010","Melaka 88 Speedmart",1,1,1,100,265.84,10,Excellent
+2023-02,"Clean & Clear Resources","B006","Johor Bahru 88 Speedmart",1,1,1,100,357.86,4,Excellent
+2023-02,"Dairy Fresh Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,837.25,4,Excellent
+2023-02,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",3,3,3,100,1054.98,12,Excellent
+2023-02,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,612.96,11,Excellent
+2023-02,"Frozen Foods Malaysia","B008","George Town 88 Speedmart",1,1,1,100,1132.03,5,Excellent
+2023-02,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,62.1,5,Excellent
+2023-02,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,2062.92,6,Excellent
+2023-02,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,180.61,8,Excellent
+2023-02,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,354.39,3,Excellent
+2023-02,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,31.1,1,Excellent
+2023-02,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,126.4,2,Excellent
+2023-02,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,186.73,4,Excellent
+2023-02,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,245.69,11,Excellent
+2023-02,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,940.52,9,Excellent
+2023-02,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,334.28,9,Excellent
+2023-02,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,1845.65,5,Excellent
+2023-02,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,377.2,8,Excellent
+2023-02,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,786.82,5,Excellent
+2023-02,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,653.24,2,Excellent
+2023-02,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",1,1,1,100,181.86,1,Excellent
+2023-02,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,81.58,2,Excellent
+2023-02,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,169.5,2.3,Excellent
+2023-02,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,525.74,4,Excellent
+2023-03,"Arctic Chill Logistics","B009","Seremban 88 Speedmart",1,1,1,100,439.99,10,Excellent
+2023-03,"Clean & Clear Resources","B008","George Town 88 Speedmart",1,1,1,100,258.57,7,Excellent
+2023-03,"Dairy Fresh Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,4164.69,3,Excellent
+2023-03,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,53.17,2.5,Excellent
+2023-03,"Dairy Fresh Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,685.43,4,Excellent
+2023-03,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,1,1,100,146.09,13,Excellent
+2023-03,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",2,2,2,100,524.97,10.8,Excellent
+2023-03,"Farm to Table Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,545.82,9,Excellent
+2023-03,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,136.84,14,Excellent
+2023-03,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,399.86,5,Excellent
+2023-03,"Frozen Foods Malaysia","B010","Melaka 88 Speedmart",1,1,1,100,108.12,4,Excellent
+2023-03,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,77.75,4,Excellent
+2023-03,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,411.83,5,Excellent
+2023-03,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,126.02,4,Excellent
+2023-03,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,282.61,4,Excellent
+2023-03,"Home Essentials Enterprise","B008","George Town 88 Speedmart",1,1,1,100,269.88,12,Excellent
+2023-03,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,311.02,14,Excellent
+2023-03,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,758.98,9,Excellent
+2023-03,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,0,0,0,61.6,0,Poor
+2023-03,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,818.53,4,Excellent
+2023-03,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,1414.55,4,Excellent
+2023-03,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,486.14,1,Excellent
+2023-03,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,155.86,3,Excellent
+2023-04,"Arctic Chill Logistics","B006","Johor Bahru 88 Speedmart",1,1,1,100,672.1,13,Excellent
+2023-04,"Arctic Chill Logistics","B005","Klang 88 Speedmart",1,1,1,100,428.96,10,Excellent
+2023-04,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,123.54,10.5,Excellent
+2023-04,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",1,1,1,100,170.57,13,Excellent
+2023-04,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,252.82,11,Excellent
+2023-04,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,1150.36,6,Excellent
+2023-04,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",2,2,2,100,1071.64,4.6,Excellent
+2023-04,"Global Grocery Supply","B010","Melaka 88 Speedmart",2,2,2,100,785.6,5.6,Excellent
+2023-04,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,1386.37,3,Excellent
+2023-04,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,1770.17,4,Excellent
+2023-04,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,3537.93,2,Excellent
+2023-04,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,74.35,1.5,Excellent
+2023-04,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,1106.54,4,Excellent
+2023-04,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,1992.52,11,Excellent
+2023-04,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,319.98,9,Excellent
+2023-04,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1036.77,14,Excellent
+2023-04,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,824.48,6,Excellent
+2023-04,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,543.7,4,Excellent
+2023-04,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",1,1,1,100,127.5,1,Excellent
+2023-04,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,469.96,2,Excellent
+2023-04,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,103.24,1,Excellent
+2023-04,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",2,2,2,100,456.52,1.5,Excellent
+2023-04,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,590.93,3,Excellent
+2023-05,"Arctic Chill Logistics","B009","Seremban 88 Speedmart",1,1,1,100,548.89,9,Excellent
+2023-05,"Clean & Clear Resources","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,208.69,8,Excellent
+2023-05,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,417.92,12,Excellent
+2023-05,"Dry Goods Trading Co","B009","Seremban 88 Speedmart",1,1,1,100,266.86,10,Excellent
+2023-05,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,158.43,11,Excellent
+2023-05,"Farm to Table Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,592.54,9,Excellent
+2023-05,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,109.36,11,Excellent
+2023-05,"Global Grocery Supply","B010","Melaka 88 Speedmart",1,1,1,100,63.14,5,Excellent
+2023-05,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,139.11,5,Excellent
+2023-05,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,2994.71,3,Excellent
+2023-05,"Green Harvest Trading","B010","Melaka 88 Speedmart",2,2,2,100,702.12,3.5,Excellent
+2023-05,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,2562.55,4,Excellent
+2023-05,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,4482.75,4,Excellent
+2023-05,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,1435.27,9,Excellent
+2023-05,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,258.49,11.2,Excellent
+2023-05,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,57.42,13,Excellent
+2023-05,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,365.61,12,Excellent
+2023-05,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,2694.3,5,Excellent
+2023-05,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,89.7,7,Excellent
+2023-05,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,45.96,8,Excellent
+2023-05,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,1684.39,6,Excellent
+2023-05,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,41.1,6,Excellent
+2023-05,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,153.53,3,Excellent
+2023-05,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",2,2,2,100,240.74,4,Excellent
+2023-05,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,115.56,1,Excellent
+2023-06,"Arctic Chill Logistics","B007","Ipoh 88 Speedmart",1,1,1,100,303.94,9,Excellent
+2023-06,"Arctic Chill Logistics","B012","Kuching 88 Speedmart",1,1,1,100,2970.76,0,Excellent
+2023-06,"Arctic Chill Logistics","B010","Melaka 88 Speedmart",1,1,1,100,436.61,14,Excellent
+2023-06,"Clean & Clear Resources","B007","Ipoh 88 Speedmart",2,2,2,100,244.31,4.7,Excellent
+2023-06,"Clean & Clear Resources","B012","Kuching 88 Speedmart",1,1,1,100,590.77,0,Excellent
+2023-06,"Clean & Clear Resources","B003","Petaling Jaya 88 Speedmart",1,1,1,100,672.16,6,Excellent
+2023-06,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,643.8,4,Excellent
+2023-06,"Dairy Fresh Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,1608,0,Excellent
+2023-06,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,234.3,3,Excellent
+2023-06,"Dry Goods Trading Co","B012","Kuching 88 Speedmart",1,1,1,100,591.78,0,Excellent
+2023-06,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",2,2,2,100,517.98,9.7,Excellent
+2023-06,"Dry Goods Trading Co","B003","Petaling Jaya 88 Speedmart",1,1,1,100,990.91,11,Excellent
+2023-06,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,149.24,13,Excellent
+2023-06,"Farm to Table Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,1089.97,0,Excellent
+2023-06,"Frozen Foods Malaysia","B012","Kuching 88 Speedmart",1,1,1,100,2523.35,0,Excellent
+2023-06,"Frozen Foods Malaysia","B010","Melaka 88 Speedmart",1,1,1,100,228.62,8,Excellent
+2023-06,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,96.22,6,Excellent
+2023-06,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,593.9,5,Excellent
+2023-06,"Global Grocery Supply","B008","George Town 88 Speedmart",2,2,2,100,2529.99,6.5,Excellent
+2023-06,"Global Grocery Supply","B012","Kuching 88 Speedmart",1,1,1,100,1907.59,0,Excellent
+2023-06,"Global Grocery Supply","B010","Melaka 88 Speedmart",2,2,2,100,293.22,4.5,Excellent
+2023-06,"Global Grocery Supply","B003","Petaling Jaya 88 Speedmart",1,1,1,100,485.6,6,Excellent
+2023-06,"Global Grocery Supply","B009","Seremban 88 Speedmart",3,3,3,100,580.61,5.1,Excellent
+2023-06,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,306.41,1,Excellent
+2023-06,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,1471.6,4,Excellent
+2023-06,"Green Harvest Trading","B005","Klang 88 Speedmart",2,2,2,100,1300.43,1.5,Excellent
+2023-06,"Green Harvest Trading","B012","Kuching 88 Speedmart",2,2,2,100,6783.13,0,Excellent
+2023-06,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,305.64,4,Excellent
+2023-06,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,634.01,2,Excellent
+2023-06,"Home Essentials Enterprise","B008","George Town 88 Speedmart",1,1,1,100,171.76,14,Excellent
+2023-06,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,471.26,10,Excellent
+2023-06,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,1950.35,0,Excellent
+2023-06,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,236.81,13,Excellent
+2023-06,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,331.1,8,Excellent
+2023-06,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,96.95,5,Excellent
+2023-06,"Nusa Kitchen Supplies","B012","Kuching 88 Speedmart",1,1,1,100,1333.07,0,Excellent
+2023-06,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,0,0,0,368.84,0,Poor
+2023-06,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,1300.23,7,Excellent
+2023-06,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,694.73,6,Excellent
+2023-06,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,489.92,1,Excellent
+2023-06,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,62.06,1,Excellent
+2023-06,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",3,3,3,100,91.02,2.6,Excellent
+2023-06,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,882.32,0,Excellent
+2023-06,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,156.95,1,Excellent
+2023-07,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,1,1,100,452.24,10,Excellent
+2023-07,"Arctic Chill Logistics","B012","Kuching 88 Speedmart",2,2,2,100,410.3,12,Excellent
+2023-07,"Arctic Chill Logistics","B003","Petaling Jaya 88 Speedmart",1,1,1,100,749.2,9,Excellent
+2023-07,"Clean & Clear Resources","B012","Kuching 88 Speedmart",1,1,1,100,291.48,7,Excellent
+2023-07,"Dairy Fresh Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,0,0,0,573.12,0,Poor
+2023-07,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,22.11,3,Excellent
+2023-07,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,231.92,1,Excellent
+2023-07,"Dry Goods Trading Co","B001","Ampang 88 Speedmart",1,1,1,100,1872.97,10,Excellent
+2023-07,"Dry Goods Trading Co","B004","Shah Alam 88 Speedmart",1,1,1,100,1085.5,12,Excellent
+2023-07,"Farm to Table Sdn Bhd","B007","Ipoh 88 Speedmart",1,1,1,100,60.1,10,Excellent
+2023-07,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,170.23,9,Excellent
+2023-07,"Farm to Table Sdn Bhd","B012","Kuching 88 Speedmart",2,2,2,100,124.74,10,Excellent
+2023-07,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,491.98,7,Excellent
+2023-07,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,204.33,8,Excellent
+2023-07,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,230.52,6,Excellent
+2023-07,"Global Grocery Supply","B012","Kuching 88 Speedmart",1,1,1,100,33.15,5,Excellent
+2023-07,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,292.19,6,Excellent
+2023-07,"Green Harvest Trading","B001","Ampang 88 Speedmart",2,2,2,100,2583.18,3.4,Excellent
+2023-07,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,1289.51,4,Excellent
+2023-07,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,129.5,2,Excellent
+2023-07,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,480.3,1,Excellent
+2023-07,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,168.13,2,Excellent
+2023-07,"Green Harvest Trading","B012","Kuching 88 Speedmart",3,3,3,100,314.5,2.3,Excellent
+2023-07,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,3251.58,4,Excellent
+2023-07,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,219.29,13,Excellent
+2023-07,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,526.09,11,Excellent
+2023-07,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",2,2,2,100,142.84,9.5,Excellent
+2023-07,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,191.96,12,Excellent
+2023-07,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",2,2,2,100,286.35,4.5,Excellent
+2023-07,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,423.4,1,Excellent
+2023-07,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,40.2,3,Excellent
+2023-07,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,40.59,1,Excellent
+2023-08,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,1,1,100,797.38,12,Excellent
+2023-08,"Clean & Clear Resources","B001","Ampang 88 Speedmart",1,1,1,100,752.51,5,Excellent
+2023-08,"Clean & Clear Resources","B006","Johor Bahru 88 Speedmart",1,1,1,100,1046.26,6,Excellent
+2023-08,"Clean & Clear Resources","B012","Kuching 88 Speedmart",1,1,1,100,129.58,6,Excellent
+2023-08,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,562.58,13,Excellent
+2023-08,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,252,10,Excellent
+2023-08,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",2,2,2,100,170.11,10,Excellent
+2023-08,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,921.75,10,Excellent
+2023-08,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,556.48,4,Excellent
+2023-08,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,391.38,7,Excellent
+2023-08,"Global Grocery Supply","B012","Kuching 88 Speedmart",1,1,1,100,36,5,Excellent
+2023-08,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,73.44,5,Excellent
+2023-08,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,2311.33,5,Excellent
+2023-08,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,2474.37,1,Excellent
+2023-08,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,594.61,2,Excellent
+2023-08,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",2,2,2,100,2516.97,2.7,Excellent
+2023-08,"Green Harvest Trading","B012","Kuching 88 Speedmart",1,1,1,100,291.07,2,Excellent
+2023-08,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,152.84,3,Excellent
+2023-08,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,345.85,14,Excellent
+2023-08,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,259.86,9,Excellent
+2023-08,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",2,2,2,100,1783.39,7.4,Excellent
+2023-08,"Nusa Kitchen Supplies","B012","Kuching 88 Speedmart",2,2,2,100,743.88,5.8,Excellent
+2023-08,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,1433.07,4,Excellent
+2023-08,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,184.12,1,Excellent
+2023-08,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,543.07,1,Excellent
+2023-08,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,371.77,4,Excellent
+2023-09,"Clean & Clear Resources","B012","Kuching 88 Speedmart",2,2,2,100,86.95,5.5,Excellent
+2023-09,"Clean & Clear Resources","B004","Shah Alam 88 Speedmart",1,1,1,100,225.19,5,Excellent
+2023-09,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,115.51,2,Excellent
+2023-09,"Dairy Fresh Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,72.36,1,Excellent
+2023-09,"Dry Goods Trading Co","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1146.6,9,Excellent
+2023-09,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,258.69,9,Excellent
+2023-09,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,110.32,12,Excellent
+2023-09,"Frozen Foods Malaysia","B007","Ipoh 88 Speedmart",1,1,1,100,1896.18,7,Excellent
+2023-09,"Frozen Foods Malaysia","B006","Johor Bahru 88 Speedmart",1,1,1,100,250.59,6,Excellent
+2023-09,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,42.76,4,Excellent
+2023-09,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,584.76,7,Excellent
+2023-09,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,61.3,8,Excellent
+2023-09,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,4259.22,6,Excellent
+2023-09,"Global Grocery Supply","B012","Kuching 88 Speedmart",1,1,1,100,40.56,6,Excellent
+2023-09,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,1271.44,2,Excellent
+2023-09,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,166.92,1,Excellent
+2023-09,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,1493.55,12,Excellent
+2023-09,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,213.07,9,Excellent
+2023-09,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,128.33,7,Excellent
+2023-09,"Nusa Kitchen Supplies","B012","Kuching 88 Speedmart",1,1,1,100,468.72,5,Excellent
+2023-09,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,193.42,2.8,Excellent
+2023-09,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,59.56,1,Excellent
+2023-10,"Arctic Chill Logistics","B010","Melaka 88 Speedmart",1,1,1,100,191.51,10,Excellent
+2023-10,"Arctic Chill Logistics","B009","Seremban 88 Speedmart",1,1,1,100,449.62,13,Excellent
+2023-10,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,23.94,3,Excellent
+2023-10,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,78.34,4,Excellent
+2023-10,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,1,1,100,230.15,12,Excellent
+2023-10,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,45.8,10,Excellent
+2023-10,"Dry Goods Trading Co","B012","Kuching 88 Speedmart",1,1,1,100,21.9,14,Excellent
+2023-10,"Farm to Table Sdn Bhd","B001","Ampang 88 Speedmart",1,1,1,100,347.22,10,Excellent
+2023-10,"Farm to Table Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,240.21,9,Excellent
+2023-10,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,158.71,9,Excellent
+2023-10,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,220.91,4,Excellent
+2023-10,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,573,5,Excellent
+2023-10,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",1,1,1,100,863.39,6,Excellent
+2023-10,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,1259.23,5.6,Excellent
+2023-10,"Global Grocery Supply","B012","Kuching 88 Speedmart",1,1,1,100,123.85,4,Excellent
+2023-10,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,477.36,2,Excellent
+2023-10,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,315.42,2,Excellent
+2023-10,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,1232.99,1,Excellent
+2023-10,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,316.76,1,Excellent
+2023-10,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,216.89,3,Excellent
+2023-10,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,169.45,4,Excellent
+2023-10,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,3929.51,1,Excellent
+2023-10,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,1720.38,14,Excellent
+2023-10,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,129.18,13,Excellent
+2023-10,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,152.93,11,Excellent
+2023-10,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,276.42,13,Excellent
+2023-10,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,398.31,12,Excellent
+2023-10,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,691.26,8,Excellent
+2023-10,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,2384.91,5,Excellent
+2023-10,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,144.14,4,Excellent
+2023-10,"Nusa Kitchen Supplies","B012","Kuching 88 Speedmart",1,1,1,100,116.5,4,Excellent
+2023-10,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,324.9,4,Excellent
+2023-10,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,437.28,3.3,Excellent
+2023-10,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,363.87,4,Excellent
+2023-11,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,230.4,10,Excellent
+2023-11,"Clean & Clear Resources","B005","Klang 88 Speedmart",1,1,1,100,845.55,6,Excellent
+2023-11,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,514.76,4,Excellent
+2023-11,"Dry Goods Trading Co","B001","Ampang 88 Speedmart",1,1,1,100,1168.11,12,Excellent
+2023-11,"Dry Goods Trading Co","B002","Cheras 88 Speedmart",1,1,1,100,892.22,14,Excellent
+2023-11,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,1,1,100,134.71,11,Excellent
+2023-11,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,161,9,Excellent
+2023-11,"Dry Goods Trading Co","B012","Kuching 88 Speedmart",1,1,1,100,211.55,9,Excellent
+2023-11,"Farm to Table Sdn Bhd","B006","Johor Bahru 88 Speedmart",2,2,2,100,532.66,11,Excellent
+2023-11,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,543.17,13,Excellent
+2023-11,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,887.81,11,Excellent
+2023-11,"Frozen Foods Malaysia","B008","George Town 88 Speedmart",1,1,1,100,2525.84,8,Excellent
+2023-11,"Frozen Foods Malaysia","B007","Ipoh 88 Speedmart",1,1,1,100,118.5,7,Excellent
+2023-11,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,724.74,8,Excellent
+2023-11,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,531.89,8,Excellent
+2023-11,"Global Grocery Supply","B010","Melaka 88 Speedmart",1,1,1,100,122.59,7,Excellent
+2023-11,"Global Grocery Supply","B003","Petaling Jaya 88 Speedmart",1,1,1,100,908.01,6,Excellent
+2023-11,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,361.2,2,Excellent
+2023-11,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,124.61,1,Excellent
+2023-11,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,426.23,1,Excellent
+2023-11,"Green Harvest Trading","B012","Kuching 88 Speedmart",1,1,1,100,459.51,4,Excellent
+2023-11,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,715.66,4,Excellent
+2023-11,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,345.77,11,Excellent
+2023-11,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,273.38,13,Excellent
+2023-11,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",3,3,3,100,728.58,6.2,Excellent
+2023-11,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,453.2,6,Excellent
+2023-11,"Nusa Kitchen Supplies","B012","Kuching 88 Speedmart",2,2,2,100,1047.66,4.7,Excellent
+2023-11,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",2,1,1,50,779.54,6,Poor
+2023-11,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",2,2,2,100,1077.22,6.3,Excellent
+2023-11,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,346.46,1,Excellent
+2023-11,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,164.99,3,Excellent
+2023-11,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,129.82,1,Excellent
+2023-11,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,260.16,4,Excellent
+2023-11,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,390.54,1.6,Excellent
+2023-11,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",3,3,3,100,915.92,2.6,Excellent
+2023-11,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",2,2,2,100,758.72,1.3,Excellent
+2023-12,"Arctic Chill Logistics","B005","Klang 88 Speedmart",1,1,1,100,611.48,12,Excellent
+2023-12,"Arctic Chill Logistics","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,241.61,12,Excellent
+2023-12,"Arctic Chill Logistics","B012","Kuching 88 Speedmart",2,2,2,100,1465.89,12.5,Excellent
+2023-12,"Clean & Clear Resources","B006","Johor Bahru 88 Speedmart",1,1,1,100,312.58,8,Excellent
+2023-12,"Clean & Clear Resources","B012","Kuching 88 Speedmart",1,1,1,100,149.4,6,Excellent
+2023-12,"Clean & Clear Resources","B010","Melaka 88 Speedmart",1,1,1,100,161.78,4,Excellent
+2023-12,"Clean & Clear Resources","B004","Shah Alam 88 Speedmart",1,1,1,100,197.2,6,Excellent
+2023-12,"Dairy Fresh Sdn Bhd","B001","Ampang 88 Speedmart",1,1,1,100,215.2,3,Excellent
+2023-12,"Dry Goods Trading Co","B002","Cheras 88 Speedmart",1,1,1,100,232.68,14,Excellent
+2023-12,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,246.99,12,Excellent
+2023-12,"Dry Goods Trading Co","B012","Kuching 88 Speedmart",2,2,2,100,576.99,12.4,Excellent
+2023-12,"Dry Goods Trading Co","B009","Seremban 88 Speedmart",1,1,1,100,203.51,11,Excellent
+2023-12,"Farm to Table Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,1070.83,9,Excellent
+2023-12,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,400.29,10,Excellent
+2023-12,"Farm to Table Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,376.35,11,Excellent
+2023-12,"Farm to Table Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,342,13,Excellent
+2023-12,"Frozen Foods Malaysia","B012","Kuching 88 Speedmart",1,1,1,100,673.3,7,Excellent
+2023-12,"Frozen Foods Malaysia","B010","Melaka 88 Speedmart",1,1,1,100,403.87,6,Excellent
+2023-12,"Frozen Foods Malaysia","B003","Petaling Jaya 88 Speedmart",1,1,1,100,2879.2,7,Excellent
+2023-12,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,1569.73,7,Excellent
+2023-12,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,1268.68,7,Excellent
+2023-12,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,1098.53,5.9,Excellent
+2023-12,"Global Grocery Supply","B012","Kuching 88 Speedmart",2,2,2,100,2006.61,5.5,Excellent
+2023-12,"Global Grocery Supply","B003","Petaling Jaya 88 Speedmart",1,1,1,100,278.38,5,Excellent
+2023-12,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,624.66,1,Excellent
+2023-12,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,4655.41,2,Excellent
+2023-12,"Green Harvest Trading","B005","Klang 88 Speedmart",2,2,2,100,798.77,4,Excellent
+2023-12,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,1861.48,4,Excellent
+2023-12,"Green Harvest Trading","B010","Melaka 88 Speedmart",2,2,2,100,3379.48,2.5,Excellent
+2023-12,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,1086.8,3,Excellent
+2023-12,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,389.8,3,Excellent
+2023-12,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,124.12,11,Excellent
+2023-12,"Home Essentials Enterprise","B008","George Town 88 Speedmart",1,1,1,100,297.35,13,Excellent
+2023-12,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,288.83,10,Excellent
+2023-12,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,469.42,12,Excellent
+2023-12,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,140.81,11,Excellent
+2023-12,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,76.31,12,Excellent
+2023-12,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,2667.14,11,Excellent
+2023-12,"Nusa Kitchen Supplies","B008","George Town 88 Speedmart",1,1,1,100,718.38,7,Excellent
+2023-12,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",2,2,2,100,730.61,6.8,Excellent
+2023-12,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,2027.52,7,Excellent
+2023-12,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,84.39,7,Excellent
+2023-12,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,186.48,6,Excellent
+2023-12,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",2,2,2,100,213.02,7.3,Excellent
+2023-12,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",2,2,2,100,957.39,6,Excellent
+2023-12,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,255.81,2,Excellent
+2023-12,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,304.89,1,Excellent
+2023-12,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,49.84,1,Excellent
+2023-12,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",5,5,5,100,538.29,2.3,Excellent
+2023-12,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,161.07,3,Excellent
+2023-12,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,204.65,4,Excellent
+2023-12,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1154.34,4,Excellent
+2023-12,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,382.25,3,Excellent
+2024-01,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,1,1,100,1122.72,14,Excellent
+2024-01,"Arctic Chill Logistics","B010","Melaka 88 Speedmart",1,1,1,100,399.02,9,Excellent
+2024-01,"Arctic Chill Logistics","B003","Petaling Jaya 88 Speedmart",1,1,1,100,2050.5,12,Excellent
+2024-01,"Arctic Chill Logistics","B009","Seremban 88 Speedmart",1,1,1,100,132.66,13,Excellent
+2024-01,"Clean & Clear Resources","B010","Melaka 88 Speedmart",1,1,1,100,110.13,5,Excellent
+2024-01,"Clean & Clear Resources","B004","Shah Alam 88 Speedmart",1,1,1,100,42.6,5,Excellent
+2024-01,"Dairy Fresh Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,29.83,3,Excellent
+2024-01,"Dry Goods Trading Co","B001","Ampang 88 Speedmart",1,1,1,100,944.66,10,Excellent
+2024-01,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,488.42,13,Excellent
+2024-01,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,255.18,13,Excellent
+2024-01,"Farm to Table Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,194.8,11,Excellent
+2024-01,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,297.37,10,Excellent
+2024-01,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,56.6,5,Excellent
+2024-01,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,354.25,6,Excellent
+2024-01,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,5448.59,2,Excellent
+2024-01,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,296.28,3,Excellent
+2024-01,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,508.28,2,Excellent
+2024-01,"Green Harvest Trading","B012","Kuching 88 Speedmart",2,2,2,100,528.5,3,Excellent
+2024-01,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,584.76,2,Excellent
+2024-01,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,1384.42,13,Excellent
+2024-01,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,417.68,13,Excellent
+2024-01,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,494.29,12,Excellent
+2024-01,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,150.22,11,Excellent
+2024-01,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,261.56,10.6,Excellent
+2024-01,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,106.92,10,Excellent
+2024-01,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,917.47,4,Excellent
+2024-01,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",2,2,2,100,462.61,4,Excellent
+2024-01,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,675.91,5,Excellent
+2024-01,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,252,1,Excellent
+2024-01,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",1,1,1,100,141.13,2,Excellent
+2024-01,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,363.14,3,Excellent
+2024-01,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,417.1,3,Excellent
+2024-01,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,139.48,2,Excellent
+2024-01,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",2,2,2,100,321.7,2.8,Excellent
+2024-01,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,125.1,3,Excellent
+2024-02,"Clean & Clear Resources","B001","Ampang 88 Speedmart",1,1,1,100,842.36,8,Excellent
+2024-02,"Clean & Clear Resources","B012","Kuching 88 Speedmart",1,1,1,100,417.78,8,Excellent
+2024-02,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,29.38,8,Excellent
+2024-02,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,76.37,4,Excellent
+2024-02,"Dairy Fresh Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,119.32,4,Excellent
+2024-02,"Farm to Table Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,430.11,14,Excellent
+2024-02,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,726.3,11,Excellent
+2024-02,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",2,2,2,100,1948.43,10.3,Excellent
+2024-02,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,89.53,4,Excellent
+2024-02,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,1804.08,6,Excellent
+2024-02,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",2,2,2,100,189.37,6.7,Excellent
+2024-02,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,195.32,8,Excellent
+2024-02,"Global Grocery Supply","B012","Kuching 88 Speedmart",1,1,1,100,54.5,6,Excellent
+2024-02,"Green Harvest Trading","B010","Melaka 88 Speedmart",2,2,2,100,1217.17,3.4,Excellent
+2024-02,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",2,2,2,100,704.1,3.5,Excellent
+2024-02,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,3054.91,14,Excellent
+2024-02,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,215.04,10,Excellent
+2024-02,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,453.2,14,Excellent
+2024-02,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,780.56,11,Excellent
+2024-02,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,157.3,5,Excellent
+2024-02,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,175.69,4.4,Excellent
+2024-02,"Nusa Kitchen Supplies","B012","Kuching 88 Speedmart",1,1,1,100,625.47,5,Excellent
+2024-02,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,249.56,4,Excellent
+2024-02,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,87.67,3,Excellent
+2024-02,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,177.38,3,Excellent
+2024-02,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,307.33,2,Excellent
+2024-02,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,756.06,3,Excellent
+2024-02,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,108.06,3,Excellent
+2024-03,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,1,1,100,3557.34,12,Excellent
+2024-03,"Arctic Chill Logistics","B005","Klang 88 Speedmart",1,1,1,100,996.29,9,Excellent
+2024-03,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,248.84,12,Excellent
+2024-03,"Clean & Clear Resources","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,186.57,4,Excellent
+2024-03,"Dairy Fresh Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,586.1,1,Excellent
+2024-03,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,163.53,3,Excellent
+2024-03,"Dry Goods Trading Co","B007","Ipoh 88 Speedmart",1,1,1,100,41.4,9,Excellent
+2024-03,"Dry Goods Trading Co","B004","Shah Alam 88 Speedmart",1,1,1,100,128.01,10,Excellent
+2024-03,"Farm to Table Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,409.68,9,Excellent
+2024-03,"Farm to Table Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,226.86,14,Excellent
+2024-03,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,229.4,7,Excellent
+2024-03,"Global Grocery Supply","B010","Melaka 88 Speedmart",1,0,0,0,450.28,0,Poor
+2024-03,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,268.58,6,Excellent
+2024-03,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,201.08,1,Excellent
+2024-03,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,292.34,3,Excellent
+2024-03,"Green Harvest Trading","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1571.94,1,Excellent
+2024-03,"Home Essentials Enterprise","B008","George Town 88 Speedmart",2,2,2,100,1361.64,13.4,Excellent
+2024-03,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,212.29,14,Excellent
+2024-03,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,338.4,5,Excellent
+2024-03,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,407.75,6,Excellent
+2024-03,"Nusa Kitchen Supplies","B012","Kuching 88 Speedmart",1,1,1,100,380.66,5,Excellent
+2024-03,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,585.92,5,Excellent
+2024-03,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",2,2,2,100,256.32,3.4,Excellent
+2024-03,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,41.88,2,Excellent
+2024-03,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,62.13,4,Excellent
+2024-04,"Arctic Chill Logistics","B001","Ampang 88 Speedmart",1,1,1,100,893.28,13,Excellent
+2024-04,"Arctic Chill Logistics","B012","Kuching 88 Speedmart",1,1,1,100,385.16,13,Excellent
+2024-04,"Clean & Clear Resources","B007","Ipoh 88 Speedmart",1,1,1,100,482.64,5,Excellent
+2024-04,"Clean & Clear Resources","B010","Melaka 88 Speedmart",1,1,1,100,21.7,6,Excellent
+2024-04,"Dairy Fresh Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,881.26,1,Excellent
+2024-04,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,356.81,2,Excellent
+2024-04,"Dairy Fresh Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,62.1,3,Excellent
+2024-04,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,147.4,9,Excellent
+2024-04,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,393.57,13,Excellent
+2024-04,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,174.59,14,Excellent
+2024-04,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,275.8,9,Excellent
+2024-04,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,958.15,7,Excellent
+2024-04,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,588.63,8,Excellent
+2024-04,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",2,2,2,100,763.73,5.3,Excellent
+2024-04,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,291.81,5,Excellent
+2024-04,"Global Grocery Supply","B010","Melaka 88 Speedmart",1,1,1,100,729.63,8,Excellent
+2024-04,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,489.32,1,Excellent
+2024-04,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,3067.49,4,Excellent
+2024-04,"Green Harvest Trading","B007","Ipoh 88 Speedmart",3,3,3,100,4110.92,1.8,Excellent
+2024-04,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,530.08,1,Excellent
+2024-04,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,492.14,4,Excellent
+2024-04,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,532.22,1,Excellent
+2024-04,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,772.94,1,Excellent
+2024-04,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,1080.8,4,Excellent
+2024-04,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,611.03,14,Excellent
+2024-04,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,24.45,14,Excellent
+2024-04,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,749.3,11,Excellent
+2024-04,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,177.12,12,Excellent
+2024-04,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,321.09,7,Excellent
+2024-04,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,756.06,8,Excellent
+2024-04,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,457.96,5,Excellent
+2024-04,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,347.39,8,Excellent
+2024-04,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,661.59,3,Excellent
+2024-04,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,59.9,4,Excellent
+2024-04,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,24.3,1,Excellent
+2024-04,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",2,2,2,100,234.62,3.8,Excellent
+2024-04,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,288.49,1,Excellent
+2024-05,"Clean & Clear Resources","B005","Klang 88 Speedmart",1,1,1,100,805.46,7,Excellent
+2024-05,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,149.29,5,Excellent
+2024-05,"Dairy Fresh Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,237.18,2,Excellent
+2024-05,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",1,1,1,100,305.81,13,Excellent
+2024-05,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,59.7,10,Excellent
+2024-05,"Farm to Table Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,244.05,9,Excellent
+2024-05,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,118.23,5,Excellent
+2024-05,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,971.1,1,Excellent
+2024-05,"Green Harvest Trading","B012","Kuching 88 Speedmart",2,2,2,100,443.49,2.8,Excellent
+2024-05,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,447.93,9,Excellent
+2024-05,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,0,0,0,699.37,0,Poor
+2024-05,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,62.4,8,Excellent
+2024-05,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,296.08,4,Excellent
+2024-05,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,37.63,7,Excellent
+2024-05,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,304.1,8,Excellent
+2024-05,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,425.38,5,Excellent
+2024-05,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,342.58,1,Excellent
+2024-05,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,64.6,4,Excellent
+2024-05,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,195.23,2,Excellent
+2024-05,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,103.9,3,Excellent
+2024-06,"Arctic Chill Logistics","B006","Johor Bahru 88 Speedmart",1,1,1,100,309.25,12,Excellent
+2024-06,"Arctic Chill Logistics","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1198.65,13,Excellent
+2024-06,"Clean & Clear Resources","B010","Melaka 88 Speedmart",1,1,1,100,97.18,8,Excellent
+2024-06,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,207.53,4,Excellent
+2024-06,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,277.3,10,Excellent
+2024-06,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,1,1,100,714.5,13,Excellent
+2024-06,"Farm to Table Sdn Bhd","B007","Ipoh 88 Speedmart",1,1,1,100,563.43,9,Excellent
+2024-06,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,189.7,13,Excellent
+2024-06,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,644.35,13,Excellent
+2024-06,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,21.84,14,Excellent
+2024-06,"Frozen Foods Malaysia","B008","George Town 88 Speedmart",1,1,1,100,110.29,6,Excellent
+2024-06,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,78.39,6,Excellent
+2024-06,"Frozen Foods Malaysia","B010","Melaka 88 Speedmart",1,1,1,100,41.34,4,Excellent
+2024-06,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",1,1,1,100,62.3,8,Excellent
+2024-06,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,241.15,7,Excellent
+2024-06,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,169.86,8,Excellent
+2024-06,"Global Grocery Supply","B009","Seremban 88 Speedmart",4,4,4,100,2682.51,5,Excellent
+2024-06,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,50.56,2,Excellent
+2024-06,"Green Harvest Trading","B007","Ipoh 88 Speedmart",2,2,2,100,3733.74,1.6,Excellent
+2024-06,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,124.8,3,Excellent
+2024-06,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,986.8,4,Excellent
+2024-06,"Green Harvest Trading","B012","Kuching 88 Speedmart",2,2,2,100,657.56,2.5,Excellent
+2024-06,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,2961.24,1,Excellent
+2024-06,"Green Harvest Trading","B009","Seremban 88 Speedmart",2,1,1,50,5001.78,4,Poor
+2024-06,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,3638.65,2,Excellent
+2024-06,"Home Essentials Enterprise","B008","George Town 88 Speedmart",1,1,1,100,1840.27,11,Excellent
+2024-06,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,1056.7,10,Excellent
+2024-06,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,551.27,13,Excellent
+2024-06,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,170.95,11,Excellent
+2024-06,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,820.92,14,Excellent
+2024-06,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,927.48,6,Excellent
+2024-06,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,1741.34,6,Excellent
+2024-06,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,449.57,8,Excellent
+2024-06,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,92.4,4,Excellent
+2024-06,"Nusa Kitchen Supplies","B003","Petaling Jaya 88 Speedmart",1,1,1,100,228.79,7,Excellent
+2024-06,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,1428.83,6,Excellent
+2024-06,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,260.84,2.7,Excellent
+2024-06,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,68.09,3,Excellent
+2024-06,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,927.08,4,Excellent
+2024-06,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",4,3,3,75,930.1,2.7,Average
+2024-07,"Clean & Clear Resources","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,793.76,8,Excellent
+2024-07,"Clean & Clear Resources","B010","Melaka 88 Speedmart",1,1,1,100,237.4,7,Excellent
+2024-07,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,436.14,1,Excellent
+2024-07,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,385.62,12,Excellent
+2024-07,"Dry Goods Trading Co","B006","Johor Bahru 88 Speedmart",2,2,2,100,1508.51,13,Excellent
+2024-07,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,1,1,100,727.79,11,Excellent
+2024-07,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",1,1,1,100,266.52,13,Excellent
+2024-07,"Farm to Table Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,427.14,13,Excellent
+2024-07,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,229.65,13,Excellent
+2024-07,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,139.12,7,Excellent
+2024-07,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,8698.12,5,Excellent
+2024-07,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,1189.32,6,Excellent
+2024-07,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,26.67,5,Excellent
+2024-07,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",1,1,1,100,388.8,4,Excellent
+2024-07,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,285.65,7,Excellent
+2024-07,"Global Grocery Supply","B012","Kuching 88 Speedmart",2,2,2,100,379.26,6.7,Excellent
+2024-07,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,30.16,4,Excellent
+2024-07,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,219.73,4,Excellent
+2024-07,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,277.34,3,Excellent
+2024-07,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,424.05,4,Excellent
+2024-07,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,365.89,2,Excellent
+2024-07,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,977.11,4,Excellent
+2024-07,"Green Harvest Trading","B012","Kuching 88 Speedmart",1,1,1,100,1179.66,1,Excellent
+2024-07,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,445.13,3,Excellent
+2024-07,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,293.91,4,Excellent
+2024-07,"Home Essentials Enterprise","B008","George Town 88 Speedmart",1,1,1,100,646.12,13,Excellent
+2024-07,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,911.79,12,Excellent
+2024-07,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,189.19,11,Excellent
+2024-07,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,1208.24,14,Excellent
+2024-07,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,201.6,14,Excellent
+2024-07,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,457.54,13,Excellent
+2024-07,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,1009.37,4,Excellent
+2024-07,"Nusa Kitchen Supplies","B008","George Town 88 Speedmart",1,1,1,100,464.28,5,Excellent
+2024-07,"Nusa Kitchen Supplies","B012","Kuching 88 Speedmart",1,1,1,100,149.64,6,Excellent
+2024-07,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,425.16,3,Excellent
+2024-07,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,212.95,2.5,Excellent
+2024-07,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,798.5,2,Excellent
+2024-08,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,103.78,12,Excellent
+2024-08,"Clean & Clear Resources","B006","Johor Bahru 88 Speedmart",1,1,1,100,72.54,7,Excellent
+2024-08,"Clean & Clear Resources","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,528.1,5,Excellent
+2024-08,"Dairy Fresh Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,2061.12,3,Excellent
+2024-08,"Dairy Fresh Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,203.03,4,Excellent
+2024-08,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,93.94,4,Excellent
+2024-08,"Dairy Fresh Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,190.84,3,Excellent
+2024-08,"Dry Goods Trading Co","B012","Kuching 88 Speedmart",1,1,1,100,334.47,9,Excellent
+2024-08,"Dry Goods Trading Co","B009","Seremban 88 Speedmart",1,1,1,100,84.7,10,Excellent
+2024-08,"Dry Goods Trading Co","B004","Shah Alam 88 Speedmart",1,1,1,100,426.5,14,Excellent
+2024-08,"Farm to Table Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,419.76,12,Excellent
+2024-08,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,1019.41,9,Excellent
+2024-08,"Frozen Foods Malaysia","B007","Ipoh 88 Speedmart",1,1,1,100,1012.88,4,Excellent
+2024-08,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,18.24,7,Excellent
+2024-08,"Global Grocery Supply","B012","Kuching 88 Speedmart",1,1,1,100,269.46,5,Excellent
+2024-08,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,393.58,2,Excellent
+2024-08,"Green Harvest Trading","B010","Melaka 88 Speedmart",2,2,2,100,965.45,2,Excellent
+2024-08,"Green Harvest Trading","B003","Petaling Jaya 88 Speedmart",1,1,1,100,110.24,3,Excellent
+2024-08,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,679.02,1,Excellent
+2024-08,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,310.52,13,Excellent
+2024-08,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,476.81,10,Excellent
+2024-08,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,600.6,13,Excellent
+2024-08,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,627.17,13,Excellent
+2024-08,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,647.43,8,Excellent
+2024-08,"Nusa Kitchen Supplies","B012","Kuching 88 Speedmart",1,1,1,100,505.47,4,Excellent
+2024-08,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,105.11,6,Excellent
+2024-08,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,188.98,1,Excellent
+2024-08,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,98.99,2,Excellent
+2024-08,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,17.1,2,Excellent
+2024-08,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,59.16,2,Excellent
+2024-09,"Arctic Chill Logistics","B012","Kuching 88 Speedmart",1,0,0,0,574.22,0,Poor
+2024-09,"Clean & Clear Resources","B001","Ampang 88 Speedmart",1,1,1,100,1498.13,5,Excellent
+2024-09,"Clean & Clear Resources","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,69.6,6,Excellent
+2024-09,"Clean & Clear Resources","B010","Melaka 88 Speedmart",1,1,1,100,315.27,8,Excellent
+2024-09,"Dairy Fresh Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,25.8,2,Excellent
+2024-09,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,92.56,1,Excellent
+2024-09,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,148.76,4,Excellent
+2024-09,"Dairy Fresh Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,190.72,2,Excellent
+2024-09,"Dry Goods Trading Co","B002","Cheras 88 Speedmart",1,1,1,100,1505.05,14,Excellent
+2024-09,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,112.09,14,Excellent
+2024-09,"Dry Goods Trading Co","B012","Kuching 88 Speedmart",1,1,1,100,327.87,11,Excellent
+2024-09,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",1,1,1,100,265.33,9,Excellent
+2024-09,"Farm to Table Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,1621.96,12,Excellent
+2024-09,"Farm to Table Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,184.5,12,Excellent
+2024-09,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,303.49,9,Excellent
+2024-09,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,532.31,4,Excellent
+2024-09,"Frozen Foods Malaysia","B012","Kuching 88 Speedmart",1,1,1,100,1629.44,4,Excellent
+2024-09,"Frozen Foods Malaysia","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1085.8,7,Excellent
+2024-09,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,350.89,6,Excellent
+2024-09,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,738.42,6,Excellent
+2024-09,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,0,0,0,781.53,0,Poor
+2024-09,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,508.42,4,Excellent
+2024-09,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,1195.05,1,Excellent
+2024-09,"Green Harvest Trading","B012","Kuching 88 Speedmart",1,1,1,100,491.61,4,Excellent
+2024-09,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,271.88,13,Excellent
+2024-09,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,91.51,12,Excellent
+2024-09,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,1581.28,11,Excellent
+2024-09,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,269.8,13,Excellent
+2024-09,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",2,2,2,100,543.04,7,Excellent
+2024-09,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,191.52,5,Excellent
+2024-09,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,699.49,7,Excellent
+2024-09,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",2,2,2,100,778.82,6.6,Excellent
+2024-09,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,243.44,8,Excellent
+2024-09,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,226.8,1,Excellent
+2024-09,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,260.86,1,Excellent
+2024-09,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,256.79,4,Excellent
+2024-10,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,1,1,100,1473.27,11,Excellent
+2024-10,"Arctic Chill Logistics","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,28.44,13,Excellent
+2024-10,"Arctic Chill Logistics","B012","Kuching 88 Speedmart",1,1,1,100,594.95,13,Excellent
+2024-10,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,679.53,12,Excellent
+2024-10,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,257.65,9,Excellent
+2024-10,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",1,1,1,100,79.5,12,Excellent
+2024-10,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,194.2,12,Excellent
+2024-10,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,22.12,10,Excellent
+2024-10,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,563.78,5,Excellent
+2024-10,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,81.94,8,Excellent
+2024-10,"Global Grocery Supply","B001","Ampang 88 Speedmart",1,1,1,100,2090.65,5,Excellent
+2024-10,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,1307.53,7,Excellent
+2024-10,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,5810.08,4,Excellent
+2024-10,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",1,1,1,100,5608.56,7,Excellent
+2024-10,"Global Grocery Supply","B010","Melaka 88 Speedmart",1,1,1,100,135.21,6,Excellent
+2024-10,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,367.89,8,Excellent
+2024-10,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,565.75,6,Excellent
+2024-10,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,3882.73,3,Excellent
+2024-10,"Green Harvest Trading","B007","Ipoh 88 Speedmart",2,2,2,100,455.86,1.3,Excellent
+2024-10,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,3010.45,1,Excellent
+2024-10,"Green Harvest Trading","B005","Klang 88 Speedmart",2,2,2,100,1750.12,2,Excellent
+2024-10,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,189.34,11,Excellent
+2024-10,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,506.82,12,Excellent
+2024-10,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1995.6,13,Excellent
+2024-10,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,806.6,7,Excellent
+2024-10,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,312.53,8,Excellent
+2024-10,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,63.3,8,Excellent
+2024-10,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,255.84,7,Excellent
+2024-10,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",2,2,2,100,644.67,6,Excellent
+2024-10,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,642.43,8,Excellent
+2024-10,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,543.82,1,Excellent
+2024-10,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,325.94,2,Excellent
+2024-10,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,423.49,3,Excellent
+2024-10,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,174.08,3,Excellent
+2024-10,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,171.07,3,Excellent
+2024-11,"Arctic Chill Logistics","B010","Melaka 88 Speedmart",1,1,1,100,645.44,13,Excellent
+2024-11,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,509.74,10,Excellent
+2024-11,"Clean & Clear Resources","B002","Cheras 88 Speedmart",1,1,1,100,447.64,6,Excellent
+2024-11,"Clean & Clear Resources","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,87.24,4,Excellent
+2024-11,"Dairy Fresh Sdn Bhd","B001","Ampang 88 Speedmart",1,1,1,100,115.15,1,Excellent
+2024-11,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,91.28,3,Excellent
+2024-11,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,641.02,1,Excellent
+2024-11,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,208.56,2,Excellent
+2024-11,"Dairy Fresh Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,860.82,4,Excellent
+2024-11,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,1,1,100,555.01,9,Excellent
+2024-11,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",1,1,1,100,71.42,12,Excellent
+2024-11,"Dry Goods Trading Co","B003","Petaling Jaya 88 Speedmart",1,1,1,100,793.51,11,Excellent
+2024-11,"Frozen Foods Malaysia","B010","Melaka 88 Speedmart",1,1,1,100,352.95,6,Excellent
+2024-11,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,262.32,5,Excellent
+2024-11,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,3785.75,8,Excellent
+2024-11,"Global Grocery Supply","B012","Kuching 88 Speedmart",1,1,1,100,289.12,7,Excellent
+2024-11,"Global Grocery Supply","B010","Melaka 88 Speedmart",1,1,1,100,1117.29,6,Excellent
+2024-11,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,1971.63,2,Excellent
+2024-11,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,78.67,2,Excellent
+2024-11,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,271.84,2,Excellent
+2024-11,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,123.9,4,Excellent
+2024-11,"Home Essentials Enterprise","B008","George Town 88 Speedmart",1,1,1,100,43.08,9,Excellent
+2024-11,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,497.75,14,Excellent
+2024-11,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,526.3,9,Excellent
+2024-11,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,597.85,14,Excellent
+2024-11,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,276.89,11,Excellent
+2024-11,"Nusa Kitchen Supplies","B008","George Town 88 Speedmart",1,1,1,100,544.67,8,Excellent
+2024-11,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,20.02,6,Excellent
+2024-11,"Nusa Kitchen Supplies","B012","Kuching 88 Speedmart",2,2,2,100,495.48,5.5,Excellent
+2024-11,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,205.14,6,Excellent
+2024-11,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,1407.66,8,Excellent
+2024-11,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,651.88,3,Excellent
+2024-11,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",2,2,2,100,561.99,1.8,Excellent
+2024-11,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,277.23,1,Excellent
+2024-11,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,87.43,1,Excellent
+2024-11,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,211.11,2,Excellent
+2024-11,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,216.77,2,Excellent
+2024-11,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,87.2,4,Excellent
+2024-11,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,363.81,3,Excellent
+2024-12,"Arctic Chill Logistics","B012","Kuching 88 Speedmart",1,1,1,100,262.32,10,Excellent
+2024-12,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",2,2,2,100,502.21,11.4,Excellent
+2024-12,"Clean & Clear Resources","B007","Ipoh 88 Speedmart",1,1,1,100,32.48,8,Excellent
+2024-12,"Clean & Clear Resources","B006","Johor Bahru 88 Speedmart",1,1,1,100,218.92,7,Excellent
+2024-12,"Clean & Clear Resources","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,202.63,5,Excellent
+2024-12,"Clean & Clear Resources","B010","Melaka 88 Speedmart",1,1,1,100,490.88,5,Excellent
+2024-12,"Clean & Clear Resources","B004","Shah Alam 88 Speedmart",1,1,1,100,839.2,6,Excellent
+2024-12,"Dairy Fresh Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,304.48,3,Excellent
+2024-12,"Dairy Fresh Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,100.16,3,Excellent
+2024-12,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,185.58,1,Excellent
+2024-12,"Dairy Fresh Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,453.34,3,Excellent
+2024-12,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,56.81,1,Excellent
+2024-12,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",2,2,2,100,139.46,2,Excellent
+2024-12,"Dry Goods Trading Co","B001","Ampang 88 Speedmart",1,1,1,100,88.64,12,Excellent
+2024-12,"Dry Goods Trading Co","B002","Cheras 88 Speedmart",1,1,1,100,288.24,14,Excellent
+2024-12,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,1185.11,9,Excellent
+2024-12,"Dry Goods Trading Co","B012","Kuching 88 Speedmart",1,1,1,100,243.15,9,Excellent
+2024-12,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",2,2,2,100,93.24,13,Excellent
+2024-12,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,1310.67,14,Excellent
+2024-12,"Farm to Table Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,927.5,10,Excellent
+2024-12,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,615.66,14,Excellent
+2024-12,"Farm to Table Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,500.84,11,Excellent
+2024-12,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",2,2,2,100,407.71,12,Excellent
+2024-12,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",2,2,2,100,1043.53,14,Excellent
+2024-12,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,80.6,13,Excellent
+2024-12,"Frozen Foods Malaysia","B008","George Town 88 Speedmart",1,1,1,100,684.48,5,Excellent
+2024-12,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,180.87,5,Excellent
+2024-12,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,820.86,6,Excellent
+2024-12,"Global Grocery Supply","B002","Cheras 88 Speedmart",2,2,2,100,477.4,6,Excellent
+2024-12,"Global Grocery Supply","B007","Ipoh 88 Speedmart",2,2,2,100,712.63,6.4,Excellent
+2024-12,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",1,1,1,100,1802.64,6,Excellent
+2024-12,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,656.32,8,Excellent
+2024-12,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,2597.91,6.6,Excellent
+2024-12,"Global Grocery Supply","B010","Melaka 88 Speedmart",2,2,2,100,862.57,5.7,Excellent
+2024-12,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,317,4,Excellent
+2024-12,"Green Harvest Trading","B007","Ipoh 88 Speedmart",3,3,3,100,1142.3,1.5,Excellent
+2024-12,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,2288.79,2,Excellent
+2024-12,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,410.42,3,Excellent
+2024-12,"Green Harvest Trading","B012","Kuching 88 Speedmart",3,3,3,100,1994.6,1.7,Excellent
+2024-12,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,285.68,1,Excellent
+2024-12,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,860.8,13,Excellent
+2024-12,"Home Essentials Enterprise","B008","George Town 88 Speedmart",1,1,1,100,892.11,12,Excellent
+2024-12,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,617.97,10.7,Excellent
+2024-12,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",3,3,3,100,505.53,13.3,Excellent
+2024-12,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,5133.93,4,Excellent
+2024-12,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,709.03,7,Excellent
+2024-12,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,1979.93,7,Excellent
+2024-12,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,410.32,5,Excellent
+2024-12,"Nusa Kitchen Supplies","B012","Kuching 88 Speedmart",1,1,1,100,202.68,7,Excellent
+2024-12,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,156.84,8,Excellent
+2024-12,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,378.62,5,Excellent
+2024-12,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,445.67,1,Excellent
+2024-12,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",2,2,2,100,791.01,1.8,Excellent
+2024-12,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,110.65,4,Excellent
+2024-12,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,238.89,1,Excellent
+2024-12,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",3,3,3,100,681.15,1.8,Excellent
+2024-12,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",3,3,3,100,372.7,2.6,Excellent
+2024-12,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,233.62,4,Excellent
+2024-12,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,200.97,4,Excellent
+2025-01,"Arctic Chill Logistics","B010","Melaka 88 Speedmart",1,1,1,100,73.05,12,Excellent
+2025-01,"Clean & Clear Resources","B005","Klang 88 Speedmart",1,1,1,100,1427.02,5,Excellent
+2025-01,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,87.76,1,Excellent
+2025-01,"Dairy Fresh Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,47,1,Excellent
+2025-01,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,22.96,2,Excellent
+2025-01,"Dry Goods Trading Co","B001","Ampang 88 Speedmart",1,1,1,100,1430.3,14,Excellent
+2025-01,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,1,1,100,303.95,9,Excellent
+2025-01,"Dry Goods Trading Co","B009","Seremban 88 Speedmart",1,1,1,100,881.6,9,Excellent
+2025-01,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,1421.9,10,Excellent
+2025-01,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,162.04,11,Excellent
+2025-01,"Frozen Foods Malaysia","B008","George Town 88 Speedmart",1,1,1,100,231.99,7,Excellent
+2025-01,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,1206.34,5,Excellent
+2025-01,"Global Grocery Supply","B010","Melaka 88 Speedmart",1,1,1,100,100.8,4,Excellent
+2025-01,"Global Grocery Supply","B009","Seremban 88 Speedmart",2,2,2,100,1089.16,5.7,Excellent
+2025-01,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,359.34,2,Excellent
+2025-01,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,1077.91,4,Excellent
+2025-01,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,2268.12,4,Excellent
+2025-01,"Green Harvest Trading","B012","Kuching 88 Speedmart",1,1,1,100,311.91,4,Excellent
+2025-01,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,2046.83,4,Excellent
+2025-01,"Home Essentials Enterprise","B008","George Town 88 Speedmart",1,1,1,100,497.23,12,Excellent
+2025-01,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,140.06,12,Excellent
+2025-01,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,381.86,10,Excellent
+2025-01,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,580.89,9,Excellent
+2025-01,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,3251.24,13,Excellent
+2025-01,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,62.54,11,Excellent
+2025-01,"Nusa Kitchen Supplies","B008","George Town 88 Speedmart",1,0,0,0,880.25,0,Poor
+2025-01,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,293.23,6,Excellent
+2025-01,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,520.04,8,Excellent
+2025-01,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,647.23,4,Excellent
+2025-01,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,675.86,6,Excellent
+2025-01,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",2,2,2,100,2888.74,6,Excellent
+2025-01,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,113.29,4,Excellent
+2025-01,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,52.2,3,Excellent
+2025-01,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,329,2,Excellent
+2025-01,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,252.28,1,Excellent
+2025-01,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",2,2,2,100,212.76,3,Excellent
+2025-02,"Clean & Clear Resources","B012","Kuching 88 Speedmart",1,1,1,100,224.8,7,Excellent
+2025-02,"Clean & Clear Resources","B010","Melaka 88 Speedmart",1,1,1,100,48.76,8,Excellent
+2025-02,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,30.81,7,Excellent
+2025-02,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,72.28,4,Excellent
+2025-02,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,597.29,13,Excellent
+2025-02,"Dry Goods Trading Co","B012","Kuching 88 Speedmart",1,1,1,100,82.2,12,Excellent
+2025-02,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,205.73,11,Excellent
+2025-02,"Farm to Table Sdn Bhd","B012","Kuching 88 Speedmart",1,1,1,100,204.75,14,Excellent
+2025-02,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,919.73,5,Excellent
+2025-02,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,1385.19,4,Excellent
+2025-02,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",2,2,2,100,195.93,7.4,Excellent
+2025-02,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",1,1,1,100,557.24,5,Excellent
+2025-02,"Global Grocery Supply","B012","Kuching 88 Speedmart",1,1,1,100,622.02,8,Excellent
+2025-02,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,684,2,Excellent
+2025-02,"Green Harvest Trading","B012","Kuching 88 Speedmart",2,2,2,100,1341.74,1.5,Excellent
+2025-02,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,164.79,3,Excellent
+2025-02,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,139.04,3,Excellent
+2025-02,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,594.3,2,Excellent
+2025-02,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,84.88,12,Excellent
+2025-02,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,149.9,10,Excellent
+2025-02,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",2,2,2,100,835.16,10.3,Excellent
+2025-02,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,1842.97,7,Excellent
+2025-02,"Nusa Kitchen Supplies","B008","George Town 88 Speedmart",1,1,1,100,711.75,6,Excellent
+2025-02,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",2,2,2,100,998.57,6.3,Excellent
+2025-02,"Nusa Kitchen Supplies","B003","Petaling Jaya 88 Speedmart",1,1,1,100,5600.49,4,Excellent
+2025-02,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,226.83,5,Excellent
+2025-02,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,393.35,5,Excellent
+2025-02,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,519.24,1,Excellent
+2025-02,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,141.98,1,Excellent
+2025-02,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,280.78,3,Excellent
+2025-03,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,276.97,3,Excellent
+2025-03,"Dry Goods Trading Co","B006","Johor Bahru 88 Speedmart",1,1,1,100,394.36,13,Excellent
+2025-03,"Dry Goods Trading Co","B012","Kuching 88 Speedmart",1,1,1,100,203,11,Excellent
+2025-03,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,1106.56,9,Excellent
+2025-03,"Farm to Table Sdn Bhd","B007","Ipoh 88 Speedmart",1,1,1,100,4068.58,10,Excellent
+2025-03,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,596.08,11,Excellent
+2025-03,"Frozen Foods Malaysia","B008","George Town 88 Speedmart",1,1,1,100,1874.72,5,Excellent
+2025-03,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,936.25,5,Excellent
+2025-03,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,255.36,6,Excellent
+2025-03,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,527.2,8,Excellent
+2025-03,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,485.95,7,Excellent
+2025-03,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,128.25,5,Excellent
+2025-03,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,0,0,0,923.74,0,Poor
+2025-03,"Green Harvest Trading","B012","Kuching 88 Speedmart",1,1,1,100,747.56,4,Excellent
+2025-03,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,1066.88,10,Excellent
+2025-03,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,549.86,11,Excellent
+2025-03,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,191.12,13,Excellent
+2025-03,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,318.26,11,Excellent
+2025-03,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,212.77,12,Excellent
+2025-03,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,1931.9,4,Excellent
+2025-03,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,115.83,2,Excellent
+2025-03,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,360.07,3.5,Excellent
+2025-03,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",2,2,2,100,1264.82,2.7,Excellent
+2025-03,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",3,3,3,100,351.94,2.3,Excellent
+2025-03,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,481.08,2,Excellent
+2025-04,"Arctic Chill Logistics","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,112.99,11,Excellent
+2025-04,"Arctic Chill Logistics","B012","Kuching 88 Speedmart",1,1,1,100,322.92,12,Excellent
+2025-04,"Clean & Clear Resources","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,121.9,7,Excellent
+2025-04,"Clean & Clear Resources","B004","Shah Alam 88 Speedmart",1,1,1,100,150.66,5,Excellent
+2025-04,"Dry Goods Trading Co","B001","Ampang 88 Speedmart",1,1,1,100,1614.51,11,Excellent
+2025-04,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,308.66,10,Excellent
+2025-04,"Dry Goods Trading Co","B007","Ipoh 88 Speedmart",1,1,1,100,448.29,9,Excellent
+2025-04,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,1,1,100,421.64,11,Excellent
+2025-04,"Dry Goods Trading Co","B012","Kuching 88 Speedmart",1,1,1,100,295.52,9,Excellent
+2025-04,"Farm to Table Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,1243.68,12,Excellent
+2025-04,"Frozen Foods Malaysia","B007","Ipoh 88 Speedmart",1,1,1,100,665.43,6,Excellent
+2025-04,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,497.89,8,Excellent
+2025-04,"Global Grocery Supply","B010","Melaka 88 Speedmart",1,1,1,100,54.51,4,Excellent
+2025-04,"Global Grocery Supply","B003","Petaling Jaya 88 Speedmart",1,1,1,100,3922.59,5,Excellent
+2025-04,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,246.53,2,Excellent
+2025-04,"Green Harvest Trading","B012","Kuching 88 Speedmart",1,1,1,100,316.21,3,Excellent
+2025-04,"Green Harvest Trading","B003","Petaling Jaya 88 Speedmart",1,1,1,100,2028.56,3,Excellent
+2025-04,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,128.72,1,Excellent
+2025-04,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,770.54,9,Excellent
+2025-04,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,411.95,11,Excellent
+2025-04,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,378.22,11,Excellent
+2025-04,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,57.4,11,Excellent
+2025-04,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",2,2,2,100,2669.44,5,Excellent
+2025-04,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,500.96,5,Excellent
+2025-04,"Nusa Kitchen Supplies","B012","Kuching 88 Speedmart",1,1,1,100,645.3,6,Excellent
+2025-04,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",2,2,2,100,1875.82,8,Excellent
+2025-04,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",2,2,2,100,815.57,5,Excellent
+2025-04,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,288.41,6,Excellent
+2025-04,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,58.08,3,Excellent
+2025-04,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,240.8,2,Excellent
+2025-04,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,184.56,1,Excellent
+2025-04,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,108,2,Excellent
+2025-05,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,154.6,4,Excellent
+2025-05,"Farm to Table Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,97.75,11,Excellent
+2025-05,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,370.96,13,Excellent
+2025-05,"Frozen Foods Malaysia","B012","Kuching 88 Speedmart",1,1,1,100,154.45,4,Excellent
+2025-05,"Frozen Foods Malaysia","B010","Melaka 88 Speedmart",1,1,1,100,531.72,5,Excellent
+2025-05,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,152.8,4,Excellent
+2025-05,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,164.6,7,Excellent
+2025-05,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,671.62,1,Excellent
+2025-05,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,136.58,2,Excellent
+2025-05,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,447.65,2,Excellent
+2025-05,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,830.39,9,Excellent
+2025-05,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,416.25,12,Excellent
+2025-05,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",2,2,2,100,618.87,11.5,Excellent
+2025-05,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,221.77,12,Excellent
+2025-05,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,2705.94,13,Excellent
+2025-05,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",2,2,2,100,649.9,13.3,Excellent
+2025-05,"Nusa Kitchen Supplies","B012","Kuching 88 Speedmart",2,2,2,100,375.3,7,Excellent
+2025-05,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,688.57,4,Excellent
+2025-05,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,698.12,3,Excellent
+2025-05,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",2,2,2,100,500.18,2.2,Excellent
+2025-05,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,288.34,2.3,Excellent
+2025-05,"Sinar Padi Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,268.06,3,Excellent
+2025-05,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,318.44,3,Excellent
+2025-05,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,200.76,4,Excellent
+2025-05,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,317.24,3,Excellent
+2025-06,"Arctic Chill Logistics","B005","Klang 88 Speedmart",2,2,2,100,363.7,11,Excellent
+2025-06,"Arctic Chill Logistics","B012","Kuching 88 Speedmart",1,1,1,100,438.74,13,Excellent
+2025-06,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,506,10,Excellent
+2025-06,"Clean & Clear Resources","B006","Johor Bahru 88 Speedmart",1,1,1,100,275.56,8,Excellent
+2025-06,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,126.51,4,Excellent
+2025-06,"Dairy Fresh Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,441.7,1,Excellent
+2025-06,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,137.47,13,Excellent
+2025-06,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,763.72,11,Excellent
+2025-06,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",2,2,2,100,451.12,11,Excellent
+2025-06,"Dry Goods Trading Co","B009","Seremban 88 Speedmart",1,1,1,100,444.12,9,Excellent
+2025-06,"Frozen Foods Malaysia","B001","Ampang 88 Speedmart",1,1,1,100,211.16,5,Excellent
+2025-06,"Frozen Foods Malaysia","B006","Johor Bahru 88 Speedmart",1,1,1,100,549.84,7,Excellent
+2025-06,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,983.37,8,Excellent
+2025-06,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,27.3,4,Excellent
+2025-06,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,117,4,Excellent
+2025-06,"Global Grocery Supply","B012","Kuching 88 Speedmart",3,3,3,100,455.47,4.7,Excellent
+2025-06,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,8820.33,3,Excellent
+2025-06,"Green Harvest Trading","B007","Ipoh 88 Speedmart",2,2,2,100,1155.78,3.1,Excellent
+2025-06,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,475.62,1,Excellent
+2025-06,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,216.48,3,Excellent
+2025-06,"Green Harvest Trading","B012","Kuching 88 Speedmart",2,2,2,100,3086.19,1.8,Excellent
+2025-06,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,736.94,1,Excellent
+2025-06,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",2,2,2,100,5691.85,10.8,Excellent
+2025-06,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,366.46,13,Excellent
+2025-06,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,450.4,5,Excellent
+2025-06,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,344.4,7,Excellent
+2025-06,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",2,2,2,100,336.64,7.7,Excellent
+2025-06,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,1213.9,8,Excellent
+2025-06,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,519.1,7,Excellent
+2025-06,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",2,2,2,100,1007.85,4.6,Excellent
+2025-06,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,196.78,4,Excellent
+2025-06,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,1211.94,4,Excellent
+2025-06,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,110.26,3,Excellent
+2025-06,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,524.24,2.4,Excellent
+2025-06,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",2,2,2,100,120.74,3,Excellent
+2025-06,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,827.55,2,Excellent
+2025-07,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,1,1,100,1153.69,12,Excellent
+2025-07,"Clean & Clear Resources","B005","Klang 88 Speedmart",1,1,1,100,767.97,7,Excellent
+2025-07,"Dairy Fresh Sdn Bhd","B007","Ipoh 88 Speedmart",1,1,1,100,53.52,2,Excellent
+2025-07,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,168.04,1,Excellent
+2025-07,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,129.35,10,Excellent
+2025-07,"Farm to Table Sdn Bhd","B001","Ampang 88 Speedmart",1,1,1,100,515.84,9,Excellent
+2025-07,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",2,2,2,100,701.62,9.6,Excellent
+2025-07,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,860.28,4,Excellent
+2025-07,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,251.86,8,Excellent
+2025-07,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,388.06,7,Excellent
+2025-07,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,200.73,6,Excellent
+2025-07,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,148.96,1,Excellent
+2025-07,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,512.57,9,Excellent
+2025-07,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,333.42,14,Excellent
+2025-07,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,150.5,11,Excellent
+2025-07,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,175.73,9,Excellent
+2025-07,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,725.25,11.3,Excellent
+2025-07,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,1465.64,12,Excellent
+2025-07,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,2939.26,7,Excellent
+2025-07,"Nusa Kitchen Supplies","B008","George Town 88 Speedmart",1,1,1,100,796.06,6,Excellent
+2025-07,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,284.47,6,Excellent
+2025-07,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,35.1,3,Excellent
+2025-07,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,111,3,Excellent
+2025-08,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,1,1,100,157.97,10,Excellent
+2025-08,"Arctic Chill Logistics","B005","Klang 88 Speedmart",1,1,1,100,679.5,11,Excellent
+2025-08,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,238.37,9,Excellent
+2025-08,"Clean & Clear Resources","B007","Ipoh 88 Speedmart",1,1,1,100,233.97,7,Excellent
+2025-08,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,151.95,5,Excellent
+2025-08,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,201.65,4,Excellent
+2025-08,"Dairy Fresh Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,498.92,2,Excellent
+2025-08,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,399.01,14,Excellent
+2025-08,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",2,1,1,50,113.5,14,Poor
+2025-08,"Dry Goods Trading Co","B004","Shah Alam 88 Speedmart",1,1,1,100,486.52,13,Excellent
+2025-08,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,22.11,12,Excellent
+2025-08,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,185.9,13,Excellent
+2025-08,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,156.1,10,Excellent
+2025-08,"Frozen Foods Malaysia","B007","Ipoh 88 Speedmart",1,1,1,100,3191.38,5,Excellent
+2025-08,"Frozen Foods Malaysia","B006","Johor Bahru 88 Speedmart",1,1,1,100,881.5,6,Excellent
+2025-08,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,0,0,0,536.86,0,Poor
+2025-08,"Frozen Foods Malaysia","B012","Kuching 88 Speedmart",1,1,1,100,597.87,7,Excellent
+2025-08,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,184.56,7,Excellent
+2025-08,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,120.62,5,Excellent
+2025-08,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,283.25,6,Excellent
+2025-08,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,626.46,1.8,Excellent
+2025-08,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,254.83,1,Excellent
+2025-08,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,853,1,Excellent
+2025-08,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,191.62,4,Excellent
+2025-08,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,605.17,13,Excellent
+2025-08,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,172.16,10,Excellent
+2025-08,"Home Essentials Enterprise","B012","Kuching 88 Speedmart",1,1,1,100,345.9,13,Excellent
+2025-08,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,326.3,4,Excellent
+2025-08,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,177.66,4,Excellent
+2025-08,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",1,1,1,100,125.28,2,Excellent
+2025-08,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,113.04,1,Excellent
+2025-08,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,627.16,2,Excellent
+2025-08,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,600.64,3,Excellent
+2025-08,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,122.3,4,Excellent
+2025-08,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,422.92,3,Excellent
+2025-08,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,886.94,3,Excellent
+2025-08,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,255.42,3,Excellent
+2025-09,"Arctic Chill Logistics","B001","Ampang 88 Speedmart",1,1,1,100,3677.61,11,Excellent
+2025-09,"Arctic Chill Logistics","B010","Melaka 88 Speedmart",1,1,1,100,310.34,11,Excellent
+2025-09,"Arctic Chill Logistics","B009","Seremban 88 Speedmart",1,1,1,100,1042.31,13,Excellent
+2025-09,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,230.62,11,Excellent
+2025-09,"Clean & Clear Resources","B001","Ampang 88 Speedmart",1,1,1,100,2805.83,5,Excellent
+2025-09,"Clean & Clear Resources","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,242.61,4,Excellent
+2025-09,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,12.48,4,Excellent
+2025-09,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,144.32,2,Excellent
+2025-09,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,804.78,11,Excellent
+2025-09,"Dry Goods Trading Co","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1006.73,9,Excellent
+2025-09,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,536.86,6,Excellent
+2025-09,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,686.63,8,Excellent
+2025-09,"Global Grocery Supply","B006","Johor Bahru 88 Speedmart",1,1,1,100,762.19,4,Excellent
+2025-09,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,181.64,4,Excellent
+2025-09,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,65.4,5,Excellent
+2025-09,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,369.38,3,Excellent
+2025-09,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,495,1,Excellent
+2025-09,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,401.62,12,Excellent
+2025-09,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,913.76,9,Excellent
+2025-09,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",2,2,2,100,468.51,13.4,Excellent
+2025-09,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,276.36,9,Excellent
+2025-09,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,219.43,5,Excellent
+2025-09,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,486.49,6,Excellent
+2025-09,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,401.27,7,Excellent
+2025-09,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,300.2,1.4,Excellent
+2025-09,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,163.65,2,Excellent
+2025-09,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",2,2,2,100,426.36,2.1,Excellent
+2025-09,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,304.53,4,Excellent
+2025-10,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,1,1,100,598.66,13,Excellent
+2025-10,"Arctic Chill Logistics","B007","Ipoh 88 Speedmart",1,1,1,100,281.12,11,Excellent
+2025-10,"Arctic Chill Logistics","B009","Seremban 88 Speedmart",1,1,1,100,411.13,10,Excellent
+2025-10,"Clean & Clear Resources","B007","Ipoh 88 Speedmart",1,1,1,100,1831.37,6,Excellent
+2025-10,"Clean & Clear Resources","B006","Johor Bahru 88 Speedmart",1,1,1,100,44.07,7,Excellent
+2025-10,"Clean & Clear Resources","B005","Klang 88 Speedmart",1,1,1,100,141.13,7,Excellent
+2025-10,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,31.13,8,Excellent
+2025-10,"Dry Goods Trading Co","B007","Ipoh 88 Speedmart",1,1,1,100,94.8,14,Excellent
+2025-10,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,71.55,10,Excellent
+2025-10,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,637.82,14,Excellent
+2025-10,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,528.07,11,Excellent
+2025-10,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,1187.3,7,Excellent
+2025-10,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,265.44,5.6,Excellent
+2025-10,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,3927.75,5,Excellent
+2025-10,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,1820.07,4,Excellent
+2025-10,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,65.4,6,Excellent
+2025-10,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,418.16,6,Excellent
+2025-10,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,480.62,4,Excellent
+2025-10,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,543.43,4,Excellent
+2025-10,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,592.64,3,Excellent
+2025-10,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,1080.67,3,Excellent
+2025-10,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,44.6,4,Excellent
+2025-10,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,684.43,11.3,Excellent
+2025-10,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,561.5,9,Excellent
+2025-10,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,2942.09,11,Excellent
+2025-10,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,196.65,4,Excellent
+2025-10,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,1508.89,4,Excellent
+2025-10,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,435.38,7,Excellent
+2025-10,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,670.62,8,Excellent
+2025-10,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,65.47,3,Excellent
+2025-10,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,559.93,2,Excellent
+2025-10,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,117.78,1.5,Excellent
+2025-10,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,149.52,3,Excellent
+2025-10,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,117.6,4,Excellent
+2025-11,"Arctic Chill Logistics","B006","Johor Bahru 88 Speedmart",1,1,1,100,425.93,11,Excellent
+2025-11,"Arctic Chill Logistics","B009","Seremban 88 Speedmart",1,1,1,100,1752.57,12,Excellent
+2025-11,"Clean & Clear Resources","B010","Melaka 88 Speedmart",1,1,1,100,59.7,5,Excellent
+2025-11,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,248.69,4,Excellent
+2025-11,"Dry Goods Trading Co","B001","Ampang 88 Speedmart",1,1,1,100,585.76,12,Excellent
+2025-11,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,332.23,11,Excellent
+2025-11,"Dry Goods Trading Co","B010","Melaka 88 Speedmart",1,1,1,100,197.55,14,Excellent
+2025-11,"Farm to Table Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,138.24,11,Excellent
+2025-11,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,249.65,12,Excellent
+2025-11,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,1239.04,11,Excellent
+2025-11,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",2,2,2,100,350.45,11,Excellent
+2025-11,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,1358,8,Excellent
+2025-11,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,75,4,Excellent
+2025-11,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,786.6,7.4,Excellent
+2025-11,"Global Grocery Supply","B010","Melaka 88 Speedmart",1,1,1,100,678.21,7,Excellent
+2025-11,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,340.79,4,Excellent
+2025-11,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,194.58,5,Excellent
+2025-11,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,1637.29,1,Excellent
+2025-11,"Green Harvest Trading","B008","George Town 88 Speedmart",2,2,2,100,1831,3.3,Excellent
+2025-11,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,41.04,3,Excellent
+2025-11,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,788.34,4,Excellent
+2025-11,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,686.29,3,Excellent
+2025-11,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,110.6,14,Excellent
+2025-11,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,130.22,13,Excellent
+2025-11,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,302.12,8,Excellent
+2025-11,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",1,1,1,100,67.3,8,Excellent
+2025-11,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,242.91,5,Excellent
+2025-11,"Nusa Kitchen Supplies","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1726.36,7,Excellent
+2025-11,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,165.64,7,Excellent
+2025-11,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,466.48,8,Excellent
+2025-11,"Sinar Padi Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,326.06,4,Excellent
+2025-11,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",1,1,1,100,1391.2,3,Excellent
+2025-11,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",2,1,1,50,696.08,4,Poor
+2025-11,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",2,2,2,100,93.41,3.3,Excellent
+2025-11,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,68.7,3,Excellent
+2025-11,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,80.35,3,Excellent
+2025-11,"Sinar Padi Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1447.03,3,Excellent
+2025-11,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,427.8,4,Excellent
+2025-12,"Arctic Chill Logistics","B009","Seremban 88 Speedmart",1,1,1,100,1211.14,13,Excellent
+2025-12,"Clean & Clear Resources","B007","Ipoh 88 Speedmart",1,1,1,100,75.33,4,Excellent
+2025-12,"Clean & Clear Resources","B006","Johor Bahru 88 Speedmart",1,1,1,100,604.51,7,Excellent
+2025-12,"Clean & Clear Resources","B005","Klang 88 Speedmart",1,1,1,100,520.4,6,Excellent
+2025-12,"Clean & Clear Resources","B010","Melaka 88 Speedmart",1,1,1,100,48.6,8,Excellent
+2025-12,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,372.32,4,Excellent
+2025-12,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,537.94,14,Excellent
+2025-12,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,450.74,9,Excellent
+2025-12,"Dry Goods Trading Co","B003","Petaling Jaya 88 Speedmart",1,1,1,100,818.38,9,Excellent
+2025-12,"Dry Goods Trading Co","B009","Seremban 88 Speedmart",1,1,1,100,200.34,11,Excellent
+2025-12,"Farm to Table Sdn Bhd","B007","Ipoh 88 Speedmart",2,2,2,100,1013.87,13,Excellent
+2025-12,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,301.36,14,Excellent
+2025-12,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,336.29,11.5,Excellent
+2025-12,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,189.19,11,Excellent
+2025-12,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,271.88,13,Excellent
+2025-12,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,1,1,100,722.57,13,Excellent
+2025-12,"Frozen Foods Malaysia","B008","George Town 88 Speedmart",2,2,2,100,585.54,5.5,Excellent
+2025-12,"Frozen Foods Malaysia","B007","Ipoh 88 Speedmart",1,1,1,100,60.69,7,Excellent
+2025-12,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,53.11,8,Excellent
+2025-12,"Frozen Foods Malaysia","B010","Melaka 88 Speedmart",2,2,2,100,1730.44,6.2,Excellent
+2025-12,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,179.38,8,Excellent
+2025-12,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,272.8,5,Excellent
+2025-12,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,828.06,6,Excellent
+2025-12,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,1781.7,3,Excellent
+2025-12,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,266.86,4,Excellent
+2025-12,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,1327.94,2,Excellent
+2025-12,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,453.46,4,Excellent
+2025-12,"Green Harvest Trading","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1110.48,2,Excellent
+2025-12,"Green Harvest Trading","B009","Seremban 88 Speedmart",3,3,3,100,2102.8,2.6,Excellent
+2025-12,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,605.56,1,Excellent
+2025-12,"Home Essentials Enterprise","B001","Ampang 88 Speedmart",1,1,1,100,1727.89,14,Excellent
+2025-12,"Home Essentials Enterprise","B008","George Town 88 Speedmart",1,1,1,100,592.39,13,Excellent
+2025-12,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,442.1,14,Excellent
+2025-12,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,256.9,10,Excellent
+2025-12,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,909.84,11,Excellent
+2025-12,"Home Essentials Enterprise","B003","Petaling Jaya 88 Speedmart",1,1,1,100,769.89,11,Excellent
+2025-12,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,454.36,11,Excellent
+2025-12,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,1904.14,6,Excellent
+2025-12,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,1407.99,4,Excellent
+2025-12,"Nusa Kitchen Supplies","B008","George Town 88 Speedmart",1,1,1,100,2602.09,5,Excellent
+2025-12,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",2,2,2,100,550.17,5.6,Excellent
+2025-12,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",3,3,3,100,1160.23,5.4,Excellent
+2025-12,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,247.12,7,Excellent
+2025-12,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,345.01,7,Excellent
+2025-12,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,78.48,8,Excellent
+2025-12,"Sinar Padi Enterprise","B001","Ampang 88 Speedmart",2,2,2,100,1080.08,2,Excellent
+2025-12,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,348.53,4,Excellent
+2025-12,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,581.28,1,Excellent
+2025-12,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,93.08,3,Excellent
+2025-12,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,662.87,1.8,Excellent
+2025-12,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,199.35,1,Excellent
+2025-12,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",2,2,2,100,404.77,2.3,Excellent
+2025-12,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,399.52,1,Excellent
+2026-01,"Arctic Chill Logistics","B005","Klang 88 Speedmart",1,1,1,100,968.34,10,Excellent
+2026-01,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,826.04,9,Excellent
+2026-01,"Clean & Clear Resources","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,289.36,7,Excellent
+2026-01,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,351.36,4,Excellent
+2026-01,"Dairy Fresh Sdn Bhd","B002","Cheras 88 Speedmart",1,1,1,100,884,2,Excellent
+2026-01,"Dairy Fresh Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,194.4,3,Excellent
+2026-01,"Dry Goods Trading Co","B002","Cheras 88 Speedmart",1,1,1,100,1419.88,11,Excellent
+2026-01,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,423.27,9,Excellent
+2026-01,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",3,3,3,100,891.18,13.3,Excellent
+2026-01,"Frozen Foods Malaysia","B004","Shah Alam 88 Speedmart",1,1,1,100,307.6,4,Excellent
+2026-01,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,489.36,5,Excellent
+2026-01,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,476.64,6,Excellent
+2026-01,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,816.48,1,Excellent
+2026-01,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,727.52,2,Excellent
+2026-01,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,143.28,3,Excellent
+2026-01,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,103.04,2,Excellent
+2026-01,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,550.88,3,Excellent
+2026-01,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,1145.92,1,Excellent
+2026-01,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,522.68,12,Excellent
+2026-01,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,421.06,9,Excellent
+2026-01,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,1,1,100,1524.24,6,Excellent
+2026-01,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,1034.8,8,Excellent
+2026-01,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,0,0,0,559.2,0,Poor
+2026-01,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,109.12,6,Excellent
+2026-01,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,226.72,6,Excellent
+2026-01,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,185.52,8,Excellent
+2026-01,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,590.8,7,Excellent
+2026-01,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",2,2,2,100,506.48,2.5,Excellent
+2026-01,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,274.48,3,Excellent
+2026-01,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,100.4,1,Excellent
+2026-01,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,294.56,2,Excellent
+2026-02,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,1,1,100,915.68,10,Excellent
+2026-02,"Arctic Chill Logistics","B011","Kota Kinabalu 88 Speedmart",1,0,0,0,33,0,Poor
+2026-02,"Arctic Chill Logistics","B010","Melaka 88 Speedmart",1,1,1,100,205.19,9,Excellent
+2026-02,"Clean & Clear Resources","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,239.36,6,Excellent
+2026-02,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,141.28,5,Excellent
+2026-02,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,14.4,2,Excellent
+2026-02,"Dry Goods Trading Co","B006","Johor Bahru 88 Speedmart",1,1,1,100,715.93,13,Excellent
+2026-02,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,1,1,100,201.65,12,Excellent
+2026-02,"Dry Goods Trading Co","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,257.56,11,Excellent
+2026-02,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,266.14,9,Excellent
+2026-02,"Farm to Table Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,452.39,13,Excellent
+2026-02,"Frozen Foods Malaysia","B006","Johor Bahru 88 Speedmart",1,1,1,100,128.64,4,Excellent
+2026-02,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,86.08,8,Excellent
+2026-02,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,200.88,6,Excellent
+2026-02,"Frozen Foods Malaysia","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1560.96,6,Excellent
+2026-02,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,185.92,4,Excellent
+2026-02,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,873.04,5,Excellent
+2026-02,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",3,2,2,66.67,500.8,5,Poor
+2026-02,"Global Grocery Supply","B010","Melaka 88 Speedmart",1,1,1,100,215.76,4,Excellent
+2026-02,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,25.84,6,Excellent
+2026-02,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,304.4,8,Excellent
+2026-02,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,2391.84,3,Excellent
+2026-02,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",1,1,1,100,262.08,3,Excellent
+2026-02,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,608.16,4,Excellent
+2026-02,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,462.56,4,Excellent
+2026-02,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",2,2,2,100,2340.53,12.1,Excellent
+2026-02,"Home Essentials Enterprise","B008","George Town 88 Speedmart",2,2,2,100,1540.14,12.6,Excellent
+2026-02,"Home Essentials Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,144.14,12,Excellent
+2026-02,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",2,2,2,100,824.78,9.3,Excellent
+2026-02,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,112.8,11,Excellent
+2026-02,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,98.5,9,Excellent
+2026-02,"Nusa Kitchen Supplies","B007","Ipoh 88 Speedmart",2,2,2,100,512.72,5.5,Excellent
+2026-02,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,73.04,6,Excellent
+2026-02,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,531.76,4,Excellent
+2026-02,"Nusa Kitchen Supplies","B009","Seremban 88 Speedmart",1,1,1,100,608.32,7,Excellent
+2026-02,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,346.56,7,Excellent
+2026-02,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,209.44,4,Excellent
+2026-02,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,457.04,2.2,Excellent
+2026-02,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,210.32,4,Excellent
+2026-02,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",2,2,2,100,155.6,1,Excellent
+2026-03,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,1,1,100,672.86,13,Excellent
+2026-03,"Arctic Chill Logistics","B005","Klang 88 Speedmart",1,1,1,100,1816.56,11,Excellent
+2026-03,"Clean & Clear Resources","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1143.92,5,Excellent
+2026-03,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,189.6,3,Excellent
+2026-03,"Dairy Fresh Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,24.64,4,Excellent
+2026-03,"Dairy Fresh Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1149.36,1,Excellent
+2026-03,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,1,1,100,693.22,14,Excellent
+2026-03,"Dry Goods Trading Co","B009","Seremban 88 Speedmart",1,1,1,100,141.8,12,Excellent
+2026-03,"Farm to Table Sdn Bhd","B007","Ipoh 88 Speedmart",1,1,1,100,360.9,11,Excellent
+2026-03,"Frozen Foods Malaysia","B010","Melaka 88 Speedmart",1,1,1,100,285.36,8,Excellent
+2026-03,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,122.4,7,Excellent
+2026-03,"Global Grocery Supply","B001","Ampang 88 Speedmart",1,1,1,100,2684.08,5,Excellent
+2026-03,"Global Grocery Supply","B002","Cheras 88 Speedmart",1,1,1,100,3325.52,4,Excellent
+2026-03,"Global Grocery Supply","B008","George Town 88 Speedmart",1,1,1,100,486.72,5,Excellent
+2026-03,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,328.16,8,Excellent
+2026-03,"Global Grocery Supply","B005","Klang 88 Speedmart",2,2,2,100,827.6,4.9,Excellent
+2026-03,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,218.16,7,Excellent
+2026-03,"Global Grocery Supply","B010","Melaka 88 Speedmart",1,1,1,100,406.8,6,Excellent
+2026-03,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,405.84,4,Excellent
+2026-03,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,960.48,1,Excellent
+2026-03,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,928.48,2,Excellent
+2026-03,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,1123.2,1,Excellent
+2026-03,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,2285.28,3,Excellent
+2026-03,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,492.8,2,Excellent
+2026-03,"Green Harvest Trading","B009","Seremban 88 Speedmart",1,1,1,100,1671.6,3,Excellent
+2026-03,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,383.46,10,Excellent
+2026-03,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,998.47,12,Excellent
+2026-03,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",1,1,1,100,99.75,10,Excellent
+2026-03,"Nusa Kitchen Supplies","B002","Cheras 88 Speedmart",1,1,1,100,2632,7,Excellent
+2026-03,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,587.2,8,Excellent
+2026-03,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,1,1,100,179.2,7,Excellent
+2026-03,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,524.96,5,Excellent
+2026-03,"Nusa Kitchen Supplies","B010","Melaka 88 Speedmart",1,1,1,100,461.36,5,Excellent
+2026-03,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,580.48,6,Excellent
+2026-03,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",1,1,1,100,353.2,2,Excellent
+2026-03,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,225.76,4,Excellent
+2026-03,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",2,2,2,100,186.08,2,Excellent
+2026-03,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,192.32,1,Excellent
+2026-03,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,418.4,1.4,Excellent
+2026-03,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,23.52,2,Excellent
+2026-03,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,594.16,2,Excellent
+2026-04,"Arctic Chill Logistics","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,211.26,13,Excellent
+2026-04,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,1080.42,10,Excellent
+2026-04,"Dairy Fresh Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,28.08,3,Excellent
+2026-04,"Dry Goods Trading Co","B002","Cheras 88 Speedmart",1,1,1,100,496.6,11,Excellent
+2026-04,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,185.06,14,Excellent
+2026-04,"Dry Goods Trading Co","B006","Johor Bahru 88 Speedmart",1,1,1,100,1170.81,14,Excellent
+2026-04,"Farm to Table Sdn Bhd","B006","Johor Bahru 88 Speedmart",1,1,1,100,1087.92,13,Excellent
+2026-04,"Farm to Table Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,243.56,14,Excellent
+2026-04,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,465.18,9,Excellent
+2026-04,"Farm to Table Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,441.57,14,Excellent
+2026-04,"Frozen Foods Malaysia","B005","Klang 88 Speedmart",1,1,1,100,607.2,4,Excellent
+2026-04,"Frozen Foods Malaysia","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,12,4,Excellent
+2026-04,"Global Grocery Supply","B007","Ipoh 88 Speedmart",1,1,1,100,126.16,5,Excellent
+2026-04,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,89.6,4,Excellent
+2026-04,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,150.96,5,Excellent
+2026-04,"Global Grocery Supply","B009","Seremban 88 Speedmart",2,2,2,100,135.2,5,Excellent
+2026-04,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,228.8,4,Excellent
+2026-04,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,1,1,100,517.6,4,Excellent
+2026-04,"Green Harvest Trading","B009","Seremban 88 Speedmart",2,2,2,100,406.56,1.3,Excellent
+2026-04,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,2488,1,Excellent
+2026-04,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,1091.69,11,Excellent
+2026-04,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,1001.93,11,Excellent
+2026-04,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,90.77,11,Excellent
+2026-04,"Nusa Kitchen Supplies","B008","George Town 88 Speedmart",1,1,1,100,1653.92,7,Excellent
+2026-04,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,131.92,6,Excellent
+2026-04,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,193.84,2,Excellent
+2026-04,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",3,3,3,100,307.04,1.8,Excellent
+2026-04,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,300.24,2,Excellent
+2026-05,"Arctic Chill Logistics","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,161.33,14,Excellent
+2026-05,"Arctic Chill Logistics","B003","Petaling Jaya 88 Speedmart",1,1,1,100,4263.39,14,Excellent
+2026-05,"Arctic Chill Logistics","B004","Shah Alam 88 Speedmart",1,1,1,100,3061.89,11,Excellent
+2026-05,"Clean & Clear Resources","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,34.4,8,Excellent
+2026-05,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,103.68,8,Excellent
+2026-05,"Dairy Fresh Sdn Bhd","B005","Klang 88 Speedmart",1,1,1,100,84.48,1,Excellent
+2026-05,"Dairy Fresh Sdn Bhd","B009","Seremban 88 Speedmart",1,1,1,100,141.12,2,Excellent
+2026-05,"Dry Goods Trading Co","B009","Seremban 88 Speedmart",1,1,1,100,318.9,10,Excellent
+2026-05,"Farm to Table Sdn Bhd","B007","Ipoh 88 Speedmart",1,1,1,100,238.26,11,Excellent
+2026-05,"Farm to Table Sdn Bhd","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,355.65,11,Excellent
+2026-05,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,1,1,100,1857.18,13,Excellent
+2026-05,"Farm to Table Sdn Bhd","B003","Petaling Jaya 88 Speedmart",1,1,1,100,1641.68,14,Excellent
+2026-05,"Frozen Foods Malaysia","B010","Melaka 88 Speedmart",1,1,1,100,538.72,7,Excellent
+2026-05,"Frozen Foods Malaysia","B009","Seremban 88 Speedmart",1,1,1,100,592.56,4,Excellent
+2026-05,"Global Grocery Supply","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,200.48,8,Excellent
+2026-05,"Global Grocery Supply","B009","Seremban 88 Speedmart",1,1,1,100,79.68,4,Excellent
+2026-05,"Global Grocery Supply","B004","Shah Alam 88 Speedmart",1,1,1,100,259.92,5,Excellent
+2026-05,"Green Harvest Trading","B002","Cheras 88 Speedmart",1,1,1,100,1641.44,1,Excellent
+2026-05,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,1,1,100,280.32,2,Excellent
+2026-05,"Green Harvest Trading","B006","Johor Bahru 88 Speedmart",2,2,2,100,1901.52,1.4,Excellent
+2026-05,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",2,2,2,100,1883.92,1.7,Excellent
+2026-05,"Home Essentials Enterprise","B002","Cheras 88 Speedmart",1,1,1,100,977.22,10,Excellent
+2026-05,"Home Essentials Enterprise","B005","Klang 88 Speedmart",1,1,1,100,1053.68,12,Excellent
+2026-05,"Home Essentials Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,649.04,13.7,Excellent
+2026-05,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,189.03,12,Excellent
+2026-05,"Nusa Kitchen Supplies","B004","Shah Alam 88 Speedmart",1,1,1,100,1253.04,8,Excellent
+2026-05,"Sinar Padi Enterprise","B008","George Town 88 Speedmart",1,1,1,100,308.48,3,Excellent
+2026-05,"Sinar Padi Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,86,2,Excellent
+2026-05,"Sinar Padi Enterprise","B005","Klang 88 Speedmart",1,1,1,100,97.76,1,Excellent
+2026-05,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,147.04,2,Excellent
+2026-05,"Sinar Padi Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,273.28,4,Excellent
+2026-06,"Arctic Chill Logistics","B008","George Town 88 Speedmart",1,0,0,0,277.92,0,Poor
+2026-06,"Arctic Chill Logistics","B007","Ipoh 88 Speedmart",1,1,1,100,161.5,9,Excellent
+2026-06,"Arctic Chill Logistics","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,116.31,14,Excellent
+2026-06,"Clean & Clear Resources","B005","Klang 88 Speedmart",1,0,0,0,91.76,0,Poor
+2026-06,"Clean & Clear Resources","B009","Seremban 88 Speedmart",1,1,1,100,977.6,7,Excellent
+2026-06,"Dry Goods Trading Co","B008","George Town 88 Speedmart",1,1,1,100,332.9,11,Excellent
+2026-06,"Dry Goods Trading Co","B005","Klang 88 Speedmart",1,0,0,0,615.69,0,Poor
+2026-06,"Farm to Table Sdn Bhd","B008","George Town 88 Speedmart",1,1,1,100,918.67,5,Excellent
+2026-06,"Farm to Table Sdn Bhd","B010","Melaka 88 Speedmart",1,0,0,0,368.04,0,Poor
+2026-06,"Farm to Table Sdn Bhd","B004","Shah Alam 88 Speedmart",1,0,0,0,987.62,0,Poor
+2026-06,"Frozen Foods Malaysia","B006","Johor Bahru 88 Speedmart",1,0,0,0,2262.72,0,Poor
+2026-06,"Global Grocery Supply","B005","Klang 88 Speedmart",1,1,1,100,1230.24,6,Excellent
+2026-06,"Global Grocery Supply","B010","Melaka 88 Speedmart",1,0,0,0,224.16,0,Poor
+2026-06,"Green Harvest Trading","B001","Ampang 88 Speedmart",1,1,1,100,153.04,2,Excellent
+2026-06,"Green Harvest Trading","B008","George Town 88 Speedmart",1,1,1,100,641.92,2,Excellent
+2026-06,"Green Harvest Trading","B007","Ipoh 88 Speedmart",1,0,0,0,610.08,0,Poor
+2026-06,"Green Harvest Trading","B005","Klang 88 Speedmart",1,1,1,100,408.24,1,Excellent
+2026-06,"Green Harvest Trading","B011","Kota Kinabalu 88 Speedmart",2,1,1,50,767.52,2,Poor
+2026-06,"Green Harvest Trading","B010","Melaka 88 Speedmart",1,0,0,0,436.96,0,Poor
+2026-06,"Green Harvest Trading","B003","Petaling Jaya 88 Speedmart",1,1,1,100,4632.64,2,Excellent
+2026-06,"Green Harvest Trading","B004","Shah Alam 88 Speedmart",1,1,1,100,1078.24,1,Excellent
+2026-06,"Home Essentials Enterprise","B006","Johor Bahru 88 Speedmart",1,1,1,100,509.89,9,Excellent
+2026-06,"Home Essentials Enterprise","B011","Kota Kinabalu 88 Speedmart",1,1,1,100,545.84,9,Excellent
+2026-06,"Home Essentials Enterprise","B009","Seremban 88 Speedmart",1,1,1,100,398.2,9,Excellent
+2026-06,"Home Essentials Enterprise","B004","Shah Alam 88 Speedmart",1,0,0,0,256.3,0,Poor
+2026-06,"Nusa Kitchen Supplies","B001","Ampang 88 Speedmart",1,0,0,0,1945.68,0,Poor
+2026-06,"Nusa Kitchen Supplies","B006","Johor Bahru 88 Speedmart",1,1,1,100,2479.44,6,Excellent
+2026-06,"Nusa Kitchen Supplies","B005","Klang 88 Speedmart",1,0,0,0,294.24,0,Poor
+2026-06,"Nusa Kitchen Supplies","B011","Kota Kinabalu 88 Speedmart",1,0,0,0,221.76,0,Poor
+2026-06,"Sinar Padi Enterprise","B007","Ipoh 88 Speedmart",1,1,1,100,69.92,1,Excellent
+2026-06,"Sinar Padi Enterprise","B011","Kota Kinabalu 88 Speedmart",3,2,2,66.67,520.16,3.6,Poor
+2026-06,"Sinar Padi Enterprise","B010","Melaka 88 Speedmart",2,2,2,100,336.72,2.8,Excellent
+2026-06,"Sinar Padi Enterprise","B004","Shah Alam 88 Speedmart",1,1,1,100,171.52,2,Excellent

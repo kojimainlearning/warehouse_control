@@ -1,24 +1,3 @@
---------------------------------------------------------------------------------
--- SALES PERFORMANCE AND REVENUE ANALYSIS
--- Executive KPI Report
---
--- Output:
--- 1. Formatted executive report using DBMS_OUTPUT.PUT_LINE, spooled to TXT
--- 2. Raw CSV result set spooled for visualisation
---
--- Metrics:
--- - Total Revenue
--- - Total Quantity Sold
--- - Average Order Value
--- - Sales Growth Rate
---
--- Revenue Formula:
--- (Quantity * Unit_Price) - Voucher_Discount_Amount - MyKasih_Subsidy_Amount
---
--- Included SO_Status:
--- COMPLETED, OUT_FOR_DELIVERY, READY_FOR_PICKUP
---------------------------------------------------------------------------------
-
 WHENEVER SQLERROR EXIT SQL.SQLCODE
 
 SET ECHO OFF
@@ -31,36 +10,17 @@ SET NEWPAGE 0
 SET TRIMSPOOL ON
 SET DEFINE OFF
 
-
---------------------------------------------------------------------------------
--- REPORT PARAMETERS
---
--- Edit these values before running the report.
---
--- Examples:
--- :b_start_year  := 2023;
--- :b_end_year    := 2025;
--- :b_period_type := 'MONTH';
---
--- Leave start year and end year as NULL for all available history.
--- Allowed period types: YEAR, QUARTER, MONTH
---------------------------------------------------------------------------------
-
 VARIABLE b_start_year NUMBER
 VARIABLE b_end_year NUMBER
 VARIABLE b_period_type VARCHAR2(10)
 
+-- Edit these values before running the report
 BEGIN
     :b_start_year  := 2020;
     :b_end_year    := 2025;
-    :b_period_type := 'QUARTER';
+    :b_period_type := 'YEAR';
 END;
 /
-
-
---------------------------------------------------------------------------------
--- STORED PROCEDURE
---------------------------------------------------------------------------------
 
 CREATE OR REPLACE PROCEDURE generate_sales_executive_report (
     p_start_year  IN NUMBER   DEFAULT NULL,
@@ -221,11 +181,6 @@ CREATE OR REPLACE PROCEDURE generate_sales_executive_report (
     
     
 BEGIN
-
-    ----------------------------------------------------------------------------
-    -- Normalise input parameters
-    ----------------------------------------------------------------------------
-
     v_period_type := UPPER(TRIM(NVL(p_period_type, 'YEAR')));
 
     IF v_period_type IS NULL THEN
@@ -278,12 +233,7 @@ BEGIN
             'Start year cannot be greater than end year.'
         );
     END IF;
-
-
-    ----------------------------------------------------------------------------
-    -- Validate required warehouse data
-    ----------------------------------------------------------------------------
-
+    
     SELECT COUNT(*)
       INTO v_count
       FROM Date_Dim;
@@ -428,11 +378,6 @@ BEGIN
         );
     END IF;
 
-
-    ----------------------------------------------------------------------------
-    -- Report header
-    ----------------------------------------------------------------------------
-
     IF v_start_year IS NULL AND v_end_year IS NULL THEN
         v_period_desc := 'All Available History';
     ELSIF v_start_year IS NULL THEN
@@ -461,11 +406,6 @@ BEGIN
 
     DBMS_OUTPUT.PUT_LINE(v_line);
     DBMS_OUTPUT.PUT_LINE(RPAD('-', 100, '-'));
-
-
-    ----------------------------------------------------------------------------
-    -- Report body
-    ----------------------------------------------------------------------------
 
     FOR r_report IN c_report LOOP
         v_row_count := v_row_count + 1;
@@ -529,23 +469,12 @@ END;
 /
 
 
---------------------------------------------------------------------------------
--- SPOOL FORMATTED EXECUTIVE REPORT
---------------------------------------------------------------------------------
-
 SPOOL 'report_output/sales_performance_revenue_analysis.txt'
 
 EXEC generate_sales_executive_report(:b_start_year, :b_end_year, :b_period_type);
 
 SPOOL OFF
 
-
---------------------------------------------------------------------------------
--- SPOOL RAW CSV FOR VISUALISATION
---
--- This produces raw numerical values suitable for Power BI, Tableau, Excel,
--- Oracle APEX, or any other visualisation tool.
---------------------------------------------------------------------------------
 
 SET MARKUP CSV ON DELIMIT ',' QUOTE ON
 SET PAGESIZE 50000

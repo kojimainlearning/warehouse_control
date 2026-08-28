@@ -1,31 +1,3 @@
---------------------------------------------------------------------------------
--- SEASONAL AND TEMPORAL SALES PATTERNS
---
--- Company-level temporal sales pattern report.
---
--- Outputs:
--- 1. seasonal_temporal_sales_report.txt
--- 2. temporal_company_pattern.csv
---
--- Scope:
--- - Company-level only
--- - No branch analytics
--- - No product/category analytics
--- - No hourly analysis
--- - No promotional analysis
---
--- Sales amount:
--- Net sales = (Quantity * Unit_Price)
---           - Voucher_Discount_Amount
---           - MyKasih_Subsidy_Amount
---
--- Refunds:
--- Completed refunds are deducted by Processed_Date_Key.
---
--- Included SO_Status:
--- COMPLETED, OUT_FOR_DELIVERY, READY_FOR_PICKUP
---------------------------------------------------------------------------------
-
 WHENEVER SQLERROR EXIT SQL.SQLCODE
 
 SET ECHO OFF
@@ -39,24 +11,14 @@ SET TRIMSPOOL ON
 SET DEFINE OFF
 SET SQLBLANKLINES ON
 
---------------------------------------------------------------------------------
--- REPORT PARAMETERS
---
--- Leave all four values NULL to use all available sales history.
--- If any value is provided, all four must be provided.
---
--- Example full period:
--- :b_start_year  := 2020;
--- :b_start_month := 1;
--- :b_end_year    := 2026;
--- :b_end_month   := 6;
---------------------------------------------------------------------------------
 
 VARIABLE b_start_year NUMBER
 VARIABLE b_start_month NUMBER
 VARIABLE b_end_year NUMBER
 VARIABLE b_end_month NUMBER
 
+-- Leave all four values NULL to use all available sales history
+-- If any value is provided, all four must be provided
 BEGIN
     :b_start_year  := 2020;
     :b_start_month := 1;
@@ -65,10 +27,6 @@ BEGIN
 END;
 /
 
-
---------------------------------------------------------------------------------
--- STORED PROCEDURE
---------------------------------------------------------------------------------
 
 CREATE OR REPLACE PROCEDURE generate_temporal_sales_report (
     p_start_year  IN NUMBER DEFAULT NULL,
@@ -173,10 +131,6 @@ CREATE OR REPLACE PROCEDURE generate_temporal_sales_report (
     END fmt_pct;
 
 BEGIN
-
-    ----------------------------------------------------------------------------
-    -- Parameter validation
-    ----------------------------------------------------------------------------
 
     IF p_start_year IS NULL
        AND p_start_month IS NULL
@@ -312,11 +266,6 @@ BEGIN
 
     END IF;
 
-
-    ----------------------------------------------------------------------------
-    -- Validate Date_Dim basic integrity
-    ----------------------------------------------------------------------------
-
     SELECT COUNT(*) INTO v_count
       FROM Date_Dim
      WHERE Date_Key IS NULL
@@ -359,11 +308,6 @@ BEGIN
         );
     END IF;
 
-
-    ----------------------------------------------------------------------------
-    -- Validate selected calendar coverage
-    ----------------------------------------------------------------------------
-
     v_expected_days := v_end_date - v_start_date + 1;
 
     SELECT COUNT(DISTINCT TRUNC(Cal_Date)) INTO v_count
@@ -399,11 +343,6 @@ BEGIN
             'Missing or invalid data: Date_Dim contains NULL or invalid temporal attributes in the selected reporting period.'
         );
     END IF;
-
-
-    ----------------------------------------------------------------------------
-    -- Validate Sales_Fact required fields
-    ----------------------------------------------------------------------------
 
     SELECT COUNT(*) INTO v_count
       FROM Sales_Fact sf
@@ -486,11 +425,6 @@ BEGIN
         );
     END IF;
 
-
-    ----------------------------------------------------------------------------
-    -- Validate completed refunds
-    ----------------------------------------------------------------------------
-
     SELECT COUNT(*) INTO v_count
       FROM Returns_Fact rf
      WHERE UPPER(TRIM(rf.Return_Status)) = 'COMPLETED'
@@ -524,11 +458,6 @@ BEGIN
             'Missing data: Completed refund rows contain Processed_Date_Key values not found in Date_Dim.'
         );
     END IF;
-
-
-    ----------------------------------------------------------------------------
-    -- Executive summary values
-    ----------------------------------------------------------------------------
 
     WITH selected_dates AS (
         SELECT
@@ -634,11 +563,6 @@ BEGIN
         v_avg_daily_net
     FROM daily;
 
-
-    ----------------------------------------------------------------------------
-    -- Peak day
-    ----------------------------------------------------------------------------
-
     FOR r_peak_day IN (
         WITH selected_dates AS (
             SELECT
@@ -704,11 +628,6 @@ BEGIN
         v_peak_day_net   := r_peak_day.net_amount;
         EXIT;
     END LOOP;
-
-
-    ----------------------------------------------------------------------------
-    -- Peak month
-    ----------------------------------------------------------------------------
 
     FOR r_peak_month IN (
         WITH selected_dates AS (
@@ -776,11 +695,6 @@ BEGIN
         EXIT;
     END LOOP;
 
-
-    ----------------------------------------------------------------------------
-    -- Weekend contribution
-    ----------------------------------------------------------------------------
-
     WITH selected_dates AS (
         SELECT
             d.Date_Key,
@@ -846,11 +760,6 @@ BEGIN
     ELSE
         v_weekend_pct := v_weekend_net * 100 / v_total_net;
     END IF;
-
-
-    ----------------------------------------------------------------------------
-    -- Holiday lift
-    ----------------------------------------------------------------------------
 
     WITH selected_dates AS (
         SELECT
@@ -925,11 +834,6 @@ BEGIN
     ELSE
         v_holiday_lift := (v_holiday_avg / v_nonholiday_avg - 1) * 100;
     END IF;
-
-
-    ----------------------------------------------------------------------------
-    -- Top festive season lift
-    ----------------------------------------------------------------------------
 
     FOR r_top_season IN (
         WITH selected_dates AS (
@@ -1041,12 +945,7 @@ BEGIN
         v_top_season_lift  := r_top_season.lift_pct;
         EXIT;
     END LOOP;
-
-
-    ----------------------------------------------------------------------------
-    -- Print report header
-    ----------------------------------------------------------------------------
-
+    
     DBMS_OUTPUT.PUT_LINE(RPAD('=', 120, '='));
     DBMS_OUTPUT.PUT_LINE('SEASONAL AND TEMPORAL SALES PATTERNS');
     DBMS_OUTPUT.PUT_LINE(RPAD('=', 120, '='));
@@ -1057,11 +956,6 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Guest Sales         : Included');
     DBMS_OUTPUT.PUT_LINE('Refunds             : Completed refunds deducted by processed date');
     DBMS_OUTPUT.PUT_LINE(RPAD('-', 120, '-'));
-
-
-    ----------------------------------------------------------------------------
-    -- Print executive summary
-    ----------------------------------------------------------------------------
 
     DBMS_OUTPUT.PUT_LINE('EXECUTIVE SUMMARY');
     DBMS_OUTPUT.PUT_LINE(RPAD('-', 120, '-'));
@@ -1078,11 +972,6 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Holiday Sales Lift               : ' || fmt_pct(v_holiday_lift));
     DBMS_OUTPUT.PUT_LINE('Top Festive Period Lift          : ' || NVL(v_top_season_label, 'N/A') || ' (' || fmt_pct(v_top_season_lift) || ')');
     DBMS_OUTPUT.PUT_LINE(RPAD('-', 120, '-'));
-
-
-    ----------------------------------------------------------------------------
-    -- Print day-of-week pattern
-    ----------------------------------------------------------------------------
 
     DBMS_OUTPUT.PUT_LINE('DAY OF WEEK PATTERN');
     DBMS_OUTPUT.PUT_LINE(RPAD('-', 120, '-'));
@@ -1201,11 +1090,6 @@ BEGIN
     END IF;
 
     DBMS_OUTPUT.PUT_LINE(RPAD('-', 120, '-'));
-
-
-    ----------------------------------------------------------------------------
-    -- Print weekend / weekday pattern
-    ----------------------------------------------------------------------------
 
     DBMS_OUTPUT.PUT_LINE('WEEKEND / WEEKDAY PATTERN');
     DBMS_OUTPUT.PUT_LINE(RPAD('-', 120, '-'));
@@ -1326,11 +1210,6 @@ BEGIN
 
     DBMS_OUTPUT.PUT_LINE(RPAD('-', 120, '-'));
 
-
-    ----------------------------------------------------------------------------
-    -- Print monthly seasonal pattern
-    ----------------------------------------------------------------------------
-
     DBMS_OUTPUT.PUT_LINE('MONTHLY SEASONAL PATTERN');
     DBMS_OUTPUT.PUT_LINE(RPAD('-', 120, '-'));
 
@@ -1448,11 +1327,6 @@ BEGIN
     END IF;
 
     DBMS_OUTPUT.PUT_LINE(RPAD('-', 120, '-'));
-
-
-    ----------------------------------------------------------------------------
-    -- Print festive / holiday season pattern
-    ----------------------------------------------------------------------------
 
     DBMS_OUTPUT.PUT_LINE('FESTIVE / HOLIDAY SEASON PATTERN');
     DBMS_OUTPUT.PUT_LINE(RPAD('-', 120, '-'));
@@ -1616,20 +1490,11 @@ END;
 /
 
 
---------------------------------------------------------------------------------
--- SPOOL FORMATTED EXECUTIVE REPORT
---------------------------------------------------------------------------------
-
 SPOOL 'report_output/seasonal_temporal_sales_report.txt'
 
 EXEC generate_temporal_sales_report(:b_start_year, :b_start_month, :b_end_year, :b_end_month);
 
 SPOOL OFF
-
-
---------------------------------------------------------------------------------
--- SPOOL RAW CSV FOR VISUALISATION
---------------------------------------------------------------------------------
 
 SET MARKUP CSV ON DELIMIT ',' QUOTE ON
 SET PAGESIZE 50000
