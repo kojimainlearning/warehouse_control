@@ -77,6 +77,7 @@ Branch_Name,City,Cal_Year_Month,Cal_Month_Name,Cal_Year,Total_Orders,Total_Reven
 "Ampang 88 Speedmart","Ampang",2026-04,"April",2026,42,1950.84,46.45,472.71,24.2,8,19.05
 "Ampang 88 Speedmart","Ampang",2026-05,"May",2026,51,2083.77,40.86,538.4,25.8,6,11.76
 "Ampang 88 Speedmart","Ampang",2026-06,"June",2026,82,3613.41,44.07,899.82,24.9,12,14.63
+"Ampang 88 Speedmart","Ampang",2026-07,"July",2026,0,0,0,0,0,3,0
 "Cheras 88 Speedmart","Cheras",2020-04,"April",2020,173,6312.16,36.49,2260.8,35.8,3,1.73
 "Cheras 88 Speedmart","Cheras",2020-05,"May",2020,308,10010.84,32.5,3748.99,37.4,15,4.87
 "Cheras 88 Speedmart","Cheras",2020-06,"June",2020,296,10300.31,34.8,3886.38,37.7,23,7.77
@@ -152,6 +153,7 @@ Branch_Name,City,Cal_Year_Month,Cal_Month_Name,Cal_Year,Total_Orders,Total_Reven
 "Cheras 88 Speedmart","Cheras",2026-04,"April",2026,63,2757.6,43.77,696.94,25.3,9,14.29
 "Cheras 88 Speedmart","Cheras",2026-05,"May",2026,49,2100.54,42.87,510.3,24.3,9,18.37
 "Cheras 88 Speedmart","Cheras",2026-06,"June",2026,87,3635.15,41.78,912.42,25.1,18,20.69
+"Cheras 88 Speedmart","Cheras",2026-07,"July",2026,0,0,0,0,0,2,0
 "George Town 88 Speedmart","George Town",2021-10,"October",2021,63,2839.67,45.07,929.88,32.7,0,0
 "George Town 88 Speedmart","George Town",2021-11,"November",2021,80,3192.39,39.9,1036.77,32.5,6,7.5
 "George Town 88 Speedmart","George Town",2021-12,"December",2021,128,4589,35.85,1573.61,34.3,6,4.69
@@ -209,6 +211,7 @@ Branch_Name,City,Cal_Year_Month,Cal_Month_Name,Cal_Year,Total_Orders,Total_Reven
 "George Town 88 Speedmart","George Town",2026-04,"April",2026,53,1883.98,35.55,485.24,25.8,8,15.09
 "George Town 88 Speedmart","George Town",2026-05,"May",2026,51,1901.49,37.28,488.17,25.7,16,31.37
 "George Town 88 Speedmart","George Town",2026-06,"June",2026,83,3055.51,36.81,806.9,26.4,18,21.69
+"George Town 88 Speedmart","George Town",2026-07,"July",2026,0,0,0,0,0,3,0
 "Ipoh 88 Speedmart","Ipoh",2021-07,"July",2021,64,2339.74,36.56,818.4,35,5,7.81
 "Ipoh 88 Speedmart","Ipoh",2021-08,"August",2021,78,2889.33,37.04,956.4,33.1,4,5.13
 "Ipoh 88 Speedmart","Ipoh",2021-09,"September",2021,77,2537.33,32.95,878.83,34.6,10,12.99
@@ -269,6 +272,7 @@ Branch_Name,City,Cal_Year_Month,Cal_Month_Name,Cal_Year,Total_Orders,Total_Reven
 "Ipoh 88 Speedmart","Ipoh",2026-04,"April",2026,58,2115.35,36.47,579.78,27.4,10,17.24
 "Ipoh 88 Speedmart","Ipoh",2026-05,"May",2026,60,2920.15,48.67,725.03,24.8,7,11.67
 "Ipoh 88 Speedmart","Ipoh",2026-06,"June",2026,95,3699.14,38.94,926.4,25,10,10.53
+"Ipoh 88 Speedmart","Ipoh",2026-07,"July",2026,0,0,0,0,0,4,0
 "Johor Bahru 88 Speedmart","Johor Bahru",2021-04,"April",2021,71,2950.96,41.56,1017.42,34.5,4,5.63
 "Johor Bahru 88 Speedmart","Johor Bahru",2021-05,"May",2021,100,3273.92,32.74,1167.05,35.6,4,4
 "Johor Bahru 88 Speedmart","Johor Bahru",2021-06,"June",2021,106,4199.3,39.62,1483.83,35.3,7,6.6
@@ -398,6 +402,7 @@ Branch_Name,City,Cal_Year_Month,Cal_Month_Name,Cal_Year,Total_Orders,Total_Reven
 "Klang 88 Speedmart","Klang",2026-04,"April",2026,58,2106.13,36.31,536.92,25.5,11,18.97
 "Klang 88 Speedmart","Klang",2026-05,"May",2026,71,3309.13,46.61,861.27,26,11,15.49
 "Klang 88 Speedmart","Klang",2026-06,"June",2026,105,4149.15,39.52,1087.51,26.2,14,13.33
+"Klang 88 Speedmart","Klang",2026-07,"July",2026,0,0,0,0,0,6,0
 "Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-01,"January",2023,70,3075.54,43.94,954,31,7,10
 "Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-02,"February",2023,40,1271.44,31.79,409.25,32.2,2,5
 "Kota Kinabalu 88 Speedmart","Kota Kinabalu",2023-03,"March",2023,46,1906.05,41.44,579.83,30.4,5,10.87
@@ -440,6 +445,7 @@ Branch_Name,City,Cal_Year_Month,Cal_Month_Name,Cal_Year,Total_Orders,Total_Reven
 "Kota Kinabalu 88 Speedmart","Kota Kinabalu",2026-04,"April",2026,49,1698.77,34.67,451.78,26.6,5,10.2
 "Kota Kinabalu 88 Speedmart","Kota Kinabalu",2026-05,"May",2026,59,2807.13,47.58,700.9,25,7,11.86
 "Kota Kinabalu 88 Speedmart","Kota Kinabalu",2026-06,"June",2026,76,2941.31,38.7,750.46,25.5,7,9.21
+"Kota Kinabalu 88 Speedmart","Kota Kinabalu",2026-07,"July",2026,0,0,0,0,0,4,0
 "Kuching 88 Speedmart","Kuching",2023-06,"June",2023,2,108.9,54.45,29.89,27.4,0,0
 "Kuching 88 Speedmart","Kuching",2023-07,"July",2023,54,2502.91,46.35,736.59,29.4,7,12.96
 "Kuching 88 Speedmart","Kuching",2023-08,"August",2023,40,1707.77,42.69,530.4,31.1,4,10
@@ -516,6 +522,7 @@ Branch_Name,City,Cal_Year_Month,Cal_Month_Name,Cal_Year,Total_Orders,Total_Reven
 "Melaka 88 Speedmart","Melaka",2026-04,"April",2026,44,2104.4,47.83,490.47,23.3,10,22.73
 "Melaka 88 Speedmart","Melaka",2026-05,"May",2026,50,1838.66,36.77,478.39,26,5,10
 "Melaka 88 Speedmart","Melaka",2026-06,"June",2026,74,3061.29,41.37,798.79,26.1,11,14.86
+"Melaka 88 Speedmart","Melaka",2026-07,"July",2026,0,0,0,0,0,4,0
 "Petaling Jaya 88 Speedmart","Petaling Jaya",2020-07,"July",2020,184,6874.03,37.36,2455.73,35.7,6,3.26
 "Petaling Jaya 88 Speedmart","Petaling Jaya",2020-08,"August",2020,148,4866.97,32.88,1794.47,36.9,8,5.41
 "Petaling Jaya 88 Speedmart","Petaling Jaya",2020-09,"September",2020,147,5163.86,35.13,1869.52,36.2,10,6.8
@@ -588,6 +595,7 @@ Branch_Name,City,Cal_Year_Month,Cal_Month_Name,Cal_Year,Total_Orders,Total_Reven
 "Petaling Jaya 88 Speedmart","Petaling Jaya",2026-04,"April",2026,48,2476.7,51.6,613.57,24.8,11,22.92
 "Petaling Jaya 88 Speedmart","Petaling Jaya",2026-05,"May",2026,72,3027.69,42.05,812.71,26.8,7,9.72
 "Petaling Jaya 88 Speedmart","Petaling Jaya",2026-06,"June",2026,78,2584.74,33.14,698.07,27,13,16.67
+"Petaling Jaya 88 Speedmart","Petaling Jaya",2026-07,"July",2026,0,0,0,0,0,3,0
 "Seremban 88 Speedmart","Seremban",2022-01,"January",2022,76,2414.01,31.76,836.38,34.6,7,9.21
 "Seremban 88 Speedmart","Seremban",2022-02,"February",2022,59,1855.64,31.45,612.05,33,2,3.39
 "Seremban 88 Speedmart","Seremban",2022-03,"March",2022,56,2251.75,40.21,751.26,33.4,2,3.57
@@ -642,6 +650,7 @@ Branch_Name,City,Cal_Year_Month,Cal_Month_Name,Cal_Year,Total_Orders,Total_Reven
 "Seremban 88 Speedmart","Seremban",2026-04,"April",2026,57,2291.37,40.2,578.66,25.3,7,12.28
 "Seremban 88 Speedmart","Seremban",2026-05,"May",2026,51,1743.74,34.19,449.86,25.8,10,19.61
 "Seremban 88 Speedmart","Seremban",2026-06,"June",2026,63,2741.67,43.52,715.86,26.1,11,17.46
+"Seremban 88 Speedmart","Seremban",2026-07,"July",2026,0,0,0,0,0,1,0
 "Shah Alam 88 Speedmart","Shah Alam",2020-10,"October",2020,123,4918.26,39.99,1769.28,36,6,4.88
 "Shah Alam 88 Speedmart","Shah Alam",2020-11,"November",2020,181,6219.72,34.36,2275.53,36.6,11,6.08
 "Shah Alam 88 Speedmart","Shah Alam",2020-12,"December",2020,229,8340.79,36.42,3044.38,36.5,7,3.06
@@ -711,3 +720,4 @@ Branch_Name,City,Cal_Year_Month,Cal_Month_Name,Cal_Year,Total_Orders,Total_Reven
 "Shah Alam 88 Speedmart","Shah Alam",2026-04,"April",2026,53,2179.32,41.12,571.08,26.2,17,32.08
 "Shah Alam 88 Speedmart","Shah Alam",2026-05,"May",2026,64,3480.94,54.39,858.58,24.7,7,10.94
 "Shah Alam 88 Speedmart","Shah Alam",2026-06,"June",2026,89,3251.33,36.53,829.66,25.5,16,17.98
+"Shah Alam 88 Speedmart","Shah Alam",2026-07,"July",2026,0,0,0,0,0,1,0
