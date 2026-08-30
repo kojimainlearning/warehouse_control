@@ -13,9 +13,7 @@ IS
     v_prev_category  Product_Dim.Category_Name%TYPE := NULL;
     v_is_first_rec   BOOLEAN := TRUE;
 
-    /* =========================================================================
-       ACCUMULATORS - CATEGORY LEVEL
-       ========================================================================= */
+    -- ACCUMULATORS - CATEGORY LEVEL
     v_cat_item_count    NUMBER := 0;
     v_cat_on_hand       NUMBER := 0;
     v_cat_avg_sales     NUMBER := 0;
@@ -23,9 +21,7 @@ IS
     v_cat_low_cnt       NUMBER := 0;
     v_cat_excess_cnt    NUMBER := 0;
 
-    /* =========================================================================
-       ACCUMULATORS - BRANCH LEVEL
-       ========================================================================= */
+    -- ACCUMULATORS - BRANCH LEVEL
     v_br_item_count     NUMBER := 0;
     v_br_cat_count      NUMBER := 0;
     v_br_on_hand        NUMBER := 0;
@@ -201,9 +197,7 @@ IS
         GROUP BY Branch_Name
         ORDER BY stock_health_efficiency DESC, Branch_Name ASC;
 
-    /* =========================================================================
-       CURSOR: SPECIFIC CATEGORY ITEM-LEVEL SUMMARY
-       ========================================================================= */
+    -- CURSOR: SPECIFIC CATEGORY ITEM-LEVEL SUMMARY
     CURSOR c_item_category_summary IS
         WITH recent_sales_trend AS (
             SELECT 
@@ -268,9 +262,7 @@ IS
         GROUP BY Item_Name
         ORDER BY stock_health_efficiency DESC, total_daily_velocity DESC, Item_Name ASC;
 
-    /* =========================================================================
-       HELPER PROCEDURES
-       ========================================================================= */
+    --HELPER PROCEDURES
     PROCEDURE print_category_subtotal IS
     BEGIN
         IF v_cat_item_count > 0 THEN
@@ -426,9 +418,7 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE('*** No stock optimization records found matching the specified filter criteria. ***');
     END IF;
 
-    /* =========================================================================
-       EXECUTIVE SUMMARY 1: ALL BRANCHES INVENTORY HEALTH
-       ========================================================================= */
+    --EXECUTIVE SUMMARY 1: ALL BRANCHES INVENTORY HEALTH
     IF UPPER(p_branch_filter) = 'ALL' AND NOT v_is_first_rec THEN
         DBMS_OUTPUT.PUT_LINE(c_line_double);
         DBMS_OUTPUT.PUT_LINE('>>> [EXEC SUMMARY 1] ALL BRANCHES INVENTORY HEALTH COMPARATIVE');
@@ -462,10 +452,7 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE(c_line_double);
     END IF;
 
-    /* =========================================================================
-       EXECUTIVE SUMMARY 2: CATEGORY ITEM HEALTH COMPARATIVE SUMMARY
-       (Triggers when user specifies a single product category)
-       ========================================================================= */
+    -- EXECUTIVE SUMMARY 2: CATEGORY ITEM HEALTH COMPARATIVE SUMMARY(Triggers when user specifies a single product category)
     IF UPPER(p_product_category) <> 'ALL' AND NOT v_is_first_rec AND UPPER(p_branch_filter) != 'ALL' THEN
         DBMS_OUTPUT.PUT_LINE(c_line_double);
         DBMS_OUTPUT.PUT_LINE('>>> [EXECUTIVE SUMMARY 2] CATEGORY ITEM HEALTH COMPARATIVE (' || UPPER(p_product_category) || ')');
@@ -510,12 +497,12 @@ END stock_optimisation;
 /
 
 -- Display Overall Branches Executive Summary 1 (Ranking of Each Branch stock Inventory Health Condition)
-EXEC stock_optimisation(p_analysis_date => SYSDATE, p_branch_filter => 'ALL', p_product_category => 'Alcoholic Beverages');
+EXEC stock_optimisation(p_analysis_date => SYSDATE, p_branch_filter => 'ALL', p_product_category => 'Stationery and Daily Needs');
 
 -- Only display the Default Executive Summary (Individual Branch Inventory Health Executive Summary)
-EXEC stock_optimisation(p_analysis_date => SYSDATE, p_branch_filter => 'SEREMBAN 88 SPEEDMART');
+EXEC stock_optimisation(p_analysis_date => SYSDATE, p_branch_filter => 'PETALING JAYA 88 SPEEDMART');
 
 -- Diplay All Executive Summary Include Default Executive Summary, Executive Summary 1, Executive Summary 2 (The Drill Down Of the Product Category to View the Item Health Condition)
-EXEC stock_optimisation(p_analysis_date => SYSDATE, p_branch_filter => 'SEREMBAN 88 SPEEDMART', p_product_category => 'Alcoholic Beverages');
+EXEC stock_optimisation(p_analysis_date => SYSDATE, p_branch_filter => 'PETALING JAYA 88 SPEEDMART', p_product_category => 'Stationery and Daily Needs');
 
 
