@@ -25,10 +25,7 @@ CREATE SEQUENCE Product_Dim_Seq
   START WITH 1
   INCREMENT BY 1;
   
-----------------------------------
---   STEP 1 (Initial Loading)
--- Historical Backfill 
-----------------------------------
+--  Initial Loading
 INSERT INTO Product_Dim
 (
     Product_Key,
@@ -175,16 +172,6 @@ Ordered_Timeline AS
 ),
 Changed_Versions AS
 (
-    -- A row is a genuine new SCD2 version only if it is the very first
-    -- row for the item (Version_Row_Num = 1), or if the selling price
-    -- or purchase price actually differs from the prior version.
-    -- NOTE: we deliberately do NOT treat "Previous_Selling_Price IS NULL"
-    -- (or Purchase) as a change trigger on its own, because that column
-    -- can legitimately still be NULL on a non-first row simply because
-    -- that price type hasn't occurred yet for the item (e.g. several
-    -- purchase events before the item's first ever sale). Using it as an
-    -- OR condition was causing every such row to be kept as a "change"
-    -- even when nothing had actually changed.
     SELECT
         ItemID,
         Price_DateTime,
@@ -231,11 +218,7 @@ JOIN Items I
 JOIN Product_Categories PC
     ON I.CategoryID = PC.CategoryID;
 
-----------------------------------
---Step 2 (Incremental Loading)
---TRUNC(SYSDATE) - (1 / 86400) means 23:59:59 yesterday, which is safer when Effective_Start_Date includes a time component.
---If current Items table Unit Price has changed, Modify the Flag -> N in Product_Dim
-----------------------------------
+-- Incremental Loading
 UPDATE Product_Dim T
 SET
     Effective_End_Date = TRUNC(SYSDATE) - (1 / 86400),
@@ -261,10 +244,6 @@ WHERE T.Current_Flag = 'Y'
         )
   );
   
-----------------------------------
---Step 3 (Incremental Loading)
---Insert the Latest Version Unit Price from Items and Product Categories with current flag Y
-----------------------------------
 INSERT INTO Product_Dim
 (
     Product_Key,
