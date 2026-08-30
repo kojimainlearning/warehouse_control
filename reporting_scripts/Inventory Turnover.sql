@@ -585,6 +585,6 @@ EXCEPTION
 END inventory_turnover;
 /
 -- Runs for exactly first 3 year starting from a specific Branch
-EXEC inventory_turnover(p_period_type => 'YEAR', p_start_date => DATE '2023-01-01', p_end_date => DATE '2025-12-31', p_branch_filter=>'Klang 88 Speedmart',p_product_category=>'Alcoholic Beverages');
+EXEC inventory_turnover(p_period_type => 'YEAR', p_start_date => DATE '2023-01-01', p_end_date => DATE '2025-12-31', p_branch_filter=>'Petaling Jaya 88 Speedmart',p_product_category=>'Stationery and Daily Needs');
 
 EXEC inventory_turnover(p_period_type => 'YEAR', p_start_date => DATE '2023-01-01', p_end_date => DATE '2025-12-31',p_product_category=>'Alcoholic Beverages');
