@@ -6,7 +6,8 @@ CREATE OR REPLACE PROCEDURE supplier_performance(
     p_product_category   VARCHAR2 DEFAULT 'ALL',
     p_is_cumulative      VARCHAR2 DEFAULT 'N',
     p_start_date         DATE     DEFAULT NULL,
-    p_end_date           DATE     DEFAULT NULL
+    p_end_date           DATE     DEFAULT NULL,
+    p_enable_drill_down  VARCHAR2 DEFAULT 'Y'
 )
 IS
     c_line_double CONSTANT VARCHAR2(140) := RPAD('=', 140, '=');
@@ -18,7 +19,7 @@ IS
     v_cursor            SYS_REFCURSOR;
     v_date_format_str   VARCHAR2(30);
 
-    -- Control Break Tracking (Hierarchy: Supplier -> Period -> Category)
+    -- Control Break Tracking
     v_prev_supplier VARCHAR2(100) := NULL;
     v_prev_period   VARCHAR2(50)  := NULL;
     v_prev_category VARCHAR2(100) := NULL;
@@ -81,45 +82,49 @@ IS
 
     PROCEDURE print_supplier_header(p_sname VARCHAR2) IS
     BEGIN
-        DBMS_OUTPUT.PUT_LINE(CHR(10));
-        DBMS_OUTPUT.PUT_LINE(c_star);
-        DBMS_OUTPUT.PUT_LINE('SUPPLIER: ' || p_sname);
-        DBMS_OUTPUT.PUT_LINE(c_star);
+        IF UPPER(p_enable_drill_down) = 'Y' THEN
+            DBMS_OUTPUT.PUT_LINE(CHR(10));
+            DBMS_OUTPUT.PUT_LINE(c_star);
+            DBMS_OUTPUT.PUT_LINE('SUPPLIER: ' || p_sname);
+            DBMS_OUTPUT.PUT_LINE(c_star);
+        END IF;
     END print_supplier_header;
 
-	PROCEDURE print_period_header(p_pcode VARCHAR2) IS
-		v_text    VARCHAR2(100) := ' EVALUATION PERIOD: ' || p_pcode || ' ';
-		c_width   CONSTANT NUMBER := 140;
-		v_pad_len NUMBER;
-	BEGIN
-		v_pad_len := TRUNC((c_width - LENGTH(v_text)) / 2);
-		
-		-- Pads '=' to the left, then fills the remaining right side up to 140 chars with '='
-		DBMS_OUTPUT.PUT_LINE(RPAD(LPAD(v_text, LENGTH(v_text) + v_pad_len, '> '), c_width, ' <'));
-	END print_period_header;
+    PROCEDURE print_period_header(p_pcode VARCHAR2) IS
+        v_text    VARCHAR2(100) := ' EVALUATION PERIOD: ' || p_pcode || ' ';
+        c_width   CONSTANT NUMBER := 140;
+        v_pad_len NUMBER;
+    BEGIN
+        IF UPPER(p_enable_drill_down) = 'Y' THEN
+            v_pad_len := TRUNC((c_width - LENGTH(v_text)) / 2);
+            DBMS_OUTPUT.PUT_LINE(RPAD(LPAD(v_text, LENGTH(v_text) + v_pad_len, '> '), c_width, ' <'));
+        END IF;
+    END print_period_header;
 
     PROCEDURE print_category_header(p_cname VARCHAR2) IS
     BEGIN
-		DBMS_OUTPUT.PUT_LINE(c_line_double);
-        DBMS_OUTPUT.PUT_LINE('PRODUCT CATEGORY: ' || p_cname);
-		DBMS_OUTPUT.PUT_LINE(c_line_double);
-        DBMS_OUTPUT.PUT_LINE(c_line_single);
-        DBMS_OUTPUT.PUT_LINE(
-            RPAD('Branch Name (ID)', 42) || ' | ' ||
-            LPAD('Total POs', 9) || ' | ' ||
-            LPAD('Completed', 9) || ' | ' ||
-            LPAD('On-Time', 8) || ' | ' ||
-            LPAD('On Time Delivery %', 23) || ' | ' ||
-            LPAD('Lead (Days)', 15) || ' | ' ||
-            LPAD('PO Amount (RM)', 15)
-        );
-        DBMS_OUTPUT.PUT_LINE(c_line_single);
+        IF UPPER(p_enable_drill_down) = 'Y' THEN
+            DBMS_OUTPUT.PUT_LINE(c_line_double);
+            DBMS_OUTPUT.PUT_LINE('PRODUCT CATEGORY: ' || p_cname);
+            DBMS_OUTPUT.PUT_LINE(c_line_double);
+            DBMS_OUTPUT.PUT_LINE(c_line_single);
+            DBMS_OUTPUT.PUT_LINE(
+                RPAD('Branch Name (ID)', 42) || ' | ' ||
+                LPAD('Total POs', 9) || ' | ' ||
+                LPAD('Completed', 9) || ' | ' ||
+                LPAD('On-Time', 8) || ' | ' ||
+                LPAD('On Time Delivery %', 23) || ' | ' ||
+                LPAD('Lead (Days)', 15) || ' | ' ||
+                LPAD('PO Amount (RM)', 15)
+            );
+            DBMS_OUTPUT.PUT_LINE(c_line_single);
+        END IF;
     END print_category_header;
 
     PROCEDURE print_category_subtotal IS
         v_cat_otd_pct NUMBER := 0;
     BEGIN
-        IF v_cat_row_count > 0 THEN
+        IF UPPER(p_enable_drill_down) = 'Y' AND v_cat_row_count > 0 THEN
             IF v_cat_total_orders > 0 THEN
                 v_cat_otd_pct := ROUND((v_cat_completed_orders / v_cat_total_orders) * 100, 2);
             END IF;
@@ -135,12 +140,11 @@ IS
                 LPAD(format_currency_safe(v_cat_total_value), 14)
             );
             DBMS_OUTPUT.PUT_LINE(c_line_single);
-			DBMS_OUTPUT.PUT_LINE(c_line_double);
+            DBMS_OUTPUT.PUT_LINE(c_line_double);
             DBMS_OUTPUT.PUT_LINE(CHR(10));
         END IF;
     END print_category_subtotal;
 
-    -- Aggregates ALL product categories supplied by the supplier across periods
     PROCEDURE print_period_summary(p_sname VARCHAR2) IS
         v_p_code            VARCHAR2(20);
         v_p_total_orders    NUMBER;
@@ -149,66 +153,64 @@ IS
         v_p_total_val       NUMBER;
         v_p_avg_lead        NUMBER;
         v_p_otd_pct         NUMBER;
-
         v_period_cursor     SYS_REFCURSOR;
     BEGIN
-		DBMS_OUTPUT.PUT_LINE(chr(10));
-		DBMS_OUTPUT.PUT_LINE(c_line_double);
-        DBMS_OUTPUT.PUT_LINE('[INDIVIDUAL SUPPLIER] PERIOD-BY-PERIOD TREND COMPARISON ' || '(' || UPPER(p_period_type) || ') OF ' || p_sname );
-        DBMS_OUTPUT.PUT_LINE(c_line_double);
-        DBMS_OUTPUT.PUT_LINE(c_line_single);
-        DBMS_OUTPUT.PUT_LINE(
-            RPAD('Period', 12) || ' | ' ||
-            LPAD('Total Orders', 12) || ' | ' ||
-            LPAD('Completed', 10) || ' | ' ||
-            LPAD('On-Time', 9) || ' | ' ||
-            LPAD('On Time Delivery %', 23) || ' | ' ||
-            LPAD('Lead (Days)', 26) || ' | ' ||
-            LPAD('PO Amount (RM)', 29)
-        );
-        DBMS_OUTPUT.PUT_LINE(c_line_single);
-
-        OPEN v_period_cursor FOR
-            SELECT 
-                TO_CHAR(dd_po.Cal_Date, v_date_format_str) AS period_code,
-                COUNT(DISTINCT pf.Purchase_Order_ID) AS total_orders,
-                COUNT(DISTINCT CASE WHEN pf.Received_Date_Key IS NOT NULL THEN pf.Purchase_Order_ID END) AS completed_orders,
-                COUNT(DISTINCT CASE WHEN pf.Received_Date_Key IS NOT NULL AND pf.PO_Status = 'RECEIVED' THEN pf.Purchase_Order_ID END) AS ontime_orders,
-                SUM(pf.Line_Total) AS total_value,
-                AVG(CASE WHEN pf.Received_Date_Key IS NOT NULL THEN (dd_rec.Cal_Date - dd_po.Cal_Date) END) AS avg_lead
-            FROM Purchases_Fact pf
-            JOIN Date_Dim dd_po ON pf.PO_Date_Key = dd_po.Date_Key
-            LEFT JOIN Date_Dim dd_rec ON pf.Received_Date_Key = dd_rec.Date_Key
-            JOIN Supplier_Dim sd ON pf.Supplier_Key = sd.Supplier_Key
-            JOIN Branch_Dim bd ON pf.Branch_Key = bd.Branch_Key
-            WHERE dd_po.Cal_Date BETWEEN v_start_date AND v_end_date
-              AND sd.Supplier_Name = p_sname
-              AND (UPPER(p_branch_filter) = 'ALL' OR UPPER(bd.Branch_Name) LIKE '%' || UPPER(TRIM(p_branch_filter)) || '%')
-            GROUP BY TO_CHAR(dd_po.Cal_Date, v_date_format_str)
-            ORDER BY period_code;
-
-        LOOP
-            FETCH v_period_cursor INTO v_p_code, v_p_total_orders, v_p_completed, v_p_ontime, v_p_total_val, v_p_avg_lead;
-            EXIT WHEN v_period_cursor%NOTFOUND;
-
-            v_p_otd_pct := CASE WHEN v_p_total_orders > 0 THEN ROUND((v_p_completed / v_p_total_orders) * 100, 2) ELSE 0 END;
-
+            DBMS_OUTPUT.PUT_LINE(CHR(10));
+            DBMS_OUTPUT.PUT_LINE(c_line_double);
+            DBMS_OUTPUT.PUT_LINE('[INDIVIDUAL SUPPLIER] PERIOD-BY-PERIOD TREND COMPARISON ' || '(' || UPPER(p_period_type) || ') OF ' || p_sname );
+            DBMS_OUTPUT.PUT_LINE(c_line_double);
+            DBMS_OUTPUT.PUT_LINE(c_line_single);
             DBMS_OUTPUT.PUT_LINE(
-                RPAD(v_p_code, 12) || ' | ' ||
-                LPAD(TO_CHAR(v_p_total_orders), 12) || ' | ' ||
-                LPAD(TO_CHAR(v_p_completed), 10) || ' | ' ||
-                LPAD(TO_CHAR(v_p_ontime), 9) || ' | ' ||
-                LPAD(format_pct_safe(v_p_otd_pct), 23) || ' | ' ||
-                LPAD(TO_CHAR(NVL(v_p_avg_lead,0), 'FM990.0'), 26) || ' | ' ||
-                LPAD(format_currency_safe(v_p_total_val), 29)
+                RPAD('Period', 12) || ' | ' ||
+                LPAD('Total Orders', 12) || ' | ' ||
+                LPAD('Completed', 10) || ' | ' ||
+                LPAD('On-Time', 9) || ' | ' ||
+                LPAD('On Time Delivery %', 23) || ' | ' ||
+                LPAD('Lead (Days)', 26) || ' | ' ||
+                LPAD('PO Amount (RM)', 29)
             );
-        END LOOP;
-        CLOSE v_period_cursor;
-        DBMS_OUTPUT.PUT_LINE(c_line_single);        
-        DBMS_OUTPUT.PUT_LINE(c_line_double);
+            DBMS_OUTPUT.PUT_LINE(c_line_single);
+
+            OPEN v_period_cursor FOR
+                SELECT 
+                    TO_CHAR(dd_po.Cal_Date, v_date_format_str) AS period_code,
+                    COUNT(DISTINCT pf.Purchase_Order_ID) AS total_orders,
+                    COUNT(DISTINCT CASE WHEN pf.Received_Date_Key IS NOT NULL THEN pf.Purchase_Order_ID END) AS completed_orders,
+                    COUNT(DISTINCT CASE WHEN pf.Received_Date_Key IS NOT NULL AND pf.PO_Status = 'RECEIVED' THEN pf.Purchase_Order_ID END) AS ontime_orders,
+                    SUM(pf.Line_Total) AS total_value,
+                    AVG(CASE WHEN pf.Received_Date_Key IS NOT NULL THEN (dd_rec.Cal_Date - dd_po.Cal_Date) END) AS avg_lead
+                FROM Purchases_Fact pf
+                JOIN Date_Dim dd_po ON pf.PO_Date_Key = dd_po.Date_Key
+                LEFT JOIN Date_Dim dd_rec ON pf.Received_Date_Key = dd_rec.Date_Key
+                JOIN Supplier_Dim sd ON pf.Supplier_Key = sd.Supplier_Key
+                JOIN Branch_Dim bd ON pf.Branch_Key = bd.Branch_Key
+                WHERE dd_po.Cal_Date BETWEEN v_start_date AND v_end_date
+                  AND sd.Supplier_Name = p_sname
+                  AND (UPPER(p_branch_filter) = 'ALL' OR UPPER(bd.Branch_Name) LIKE '%' || UPPER(TRIM(p_branch_filter)) || '%')
+                GROUP BY TO_CHAR(dd_po.Cal_Date, v_date_format_str)
+                ORDER BY period_code;
+
+            LOOP
+                FETCH v_period_cursor INTO v_p_code, v_p_total_orders, v_p_completed, v_p_ontime, v_p_total_val, v_p_avg_lead;
+                EXIT WHEN v_period_cursor%NOTFOUND;
+
+                v_p_otd_pct := CASE WHEN v_p_total_orders > 0 THEN ROUND((v_p_completed / v_p_total_orders) * 100, 2) ELSE 0 END;
+
+                DBMS_OUTPUT.PUT_LINE(
+                    RPAD(v_p_code, 12) || ' | ' ||
+                    LPAD(TO_CHAR(v_p_total_orders), 12) || ' | ' ||
+                    LPAD(TO_CHAR(v_p_completed), 10) || ' | ' ||
+                    LPAD(TO_CHAR(v_p_ontime), 9) || ' | ' ||
+                    LPAD(format_pct_safe(v_p_otd_pct), 23) || ' | ' ||
+                    LPAD(TO_CHAR(NVL(v_p_avg_lead,0), 'FM990.0'), 26) || ' | ' ||
+                    LPAD(format_currency_safe(v_p_total_val), 29)
+                );
+            END LOOP;
+            CLOSE v_period_cursor;
+            DBMS_OUTPUT.PUT_LINE(c_line_single);        
+            DBMS_OUTPUT.PUT_LINE(c_line_double);
     END print_period_summary;
 
-    -- Executed strictly after ALL periods and categories under the supplier are done displaying
     PROCEDURE print_supplier_summary IS
         v_supp_otd_pct NUMBER := 0;
         v_supp_avg_lead NUMBER := 0;
@@ -231,24 +233,118 @@ IS
                 v_perf_rating := 'Poor'; v_grand_poor_cnt := v_grand_poor_cnt + 1;
             END IF;
 
-            DBMS_OUTPUT.PUT_LINE(c_line_double);
-            DBMS_OUTPUT.PUT_LINE('[INDIVIDUAL SUPPLIER] EVALUATION SUMMARY OF ' || v_prev_supplier);
-            DBMS_OUTPUT.PUT_LINE(c_line_double);
-            DBMS_OUTPUT.PUT_LINE('Supplier Name        : ' || v_prev_supplier);
-            DBMS_OUTPUT.PUT_LINE('Total Orders Placed  : ' || v_supp_total_orders);
-            DBMS_OUTPUT.PUT_LINE('Completed Deliveries : ' || v_supp_completed_orders);
-            DBMS_OUTPUT.PUT_LINE('On-Time Deliveries   : ' || v_supp_ontime_orders);
-            DBMS_OUTPUT.PUT_LINE('On-Time Delivery Rate: ' || format_pct_safe(v_supp_otd_pct));
-            DBMS_OUTPUT.PUT_LINE('Avg Lead Time (Days) : ' || TO_CHAR(v_supp_avg_lead, 'FM990.0'));
-            DBMS_OUTPUT.PUT_LINE('Total Purchase Value : RM ' || format_currency_safe(v_supp_total_value));
-            DBMS_OUTPUT.PUT_LINE('Overall Rating       : ' || v_perf_rating);
-            DBMS_OUTPUT.PUT_LINE(c_line_double);
+            IF UPPER(p_enable_drill_down) = 'Y' THEN
+                DBMS_OUTPUT.PUT_LINE(c_line_double);
+                DBMS_OUTPUT.PUT_LINE('[INDIVIDUAL SUPPLIER] EVALUATION SUMMARY OF ' || v_prev_supplier);
+                DBMS_OUTPUT.PUT_LINE(c_line_double);
+                DBMS_OUTPUT.PUT_LINE('Supplier Name        : ' || v_prev_supplier);
+                DBMS_OUTPUT.PUT_LINE('Total Orders Placed  : ' || v_supp_total_orders);
+                DBMS_OUTPUT.PUT_LINE('Completed Deliveries : ' || v_supp_completed_orders);
+                DBMS_OUTPUT.PUT_LINE('On-Time Deliveries   : ' || v_supp_ontime_orders);
+                DBMS_OUTPUT.PUT_LINE('On-Time Delivery Rate: ' || format_pct_safe(v_supp_otd_pct));
+                DBMS_OUTPUT.PUT_LINE('Avg Lead Time (Days) : ' || TO_CHAR(v_supp_avg_lead, 'FM990.0'));
+                DBMS_OUTPUT.PUT_LINE('Total Purchase Value : RM ' || format_currency_safe(v_supp_total_value));
+                DBMS_OUTPUT.PUT_LINE('Overall Rating       : ' || v_perf_rating);
+                DBMS_OUTPUT.PUT_LINE(c_line_double);
+                DBMS_OUTPUT.PUT_LINE(CHR(10));
+            END IF;
 
-            -- Trend summary printed as the final overview block for this supplier
+            -- Evaluated regardless of drill-down; print_period_summary contains the drill-down filter
             print_period_summary(v_prev_supplier);
-            DBMS_OUTPUT.PUT_LINE(CHR(10));
         END IF;
     END print_supplier_summary;
+
+    -- SUMMARY TABLE FOR SPECIFIC BRANCH COMPARISON ACROSS PERIODS AND SUPPLIERS
+    PROCEDURE print_branch_supplier_summary IS
+        v_b_supp_name      VARCHAR2(100);
+        v_b_period_code    VARCHAR2(50);
+        v_b_total_orders   NUMBER;
+        v_b_completed      NUMBER;
+        v_b_ontime         NUMBER;
+        v_b_total_val      NUMBER;
+        v_b_avg_lead       NUMBER;
+        v_b_otd_pct        NUMBER;
+        v_b_rating         VARCHAR2(15);
+        v_prev_b_supp      VARCHAR2(100) := NULL;
+        v_branch_cursor    SYS_REFCURSOR;
+    BEGIN
+        DBMS_OUTPUT.PUT_LINE(CHR(10));
+        DBMS_OUTPUT.PUT_LINE(c_line_double);
+        DBMS_OUTPUT.PUT_LINE('>>> [BRANCH SUPPLIER COMPARISON] PERIOD-BY-PERIOD EVALUATION FOR BRANCH: ' || UPPER(p_branch_filter) || ' <<<');
+        DBMS_OUTPUT.PUT_LINE(c_line_double);
+        DBMS_OUTPUT.PUT_LINE(c_line_single);
+        DBMS_OUTPUT.PUT_LINE(
+            RPAD('Supplier Name', 28) || ' | ' ||
+            RPAD('Period', 10) || ' | ' ||
+            LPAD('Orders', 8) || ' | ' ||
+            LPAD('Completed', 10) || ' | ' ||
+            LPAD('On-Time', 8) || ' | ' ||
+            LPAD('OTD %', 10) || ' | ' ||
+            LPAD('Lead (Days)', 12) || ' | ' ||
+            LPAD('PO Amount (RM)', 18) || ' | ' ||
+            RPAD('Rating', 10)
+        );
+        DBMS_OUTPUT.PUT_LINE(c_line_single);
+
+        OPEN v_branch_cursor FOR
+            SELECT 
+                sd.Supplier_Name,
+                TO_CHAR(dd_po.Cal_Date, v_date_format_str) AS period_code,
+                COUNT(DISTINCT pf.Purchase_Order_ID) AS total_orders,
+                COUNT(DISTINCT CASE WHEN pf.Received_Date_Key IS NOT NULL THEN pf.Purchase_Order_ID END) AS completed_orders,
+                COUNT(DISTINCT CASE WHEN pf.Received_Date_Key IS NOT NULL AND pf.PO_Status = 'RECEIVED' THEN pf.Purchase_Order_ID END) AS ontime_orders,
+                SUM(pf.Line_Total) AS total_value,
+                AVG(CASE WHEN pf.Received_Date_Key IS NOT NULL THEN (dd_rec.Cal_Date - dd_po.Cal_Date) END) AS avg_lead
+            FROM Purchases_Fact pf
+            JOIN Date_Dim dd_po ON pf.PO_Date_Key = dd_po.Date_Key
+            LEFT JOIN Date_Dim dd_rec ON pf.Received_Date_Key = dd_rec.Date_Key
+            JOIN Supplier_Dim sd ON pf.Supplier_Key = sd.Supplier_Key
+            JOIN Branch_Dim bd ON pf.Branch_Key = bd.Branch_Key
+            LEFT JOIN Product_Dim pd ON pf.Product_Key = pd.Product_Key
+            WHERE dd_po.Cal_Date BETWEEN v_start_date AND v_end_date
+              AND UPPER(bd.Branch_Name) LIKE '%' || UPPER(TRIM(p_branch_filter)) || '%'
+              AND (UPPER(p_supplier_filter) = 'ALL' OR UPPER(sd.Supplier_Name) LIKE '%' || UPPER(TRIM(p_supplier_filter)) || '%')
+              AND (UPPER(p_product_category) = 'ALL' OR UPPER(NVL(pd.Category_Name, 'General Procurement')) = UPPER(TRIM(p_product_category)))
+            GROUP BY sd.Supplier_Name, TO_CHAR(dd_po.Cal_Date, v_date_format_str)
+            ORDER BY sd.Supplier_Name, MIN(dd_po.Cal_Date);
+
+        LOOP
+            FETCH v_branch_cursor INTO v_b_supp_name, v_b_period_code, v_b_total_orders, v_b_completed, v_b_ontime, v_b_total_val, v_b_avg_lead;
+            EXIT WHEN v_branch_cursor%NOTFOUND;
+
+            IF v_prev_b_supp IS NOT NULL AND v_b_supp_name != v_prev_b_supp THEN
+                DBMS_OUTPUT.PUT_LINE(c_line_single);
+            END IF;
+
+            v_b_otd_pct := CASE WHEN v_b_total_orders > 0 THEN ROUND((v_b_completed / v_b_total_orders) * 100, 2) ELSE 0 END;
+
+            IF v_b_total_orders = 0 THEN v_b_rating := 'No Orders';
+            ELSIF (v_b_completed / v_b_total_orders) >= 0.95 THEN v_b_rating := 'Excellent';
+            ELSIF (v_b_completed / v_b_total_orders) >= 0.85 THEN v_b_rating := 'Good';
+            ELSIF (v_b_completed / v_b_total_orders) >= 0.70 THEN v_b_rating := 'Average';
+            ELSE v_b_rating := 'Poor';
+            END IF;
+
+            DBMS_OUTPUT.PUT_LINE(
+                RPAD(SUBSTR(v_b_supp_name, 1, 28), 28) || ' | ' ||
+                RPAD(v_b_period_code, 10) || ' | ' ||
+                LPAD(TO_CHAR(v_b_total_orders), 8) || ' | ' ||
+                LPAD(TO_CHAR(v_b_completed), 10) || ' | ' ||
+                LPAD(TO_CHAR(v_b_ontime), 8) || ' | ' ||
+                LPAD(format_pct_safe(v_b_otd_pct), 10) || ' | ' ||
+                LPAD(TO_CHAR(NVL(v_b_avg_lead,0), 'FM990.0'), 12) || ' | ' ||
+                LPAD(format_currency_safe(v_b_total_val), 18) || ' | ' ||
+                RPAD(v_b_rating, 10)
+            );
+
+            v_prev_b_supp := v_b_supp_name;
+        END LOOP;
+        CLOSE v_branch_cursor;
+
+        DBMS_OUTPUT.PUT_LINE(c_line_single);
+        DBMS_OUTPUT.PUT_LINE(c_line_double);
+        DBMS_OUTPUT.PUT_LINE(CHR(10));
+    END print_branch_supplier_summary;
 
     PROCEDURE print_analysis_summary IS
         v_overall_otd_pct NUMBER := 0;
@@ -263,14 +359,14 @@ IS
             v_overall_avg_lead := ROUND(v_grand_lead_sum / v_grand_supplier_count, 1);
         END IF;
 
+        DBMS_OUTPUT.PUT_LINE(CHR(10));
         DBMS_OUTPUT.PUT_LINE(c_line_double);
         DBMS_OUTPUT.PUT_LINE('>>> [OVERALL SUPPLIER] GRAND PROCUREMENT SUMMARY <<<');
         DBMS_OUTPUT.PUT_LINE(c_line_double);
-        DBMS_OUTPUT.PUT_LINE('Supplier Evaluations Count : ' || v_grand_supplier_count);
-        DBMS_OUTPUT.PUT_LINE('Total Purchase Value       : RM ' || format_currency_safe(v_grand_total_value));
-        DBMS_OUTPUT.PUT_LINE('Total Orders Placed        : ' || v_grand_total_orders);
-        DBMS_OUTPUT.PUT_LINE('Overall On-Time Delivery   : ' || format_pct_safe(v_overall_otd_pct));
-        DBMS_OUTPUT.PUT_LINE('Overall Avg Lead Time      : ' || TO_CHAR(v_overall_avg_lead, 'FM990.0') || ' Days');
+        DBMS_OUTPUT.PUT_LINE('Supplier Evaluations Count  : ' || v_grand_supplier_count);
+        DBMS_OUTPUT.PUT_LINE('Total Purchase Value        : RM ' || format_currency_safe(v_grand_total_value));
+        DBMS_OUTPUT.PUT_LINE('Total Orders Placed         : ' || v_grand_total_orders);
+        DBMS_OUTPUT.PUT_LINE('Overall On-Time Delivery    : ' || format_pct_safe(v_overall_otd_pct));
         DBMS_OUTPUT.PUT_LINE(CHR(10));
         DBMS_OUTPUT.PUT_LINE('Supplier Performance Breakdown:');
         DBMS_OUTPUT.PUT_LINE(c_line_single);
@@ -293,8 +389,8 @@ IS
             v_recommendation := 'HEALTHY. Strong vendor fulfillment with OTD rate at ' || format_pct_safe(v_overall_otd_pct) || '.';
             v_health_status := 'EXCELLENT';
         END IF;
-		DBMS_OUTPUT.PUT_LINE(chr(10));
-		DBMS_OUTPUT.PUT_LINE(c_line_double);
+        DBMS_OUTPUT.PUT_LINE(CHR(10));
+        DBMS_OUTPUT.PUT_LINE(c_line_double);
         DBMS_OUTPUT.PUT_LINE('>>> [OVERALL SUPPLIER] BUSINESS ANALYSIS AND RECOMMENDATIONS <<<');
         DBMS_OUTPUT.PUT_LINE(c_line_double);
         DBMS_OUTPUT.PUT_LINE('Procurement Status : ' || v_health_status);
@@ -335,7 +431,7 @@ BEGIN
         END IF;
     END IF;
 
-    -- Main Cursor Query (Grouped primarily by Supplier_Name)
+    -- Main Cursor Query
     OPEN v_cursor FOR
     WITH supplier_metrics AS (
         SELECT 
@@ -384,16 +480,19 @@ BEGIN
     FROM supplier_metrics
     ORDER BY Supplier_Name, period_sort_date, Category_Name, Branch_Name;
 
-    -- Report Header
-    DBMS_OUTPUT.PUT_LINE(CHR(10));
-    DBMS_OUTPUT.PUT_LINE(c_line_double);
-    DBMS_OUTPUT.PUT_LINE('SUPPLIER PERFORMANCE AND PROCUREMENT ANALYSIS REPORT');
-    DBMS_OUTPUT.PUT_LINE(c_line_double);
-    DBMS_OUTPUT.PUT_LINE('Analysis Period : ' || TO_CHAR(v_start_date, 'YYYY-MM-DD') || ' to ' || TO_CHAR(v_end_date, 'YYYY-MM-DD'));
-    DBMS_OUTPUT.PUT_LINE('Period Type     : ' || UPPER(p_period_type));
-    DBMS_OUTPUT.PUT_LINE('Supplier Filter : ' || p_supplier_filter);
-    DBMS_OUTPUT.PUT_LINE('Category Filter : ' || p_product_category);
-    DBMS_OUTPUT.PUT_LINE('Branch Filter   : ' || p_branch_filter);
+    -- Report Header (Displayed only when Drill Down is enabled)
+    IF UPPER(p_enable_drill_down) = 'Y' THEN
+        DBMS_OUTPUT.PUT_LINE(CHR(10));
+        DBMS_OUTPUT.PUT_LINE(c_line_double);
+        DBMS_OUTPUT.PUT_LINE('SUPPLIER PERFORMANCE AND PROCUREMENT ANALYSIS REPORT');
+        DBMS_OUTPUT.PUT_LINE(c_line_double);
+        DBMS_OUTPUT.PUT_LINE('Analysis Period  : ' || TO_CHAR(v_start_date, 'YYYY-MM-DD') || ' to ' || TO_CHAR(v_end_date, 'YYYY-MM-DD'));
+        DBMS_OUTPUT.PUT_LINE('Period Type      : ' || UPPER(p_period_type));
+        DBMS_OUTPUT.PUT_LINE('Supplier Filter  : ' || p_supplier_filter);
+        DBMS_OUTPUT.PUT_LINE('Category Filter  : ' || p_product_category);
+        DBMS_OUTPUT.PUT_LINE('Branch Filter    : ' || p_branch_filter);
+        DBMS_OUTPUT.PUT_LINE('Enable Drill-down: ' || UPPER(p_enable_drill_down));
+    END IF;
 
     -- Control Break Loop (Hierarchy: Supplier -> Period -> Category)
     LOOP
@@ -414,7 +513,6 @@ BEGIN
             print_category_header(v_category_name);
 
         ELSIF v_supplier_name != v_prev_supplier THEN
-            -- Supplier Break: Print last category subtotal and entire supplier overview
             print_category_subtotal;
             print_supplier_summary;
 
@@ -435,7 +533,6 @@ BEGIN
             print_category_header(v_category_name);
 
         ELSIF v_period_code != v_prev_period THEN
-            -- Period Break (Within same supplier)
             print_category_subtotal;
 
             v_cat_total_orders := 0; v_cat_completed_orders := 0; v_cat_ontime_orders := 0;
@@ -448,7 +545,6 @@ BEGIN
             print_category_header(v_category_name);
 
         ELSIF v_category_name != v_prev_category THEN
-            -- Category Break (Within same period and supplier)
             print_category_subtotal;
 
             v_cat_total_orders := 0; v_cat_completed_orders := 0; v_cat_ontime_orders := 0;
@@ -459,16 +555,18 @@ BEGIN
             print_category_header(v_category_name);
         END IF;
 
-        -- Detail Row
-        DBMS_OUTPUT.PUT_LINE(
-            '  ' || RPAD(SUBSTR(v_branch_name || ' (' || v_branch_id || ')', 1, 42), 42) || ' | ' || 
-            LPAD(TO_CHAR(v_total_orders), 9) || ' | ' || 
-            LPAD(TO_CHAR(v_completed_orders), 9) || ' | ' || 
-            LPAD(TO_CHAR(v_ontime_orders), 8) || ' | ' || 
-            LPAD(format_pct_safe(v_on_time_rate), 23) || ' | ' || 
-            LPAD(TO_CHAR(v_avg_lead_days, 'FM990.0'), 15) || ' | ' || 
-            LPAD(format_currency_safe(v_total_value), 14)
-        );
+        -- Detail Row Output (Only when drill down enabled)
+        IF UPPER(p_enable_drill_down) = 'Y' THEN
+            DBMS_OUTPUT.PUT_LINE(
+                '  ' || RPAD(SUBSTR(v_branch_name || ' (' || v_branch_id || ')', 1, 42), 42) || ' | ' || 
+                LPAD(TO_CHAR(v_total_orders), 9) || ' | ' || 
+                LPAD(TO_CHAR(v_completed_orders), 9) || ' | ' || 
+                LPAD(TO_CHAR(v_ontime_orders), 8) || ' | ' || 
+                LPAD(format_pct_safe(v_on_time_rate), 23) || ' | ' || 
+                LPAD(TO_CHAR(v_avg_lead_days, 'FM990.0'), 15) || ' | ' || 
+                LPAD(format_currency_safe(v_total_value), 14)
+            );
+        END IF;
 
         -- Accumulators
         v_cat_total_orders     := v_cat_total_orders + v_total_orders;
@@ -480,10 +578,10 @@ BEGIN
 
         v_supp_total_orders     := v_supp_total_orders + v_total_orders;
         v_supp_completed_orders := v_supp_completed_orders + v_completed_orders;
-        v_supp_ontime_orders    := v_supp_ontime_orders + v_ontime_orders;
         v_supp_total_value      := v_supp_total_value + v_total_value;
         v_supp_lead_sum         := v_supp_lead_sum + v_avg_lead_days;
         v_supp_row_count        := v_supp_row_count + 1;
+        v_supp_ontime_orders    := v_supp_ontime_orders + v_ontime_orders;
 
         v_grand_total_orders     := v_grand_total_orders + v_total_orders;
         v_grand_completed_orders := v_grand_completed_orders + v_completed_orders;
@@ -497,19 +595,24 @@ BEGIN
     IF v_grand_supplier_count > 0 THEN
         print_category_subtotal;
         print_supplier_summary;
+
+        IF UPPER(p_enable_drill_down) = 'Y' AND UPPER(p_branch_filter) != 'ALL' THEN
+            print_branch_supplier_summary;
+        END IF;
+
         print_analysis_summary;
     ELSE
         DBMS_OUTPUT.PUT_LINE('No supplier records found for the specified parameters.');
     END IF;
 
     CLOSE v_cursor;
-
+	
     DBMS_OUTPUT.PUT_LINE('END OF REPORT');
     DBMS_OUTPUT.PUT_LINE(c_line_double);
 END supplier_performance;
 /
---Procurement needs to calculate June ALL vendors' scores for SLA penalties and payouts.
-EXEC supplier_performance(p_period_type=> 'MONTH',p_periods_back=> 2, p_supplier_filter => 'ALL', p_branch_filter => 'ALL', p_is_cumulative=> 'N');
+-- Supplier Domain View
+EXEC supplier_performance(p_period_type => 'year', p_start_date => TO_DATE('2020-01-01', 'YYYY-MM-DD'), p_end_date => TO_DATE('2025-12-31', 'YYYY-MM-DD'), p_supplier_filter => 'Farm to Table Sdn Bhd', p_branch_filter => 'ALL', p_is_cumulative => 'N', p_enable_drill_down => 'N');
 
---The COO requests a LIVE assessment of company-wide procurement commitments and overall supply chain health during a mid-month meeting.
-EXEC supplier_performance(p_period_type => 'MONTH', p_periods_back => 7, p_supplier_filter => 'ALL', p_branch_filter => 'ALL', p_is_cumulative => 'Y');
+-- Branch Domain View
+EXEC supplier_performance(p_period_type => 'YEAR', p_start_date => TO_DATE('2020-01-01', 'YYYY-MM-DD'), p_end_date => TO_DATE('2025-12-31', 'YYYY-MM-DD'), p_supplier_filter => 'Farm to Table Sdn Bhd', p_branch_filter => 'KLANG 88 Speedmart', p_is_cumulative => 'N', p_enable_drill_down => 'N');
